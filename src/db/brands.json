@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "country": "Ukraine",
+      "region": "Kyiv",
+      "image": "/image/brands/coca-cola.svg1",
+      "title": "Limited Edition",
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
+      "link": "https://coca-cola.com"
+    },
+    {
+      "id": 2,
+      "country": "Poland",
+      "region": "Małopolskie",
+      "image": "/image/brands/mcdonald.svg1",
+      "title": "Limited Edition",
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
+      "link": "https://mcdonalds.com/"
+    },
+    {
+
+      "id": 3,
+      "country": "Poland",
+      "region": "Małopolskie",
+      "image": "/image/brands/facebook.svg1",
+      "title": "facebook",
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
+      "link": "https://facebook.com/"
+    },    
+    {
+        "id": 4,
+        "country": "Poland",
+        "region": "Małopolskie",
+        "image": "/image/brands/photoshop.svg1",
+        "title": "photoshop",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
+        "link": "https://photoshop.com/"
+      }
+  ]
+  
