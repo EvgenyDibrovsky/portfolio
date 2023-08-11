@@ -1,4 +1,4 @@
-export default function CardsListItem({
+export default function ExperienceListItem({
   name,
   description,
   image,
