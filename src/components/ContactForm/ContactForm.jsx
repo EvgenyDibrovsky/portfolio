@@ -19,8 +19,6 @@ function ContactForm() {
 
   const handleSubmit = e => {
     e.preventDefault();
-    // Обработка формы здесь (например, отправка данных формы)
-    console.log(formState);
   };
 
   return (
@@ -29,60 +27,60 @@ function ContactForm() {
       className="w-11/12 max-w-[40rem] mx-auto my-10"
     >
       <label className="text-black dark:text-white">
-        {t('name')}
+        {t('contact-form.name')}
 
         <input
           type="text"
           name="name"
-          placeholder={t('enter-name')}
+          placeholder={t('contact-form.enter-name')}
           value={formState.name}
           onChange={handleChange}
           required
-          className="w-full h-12 bg-white dark:bg-black border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2 mb-5"
+          className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
         />
       </label>
 
       <label className="text-black dark:text-white">
-        {t('email')}
+        {t('contact-form.email')}
         <input
           type="email"
           name="email"
-          placeholder={t('enter-email')}
+          placeholder={t('contact-form.enter-email')}
           value={formState.email}
           onChange={handleChange}
           required
-          className="w-full h-12 bg-white dark:bg-black border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2 mb-5"
+          className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
         />
       </label>
 
       <label className="text-black dark:text-white">
-        {t('message-subject')}
+        {t('contact-form.message-subject')}
         <input
           type="text"
           name="subject"
-          placeholder={t('enter-message-subject')}
+          placeholder={t('contact-form.enter-message-subject')}
           value={formState.subject}
           onChange={handleChange}
           required
-          className="w-full h-12 bg-white dark:bg-black border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2 mb-5"
+          className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
         />
       </label>
 
       <label className="text-black dark:text-white">
-        {t('message')}
+        {t('contact-form.message')}
 
         <textarea
           name="message"
           value={formState.message}
-          placeholder={t('enter-message')}
+          placeholder={t('contact-form.enter-message')}
           onChange={handleChange}
           required
-          className="w-full h-32  bg-white dark:bg-black border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2 mb-5"
+          className="w-full h-32  bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
         />
       </label>
 
       <button type="submit" className="btn-contact-form">
-        {t('send')}
+        {t('contact-form.send')}
       </button>
     </form>
   );

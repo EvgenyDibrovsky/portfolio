@@ -1,0 +1,43 @@
+[
+  {
+    "project": {
+      "EN": {
+        "id": 1,
+        "image": "/image/brands/coca-cola.svg1",
+        "name": "Limited Edition",
+        "description": "Описание на английском",
+        "link": "https://edweb.site",
+        "participation": "EN",
+        "technologies": "EN"
+      },
+      "PL": {
+        "id": 1,
+        "image": "/image/brands/coca-cola.svg1",
+        "name": "Limited Edition",
+        "description": "Описание на польском",
+        "link": "https://edweb.site",
+        "participation": "PL",
+        "technologies": "PL"
+      },
+      "UK": {
+        "id": 1,
+        "image": "/image/brands/coca-cola.svg1",
+        "name": "Limited Edition",
+        "description": "Описание на украинском",
+        "link": "https://edweb.site",
+        "participation": "UK",
+        "technologies": "UK"
+      },
+      "RU": {
+        "id": 1,
+        "name": "Название проекта",
+        "description": "Описание на русском",
+        "image": "/image/brands/coca-cola.svg1",
+        "link": "https://edweb.site",
+        "technologies": "RU",
+        "participation": "RU"
+
+      }
+    }
+  }
+]

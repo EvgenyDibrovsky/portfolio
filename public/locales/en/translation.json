@@ -1,45 +1,57 @@
 {
+  "nav-menu": {
+    "home": "Home",
     "about-me": "About me",
     "resume": "Resume",
     "portfolio": "Portfolio",
     "brief": "Brief",
-    "contact": "Contact",
+    "contacts": "Contact"
+  },
+  "footer": {
+    "rights-reserved": "© 2023 All rights reserved."
+  },
 
-
-    "about-us": "About US",
-    "sub-about-us": "Subtitle",
-    "contacts": "Contacts",
-    "sub-contacts": "Subtitle",
-    "rights reserved": "© 2023 All rights reserved.",
-    "logo-text-1": "Catalog",
-    "logo-text-2": "of the ",
-    "logo-text-3": "most famous companies",
-
-    "login": "Login",
-    "login-btn": "Log in",
-    "enter-login": "Enter login",
-    "registration": "Registration",
-    "email": "Email",
-    "enter-email": "Enter email",
-    "password": "Password",
-    "enter-password": "Enter password",
-    "password-recovery": "Forgot your password?",
-    "reset-password-btn": "Reset Password",
-    "agreed": "Agree to terms",
-    "agreed-read": "Read the terms",
-    "terms-of-Use-title": "Terms of Use",
+  "home-page": {
+    "title": "Home page",
+    "sub-title": "sub title"
+  },
+  "about-page": {
+    "title": "About me",
+    "sub-title": "sub title"
+  },
+  "resume-page": {
+    "title": "Resume",
+    "sub-title": "sub title"
+  },
+  "portfolio-page": {
+    "title": "Portfolio",
+    "sub-title": "sub title"
+  },
+  "brief-page": {
+    "title": "Brief",
+    "sub-title": "sub title"
+  },
+  "contacts-page": {
+    "title": "Contacts",
+    "sub-title": "sub title"
+  },
+  "privacy-policy-page": {
+    "title": "Privacy policy",
+    "sub-title": "sub title"
+  },
+  "not-found-page": {
+    "not-found": "Page not found",
+    "404": "404"
+  },
+  "contact-form": {
     "name": "Name",
     "enter-name": "Enter name",
+    "email": "Email",
+    "enter-email": "Enter email",
     "message-subject": "Message subject",
-    "enter-message-subject": "Enter message-subject",
+    "enter-message-subject": "Enter-message-subject",
     "message": "Message",
     "enter-message": "Enter message",
-    "send": "Send",
-    "reset": "Reset",
-    "select-country": "Select country",
-    "select-region": "Select region",
-    "not-found": "Page not found",
-    "404": "404",
-    "nothing-found": "Sorry, nothing found."
+    "send": "Send"
+  }
 }
-

@@ -83,7 +83,7 @@ class RegisterForm extends React.Component {
             {t('agreed')}
           </label>
           <a
-            href="/terms-use-page"
+            href="/privacy-policy-page"
             target="_blank"
             rel="noopener noreferrer"
             className="text-textSecondary dark:text-orange-400 my-4 mx-auto block transition-all duration-200 hover:underline"

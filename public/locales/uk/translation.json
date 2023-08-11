@@ -1,45 +1,57 @@
 {
+  "nav-menu": {
+    "home": "Головна",
     "about-me": "Про мене",
     "resume": "Резюме",
     "portfolio": "Портфоліо",
     "brief": "Бриф",
-    "contact": "Контакти",
-
-    "about-us": "Про нас",
-    "sub-about-us": "Підзаголовок",
-    "contacts": "Контакти",
-    "sub-contacts": "Підзаголовок",
-    "rights reserved": "© 2023 Всі права захищені",
-    "logo-text-1": "Каталог ",
-    "logo-text-2": "найвідоміших",
-    "logo-text-3": "компаній",
-
-    "login": "Логiн",
-    "login-btn": "Увійти",
-    "enter-login": "Впишiть свiй логiн",
-    "registration": "Зареєструватися",
-    "email": "Email",
-    "enter-email": "Впишiть свiй email",
-    "password": "Пароль",
-    "enter-password": "Введіть пароль",
-    "password-recovery": "Забули ваш пароль?",
-    "reset-password-btn": "Скинути пароль",
-    "agreed": "Погоджуюсь з умовами",
-    "agreed-read": "Прочитати умови",
-    "terms-of-Use-title": "Варунки користання",
-    "name": "Ім'я",
+    "contacts": "Контакти"
+  },
+  "footer": {
+    "rights-reserved": "© 2023 Всі права захищені"
+  },
+  "home-page": {
+    "title": "Головна сторінка",
+    "sub-title": "підзаголовок"
+  },
+  "about-page": {
+    "title": "Про мене",
+    "sub-title": "підзаголовок"
+  },
+  "resume-page": {
+    "title": "Резюме",
+    "sub-title": "підзаголовок"
+  },
+  "portfolio-page": {
+    "title": "Портфоліо",
+    "sub-title": "підзаголовок"
+  },
+  "brief-page": {
+    "title": "Бриф",
+    "sub-title": "підзаголовок"
+  },
+  "contacts-page": {
+    "title": "Контакти",
+    "sub-title": "підзаголовок"
+  },
+  "privacy-policy-page": {
+    "title": "Політика приватності",
+    "sub-title": "підзаголовок"
+  },
+  "not-found-page": {
+    "not-found": "Сторінку не знайдено",
+    "404": "404"
+  },
+"contact-form": {
+    "name": "ім'я",
     "enter-name": "Введіть ім'я",
+    "email": "Email",
+    "enter-email": "Введіть електронну пошту",
     "message-subject": "Тема повідомлення",
     "enter-message-subject": "Введіть тему повідомлення",
     "message": "Повідомлення",
-    "enter-message": "Напишіть повідомлення",
-    "send": "Надіслати",
-    "reset": "Cкинути",
-    "select-country": "Виберіть країну",
-    "select-region": "Виберіть регіон",
-    "not-found": "Сторінку не знайдено",
-    "404": "404",
-    "nothing-found": "Вибачте, нічого не знайдено."
+    "enter-message": "Введіть повідомлення",
+    "send": "Відправити"
+}
 
 }
-    

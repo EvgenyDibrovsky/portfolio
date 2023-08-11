@@ -43,7 +43,7 @@ module.exports = {
         bgContainer: '#fff',
         bgContainerDark: '#222',
 
-        colorBorder: ' #ddd',
+        colorBorder: ' #c3c3c3',
         colorBorderDark: '#4f4f4f',
         bgHover: '#ddd',
         textDark: '#8b8b8b',
@@ -54,7 +54,7 @@ module.exports = {
         bgIconsDark: '#444',
 
         // --
-       
+
         bgCardsItem: '#ffffff',
         textPrimary: '#000',
         textSecondary: '#36a6de',

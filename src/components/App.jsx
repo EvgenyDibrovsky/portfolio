@@ -6,15 +6,15 @@ import Section from './Base/Section';
 import Container from './Base/Container';
 import Loading from './Base/Loader';
 
-import HomePage from '../pages/HomePage';
-import AboutPage from '../pages/AboutPage';
-import ResumePage from '../pages/ResumePage';
-import PortfolioPage from '../pages/PortfolioPage';
-import BriefPage from '../pages/BriefPage';
+import Home from '../pages/Home';
+import About from '../pages/About';
+import Resume from '../pages/Resume';
+import Portfolio from '../pages/Portfolio';
+import Brief from '../pages/Brief';
 
-import ContactPage from '../pages/ContactPage';
-import TermsUsePage from '../pages/TermsUsePage';
-import NotFoundPage from '../pages/NotFoundPage';
+import Contacts from '../pages/Contacts';
+import TermsUse from '../pages/TermsUse';
+import NotFound from '../pages/NotFound';
 
 export const App = () => {
   const [loading, setLoading] = useState(true);
@@ -47,14 +47,14 @@ export const App = () => {
         <Section>
           <Container>
             <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/resume" element={<ResumePage />} />
-              <Route path="/portfolio" element={<PortfolioPage />} />
-              <Route path="/brief" element={<BriefPage />} />
-              <Route path="/contact" element={<ContactPage />} />
-              <Route path="/terms-use-page" element={<TermsUsePage />} />
-              <Route path="*" element={<NotFoundPage />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/brief" element={<Brief />} />
+              <Route path="/contact" element={<Contacts />} />
+              <Route path="/privacy-policy-page" element={<TermsUse />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </Container>
         </Section>

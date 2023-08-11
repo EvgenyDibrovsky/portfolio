@@ -35,6 +35,14 @@ export default function ToggleLang() {
         >
           UK
         </li>
+        <li
+          onClick={() => changeLanguage('ru')}
+          className={`cursor-pointer inline-flex justify-center items-center w-8 h-8 border-2 border-transparent bg-bgIcons dark:bg-bgIconsDark  focus:outline-none duration-200 leading-[0] text-sm hover:border-b-2 hover:bg-orange-400 hover:text-white dark:text-white dark:hover:bg-orange-400 ${
+            i18n.language === 'ru' ? 'border-b-orange-400 ' : ''
+          }`}
+        >
+          RU
+        </li>
       </ul>
     </div>
   );
