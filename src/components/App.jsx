@@ -4,7 +4,7 @@ import Header from './Header/Header';
 // import Footer from './Footer';
 import Section from './Base/Section';
 import Container from './Base/Container';
-import Loading from './Base/Loader';
+import Loading from './Base/LoaderSite';
 
 import Home from '../pages/Home';
 import About from '../pages/About';

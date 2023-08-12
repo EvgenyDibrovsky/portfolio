@@ -1,28 +1,23 @@
-export default function PortfolioListItem({
-  image,
-  link,
-  name,
-  description,
-  technologies,
-  participation,
-}) {
+export default function PortfolioListItem({ image, name, description, onCardClick }) {
   return (
-    <li className="group h-72 relative flex flex-col justify-between shadow-md transition-all duration-500 dark:shadow-white rounded-md overflow-hidden">
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        <div className="relative flex items-center justify-center">
-          <img
-            src={process.env.PUBLIC_URL + image}
-            alt={name}
-            className="w-full h-72 object-cover transition-transform duration-200 ease-in-out group-hover:scale-110"
-          />
-          <div className="transition-transform duration-200 ease-in-out absolute inset-0 p-4 bg-black bg-opacity-50 dark:bg-white dark:bg-opacity-30 transform translate-y-full group-hover:translate-y-0">
-            <h3 className="text-left text-white text-lg">{name}</h3>
-            <p className=" text-white">{description}</p>
-            <p className=" text-white">{technologies}</p>{' '}
-            <p className=" text-white">{participation}</p>
-          </div>
+    <li className="group max-h-72 relative flex flex-col justify-between transition-all duration-500 rounded-md overflow-hidden">
+      <div
+        onClick={onCardClick}
+        className="relative flex items-center justify-center cursor-pointer"
+      >
+        <img
+          src={process.env.PUBLIC_URL + image}
+          alt={name}
+          className="w-full max-h-72 object-cover transition-transform duration-200 ease-in-out group-hover:scale-110"
+        />
+        <h3 className="absolute z-10 bg-orange-400 px-4 py-1 top-0 left-0 text-white text-lg">
+          {name}
+        </h3>
+
+        <div className="flex items-center justify-center transition-transform duration-200 ease-in-out absolute inset-0 py-10 px-5 bg-black bg-opacity-60 dark:bg-black dark:bg-opacity-60 transform translate-y-full group-hover:translate-y-0 ">
+          <p className=" text-lg text-white text-center p-2">{description}</p>
         </div>
-      </a>
+      </div>
     </li>
   );
 }
