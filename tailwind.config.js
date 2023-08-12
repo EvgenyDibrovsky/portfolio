@@ -55,6 +55,8 @@ module.exports = {
         // icons
         bgIcons: '#dbdbdb',
         bgIconsDark: '#444',
+        iconColor: '#333333',
+        iconColorDark: '#ffffff',
 
         // --
 

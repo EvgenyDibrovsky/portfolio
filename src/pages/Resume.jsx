@@ -7,9 +7,9 @@ export default function ResumePage() {
   const { t } = useTranslation();
 
   return (
-    <div className="container mx-auto h-[calc(100vh-20rem)]">
+    <>
       <PageTitle icon={<BsPersonVcard className="w-6 h-6" />} title={t('resume-page.title')} />
       <SubTitle subTitle={t('resume-page.sub-title')} />
-    </div>
+    </>
   );
 }

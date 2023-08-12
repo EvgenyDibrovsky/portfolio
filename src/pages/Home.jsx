@@ -7,9 +7,9 @@ export default function HomePage() {
   const { t } = useTranslation();
 
   return (
-    <div className="container mx-auto">
+    <>
       <PageTitle icon={<BsHouseDoor className="w-6 h-6" />} title={t('home-page.title')} />
       <SubTitle subTitle={t('home-page.sub-title')} />
-    </div>
+    </>
   );
 }
