@@ -48,7 +48,8 @@ module.exports = {
         colorBorder: ' #c3c3c3',
         colorBorderDark: '#4f4f4f',
         bgHover: '#ddd',
-        textDark: '#8b8b8b',
+        textColor: '#333333',
+        textColorDark: '#8b8b8b',
 
         // ---
         // icons
@@ -75,6 +76,15 @@ module.exports = {
         btnAuthForm: '#36a6de',
         checkboxColor: '#36a6de',
         titleLine: '#36a6de',
+      },
+      keyframes: {
+        iconTitle: {
+          '0%': { transform: 'rotateY(0deg)' },
+          '100%': { transform: 'rotateY(360deg)' },
+        },
+      },
+      animation: {
+        iconTitle: 'iconTitle 5s linear infinite',
       },
       boxShadow: {
         'md-up': '0 0px 6px -1px rgba(0, 0, 0, 0.1), 0 4px 9px 0px rgba(0, 0, 0, 0.06)',
