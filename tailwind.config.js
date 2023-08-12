@@ -51,14 +51,13 @@ module.exports = {
         textColor: '#333333',
         textColorDark: '#8b8b8b',
 
-        // ---
         // icons
         bgIcons: '#dbdbdb',
         bgIconsDark: '#444',
         iconColor: '#333333',
         iconColorDark: '#ffffff',
 
-        // --
+        // Loader
 
         bgCardsItem: '#ffffff',
         textPrimary: '#000',
