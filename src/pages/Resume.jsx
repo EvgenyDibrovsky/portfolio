@@ -8,7 +8,7 @@ export default function ResumePage() {
 
   return (
     <>
-      <PageTitle icon={<BsPersonVcard className="w-6 h-6" />} title={t('resume-page.title')} />
+      <PageTitle icon={<BsPersonVcard />} title={t('resume-page.title')} />
       <SubTitle subTitle={t('resume-page.sub-title')} />
     </>
   );

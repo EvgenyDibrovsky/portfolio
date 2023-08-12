@@ -8,7 +8,7 @@ export default function BriefPage() {
 
   return (
     <>
-      <PageTitle icon={<BsCardChecklist className="w-6 h-6" />} title={t('brief-page.title')} />
+      <PageTitle icon={<BsCardChecklist />} title={t('brief-page.title')} />
       <SubTitle subTitle={t('brief-page.sub-title')} />
     </>
   );

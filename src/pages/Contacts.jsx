@@ -8,7 +8,7 @@ export default function ContactPage() {
   const { t } = useTranslation();
   return (
     <>
-      <PageTitle icon={<BsPhone className="w-6 h-6" />} title={t('contacts-page.title')} />
+      <PageTitle icon={<BsPhone />} title={t('contacts-page.title')} />
       <SubTitle subTitle={t('contacts-page.sub-title')} />
       <ContactForm />
     </>

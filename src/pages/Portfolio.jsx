@@ -9,10 +9,7 @@ export default function PortfolioPage() {
 
   return (
     <>
-      <PageTitle
-        icon={<BsCardImage className="w-6 h-6 text-iconColor dark:text-iconColorDark" />}
-        title={t('portfolio-page.title')}
-      />
+      <PageTitle icon={<BsCardImage />} title={t('portfolio-page.title')} />
       <SubTitle subTitle={t('portfolio-page.sub-title')} />
       <PortfolioList />
     </>

@@ -7,7 +7,7 @@ export default function AboutPage() {
   const { t } = useTranslation();
   return (
     <>
-      <PageTitle icon={<BsPerson className="w-6 h-6" />} title={t('about-page.title')} />
+      <PageTitle icon={<BsPerson />} title={t('about-page.title')} />
       <SubTitle subTitle={t('about-page.sub-title')} />
     </>
   );

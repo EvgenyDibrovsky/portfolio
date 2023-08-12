@@ -8,7 +8,7 @@ export default function HomePage() {
 
   return (
     <>
-      <PageTitle icon={<BsHouseDoor className="w-6 h-6" />} title={t('home-page.title')} />
+      <PageTitle icon={<BsHouseDoor />} title={t('home-page.title')} />
       <SubTitle subTitle={t('home-page.sub-title')} />
     </>
   );
