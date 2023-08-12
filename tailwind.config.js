@@ -84,9 +84,14 @@ module.exports = {
           '0%': { transform: 'rotateY(0deg)' },
           '100%': { transform: 'rotateY(360deg)' },
         },
+        animloader: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        },
       },
       animation: {
         iconTitle: 'iconTitle 5s linear infinite',
+        animloader: 'animloader 2s linear infinite',
       },
       boxShadow: {
         'md-up': '0 0px 6px -1px rgba(0, 0, 0, 0.1), 0 4px 9px 0px rgba(0, 0, 0, 0.06)',
