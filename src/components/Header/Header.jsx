@@ -22,7 +22,7 @@ export default function Header({ theme, toggleTheme }) {
       } md:left-0 bg-bgHeader border-r border-colorBorder z-50 w-[12.5rem] fixed bottom-0 top-0 h-full pt-28 pb-5 md:py-5 flex flex-col justify-between items-center dark:border-colorBorderDark  dark:bg-bgHeaderDark transition-all duration-300 ease-in-out`}
     >
       <div className="flex flex-col items-center gap-8">
-        <div className="hidden md:flex">
+        <div className="hidden md:flex mr-auto pl-5">
           <ToggleTheme theme={theme} toggleTheme={toggleTheme} />
         </div>
         <Foto />
