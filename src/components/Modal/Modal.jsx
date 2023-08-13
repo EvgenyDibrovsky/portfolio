@@ -8,37 +8,43 @@ export default function Modal({
   width = 'max-w-[28rem]',
   backgroundImage = null,
 }) {
-  // добавил props "children"
-  // Отключаем прокрутку при монтировании компонента
   const backdropStyle = backgroundImage
     ? { backgroundImage: `url(${process.env.PUBLIC_URL + backgroundImage})` }
     : {};
 
   useEffect(() => {
     document.body.classList.add('overflow-y-hidden');
+    const handleKeyDown = e => {
+      if (e.keyCode === 27) {
+        // 27 is the keyCode for the ESC key
+        closeModal();
+      }
+    };
 
-    // Возвращаем прокрутку при размонтировании компонента
+    document.addEventListener('keydown', handleKeyDown);
     return () => {
       document.body.classList.remove('overflow-y-hidden');
+      document.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
+  }, [closeModal]); // Добавили closeModal в массив зависимостей
 
   const modalContent = (
     <div
-      className="fixed inset-0 flex items-center justify-center bg-bgModal z-50 backdrop-blur-sm"
+      className="fixed h-full overflow-y-auto inset-0 flex items-center justify-center bg-bgModal z-50 backdrop-blur-sm bg-cover bg-center bg-fixed"
       onClick={closeModal}
       style={backdropStyle}
     >
       <div
-        className={`relative w-11/12 ${width} h-auto rounded-md transition-all duration-200 bg-white text-black shadow-md-up dark:bg-black dark:text-white dark:shadow-white px-5 py-10`}
+        className={`relative w-11/12 ${width}  rounded-md transition-all duration-200 bg-white text-black shadow-md dark:bg-black dark:text-white dark:shadow-white`}
         onClick={e => e.stopPropagation()}
-        // Останавливаем всплытие события, чтобы модальное окно не закрывалось при клике внутри
       >
-        <BsX
-          className="absolute cursor-pointer right-2 top-2 text-[2rem] text-black dark:text-white hover:text-red-500 hover:dark:text-orange-400 transition-all duration-200"
-          onClick={closeModal}
-        />
         {children}
+        <div className="absolute  cursor-pointer right-0 top-0 flex items-center justify-center bg-orange-400 group">
+          <BsX
+            className=" text-[2rem] text-white dark:text-black group-hover:text-black group-hover:dark:text-white transition-all duration-200"
+            onClick={closeModal}
+          />
+        </div>
       </div>
     </div>
   );
