@@ -26,6 +26,89 @@
         "participation": "Проджект-менеджер, Front-end Разработчик, SEO Специалист"
       }
     }
+  },
+  {
+    "portfolio": {
+      "id": 2,
+      "image": "/images/portfolio/zvonti.jpg",
+      "link": "https://zvonti.com/",
+      "technologies": "CMS OsClass, PHP, HTML5, CSS, JavaScript",
+      "EN": {
+        "name": "Announcement service",
+        "description": "The multilingual bulletin board has been designed to provide a more comfortable way to post ads for users from different countries. The service is free, except for paid ad promotion services.",
+        "participation": "Project Manager, Frontend Developer, SEO Specialist"
+      },
+      "PL": {
+        "name": "Serwis ogloszeniowy",
+        "description": "Wielojęzyczna tablica ogłoszeń została zaprojektowana tak, aby zapewnić więcej wygodny sposób reklamowania się dla użytkowników z różnych krajów. usługa jest bezpłatna, z wyjątkiem płatnych usług promocji reklamy.",
+        "participation": "Menadżer projektu, Front-end Deweloper, Specjalista SEO"
+      },
+      "UK": {
+        "name": "Сервіс оголошень",
+        "description": "Багатомовна дошка оголошень була розроблена, щоб забезпечити більше зручний спосіб розміщення реклами для користувачів із різних країн. послуга безкоштовна, крім платних послуг з просування реклами.",
+        "participation": "Проджект-менеджер, Front-end Розробник, SEO Фахівець"
+      },
+      "RU": {
+        "name": "Сервис объявлений",
+        "description": "Многоязычная доска объявлений была разработана, чтобы обеспечить более удобный способ размещения рекламы для пользователей из разных стран. услуга бесплатная, за исключением платных услуг по продвижению рекламы.",
+        "participation": "Проджект-менеджер, Front-end Разработчик, SEO Специалист"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 3,
+      "image": "/images/portfolio/pobytok.jpg",
+      "link": "https://pobytok.com/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "EN": {
+        "name": "Integration portal",
+        "description": "The Integration Portal for immigrants in Poland. The portal includes 4 types of users, a bulletin board, a document generator related to the legalization of stay in Poland, a system of direct interaction between a Polish employer and a foreign applicant, a system of moderation and verification of employment agencies. The service has great social and commercial functionality. At the moment, the service is at the stage of migration to the Laravel framework.",
+        "participation": "Project Manager, Team Leader, Frontend Developer, SEO Specialist"
+      },
+      "PL": {
+        "name": "Portal integracyjny",
+        "description": "Portal integracyjny dla imigrantów w Polsce. Portal zawiera 4 typy użytkowników, tablica ogłoszeń, generator dokumentów związanych z legalizacja pobytu w Polsce, system bezpośredniej interakcji pomiędzy polskim pracodawcą a cudzoziemcem poszukującym pracy, system moderacja i weryfikacja agencji zatrudnienia. Serwis posiada świetna funkcjonalność społeczna i komercyjna. W tym momencie serwis jest na etapie migracji na framework Laravel.",
+        "participation": "Menadżer projektu, Team leader , Front-end Deweloper, Specjalista SEO"
+      },
+      "UK": {
+        "name": "Інтеграційний портал",
+        "description": "Інтеграційний портал для іммігрантів у Польщі. Портал включає в себе 4 типи користувачів, дошка оголошень, генератор документів пов'язаних з легалізація перебування у Польщі, система прямої взаємодії між польським роботодавцем та іноземним шукачем, система модерація та перевірка агенцій з працевлаштування. Сервіс має великий соціальний та комерційний функціонал. На даний момент сервіс знаходиться на стадії міграції на фреймворк Laravel.",
+        "participation": "Проджект-менеджер, Тімлід, Front-end Розробник, SEO Фахівець"
+      },
+      "RU": {
+        "name": "Интеграционный портал",
+        "description": "Интеграционный портал для иммигрантов в Польше. Портал включает в себя 4 типа пользователей, доска объявлений, генератор документов связанных с легализация пребывания в Польше, система прямого взаимодействия между польским работодателем и иностранным соискателем, система модерация и проверка агентств по трудоустройству. Сервис имеет большой социальный и коммерческий функционал. На данный момент сервис находится на стадии миграции на фреймворк Laravel.",
+        "participation": "Проджект-менеджер, Тимлид, Front-end Разработчик, SEO Специалист"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 4,
+      "image": "/images/portfolio/ice-cream.jpg",
+      "link": "https://evgenydibrovsky.github.io/landing-ice-cream/",
+      "technologies": "HTML5, CSS, jQuery, JavaScript, SASS, Parcel",
+      "EN": {
+        "name": "Ice Cream",
+        "description": "A team project after finishing the HTML/CSS course at a GoIT school.",
+        "participation": " Scrum master, Frontend Developer"
+      },
+      "PL": {
+        "name": "Strona do zamawiania lodów",
+        "description": "Projekt zespołowy po ukończeniu kursu HTML/CSS w szkole GoIT.",
+        "participation": "Scrum-master, Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Сайт для замовлення морозива",
+        "description": "Командний проект після закінчення курсу HTML/CSS у школі GoIT.",
+        "participation": "Скрам-майстер, Front-end Розробник"
+      },
+      "RU": {
+        "name": "Сайт для заказа мороженого",
+        "description": "Командный проект после окончания курса HTML/CSS в школе GoIT.",
+        "participation": "Скрам-мастер, Front-end Разработчик"
+      }
+    }
   }
-   
 ]
