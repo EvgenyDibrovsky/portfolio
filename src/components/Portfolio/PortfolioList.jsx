@@ -3,6 +3,7 @@ import dbPortfolio from '../../db/portfolio.json';
 import { useTranslation } from 'react-i18next';
 import PortfolioListItem from './PortfolioListItem';
 import Modal from '../Modal/Modal';
+import { BsCardText, BsCodeSlash, BsColumnsGap, BsGlobe } from 'react-icons/bs';
 
 export default function PortfolioList() {
   const { t, i18n } = useTranslation();
@@ -15,6 +16,7 @@ export default function PortfolioList() {
       id: item.portfolio.id,
       image: item.portfolio.image,
       link: item.portfolio.link,
+      technologies: item.portfolio.technologies,
     };
   });
 
@@ -41,20 +43,32 @@ export default function PortfolioList() {
     <>
       {isModalOpen && (
         <Modal closeModal={handleCloseModal} width="w-11/12 lg:w-8/12 xl:w-6/12">
-          <div className="h-[90vh] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-gray-500 scrollbar-track-gray-300">
+          <div className="h-full max-h-[90vh] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
             <img
               src={process.env.PUBLIC_URL + modalData.image}
               alt={modalData.name}
               className="mx-auto w-full"
             />
-            <div className=" px-5 py-10">
+            <div className="flex flex-col justify-start gap-4 px-5 py-10">
               <h1 className="text-xl font-semibold text-black dark:text-white">{modalData.name}</h1>
-              <p>{modalData.description}</p>
-              <p>{modalData.technologies}</p>
-              <p>{modalData.participation}</p>
-              <a href={modalData.link} target="_blank" rel="noopener noreferrer">
-                Посетить сайт проекта
-              </a>
+              <div className="flex items-center gap-4 ">
+                <BsCardText className="text-orange-400 text-[1.25rem]" />
+                <p className="w-full">{modalData.description}</p>
+              </div>
+              <div className="flex items-center gap-4">
+                <BsCodeSlash className="text-orange-400 text-[1.25rem]" />
+                <p className="w-full">{modalData.technologies}</p>
+              </div>
+              <div className="flex items-center gap-4">
+                <BsColumnsGap className="text-orange-400 text-[1.25rem]" />
+                <p className="w-full">{modalData.participation}</p>
+              </div>
+              <div className="flex items-center gap-4">
+                <BsGlobe className="text-orange-400 text-[1.25rem]" />
+                <a href={modalData.link} target="_blank" rel="noopener noreferrer">
+                  Посетить сайт проекта
+                </a>
+              </div>
             </div>
           </div>
         </Modal>
