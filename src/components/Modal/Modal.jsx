@@ -35,11 +35,11 @@ export default function Modal({
       style={backdropStyle}
     >
       <div
-        className={`relative w-11/12 ${width} rounded-md transition-all duration-200 bg-white text-black dark:bg-black dark:text-white`}
+        className={`relative w-11/12 ${width} mt-20 lg:mt-0 rounded-md transition-all duration-200 bg-white text-black dark:bg-black dark:text-white`}
         onClick={e => e.stopPropagation()}
       >
         {children}
-        <div className="absolute  cursor-pointer -right-2 -top-10 flex items-center justify-center">
+        <div className="absolute cursor-pointer -right-2 -top-8 flex items-center justify-center">
           <BsX
             className=" w-8 h-8 text-white text-bold hover:scale-75 transition-all duration-200"
             onClick={closeModal}
