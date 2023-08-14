@@ -42,7 +42,7 @@
     "not-found": "Сторінку не знайдено",
     "404": "404"
   },
-"contact-form": {
+  "contact-form": {
     "name": "ім'я",
     "enter-name": "Введіть ім'я",
     "email": "Email",
@@ -52,6 +52,17 @@
     "message": "Повідомлення",
     "enter-message": "Введіть повідомлення",
     "send": "Відправити"
-}
-
+  },
+  "portfolio": {
+    "portfolio-filter": {
+      "all": "Всі проекти",
+      "educational": "Навчальні проекти",
+      "commercial": "Комерційні проекти"
+    },
+    "project-description": "Опис проекту",
+    "project-participation": "Участь у проекті",
+    "project-technologies": "Використовувані технології",
+    "project-site": "Сайт проекту",
+    "project-link": "Відвідати сайт проекту"
+  }
 }

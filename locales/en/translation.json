@@ -53,5 +53,17 @@
     "message": "Message",
     "enter-message": "Enter message",
     "send": "Send"
+  },
+  "portfolio": {
+    "portfolio-filter": {
+      "all": "All",
+      "educational": "Educational",
+      "commercial": "Commercial"
+    },
+    "project-description": "Project Description",
+    "project-participation": "Participation in the project",
+    "project-technologies": "Technologies used",
+    "project-site": "Project site",
+    "project-link": "Visit project site"
   }
 }
