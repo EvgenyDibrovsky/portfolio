@@ -9,17 +9,10 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'en',
-    debug: true,
+    debug: false,
 
     detection: {
-      order: [
-        'localStorage',
-        'sessionStorage',
-        'navigator',
-        'htmlTag',
-        'path',
-        'subdomain',
-      ],
+      order: ['localStorage', 'sessionStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
       caches: ['localStorage'],
       lookupLocalStorage: 'i18nextLng', // добавьте эту строку
     },

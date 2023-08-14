@@ -10,10 +10,6 @@ export default function AuthHeader() {
   const [showModal, setShowModal] = useState(false);
   const [selectedForm, setSelectedForm] = useState('Login'); // добавляем состояние для выбранной формы
 
-  const handleSubmit = state => {
-    // Обрабатываем введенные данные
-    console.log(state);
-  };
   const handleCloseModal = () => {
     setShowModal(false);
     setSelectedForm('Login'); // добавить сброс формы при закрытии модального окна
@@ -26,16 +22,10 @@ export default function AuthHeader() {
       {showModal && (
         <AuthModal closeModal={handleCloseModal}>
           {selectedForm !== 'Reset' && (
-            <SelectAuthForm
-              selectedForm={selectedForm}
-              setSelectedForm={setSelectedForm}
-            />
+            <SelectAuthForm selectedForm={selectedForm} setSelectedForm={setSelectedForm} />
           )}
           {selectedForm === 'Login' ? (
-            <LoginForm
-              onSubmit={handleSubmit}
-              setSelectedForm={setSelectedForm}
-            />
+            <LoginForm onSubmit={handleSubmit} setSelectedForm={setSelectedForm} />
           ) : selectedForm === 'Register' ? (
             <RegisterForm onSubmit={handleSubmit} />
           ) : (

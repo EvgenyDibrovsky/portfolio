@@ -46,8 +46,6 @@ export default function PortfolioList({ currentFilter }) {
     filteredData = data.filter(item => item.type === currentFilter);
   }
 
-  console.log('Filtered Data:', filteredData);
-
   return (
     <>
       {isModalOpen && (
