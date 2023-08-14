@@ -110,5 +110,61 @@
         "participation": "Скрам-мастер, Front-end Разработчик"
       }
     }
+  },
+  {
+    "portfolio": {
+      "id": 5,
+      "image": "/images/portfolio/wbm.jpg",
+      "link": "https://wbm-group.pl/",
+      "technologies": "CMS Wordpress, PHP, HTML5, CSS",
+      "EN": {
+        "name": "Consulting company",
+        "description": "Client - Consulting company WBM Group.",
+        "participation": "Frontend Developer, Wordpress Developer"
+      },
+      "PL": {
+        "name": "Firma konsultingowa",
+        "description": "Klient - firma konsultingowa WBM Group.",
+        "participation": "Front-end Deweloper, Wordpress Deweloper"
+      },
+      "UK": {
+        "name": "Консалтингова компанія",
+        "description": "Клієнт – Консалтингова компанія WBM Group.",
+        "participation": " Front-end Розробник, Wordpress Розробник"
+      },
+      "RU": {
+        "name": "Консалтинговая компания",
+        "description": "Клиент - Консалтинговая компания WBM Group.",
+        "participation": "Front-end Разработчик, Wordpress Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 6,
+      "image": "/images/portfolio/wbm-landing.jpg",
+      "link": "https://evgenydibrovsky.github.io/hr-partner",
+      "technologies": "HTML5, CSS, JavaScript",
+      "EN": {
+        "name": "Landing page (HR)",
+        "description": "Client - Consulting company WBM Group.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Landing page (HR)",
+        "description": "Klient - firma konsultingowa WBM Group.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Цільова сторінка (HR)",
+        "description": "Клієнт – Консалтингова компанія WBM Group.",
+        "participation": " Front-end Розробник"
+      },
+      "RU": {
+        "name": "Целевая страница (HR)",
+        "description": "Клиент - Консалтинговая компания WBM Group.",
+        "participation": "Front-end Разработчик"
+      }
+    }
   }
 ]
