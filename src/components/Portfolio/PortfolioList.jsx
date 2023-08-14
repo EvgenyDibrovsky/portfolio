@@ -19,7 +19,7 @@ export default function PortfolioList() {
       technologies: item.portfolio.technologies,
     };
   });
-
+  data.sort((a, b) => a.id - b.id);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalData, setModalData] = useState({});
 

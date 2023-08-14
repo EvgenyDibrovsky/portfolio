@@ -39,7 +39,7 @@ export default function Modal({
         onClick={e => e.stopPropagation()}
       >
         {children}
-        <div className="absolute  cursor-pointer -right-2 -top-8 flex items-center justify-center">
+        <div className="absolute  cursor-pointer -right-2 -top-10 flex items-center justify-center">
           <BsX
             className=" w-8 h-8 text-white text-bold hover:scale-75 transition-all duration-200"
             onClick={closeModal}
