@@ -12,7 +12,7 @@ export default function PortfolioListItem({ image, name, description, onCardClic
           alt={name}
           className="w-full max-h-72 object-cover transition-transform duration-200 ease-in-out group-hover:scale-110"
         />
-        <h3 className="absolute z-10 bg-gray-500 dark:bg-orange-400 px-2 py-1 top-0 left-0 text-white text-sm">
+        <h3 className="absolute z-10 bg-gray-500 dark:bg-black px-2 py-1 top-0 left-0 text-white text-sm">
           {name}
         </h3>
 
