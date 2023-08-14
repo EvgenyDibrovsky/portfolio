@@ -43,7 +43,7 @@ export default function PortfolioList() {
     <>
       {isModalOpen && (
         <Modal closeModal={handleCloseModal} width="w-11/12 lg:w-8/12 xl:w-6/12">
-          <div className="h-full max-h-[80vh] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
+          <div className="h-full max-h-[calc(100vh-5rem)]  overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
             <img
               src={process.env.PUBLIC_URL + modalData.image}
               alt={modalData.name}

@@ -30,7 +30,7 @@ export default function Modal({
 
   const modalContent = (
     <div
-      className="fixed  h-full overflow-y-auto inset-0 flex items-center justify-center bg-bgModal z-50 backdrop-blur-sm bg-cover bg-center bg-fixed"
+      className="fixed h-full  overflow-y-auto inset-0 flex items-center justify-center bg-bgModal z-50 backdrop-blur-sm bg-cover bg-center bg-fixed"
       onClick={closeModal}
       style={backdropStyle}
     >
