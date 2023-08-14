@@ -5,7 +5,7 @@ import PortfolioListItem from './PortfolioListItem';
 import Modal from '../Modal/Modal';
 import { BsCardText, BsCodeSlash, BsColumnsGap, BsGlobe } from 'react-icons/bs';
 
-export default function PortfolioList() {
+export default function PortfolioList({ currentFilter }) {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language.toUpperCase();
 
@@ -17,8 +17,10 @@ export default function PortfolioList() {
       image: item.portfolio.image,
       link: item.portfolio.link,
       technologies: item.portfolio.technologies,
+      type: item.portfolio.type,
     };
   });
+
   data.sort((a, b) => a.id - b.id);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalData, setModalData] = useState({});
@@ -38,6 +40,13 @@ export default function PortfolioList() {
       <p className="text-[2rem] text-black dark:text-white text-center">{t('nothing-found')}</p>
     );
   }
+
+  let filteredData = data;
+  if (currentFilter !== 'all') {
+    filteredData = data.filter(item => item.type === currentFilter);
+  }
+
+  console.log('Filtered Data:', filteredData);
 
   return (
     <>
@@ -86,7 +95,7 @@ export default function PortfolioList() {
         </Modal>
       )}
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-6">
-        {data.map(itemData => (
+        {filteredData.map(itemData => (
           <PortfolioListItem
             key={itemData.id}
             {...itemData}
