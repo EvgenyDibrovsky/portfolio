@@ -166,5 +166,257 @@
         "participation": "Front-end Разработчик"
       }
     }
+  },
+  {
+    "portfolio": {
+      "id": 7,
+      "image": "/images/portfolio/web-studio.jpg",
+      "link": "https://evgenydibrovsky.github.io/goit-markup-hw-08/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "EN": {
+        "name": "Web Studio",
+        "description": "Project after finishing the HTML/CSS course at a GoIT school.",
+        "participation": "Front-end Deweloper"
+      },
+      "PL": {
+        "name": "Web Studio",
+        "description": "Projekt po ukończeniu kursu HTML/CSS w szkole GoIT.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Веб-студия",
+        "description": "Проект після закінчення курсу HTML/CSS у школі GoIT.",
+        "participation": " Front-end Розробник"
+      },
+      "RU": {
+        "name": "Целевая страница (HR)",
+        "description": "Проект после окончания курса HTML/CSS в школе GoIT.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 8,
+      "image": "/images/portfolio/maxiservice.jpg",
+      "link": "https://maxiserwis.eu/",
+      "technologies": "CMS Wordpress, PHP, HTML5, CSS",
+      "EN": {
+        "name": "Auto Service",
+        "description": "Website a car service in Krakow.",
+        "participation": "Frontend Developer, SEO Specialist"
+      },
+      "PL": {
+        "name": "Auto Service",
+        "description": "Strona powstała serwisu samochodowego w Krakowie.",
+        "participation": "Front-end Deweloper, Specjalista SEO"
+      },
+      "UK": {
+        "name": "Авто Сервіс",
+        "description": "Сайт автосервісу в Кракові.",
+        "participation": "Front-end Розробник, SEO Фахівець"
+      },
+      "RU": {
+        "name": "Авто Сервис",
+        "description": "Сайт авто-сервиса в Кракове.",
+        "participation": "Front-end Разработчик, SEO Специалист"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 9,
+      "image": "/images/portfolio/altcome.jpg",
+      "link": "https://altcome.eu/",
+      "technologies": "HTML5, SASS, JavaScript, PHP",
+      "EN": {
+        "name": "Web studio - Altcome",
+        "description": "Web studio Altcome - Commercial project for the WBM Group company.",
+        "participation": "Frontend Developer, SEO Specialist"
+      },
+      "PL": {
+        "name": "Web studio - Altcome",
+        "description": "Web studio Altcome - Projekt komercyjny dla firmy WBM Group.",
+        "participation": "Front-end Deweloper, Specjalista SEO"
+      },
+      "UK": {
+        "name": "Веб студія -Altcome",
+        "description": "Веб студія Altcome - Комерційний проект для клмпанії WBM Group.",
+        "participation": "Front-end Розробник, SEO Фахівець"
+      },
+      "RU": {
+        "name": "Веб студия - Altcome",
+        "description": "Веб студия Altcome - Коммерческий проект для компании WBM Group.",
+        "participation": "Front-end Разработчик, SEO Специалист"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 10,
+      "image": "/images/portfolio/auto-usa.jpg",
+      "link": "https://evgenydibrovsky.github.io/lp-cars-from-usa/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "EN": {
+        "name": "Cars from USA",
+        "description": "Website for the sale of cars from the USA - The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Samochody z USA",
+        "description": "Strona internetowa do sprzedaży samochodów z USA - Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Автомобілі з США",
+        "description": "Сайт з продажу автомобілів із США - Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Автомобили из США",
+        "description": "Сайт по продаже автомобилей из США - Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 10,
+      "image": "/images/portfolio/lamborghini.jpg",
+      "link": "https://evgenydibrovsky.github.io/lamborghini-Landing/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "EN": {
+        "name": "Grand Final 2022",
+        "description": "Grand Final 2022 - The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Wielki Finał 2022",
+        "description": "Wielki Finał 2022 - Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Гранд-фінал 2022",
+        "description": "Гранд-фінал 2022 - Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Гранд-финал 2022",
+        "description": "Гранд-финал 2022 - Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 11,
+      "image": "/images/portfolio/lease-cars.jpg",
+      "link": "https://evgenydibrovsky.github.io/lease-cars/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "EN": {
+        "name": "Lease cars",
+        "description": "Lease cars - The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "leasing samochodów",
+        "description": "leasing samochodów - Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Оренда автомобілів",
+        "description": "Оренда автомобілів - Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Аренда автомобилей",
+        "description": "Аренда автомобилей - Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 11,
+      "image": "/images/portfolio/no-image.jpg",
+      "link": "https://evgenydibrovsky.github.io/lp-project-home/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "EN": {
+        "name": "Project - Home",
+        "description": "The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - Dom",
+        "description": " Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект -Будинок",
+        "description": "Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Дом",
+        "description": "Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 12,
+      "image": "/images/portfolio/gurov.jpg",
+      "link": "https://gurov.pl/",
+      "technologies": "Bootstrap, JavaScript, jQuery",
+      "EN": {
+        "name": "Hairdressing Salon",
+        "description": "Website a hairdressing salon in Krakow.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Salon Fryzjerski",
+        "description": "Strona internetowa salonu fryzjerskiego w Krakowie.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Перукарня",
+        "description": "Сайт перукврні в Кракові.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Парикмахерская",
+        "description": "Сайт парикмахерской в Кракове.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 13,
+      "image": "/images/portfolio/candle.jpg",
+      "link": "https://evgenydibrovsky.github.io/lp-candle/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "EN": {
+        "name": "Candle",
+        "description": "The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Candle",
+        "description": " Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Candle",
+        "description": "Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Candle",
+        "description": "Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
   }
 ]
