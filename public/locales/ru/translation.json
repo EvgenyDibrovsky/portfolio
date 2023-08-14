@@ -52,5 +52,17 @@
     "message": "Сообщение",
     "enter-message": "Введите сообщение",
     "send": "Отправить"
+  },
+  "portfolio": {
+    "portfolio-filter": {
+      "all": "Все проекти",
+      "educational": "Учебные проекты",
+      "commercial": "Коммерческие проекты"
+    },
+    "project-description": "Описание проекта",
+    "project-participation": "Участие в проекте",
+    "project-technologies": "Используемые технологии",
+    "project-site": "Сайт проекта",
+    "project-link": "Посетить сайт проекта"
   }
 }

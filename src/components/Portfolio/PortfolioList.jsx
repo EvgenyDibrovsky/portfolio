@@ -54,20 +54,31 @@ export default function PortfolioList() {
               <h1 className="text-xl font-semibold text-black dark:text-white">{modalData.name}</h1>
               <div className="flex items-center gap-4 ">
                 <BsCardText className="text-orange-400 text-[1.25rem]" />
-                <p className="w-full">{modalData.description}</p>
+                <h2 className="w-full font-semibold">{t('portfolio.project-description')}</h2>
               </div>
+              <p className="w-full">{modalData.description}</p>
+
               <div className="flex items-center gap-4">
                 <BsCodeSlash className="text-orange-400 text-[1.25rem]" />
-                <p className="w-full">{modalData.technologies}</p>
+                <h2 className="w-full font-semibold">{t('portfolio.project-participation')}</h2>
               </div>
+              <p className="w-full">{modalData.participation}</p>
+
               <div className="flex items-center gap-4">
                 <BsColumnsGap className="text-orange-400 text-[1.25rem]" />
-                <p className="w-full">{modalData.participation}</p>
+                <h2 className="w-full font-semibold">{t('portfolio.project-technologies')}</h2>
               </div>
-              <div className="flex items-center gap-4">
+              <p className="w-full">{modalData.technologies}</p>
+
+              <div className="flex items-center gap-4 ">
                 <BsGlobe className="text-orange-400 text-[1.25rem]" />
-                <a href={modalData.link} target="_blank" rel="noopener noreferrer">
-                  Посетить сайт проекта
+                <a
+                  href={modalData.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-solid transition-all duration-200 hover:text-blue-400"
+                >
+                  {t('portfolio.project-link')}
                 </a>
               </div>
             </div>

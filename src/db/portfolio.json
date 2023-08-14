@@ -5,6 +5,8 @@
       "image": "/images/portfolio/iprofi.jpg",
       "link": "https://iprofi.pl/",
       "technologies": "CMS-Tamaranga, PHP, HTML5, CSS, JavaScript",
+      "portfolio-filter": "all, educational",
+
       "EN": {
         "name": "Services exchange",
         "description": "He services exchange has been designed for specialists and those who need them. More than 500 specializations are available on this service. The focus is on availability, simplicity, and responsiveness. Users can take advantage of all available options for free, with the exception of paid promotion of ads and offers.",
@@ -33,6 +35,7 @@
       "image": "/images/portfolio/zvonti.jpg",
       "link": "https://zvonti.com/",
       "technologies": "CMS OsClass, PHP, HTML5, CSS, JavaScript",
+      "portfolio-filter": "all, commercial",
       "EN": {
         "name": "Announcement service",
         "description": "The multilingual bulletin board has been designed to provide a more comfortable way to post ads for users from different countries. The service is free, except for paid ad promotion services.",
