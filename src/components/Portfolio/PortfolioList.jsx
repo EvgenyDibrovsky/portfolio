@@ -48,6 +48,7 @@ export default function PortfolioList() {
               src={process.env.PUBLIC_URL + modalData.image}
               alt={modalData.name}
               className="mx-auto w-full"
+              loading="lazy"
             />
             <div className="flex flex-col justify-start gap-4 px-5 py-10">
               <h1 className="text-xl font-semibold text-black dark:text-white">{modalData.name}</h1>
