@@ -14,7 +14,7 @@ export default function PortfolioFilter({ onFilterChange }) {
     <ul className="flex flex-col lg:flex-row items-center gap-4 mb-4">
       <li
         onClick={() => handleFilterChange('all')}
-        className={`cursor-pointer py-1 px-4 border border-orange-400 text-black dark:text-white transition-all diration-200 ${
+        className={`cursor-pointer py-1 px-4 border border-orange-400 text-black dark:text-white transition-all diration-200 hover:bg-orange-400 hover:text-white ${
           activeFilter === 'all' ? 'bg-orange-400 text-white' : 'bg-transparent'
         }`}
       >
@@ -22,7 +22,7 @@ export default function PortfolioFilter({ onFilterChange }) {
       </li>
       <li
         onClick={() => handleFilterChange('educational')}
-        className={`cursor-pointer py-1 px-4 border  border-orange-400 text-black dark:text-white transition-all diration-200 ${
+        className={`cursor-pointer py-1 px-4 border  border-orange-400 text-black dark:text-white transition-all diration-200 hover:bg-orange-400 hover:text-white ${
           activeFilter === 'educational' ? 'bg-orange-400 text-white' : 'bg-transparent'
         }`}
       >
@@ -30,7 +30,7 @@ export default function PortfolioFilter({ onFilterChange }) {
       </li>
       <li
         onClick={() => handleFilterChange('commercial')}
-        className={`cursor-pointer py-1 px-4 border  border-orange-400 text-black dark:text-white transition-all diration-200 ${
+        className={`cursor-pointer py-1 px-4 border  border-orange-400 text-black dark:text-white transition-all diration-200 hover:bg-orange-400 hover:text-white ${
           activeFilter === 'commercial' ? 'bg-orange-400 text-white' : 'bg-transparent'
         }`}
       >
