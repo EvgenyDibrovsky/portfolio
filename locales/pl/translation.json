@@ -55,9 +55,9 @@
   },
   "portfolio": {
     "portfolio-filter": {
-      "all": "Wszystkie",
-      "educational": "Edukacyjne",
-      "commercial": "Komercyjne"
+      "all": "Wszystkie projekty",
+      "educational": "Edukacyjne projekty",
+      "commercial": "Komercyjne projekty"
     },
     "project-description": "Opis projektu",
     "project-participation": "Udział w projekcie",
