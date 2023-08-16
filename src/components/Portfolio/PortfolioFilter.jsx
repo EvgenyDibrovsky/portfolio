@@ -11,10 +11,10 @@ export default function PortfolioFilter({ onFilterChange }) {
   };
 
   return (
-    <ul className="flex flex-col lg:flex-row items-center gap-4 mb-4">
+    <ul className="flex flex-col xl:flex-row items-center justify-end gap-4 mb-4 w-full xl:w-8/12">
       <li
         onClick={() => handleFilterChange('all')}
-        className={`cursor-pointer py-1 px-4 border border-orange-400 text-black dark:text-white transition-all diration-200 hover:bg-orange-400 hover:text-white ${
+        className={`w-full sm:w-6/12 md:w-7/12 lg:w-5/12 xl:w-6/12 cursor-pointer rounded-sm py-1 px-4 border border-orange-400 text-center text-black dark:text-white transition-all diration-200 hover:bg-orange-400 hover:text-white ${
           activeFilter === 'all' ? 'bg-orange-400 text-white' : 'bg-transparent'
         }`}
       >
@@ -22,7 +22,7 @@ export default function PortfolioFilter({ onFilterChange }) {
       </li>
       <li
         onClick={() => handleFilterChange('educational')}
-        className={`cursor-pointer py-1 px-4 border  border-orange-400 text-black dark:text-white transition-all diration-200 hover:bg-orange-400 hover:text-white ${
+        className={`w-full sm:w-6/12 md:w-7/12 lg:w-5/12 xl:w-6/12  cursor-pointer rounded-sm py-1 px-4 border  border-orange-400 text-center text-black dark:text-white transition-all diration-200 hover:bg-orange-400 hover:text-white ${
           activeFilter === 'educational' ? 'bg-orange-400 text-white' : 'bg-transparent'
         }`}
       >
@@ -30,7 +30,7 @@ export default function PortfolioFilter({ onFilterChange }) {
       </li>
       <li
         onClick={() => handleFilterChange('commercial')}
-        className={`cursor-pointer py-1 px-4 border  border-orange-400 text-black dark:text-white transition-all diration-200 hover:bg-orange-400 hover:text-white ${
+        className={`w-full sm:w-6/12 md:w-7/12 lg:w-5/12 xl:w-6/12  cursor-pointer rounded-sm py-1 px-4 border  border-orange-400 text-center text-black dark:text-white transition-all diration-200 hover:bg-orange-400 hover:text-white ${
           activeFilter === 'commercial' ? 'bg-orange-400 text-white' : 'bg-transparent'
         }`}
       >

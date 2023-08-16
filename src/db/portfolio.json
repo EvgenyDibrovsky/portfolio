@@ -5,7 +5,7 @@
       "image": "/images/portfolio/iprofi.jpg",
       "link": "https://iprofi.pl/",
       "technologies": "CMS-Tamaranga, PHP, HTML5, CSS, JavaScript",
-      "type": "educational",
+      "type": "commercial",
       "EN": {
         "name": "Services exchange",
         "description": "He services exchange has been designed for specialists and those who need them. More than 500 specializations are available on this service. The focus is on availability, simplicity, and responsiveness. Users can take advantage of all available options for free, with the exception of paid promotion of ads and offers.",
@@ -63,7 +63,7 @@
       "image": "/images/portfolio/pobytok.jpg",
       "link": "https://pobytok.com/",
       "technologies": "HTML5, CSS, JavaScript",
-      "type": "all",
+      "type": "commercial",
       "EN": {
         "name": "Integration portal",
         "description": "The Integration Portal for immigrants in Poland. The portal includes 4 types of users, a bulletin board, a document generator related to the legalization of stay in Poland, a system of direct interaction between a Polish employer and a foreign applicant, a system of moderation and verification of employment agencies. The service has great social and commercial functionality. At the moment, the service is at the stage of migration to the Laravel framework.",
@@ -92,7 +92,7 @@
       "image": "/images/portfolio/ice-cream.jpg",
       "link": "https://evgenydibrovsky.github.io/landing-ice-cream/",
       "technologies": "HTML5, CSS, jQuery, JavaScript, SASS, Parcel",
-      "type": "all",
+      "type": "educational",
       "EN": {
         "name": "Ice Cream",
         "description": "A team project after finishing the HTML/CSS course at a GoIT school.",
@@ -121,7 +121,7 @@
       "image": "/images/portfolio/wbm.jpg",
       "link": "https://wbm-group.pl/",
       "technologies": "CMS Wordpress, PHP, HTML5, CSS",
-      "type": "all",
+      "type": "commercial",
       "EN": {
         "name": "Consulting company",
         "description": "Client - Consulting company WBM Group.",
@@ -150,7 +150,7 @@
       "image": "/images/portfolio/wbm-landing.jpg",
       "link": "https://evgenydibrovsky.github.io/hr-partner",
       "technologies": "HTML5, CSS, JavaScript",
-      "type": "all",
+      "type": "commercial",
       "EN": {
         "name": "Landing page (HR)",
         "description": "Client - Consulting company WBM Group.",
@@ -180,7 +180,7 @@
       "link": "https://evgenydibrovsky.github.io/goit-markup-hw-08/",
       "technologies": "HTML5, CSS, JavaScript",
 
-      "type": "all",
+      "type": "educational",
       "EN": {
         "name": "Web Studio",
         "description": "Project after finishing the HTML/CSS course at a GoIT school.",
@@ -209,7 +209,7 @@
       "image": "/images/portfolio/maxiservice.jpg",
       "link": "https://maxiserwis.eu/",
       "technologies": "CMS Wordpress, PHP, HTML5, CSS",
-      "type": "all",
+      "type": "commercial",
       "EN": {
         "name": "Auto Service",
         "description": "Website a car service in Krakow.",
@@ -238,7 +238,7 @@
       "image": "/images/portfolio/altcome.jpg",
       "link": "https://altcome.eu/",
       "technologies": "HTML5, SASS, JavaScript, PHP",
-      "type": "all",
+      "type": "commercial",
       "EN": {
         "name": "Web studio - Altcome",
         "description": "Web studio Altcome - Commercial project for the WBM Group company.",
@@ -267,7 +267,7 @@
       "image": "/images/portfolio/auto-usa.jpg",
       "link": "https://evgenydibrovsky.github.io/lp-cars-from-usa/",
       "technologies": "HTML5, CSS, JavaScript",
-      "type": "all",
+      "type": "educational",
       "EN": {
         "name": "Cars from USA",
         "description": "Website for the sale of cars from the USA - The project was created in order to gain practical skills.",
@@ -296,7 +296,7 @@
       "image": "/images/portfolio/lamborghini.jpg",
       "link": "https://evgenydibrovsky.github.io/lamborghini-Landing/",
       "technologies": "HTML5, CSS, JavaScript",
-      "type": "all",
+      "type": "educational",
       "EN": {
         "name": "Grand Final 2022",
         "description": "Grand Final 2022 - The project was created in order to gain practical skills.",
@@ -325,7 +325,7 @@
       "image": "/images/portfolio/lease-cars.jpg",
       "link": "https://evgenydibrovsky.github.io/lease-cars/",
       "technologies": "HTML5, CSS, JavaScript",
-      "type": "all",
+      "type": "educational",
       "EN": {
         "name": "Lease cars",
         "description": "Lease cars - The project was created in order to gain practical skills.",
@@ -354,7 +354,7 @@
       "image": "/images/portfolio/no-image.jpg",
       "link": "https://evgenydibrovsky.github.io/lp-project-home/",
       "technologies": "HTML5, CSS, JavaScript",
-      "type": "all",
+      "type": "educational",
       "EN": {
         "name": "Project - Home",
         "description": "The project was created in order to gain practical skills.",
@@ -383,7 +383,7 @@
       "image": "/images/portfolio/gurov.jpg",
       "link": "https://gurov.pl/",
       "technologies": "Bootstrap, JavaScript, jQuery",
-      "type": "all",
+      "type": "commercial",
       "EN": {
         "name": "Hairdressing Salon",
         "description": "Website a hairdressing salon in Krakow.",

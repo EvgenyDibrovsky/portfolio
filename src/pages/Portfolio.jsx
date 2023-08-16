@@ -17,7 +17,7 @@ export default function PortfolioPage() {
   return (
     <>
       <PageTitle icon={<BsCardImage />} title={t('portfolio-page.title')} />
-      <div className="flex  flex-col lg:flex-row items-center justify-between">
+      <div className="flex flex-col xl:flex-row items-center justify-between">
         <SubTitle subTitle={t('portfolio-page.sub-title')} />
         <PortfolioFilter onFilterChange={handleFilterChange} />
       </div>

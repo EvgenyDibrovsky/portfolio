@@ -59,23 +59,27 @@ export default function PortfolioList({ currentFilter }) {
             />
             <div className="flex flex-col justify-start gap-4 px-5 py-10">
               <h1 className="text-xl font-semibold text-black dark:text-white">{modalData.name}</h1>
-              <div className="flex items-center gap-4 ">
-                <BsCardText className="text-orange-400 text-[1.25rem]" />
-                <h2 className="w-full font-semibold">{t('portfolio.project-description')}</h2>
+              <div className="border-b pb-4">
+                <div className="flex items-center gap-4 ">
+                  <BsCardText className="text-orange-400 text-[1.25rem]" />
+                  <h2 className="w-full font-semibold">{t('portfolio.project-description')}</h2>
+                </div>
+                <p className="w-full">{modalData.description}</p>
               </div>
-              <p className="w-full">{modalData.description}</p>
-
-              <div className="flex items-center gap-4">
-                <BsCodeSlash className="text-orange-400 text-[1.25rem]" />
-                <h2 className="w-full font-semibold">{t('portfolio.project-participation')}</h2>
+              <div className="border-b  pb-4">
+                <div className="flex items-center gap-4">
+                  <BsCodeSlash className="text-orange-400 text-[1.25rem]" />
+                  <h2 className="w-full font-semibold">{t('portfolio.project-participation')}</h2>
+                </div>
+                <p className="w-full">{modalData.participation}</p>
               </div>
-              <p className="w-full">{modalData.participation}</p>
-
-              <div className="flex items-center gap-4">
-                <BsColumnsGap className="text-orange-400 text-[1.25rem]" />
-                <h2 className="w-full font-semibold">{t('portfolio.project-technologies')}</h2>
+              <div className="border-b  pb-4">
+                <div className="flex items-center gap-4">
+                  <BsColumnsGap className="text-orange-400 text-[1.25rem]" />
+                  <h2 className="w-full font-semibold">{t('portfolio.project-technologies')}</h2>
+                </div>
+                <p className="w-full">{modalData.technologies}</p>
               </div>
-              <p className="w-full">{modalData.technologies}</p>
 
               <div className="flex items-center gap-4 ">
                 <BsGlobe className="text-orange-400 text-[1.25rem]" />
