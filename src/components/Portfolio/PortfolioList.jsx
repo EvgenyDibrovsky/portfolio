@@ -66,7 +66,7 @@ export default function PortfolioList({ currentFilter }) {
                 </div>
                 <p className="w-full">{modalData.description}</p>
               </div>
-              <div className="border-b  pb-4">
+              <div className="border-b pb-4">
                 <div className="flex items-center gap-4">
                   <BsCodeSlash className="text-orange-400 text-[1.25rem]" />
                   <h2 className="w-full font-semibold">{t('portfolio.project-participation')}</h2>

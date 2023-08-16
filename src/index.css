@@ -12,4 +12,19 @@
   .btn-contact-form {
     @apply flex items-center justify-center h-12 w-full sm:w-6/12 sm:mx-auto transition-all duration-200 border bg-transparent dark:bg-transparent border-orange-400 dark:border-orange-400 text-orange-400 dark:text-orange-400 text-lg rounded-md hover:bg-orange-400 hover:text-white hover:dark:bg-orange-400 hover:dark:text-black;
   }
+  .react-calendar-heatmap .color-empty {
+    fill: #ebedf0;
+  } /* Это цвет фона в стиле GitHub */
+  .react-calendar-heatmap .color-scale-1 {
+    fill: #d6e685;
+  }
+  .react-calendar-heatmap .color-scale-2 {
+    fill: #8cc665;
+  }
+  .react-calendar-heatmap .color-scale-3 {
+    fill: #44a340;
+  }
+  .react-calendar-heatmap .color-scale-4 {
+    fill: #1e6823;
+  }
 }
