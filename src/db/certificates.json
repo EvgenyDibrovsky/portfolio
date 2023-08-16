@@ -1,11 +1,11 @@
 [
   {
-    "portfolio": {
+    "certificate": {
       "id": 1,
-      "link-image-thumbnail": "https://iprofi.pl/",
-      "link-certificate": "https://iprofi.pl/",
-      "start-date-of-training": "01.01.2022",
-      "date-of-graduation": "01.01.2023",
+      "thumbnail": "https://iprofi.pl/",
+      "linkCertificate": "https://iprofi.pl/",
+      "startDate": "01.01.2022",
+      "finishtDate": "01.01.2023",
       "EN": {
         "name-certificate": "Название сертификата",
         "description": "Описание сертификата",
