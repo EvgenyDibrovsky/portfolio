@@ -30,12 +30,12 @@ export default function Modal({
 
   const modalContent = (
     <div
-      className="fixed h-full overflow-y-auto mt-12 inset-0 flex items-center justify-center bg-bgModal z-50 backdrop-blur-sm bg-cover bg-center bg-fixed"
+      className="fixed h-full overflow-y-auto inset-0 flex items-center justify-center bg-bgModal z-50 backdrop-blur-sm bg-cover bg-center bg-fixed"
       onClick={closeModal}
       style={backdropStyle}
     >
       <div
-        className={`relative w-11/12 ${width}  rounded-md transition-all duration-200 bg-white text-black dark:bg-black dark:text-white`}
+        className={`relative w-11/12 ${width} pt-12 rounded-md transition-all duration-200 bg-white text-black dark:bg-black dark:text-white`}
         onClick={e => e.stopPropagation()}
       >
         {children}
