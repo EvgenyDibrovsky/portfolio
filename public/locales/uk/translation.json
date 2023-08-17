@@ -18,9 +18,12 @@
     "title": "Про мене",
     "sub-title": "підзаголовок"
   },
-  "resume-page": {
+    "resume-page": {
     "title": "Резюме",
-    "sub-title": "підзаголовок"
+    "sub-title-1": "Сертифікати",
+    "sub-title-2": "Технічні навички",
+    "sub-title-3":  "Володіння мовами",
+    "sub-title-4": "Гнучкі навички"
   },
   "portfolio-page": {
     "title": "Портфоліо",

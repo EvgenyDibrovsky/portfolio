@@ -2,7 +2,7 @@
   {
     "certificate": {
       "id": 1,
-      "thumbnail": "https://iprofi.pl/",
+      "thumbnail": "/certificates/thumb/assistive.jpg",
       "linkCertificate": "https://iprofi.pl/",
       "startDate": "01.01.2022",
       "finishtDate": "01.01.2023",
