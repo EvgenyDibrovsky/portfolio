@@ -2,8 +2,8 @@
   {
     "certificate": {
       "id": 1,
-      "thumbnail": "/certificates/thumb/go-It-full-stack.jpg",
-      "fullImage": "/certificates/full/go-It-full-stack.jpg",
+      "thumbnail": "/certificate/thumb/go-It-full-stack.jpg",
+      "fullImage": "/certificate/full/go-It-full-stack.jpg",
       "linkPDF": "/certificate/pdf/go-It-full-stack.pdf",
       "startDate": "01.01.2022",
       "finishtDate": "01.01.2023",
@@ -32,8 +32,8 @@
   {
     "certificate": {
       "id": 2,
-      "thumbnail": "/certificates/thumb/figma.jpg",
-      "fullImage": "/certificates/full/figma.jpg",
+      "thumbnail": "/certificate/thumb/figma.jpg",
+      "fullImage": "/certificate/full/figma.jpg",
       "linkPDF": "/certificate/pdf/figma.pdf",
       "startDate": "01.01.2022",
       "finishtDate": "01.01.2023",
@@ -62,8 +62,8 @@
   {
     "certificate": {
       "id": 3,
-      "thumbnail": "/certificates/thumb/wordpress-2.jpg",
-      "fullImage": "/certificates/full/wordpress-2.jpg",
+      "thumbnail": "/certificate/thumb/wordpress-2.jpg",
+      "fullImage": "/certificate/full/wordpress-2.jpg",
       "linkPDF": "/certificate/pdf/wordpress-2.pdf",
       "startDate": "01.01.2022",
       "finishtDate": "01.01.2023",
@@ -92,8 +92,8 @@
   {
     "certificate": {
       "id": 4,
-      "thumbnail": "/certificates/thumb/assistive-and-compensating-technologies.jpg",
-      "fullImage": "/certificates/full/assistive-and-compensating-technologies.jpg",
+      "thumbnail": "/certificate/thumb/assistive-and-compensating-technologies.jpg",
+      "fullImage": "/certificate/full/assistive-and-compensating-technologies.jpg",
       "linkPDF": "/certificate/pdf/assistive-and-compensating-technologies.pdf",
       "startDate": "01.01.2022",
       "finishtDate": "01.01.2023",
@@ -122,8 +122,8 @@
   {
     "certificate": {
       "id": 5,
-      "thumbnail": "/certificates/thumb/wordpress-1.jpg",
-      "fullImage": "/certificates/full/wordpress-1.jpg",
+      "thumbnail": "/certificate/thumb/wordpress-1.jpg",
+      "fullImage": "/certificate/full/wordpress-1.jpg",
       "linkPDF": "/certificate/pdf/wordpress-1.pdf",
       "startDate": "01.01.2022",
       "finishtDate": "01.01.2023",
@@ -152,8 +152,8 @@
   {
     "certificate": {
       "id": 6,
-      "thumbnail": "/certificates/thumb/html-css.jpg",
-      "fullImage": "/certificates/full/html-css.jpg",
+      "thumbnail": "/certificate/thumb/html-css.jpg",
+      "fullImage": "/certificate/full/html-css.jpg",
       "linkPDF": "/certificate/pdf/html-css.pdf",
       "startDate": "01.01.2022",
       "finishtDate": "01.01.2023",
