@@ -12,9 +12,9 @@ export default function ResumePage() {
       <PageTitle icon={<BsPersonVcard />} title={t('resume-page.title')} />
       <SubTitle subTitle={t('resume-page.sub-title-1')} />
       <CertificatesList />
-      <SubTitle subTitle={t('resume-page.sub-title-2')} />
+      {/* <SubTitle subTitle={t('resume-page.sub-title-2')} />
       <SubTitle subTitle={t('resume-page.sub-title-3')} />
-      <SubTitle subTitle={t('resume-page.sub-title-4')} />
+      <SubTitle subTitle={t('resume-page.sub-title-4')} /> */}
     </>
   );
 }

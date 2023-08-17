@@ -13,9 +13,10 @@ export default function CertificatesList() {
       ...languageSpecificData,
       id: item.certificate.id,
       thumbnail: item.certificate.thumbnail,
-      linkCertificate: item.certificate.linkCertificate,
+      fullImage: item.certificate.fullImage,
       startDate: item.certificate.startDate,
       finishtDate: item.certificate.finishtDate,
+      linkPDF: item.certificate.linkPDF,
     };
   });
 
