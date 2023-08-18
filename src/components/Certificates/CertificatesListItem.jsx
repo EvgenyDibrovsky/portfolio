@@ -36,7 +36,7 @@ export default function CertificatesListItem({ item }) {
           </div>
         </Modal>
       )}
-      <div className="w-full px-0 lg:px-8 py-6">
+      <div className="w-full px-4 lg:px-8 py-6">
         <h3 className="w-full h-auto text-[1.5rem] font-semibold text-textColor dark:text-white mb-4">
           {item['name-certificate']}
         </h3>
