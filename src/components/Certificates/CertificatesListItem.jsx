@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react'; // <-- Импорт useState
 import { useTranslation } from 'react-i18next';
-import ModalImage from 'react-modal-image';
+import Modal from '../Modal/Modal';
+
 import {
   BsFiletypePdf,
   BsBuildings,
@@ -11,14 +12,30 @@ import {
 export default function CertificatesListItem({ item }) {
   const { t } = useTranslation();
 
+  // Состояние и функции для управления отображением модального окна
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const handleOpenModal = () => setIsModalOpen(true);
+  const handleCloseModal = () => setIsModalOpen(false);
+
   return (
-    <li className="border-2 rounded-md group overflow-hidden">
-      <ModalImage
-        small={process.env.PUBLIC_URL + item.thumbnail}
-        large={process.env.PUBLIC_URL + item.fullImage}
+    <li className="border border-colorBorder dark:border-colorBorderDark rounded-md group overflow-hidden">
+      <img
+        src={process.env.PUBLIC_URL + item.thumbnail}
         alt={item['name-certificate']}
-        className="w-full duration-200 group-hover:scale-110"
+        className="w-full duration-200 group-hover:scale-110 cursor-pointer"
+        onClick={handleOpenModal}
       />
+      {isModalOpen && (
+        <Modal closeModal={handleCloseModal} width="w-full lg:w-10/12 xl:w-10/12">
+          <div className="h-full max-h-[calc(100vh-5rem)] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
+            <img
+              src={process.env.PUBLIC_URL + item.fullImage}
+              alt={item['name-certificate']}
+              className="w-full"
+            />
+          </div>
+        </Modal>
+      )}
       <div className="px-5 py-5">
         <h3 className="w-full text-lg font-semibold text-textColor dark:text-white mb-4">
           {item['name-certificate']}
