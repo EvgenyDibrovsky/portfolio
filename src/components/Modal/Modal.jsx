@@ -35,7 +35,7 @@ export default function Modal({
       style={backdropStyle}
     >
       <div
-        className={`relative w-11/12 ${width} top-10 lg:top-0 rounded-md transition-all duration-200 bg-white text-black dark:bg-black dark:text-white`}
+        className={`relative w-11/12 ${width} rounded-md transition-all duration-200 bg-white text-black dark:bg-black dark:text-white`}
         onClick={e => e.stopPropagation()}
       >
         {children}
