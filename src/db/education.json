@@ -1,63 +1,61 @@
 [
   {
-    "portfolio": {
+    "education": {
       "id": 1,
-      "image": "/image/brands/coca-cola.svg1",
-      "link": "https://edweb.site",
+      "thumbnail": "/education/thumb/go-It-full-stack.jpg",
+      "fullImage": "/education/full/go-It-full-stack.jpg",
+      "linkPDF": "/education/pdf/go-It-full-stack.pdf",
+      "startDate": "11.05.2022",
+      "finishtDate": "19.04.2023",
       "EN": {
-        "name": "Limited Edition",
-        "description": "Описание на английском",
-        "participation": "EN",
-        "technologies": "EN"
+        "name-education": "Fullstack developer",
+        "description": "Studying Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Courses | IT education online"
       },
       "PL": {
-        "name": "Limited Edition",
-        "description": "Описание на польском",
-        "participation": "PL",
-        "technologies": "PL"
+        "name-education": "Fullstack developer",
+        "description": "Nauka Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Kursy | IT edukacja online"
       },
       "UK": {
-        "name": "Limited Edition",
-        "description": "Описание на украинском",
-        "participation": "UK",
-        "technologies": "UK"
+        "name-education": "Fullstack розробник",
+        "description": "Вивчення Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Курси | IT освіта онлайн"
       },
       "RU": {
-        "name": "Название проекта",
-        "description": "Описание на русском",
-        "technologies": "RU",
-        "participation": "RU"
+        "name-education": "Fullstack разработчик",
+        "description": "Изучение Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Курсы | IT образование онлайн"
       }
     }
   },
   {
-    "portfolio": {
+    "education": {
       "id": 2,
-      "image": "/image/brands/coca-cola.svg1",
-      "link": "https://edweb.site",
+      "thumbnail": "/education/thumb/figma.jpg",
+      "fullImage": "/education/full/figma.jpg",
+      "linkPDF": "/education/pdf/figma.pdf",
+      "startDate": "16.04.2022",
+      "finishtDate": "16.05.2022",
       "EN": {
-        "name": "Limited Edition",
-        "description": "Описание на английском",
-        "participation": "EN",
-        "technologies": "EN"
+        "name-education": "Web Design in Figma. Basics of Ui Ux design in practice",
+        "description": "Studying the basics of Figma / Creating a mobile app project",
+        "name-school": "Beonmax"
       },
       "PL": {
-        "name": "Limited Edition",
-        "description": "Описание на польском",
-        "participation": "PL",
-        "technologies": "PL"
+        "name-education": "Web Design w Figma. Podstawy Ui Ux designu w praktyce",
+        "description": "Nauka podstaw Figma / Tworzenie projektu aplikacji mobilnej",
+        "name-school": "Beonmax"
       },
       "UK": {
-        "name": "Limited Edition",
-        "description": "Описание на украинском",
-        "participation": "UK",
-        "technologies": "UK"
+        "name-education": "Веб Дизайн у Figma. Основи Ui Ux дизайну на практиці",
+        "description": "Вивчення основ Figma / Створення проекту мобільного додатку",
+        "name-school": "Beonmax"
       },
       "RU": {
-        "name": "Название проекта",
-        "description": "Описание на русском",
-        "technologies": "RU",
-        "participation": "RU"
+        "name-education": "Веб Дизайн в Figma. Основы Ui Ux дизайна на практике",
+        "description": "Изучение основ Figma / Создание проекта мобильного приложения",
+        "name-school": "Beonmax"
       }
     }
   }

@@ -36,27 +36,29 @@ export default function CertificatesListItem({ item }) {
           </div>
         </Modal>
       )}
-      <div className="w-full px-4 lg:px-8 py-6">
-        <h3 className="w-full h-auto text-[1.5rem] font-semibold text-textColor dark:text-white mb-4">
+      <div className="flex flex-col justify-between w-full px-4 lg:px-8 py-6">
+        <h3 className="w-full h-auto text-[1rem] lg:text-[1.5rem] font-semibold text-textColor dark:text-white mb-4">
           {item['name-certificate']}
         </h3>
-        <div className=" flex items-center gap-4 mb-2">
-          <BsReverseListColumnsReverse className="text-orange-400" />
-          <p className="w-full text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
-            {item.description}
-          </p>
-        </div>
-        <div className=" flex items-center gap-4 mb-2">
-          <BsBuildings className="text-orange-400" />
-          <p className="w-full text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
-            {item['name-school']}
-          </p>
-        </div>
-        <div className=" flex items-center gap-4 mb-2">
-          <BsCalendar3 className="text-orange-400" />
-          <span className="text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
-            {item.startDate} - {item.finishtDate}
-          </span>
+        <div>
+          <div className=" flex items-center gap-4 mb-2">
+            <BsReverseListColumnsReverse className="text-orange-400" />
+            <p className="w-full text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
+              {item.description}
+            </p>
+          </div>
+          <div className=" flex items-center gap-4 mb-2">
+            <BsBuildings className="text-orange-400" />
+            <p className="w-full text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
+              {item['name-school']}
+            </p>
+          </div>
+          <div className=" flex items-center gap-4 mb-2">
+            <BsCalendar3 className="text-orange-400" />
+            <span className="text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
+              {item.startDate} - {item.finishtDate}
+            </span>
+          </div>
         </div>
         <div className=" flex items-center gap-4 mb-2">
           <BsFiletypePdf className="text-orange-400" />
