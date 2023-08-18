@@ -18,12 +18,14 @@
     "title": "Обо мне",
     "sub-title": "подзаголовок"
   },
-    "resume-page": {
+  "resume-page": {
     "title": "Резюме",
     "sub-title-1": "Сертификаты",
     "sub-title-2": "Технические навыки",
-    "sub-title-3":  "Владение языками",
+    "sub-title-3": "Владение языками",
     "sub-title-4": "Гибкие навыки",
+    "sub-title-5": "Образование",
+    "sub-title-6": "Опыт работы",
     "link-pdf": "Просмотреть в формате PDF"
   },
   "portfolio-page": {
