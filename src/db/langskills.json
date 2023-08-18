@@ -1,0 +1,74 @@
+[
+  {
+    "languageskills": {
+      "id": 1,
+      "value": 30,
+      "EN": {
+        "language": "English"
+      },
+      "PL": {
+        "language": "Angielski"
+      },
+      "UK": {
+        "language": "Англійська"
+      },
+      "RU": {
+        "language": "Английский"
+      }
+    }
+  },
+  {
+    "languageskills": {
+      "id": 2,
+      "value": 70,
+      "EN": {
+        "language": "Polish"
+      },
+      "PL": {
+        "language": "Polska"
+      },
+      "UK": {
+        "language": "Польска"
+      },
+      "RU": {
+        "language": "Польский"
+      }
+    }
+  },
+  {
+    "languageskills": {
+      "id": 3,
+      "value": 100,
+      "EN": {
+        "language": "Ukrainian"
+      },
+      "PL": {
+        "language": "Ukraiński"
+      },
+      "UK": {
+        "language": "Українська"
+      },
+      "RU": {
+        "language": "Украинский"
+      }
+    }
+  },
+  {
+    "languageskills": {
+      "id": 4,
+      "value": 100,
+      "EN": {
+        "language": "Russian"
+      },
+      "PL": {
+        "language": "Rosyjski"
+      },
+      "UK": {
+        "language": "Російська"
+      },
+      "RU": {
+        "language": "Русский"
+      }
+    }
+  }
+]

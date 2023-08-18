@@ -3,20 +3,35 @@ import SubTitle from 'components/Utility/SubTitle';
 import { useTranslation } from 'react-i18next';
 import { BsPersonVcard } from 'react-icons/bs';
 import CertificatesList from 'components/Certificates/CertificatesList';
-
+import ProgressTechSkills from 'components/TechSkillsProgressBar/TechSkills';
+import ProgressLangSkills from 'components/LangSkillsProgressBar/LangSkillsProgressBar';
 export default function ResumePage() {
   const { t } = useTranslation();
 
   return (
     <>
       <PageTitle icon={<BsPersonVcard />} title={t('resume-page.title')} />
-      <SubTitle subTitle={t('resume-page.sub-title-1')} />
-      <CertificatesList />
-      <SubTitle subTitle={t('resume-page.sub-title-2')} />
-      <SubTitle subTitle={t('resume-page.sub-title-3')} />
-      <SubTitle subTitle={t('resume-page.sub-title-4')} />
-      <SubTitle subTitle={t('resume-page.sub-title-5')} />
-      <SubTitle subTitle={t('resume-page.sub-title-6')} />
+      <div className="mb-5">
+        <SubTitle subTitle={t('resume-page.sub-title-1')} />
+        <CertificatesList />
+      </div>
+      <div className="mb-5">
+        <SubTitle subTitle={t('resume-page.sub-title-2')} />
+        <ProgressTechSkills />
+      </div>
+      <div className="mb-5">
+        <SubTitle subTitle={t('resume-page.sub-title-3')} />
+        <ProgressLangSkills />
+      </div>
+      <div className="mb-5">
+        <SubTitle subTitle={t('resume-page.sub-title-4')} />
+      </div>
+      <div className="mb-5">
+        <SubTitle subTitle={t('resume-page.sub-title-5')} />
+      </div>
+      <div className="mb-5">
+        <SubTitle subTitle={t('resume-page.sub-title-6')} />
+      </div>
     </>
   );
 }

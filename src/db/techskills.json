@@ -1,0 +1,149 @@
+[
+  {
+    "techskill": {
+      "id": 1,
+      "label": "html",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 2,
+      "label": "CSS / Sass",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 3,
+      "label": "TailwindCSS",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 4,
+      "label": "Bootstrap",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 5,
+      "label": "JavaScript",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 6,
+      "label": "React.js",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 7,
+      "label": "Next.js",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 8,
+      "label": "PHP",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 9,
+      "label": "Wordpress ",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 10,
+      "label": "OpenCart",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 11,
+      "label": "Prestashop",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 12,
+      "label": "Figma",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 13,
+      "label": "Adobe XD",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 14,
+      "label": "Adobe Photoshop ",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 15,
+      "label": "CorelDraw ",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 16,
+      "label": "Ilustrator",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 17,
+      "label": "Linux",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 18,
+      "label": "Windows",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 19,
+      "label": "macOS",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 20,
+      "label": "Sony Vegas",
+      "value": "10"
+    }
+  },
+  {
+    "techskill": {
+      "id": 21,
+      "label": "Webpack   Gulp",
+      "value": "10"
+    }
+  }
+]
