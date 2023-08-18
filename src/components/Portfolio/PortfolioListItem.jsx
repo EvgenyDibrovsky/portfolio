@@ -2,7 +2,7 @@ import { BsSearch } from 'react-icons/bs';
 
 export default function PortfolioListItem({ image, name, onCardClick }) {
   return (
-    <li className="group max-h-72 relative flex flex-col justify-between transition-all duration-500 rounded-md overflow-hidden">
+    <li className="border border-colorBorder dark:border-colorBorderDark group max-h-72 relative flex flex-col justify-between transition-all duration-500 rounded-md overflow-hidden">
       <div
         onClick={onCardClick}
         className="relative flex items-center justify-center cursor-pointer"

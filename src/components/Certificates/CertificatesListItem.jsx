@@ -26,7 +26,7 @@ export default function CertificatesListItem({ item }) {
         onClick={handleOpenModal}
       />
       {isModalOpen && (
-        <Modal closeModal={handleCloseModal} width="w-full lg:w-10/12 xl:w-10/12">
+        <Modal closeModal={handleCloseModal} width="w-11/12 lg:w-10/12 xl:w-10/12">
           <div className="h-full max-h-[calc(100vh-5rem)] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
             <img
               src={process.env.PUBLIC_URL + item.fullImage}
