@@ -5,27 +5,27 @@
       "thumbnail": "/certificate/thumb/go-It-full-stack.jpg",
       "fullImage": "/certificate/full/go-It-full-stack.jpg",
       "linkPDF": "/certificate/pdf/go-It-full-stack.pdf",
-      "startDate": "01.01.2022",
-      "finishtDate": "01.01.2023",
+      "startDate": "11.05.2022",
+      "finishtDate": "19.04.2023",
       "EN": {
-        "name-certificate": "Название сертификата",
-        "description": "1Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Fullstack developer",
+        "description": "Studying Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Courses | IT education online"
       },
       "PL": {
-        "name-certificate": "Название сертификата",
-        "description": "2Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Fullstack developer",
+        "description": "Nauka Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Kursy | IT edukacja online"
       },
       "UK": {
-        "name-certificate": "Название сертификата",
-        "description": "3Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Fullstack розробник",
+        "description": "Вивчення Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Курси | IT освіта онлайн"
       },
       "RU": {
-        "name-certificate": "Название сертификата",
-        "description": "4Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Fullstack разработчик",
+        "description": "Изучение Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Курсы | IT образование онлайн"
       }
     }
   },
@@ -35,27 +35,27 @@
       "thumbnail": "/certificate/thumb/figma.jpg",
       "fullImage": "/certificate/full/figma.jpg",
       "linkPDF": "/certificate/pdf/figma.pdf",
-      "startDate": "01.01.2022",
-      "finishtDate": "01.01.2023",
+      "startDate": "16.04.2022",
+      "finishtDate": "16.05.2022",
       "EN": {
-        "name-certificate": "Название сертификата",
-        "description": "1Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Web Design in Figma. Basics of Ui Ux design in practice",
+        "description": "Studying the basics of Figma / Creating a mobile app project",
+        "name-school": "Beonmax"
       },
       "PL": {
-        "name-certificate": "Название сертификата",
-        "description": "2Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Web Design w Figma. Podstawy Ui Ux designu w praktyce",
+        "description": "Nauka podstaw Figma / Tworzenie projektu aplikacji mobilnej",
+        "name-school": "Beonmax"
       },
       "UK": {
-        "name-certificate": "Название сертификата",
-        "description": "3Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Веб Дизайн у Figma. Основи Ui Ux дизайну на практиці",
+        "description": "Вивчення основ Figma / Створення проекту мобільного додатку",
+        "name-school": "Beonmax"
       },
       "RU": {
-        "name-certificate": "Название сертификата",
-        "description": "4Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Веб Дизайн в Figma. Основы Ui Ux дизайна на практике",
+        "description": "Изучение основ Figma / Создание проекта мобильного приложения",
+        "name-school": "Beonmax"
       }
     }
   },
@@ -65,27 +65,27 @@
       "thumbnail": "/certificate/thumb/wordpress-2.jpg",
       "fullImage": "/certificate/full/wordpress-2.jpg",
       "linkPDF": "/certificate/pdf/wordpress-2.pdf",
-      "startDate": "01.01.2022",
-      "finishtDate": "01.01.2023",
+      "startDate": "24.07.2021",
+      "finishtDate": "24.08.2021",
       "EN": {
-        "name-certificate": "Название сертификата",
-        "description": "1Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Layout implementation and theme creation for CMS WordPress",
+        "description": "Template layout / template implementation on CMS Wordpress",
+        "name-school": "Beonmax"
       },
       "PL": {
-        "name-certificate": "Название сертификата",
-        "description": "2Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Montaż szablonu i tworzenie tematów na CMS WordPress",
+        "description": "Układanie szablonu / instalacja szablonu na CMS Wordpress",
+        "name-school": "Beonmax"
       },
       "UK": {
-        "name-certificate": "Название сертификата",
-        "description": "3Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Верстка та створення тем на CMS WordPress",
+        "description": "Верстка шаблону / посадка шаблону на CMS Wordpress",
+        "name-school": "Beonmax"
       },
       "RU": {
-        "name-certificate": "Название сертификата",
-        "description": "4Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Посадка верстки и создание тем на CMS WordPress",
+        "description": "Верстка шаблона / посадка шаблона на CMS WordPress",
+        "name-school": "Beonmax"
       }
     }
   },
@@ -95,27 +95,27 @@
       "thumbnail": "/certificate/thumb/assistive-and-compensating-technologies.jpg",
       "fullImage": "/certificate/full/assistive-and-compensating-technologies.jpg",
       "linkPDF": "/certificate/pdf/assistive-and-compensating-technologies.pdf",
-      "startDate": "01.01.2022",
-      "finishtDate": "01.01.2023",
+      "startDate": "05.03.2021",
+      "finishtDate": "22.03.2021",
       "EN": {
-        "name-certificate": "Название сертификата",
-        "description": "1Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Assistive and compensating technologies and universal product and service design",
+        "description": "Main principles of universal design, technologies supporting the development of products adapted for the needs of people with disabilities.",
+        "name-school": "EuroKreator s.c."
       },
       "PL": {
-        "name-certificate": "Название сертификата",
-        "description": "2Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Technologie wspomagające i kompensacyjne, uniwersalne projektowanie produktów i usług",
+        "description": "Główne zasady uniwersalnego projektowania, technologie wspierające rozwój produktów dostosowanych do potrzeb osób z ograniczonymi możliwościami.",
+        "name-school": "EuroKreator s.c."
       },
       "UK": {
-        "name-certificate": "Название сертификата",
-        "description": "3Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Допоміжні та компенсуючі технології, універсальний дизайн продуктів та послуг",
+        "description": "Основні принципи універсального проектування, технології підтримки розробки продуктів, адаптованих під потреби людей з обмеженими можливостями.",
+        "name-school": "EuroKreator s.c."
       },
       "RU": {
-        "name-certificate": "Название сертификата",
-        "description": "4Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Вспомогательные и компенсирующие технологии, универсальный дизайн продуктов и услуг",
+        "description": "Основные принципы универсального проектирования, технологии поддержки разработки продуктов, адаптированных под потребности людей с ограниченными возможностями",
+        "name-school": "EuroKreator s.c."
       }
     }
   },
@@ -125,57 +125,87 @@
       "thumbnail": "/certificate/thumb/wordpress-1.jpg",
       "fullImage": "/certificate/full/wordpress-1.jpg",
       "linkPDF": "/certificate/pdf/wordpress-1.pdf",
-      "startDate": "01.01.2022",
-      "finishtDate": "01.01.2023",
+      "startDate": "20.12.2020",
+      "finishtDate": "26.12.2020",
       "EN": {
-        "name-certificate": "Название сертификата",
-        "description": "1Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "WordPress – From Zero to Pro!",
+        "description": "Studying the basics of working with CMS WordPress in practice.",
+        "name-school": "Beonmax"
       },
       "PL": {
-        "name-certificate": "Название сертификата",
-        "description": "2Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "WordPress – od zera do Profi!",
+        "description": "Studiowanie podstaw pracy z CMS WordPress w praktyce.",
+        "name-school": "Beonmax"
       },
       "UK": {
-        "name-certificate": "Название сертификата",
-        "description": "3Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "WordPress – від нуля до Профі!",
+        "description": "Вивчення основ роботи з CMS WordPress на практиці.",
+        "name-school": "Beonmax"
       },
       "RU": {
-        "name-certificate": "Название сертификата",
-        "description": "4Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "WordPress – с нуля до Профи!",
+        "description": "Изучение основ работы с CMS WordPress на практике",
+        "name-school": "Beonmax"
       }
     }
   },
   {
     "certificate": {
       "id": 6,
+      "thumbnail": "/certificate/thumb/wordpress-0.jpg",
+      "fullImage": "/certificate/full/wordpress-0.jpg",
+      "linkPDF": "/certificate/pdf/wordpress-0.pdf",
+      "startDate": "26.11.2020",
+      "finishtDate": "26.12.2020",
+      "EN": {
+        "name-certificate": "WordPress – Quick Start!",
+        "description": "Studying the basics of working with CMS WordPress in practice.",
+        "name-school": "Beonmax"
+      },
+      "PL": {
+        "name-certificate": "WordPress – Szybki start!",
+        "description": "Studiowanie podstaw pracy z CMS WordPress w praktyce.",
+        "name-school": "Beonmax"
+      },
+      "UK": {
+        "name-certificate": "WordPress – Швидкий старт!",
+        "description": "Вивчення основ роботи з CMS WordPress на практиці.",
+        "name-school": "Beonmax"
+      },
+      "RU": {
+        "name-certificate": "WordPress – Быстрый старт!",
+        "description": "Изучение основ работы с CMS WordPress на практике",
+        "name-school": "Beonmax"
+      }
+    }
+  },
+  {
+    "certificate": {
+      "id": 7,
       "thumbnail": "/certificate/thumb/html-css.jpg",
       "fullImage": "/certificate/full/html-css.jpg",
       "linkPDF": "/certificate/pdf/html-css.pdf",
-      "startDate": "01.01.2022",
-      "finishtDate": "01.01.2023",
+      "startDate": "01.07.2020",
+      "finishtDate": "01.07.2020",
       "EN": {
-        "name-certificate": "Название сертификата",
-        "description": "1Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Html / Css",
+        "description": "Online course Html / Css",
+        "name-school": "Beonmax"
       },
       "PL": {
-        "name-certificate": "Название сертификата",
-        "description": "2Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Html / Css",
+        "description": "Online kurs Html / Css",
+        "name-school": "Beonmax"
       },
       "UK": {
-        "name-certificate": "Название сертификата",
-        "description": "3Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Html / Css",
+        "description": "Онлайн курс Html / Css",
+        "name-school": "Beonmax"
       },
       "RU": {
-        "name-certificate": "Название сертификата",
-        "description": "4Описание сертификата",
-        "name-school": "Название учебного завидения"
+        "name-certificate": "Html / Css",
+        "description": "Онлайн курс Html / Css",
+        "name-school": "Beonmax"
       }
     }
   }

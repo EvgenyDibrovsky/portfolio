@@ -18,11 +18,11 @@ export default function CertificatesListItem({ item }) {
   const handleCloseModal = () => setIsModalOpen(false);
 
   return (
-    <li className="border border-colorBorder dark:border-colorBorderDark rounded-md group overflow-hidden">
+    <li className="flex flex-col xl:flex-row h-full border border-colorBorder dark:border-colorBorderDark rounded-md group overflow-hidden">
       <img
         src={process.env.PUBLIC_URL + item.thumbnail}
         alt={item['name-certificate']}
-        className="w-full duration-200 group-hover:scale-110 cursor-pointer"
+        className="block w-full xl:w-[31.25rem] h-auto duration-200 group-hover:scale-105 cursor-pointer"
         onClick={handleOpenModal}
       />
       {isModalOpen && (
@@ -36,29 +36,32 @@ export default function CertificatesListItem({ item }) {
           </div>
         </Modal>
       )}
-      <div className="px-5 py-5">
-        <h3 className="w-full text-lg font-semibold text-textColor dark:text-white mb-4">
+      <div className="w-full px-0 lg:px-8 py-6">
+        <h3 className="w-full h-auto text-[1.5rem] font-semibold text-textColor dark:text-white mb-4">
           {item['name-certificate']}
         </h3>
-
         <div className=" flex items-center gap-4 mb-2">
           <BsReverseListColumnsReverse className="text-orange-400" />
-          <p className="w-full text-textColor dark:text-white ">{item.description}</p>
+          <p className="w-full text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
+            {item.description}
+          </p>
         </div>
-        <div className=" flex items-center gap-4  mb-2">
+        <div className=" flex items-center gap-4 mb-2">
           <BsBuildings className="text-orange-400" />
-          <p className="w-full text-textColor dark:text-white ">{item['name-school']}</p>
+          <p className="w-full text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
+            {item['name-school']}
+          </p>
         </div>
         <div className=" flex items-center gap-4 mb-2">
           <BsCalendar3 className="text-orange-400" />
-          <span className="text-textColor dark:text-white ">
+          <span className="text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
             {item.startDate} - {item.finishtDate}
           </span>
         </div>
         <div className=" flex items-center gap-4 mb-2">
           <BsFiletypePdf className="text-orange-400" />
           <a
-            className="text-textColor dark:text-white  group-hover:text-sky-500"
+            className="text-textColor dark:text-white  group-hover:text-sky-500 text-[1rem] lg:text-[1.25rem] "
             href={process.env.PUBLIC_URL + item.linkPDF}
             target="_blank"
             rel="noopener noreferrer"
