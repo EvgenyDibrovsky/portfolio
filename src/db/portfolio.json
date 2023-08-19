@@ -351,35 +351,6 @@
   {
     "portfolio": {
       "id": 13,
-      "image": "/images/portfolio/no-image.jpg",
-      "link": "https://evgenydibrovsky.github.io/lp-project-home/",
-      "technologies": "HTML5, CSS, JavaScript",
-      "type": "educational",
-      "EN": {
-        "name": "Project - Home",
-        "description": "The project was created in order to gain practical skills.",
-        "participation": "Frontend Developer"
-      },
-      "PL": {
-        "name": "Projekt - Dom",
-        "description": " Projekt powstał w celu zdobycia praktycznych umiejętności.",
-        "participation": "Front-end Deweloper"
-      },
-      "UK": {
-        "name": "Проект -Будинок",
-        "description": "Проект створено з метою отримання практичних навичок.",
-        "participation": "Front-end Розробник"
-      },
-      "RU": {
-        "name": "Проект - Дом",
-        "description": "Проект создан в целях получения практических навыков.",
-        "participation": "Front-end Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 14,
       "image": "/images/portfolio/gurov.jpg",
       "link": "https://gurov.pl/",
       "technologies": "Bootstrap, JavaScript, jQuery",
@@ -408,7 +379,7 @@
   },
   {
     "portfolio": {
-      "id": 15,
+      "id": 14,
       "image": "/images/portfolio/candle.jpg",
       "link": "https://evgenydibrovsky.github.io/lp-candle/",
       "technologies": "HTML5, CSS, JavaScript",
@@ -430,6 +401,64 @@
       },
       "RU": {
         "name": "Candle",
+        "description": "Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 15,
+      "image": "/images/portfolio/project-home.jpg",
+      "link": "https://evgenydibrovsky.github.io/lp-project-home/",
+      "technologies": "HTML5, Tailwind CSS, JavaScript",
+      "type": "educational",
+      "EN": {
+        "name": "Project - Home",
+        "description": "The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - Dom",
+        "description": " Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект -Будинок",
+        "description": "Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Дом",
+        "description": "Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 16,
+      "image": "/images/portfolio/giard-design.jpg",
+      "link": "https://evgenydibrovsky.github.io/lp-giard-design/",
+      "technologies": "HTML5, Tailwind CSS, JavaScript",
+      "type": "educational",
+      "EN": {
+        "name": "Project - GiardDesign",
+        "description": "The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - GiardDesign",
+        "description": " Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект -GiardDesign",
+        "description": "Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - GiardDesign",
         "description": "Проект создан в целях получения практических навыков.",
         "participation": "Front-end Разработчик"
       }
