@@ -71,5 +71,11 @@
     "project-technologies": "Technologies used",
     "project-site": "Project site",
     "project-link": "Visit project site"
+  },
+  "languageskills": {
+    "english": "English",
+    "polish": "Polish",
+    "ukrainian": "Ukrainian",
+    "russian": "Russian"
   }
 }
