@@ -3,7 +3,7 @@ import SubTitle from 'components/Utility/SubTitle';
 import { useTranslation } from 'react-i18next';
 import { BsPersonVcard } from 'react-icons/bs';
 import CertificatesList from 'components/Certificates/CertificatesList';
-import ProgressTechSkills from 'components/TechSkillsProgressBar/TechSkills';
+import TechSkillsIndicators from 'components/TechSkillsProgressBar/TechSkillsIndicators';
 import ProgressLangSkills from 'components/LangSkillsProgressBar/LangSkillsProgressBar';
 export default function ResumePage() {
   const { t } = useTranslation();
@@ -17,7 +17,7 @@ export default function ResumePage() {
       </div>
       <div className="mb-5">
         <SubTitle subTitle={t('resume-page.sub-title-2')} />
-        <ProgressTechSkills />
+        <TechSkillsIndicators />
       </div>
       <div className="mb-5">
         <SubTitle subTitle={t('resume-page.sub-title-3')} />
