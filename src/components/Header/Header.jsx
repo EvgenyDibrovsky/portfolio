@@ -19,9 +19,9 @@ export default function Header({ theme, toggleTheme }) {
     <header
       className={`${
         isOpen ? 'left-0' : '-left-[12.5rem]'
-      } md:left-0 bg-bgHeader border-r border-colorBorder z-50 w-[12.5rem] fixed bottom-0 top-0 h-full pt-28 pb-5 md:py-5 flex flex-col justify-between items-center dark:border-colorBorderDark  dark:bg-bgHeaderDark transition-all duration-300 ease-in-out`}
+      } md:left-0 bg-bgHeader border-r border-colorBorder z-50 w-[12.5rem] fixed bottom-0 top-0 h-full pt-28 pb-5 md:py-5 flex flex-col justify-between items-center dark:border-colorBorderDark  dark:bg-bgHeaderDark transition-all duration-300 ease-in-out overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400`}
     >
-      <div className="flex flex-col items-center gap-8">
+      <div className="flex flex-col items-center gap-8 ">
         <div className="hidden md:flex mr-auto pl-5">
           <ToggleTheme theme={theme} toggleTheme={toggleTheme} />
         </div>
@@ -37,10 +37,7 @@ export default function Header({ theme, toggleTheme }) {
       <div className="md:hidden border-b border-colorBorder dark:border-b-colorBorderDark bg-bgHeader dark:bg-bgHeaderDark flex justify-between items-center h-20 fixed top-0 left-0 w-full p-5 ">
         <ToggleTheme theme={theme} toggleTheme={toggleTheme} />
 
-        <button
-          className="z-50 ml-auto rounded-full text-3xl duration-200 text-black dark:text-white focus:outline-none "
-          onClick={toggleMenu}
-        >
+        <button className="z-50 ml-auto rounded-full text-3xl duration-200 text-black dark:text-white focus:outline-none " onClick={toggleMenu}>
           {isOpen ? <BsCodeSlash /> : <BsCode />}
         </button>
       </div>

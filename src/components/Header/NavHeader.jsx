@@ -6,7 +6,7 @@ export default function NavHeader() {
   const { t } = useTranslation();
 
   return (
-    <nav className="w-full">
+    <nav className="w-full ">
       <ul className={'flex items-center flex-col justify-center'}>
         <NavHeaderItem to="/" labelKey={t('nav-menu.home')} />
         <NavHeaderItem to="/about" labelKey={t('nav-menu.about-me')} />
