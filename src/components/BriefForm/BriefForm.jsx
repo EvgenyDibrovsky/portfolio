@@ -30,10 +30,14 @@ export default function BriefForm() {
               placeholder="Введите ваше имя"
             />
           </label>
-
           <label className="w-full lg:w-6/12 flex flex-col text-black dark:text-white">
             Фамилия:
-            <input className="h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5" type="text" name="last_name"></input>
+            <input
+              className="h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+              type="text"
+              name="last_name"
+              placeholder="Введите вашу фамилию"
+            ></input>
           </label>
         </div>
         <div className="flex flex-col md:flex-row gap-4">
@@ -45,7 +49,7 @@ export default function BriefForm() {
               id="email"
               name="email"
               required
-              placeholder="Введите корректный адрес электронной почты"
+              placeholder="Введите адрес электронной почты"
             />
           </label>
 
@@ -57,6 +61,7 @@ export default function BriefForm() {
               id="phone_number"
               name="phone_number"
               required
+              placeholder="Введите ваш номер телефона"
             />
           </label>
         </div>
@@ -68,6 +73,7 @@ export default function BriefForm() {
             type="text"
             id="business_type"
             name="business_type"
+            placeholder="Укажите сверу деятельности"
           />
         </label>
         <label className="w-full flex flex-col text-black dark:text-white">
@@ -77,15 +83,16 @@ export default function BriefForm() {
             type="url"
             id="website_url"
             name="website_url"
+            placeholder="Укажите планиремое или зарегестрирвоанное доиенное имя"
           ></input>
         </label>
         <label className="w-full flex flex-col text-black dark:text-white">
           Общая информация о деятельности:
           <textarea
-            className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+            className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5"
             id="business_info"
             name="business_info"
-            placeholder="Введите информацию о деятельности..."
+            placeholder="Введите общую информацию о деятельности..."
           ></textarea>
         </label>
 
@@ -162,8 +169,8 @@ export default function BriefForm() {
           <textarea
             id="liked_sites"
             name="liked_sites"
-            placeholder=" Укажите пару сайтов для примера, которые вам нравятся..."
-            className="w-full h-16 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+            placeholder="Укажите пару сайтов для примера, которые вам нравятся..."
+            className="w-full h-16 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5"
           ></textarea>
         </label>
 
@@ -201,7 +208,8 @@ export default function BriefForm() {
             <input type="checkbox" name="extra_services[]" value="hosting" />
             Хостинг
           </label>
-          <label className="flex items-center gap-2 text-black dark:text-white">
+
+          <label className="flex items-center gap-2 text-black dark:text-white ">
             <input type="checkbox" name="extra_services[]" value="domain_registration" />
             Регистрация домена
           </label>
@@ -218,13 +226,13 @@ export default function BriefForm() {
         <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">Шаг 6: Дополнительные пожелания</h3>
         <label className="w-full flex flex-col text-black dark:text-white">
           <textarea
-            className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+            className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5"
             id="dop_info"
             name="dop_info"
             placeholder="Напишите все дополнительные пожелания касательно проекта..."
           ></textarea>
         </label>
-        <button className="bg-transparent text-black dark:text-white border border-orange-400 duration-200 hover:bg-orange-400 hover:text-white  px-5 py-2" type="submit">
+        <button className="btn-contact-form" type="submit">
           Отправить бриф
         </button>
       </form>
