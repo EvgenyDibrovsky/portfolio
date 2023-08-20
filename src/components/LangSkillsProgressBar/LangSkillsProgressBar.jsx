@@ -8,7 +8,7 @@ export default function ProgressLangSkills() {
 
   const skills = useMemo(
     () => [
-      { value: 30, languageKey: 'english' },
+      { value: 40, languageKey: 'english' },
       { value: 70, languageKey: 'polish' },
       { value: 100, languageKey: 'ukrainian' },
       { value: 100, languageKey: 'russian' },
@@ -40,9 +40,9 @@ export default function ProgressLangSkills() {
 
   return (
     <ul className="grid grid-cols lg:grid-cols-2 gap-4" ref={ref}>
-      <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5">
+      <li className="relative h-8 border border-orange-400  bg-transparent w-full rounded-lg px-5">
         <div
-          className="fi fi-us bg-left bg-contain absolute left-0 top-0 h-8 bg-green-500 rounded-lg"
+          className="fi fi-us bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg"
           style={{ width: `${currentValues[0]}%` }}
         >
           <div className="absolute w-full pl-16  top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-black font-medium">
@@ -51,9 +51,9 @@ export default function ProgressLangSkills() {
           </div>
         </div>
       </li>
-      <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5">
+      <li className="relative h-8 border border-orange-400 bg-transparent w-full rounded-lg px-5">
         <div
-          className="fi fi-pl bg-left bg-contain absolute left-0 top-0 h-8 bg-green-500 rounded-lg"
+          className="fi fi-pl bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg"
           style={{ width: `${currentValues[1]}%` }}
         >
           <div className="absolute w-full pl-16 top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-black font-medium">
@@ -62,9 +62,9 @@ export default function ProgressLangSkills() {
           </div>
         </div>
       </li>
-      <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5">
+      <li className="relative h-8 border border-orange-400 bg-transparent w-full rounded-lg px-5">
         <div
-          className="fi fi-ua bg-left bg-contain absolute left-0 top-0 h-8 bg-green-500 rounded-lg"
+          className="fi fi-ua bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg"
           style={{ width: `${currentValues[2]}%` }}
         >
           <div className="absolute w-full pl-16 top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-black font-medium">
@@ -73,9 +73,9 @@ export default function ProgressLangSkills() {
           </div>
         </div>
       </li>
-      <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5">
+      <li className="relative h-8 border border-orange-400 bg-transparent w-full rounded-lg px-5">
         <div
-          className="fi fi-ru bg-left bg-contain absolute left-0 top-0 h-8 bg-green-500 rounded-lg"
+          className="fi fi-ru bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg"
           style={{ width: `${currentValues[3]}%` }}
         >
           <div className="absolute w-full pl-16  top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-black font-medium">
