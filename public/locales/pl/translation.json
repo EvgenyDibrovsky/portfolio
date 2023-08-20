@@ -34,7 +34,10 @@
   },
   "brief-page": {
     "title": "Brief",
-    "sub-title": "podtytuł"
+    "sub-title": "podtytuł",
+    "text-information-1": "Бриф – это краткое описание ваших идей, целей, предпочтений и ожиданий относительно проекта. Бриф пBrief to zwięzły opis Twoich pomysłów, celów, preferencji i oczekiwań dotyczących projektu. Brief pomoże mi dokładniej zrozumieć Twoją wizję i opracować najbardziej odpowiedni i spersonalizowany plan dla Twojego projektu, zapewniając zbliżenie do pożądanego wyniku.",
+    "text-information-2": "Wypełniając brief, skup się na projekcie i pożądanym wyniku, opisuj słowami, które Cię najlepiej opisują - zrozumiem Cię!",
+    "text-information-3": "После того, как вы заполните этот бриф, я смогу оценить объем и сложность работы, прPo wypełnieniu tego briefu będę w stanie oszacować zakres i złożoność pracy, zaproponować odpowiedni plan rozwoju oraz sformułować ofertę handlową z przybliżonymi terminami i kosztami realizacji projektu."
   },
   "contacts-page": {
     "title": "Kontakt",

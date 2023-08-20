@@ -1,191 +1,232 @@
-// import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import { BsInfoSquare } from 'react-icons/bs';
 export default function BriefForm() {
-  //   const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
-      <div className="mb-8 border p-5 flex gap-5 justify-between rounded-md">
+      <div className="mb-8 border py-5 px-4 md:p-5 flex md:gap-5 justify-between rounded-md">
         <div className="flex items-center">
-          <BsInfoSquare className="text-orange-400 w-8 h-8 inline-block" />
+          <BsInfoSquare className="hidden  md:inline-block text-orange-400 w-8 h-8" />
         </div>
         <div>
-          <p className="italic mb-5 text-black dark:text-white">
-            Бриф – это краткое описание ваших идей, целей, предпочтений и ожиданий относительно проекта. Бриф поможет мне точнее уловить вашу визию и разработать наиболее подходящий и
-            персонализированный план для вашего проекта, обеспечивая приближение желаемого результата.
-          </p>
+          <p className="italic mb-5 text-black dark:text-white">{t('brief-page.text-information-1')}</p>
           <div>
-            <p className=" underline mb-2 text-black dark:text-white">Заполняя бриф сконцентрируйтесь на проекте и желаемом результате, описывайте своими словами - я вас пойму!</p>
-            <p className="text-black dark:text-white">
-              После того, как вы заполните этот бриф, я смогу оценить объем и сложность работы, предложить вам подходящий план разработки и сформировать коммерческое предложение с ориентировочными
-              сроками и стоимостью реализации проекта.
-            </p>
+            <p className=" underline mb-2 text-black dark:text-white">{t('brief-page.text-information-2')}</p>
+            <p className="text-black dark:text-white">{t('brief-page.text-information-3')}</p>
           </div>
         </div>
       </div>
       <form>
-        <h3>Шаг 1: Контактные данные</h3>
-        <label htmlFor="first_name">Имя:</label>
-        <input type="text" name="first_name" required placeholder="Введите ваше имя"></input>
+        <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">Шаг 1: Контактные данные</h3>
+        <div className="flex flex-col md:flex-row gap-4">
+          <label className="w-full lg:w-6/12 flex flex-col text-black dark:text-white">
+            Имя:
+            <input
+              className="h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+              type="text"
+              name="first_name"
+              required
+              placeholder="Введите ваше имя"
+            />
+          </label>
 
-        <label htmlFor="last_name">Фамилия:</label>
-        <input type="text" name="last_name"></input>
+          <label className="w-full lg:w-6/12 flex flex-col text-black dark:text-white">
+            Фамилия:
+            <input className="h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5" type="text" name="last_name"></input>
+          </label>
+        </div>
+        <div className="flex flex-col md:flex-row gap-4">
+          <label className="w-full lg:w-6/12 flex flex-col text-black dark:text-white">
+            Email:
+            <input
+              className="h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Введите корректный адрес электронной почты"
+            />
+          </label>
 
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" required placeholder="Введите корректный адрес электронной почты"></input>
-
-        <label htmlFor="phone_number">Номер телефона:</label>
-        <input type="tel" id="phone_number" name="phone_number" required></input>
-
-        <h3>Шаг 2: Информация о вашей деятельности</h3>
-        <label htmlFor="business_type">Сфера деятельности:</label>
-        <input type="text" id="business_type" name="business_type"></input>
-
-        <label htmlFor="website_url">Адрес www (если есть):</label>
-        <input type="url" id="website_url" name="website_url"></input>
-
-        <label htmlFor="business_info">Общая информация о деятельности:</label>
-        <textarea id="business_info" name="business_info"></textarea>
-
-        <h3>Шаг 3: Веб-сайты (Разработка, создание, модернизация)</h3>
-
-        <h3>Шаг 4: Интернет-маркетинг</h3>
-
-        <label>
-          <input type="checkbox" name="marketing_type[]" value="email_marketing" />
-          E-mail маркетинг
+          <label className="w-full lg:w-6/12 flex flex-col text-black dark:text-white">
+            Номер телефона:
+            <input
+              className="h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+              type="tel"
+              id="phone_number"
+              name="phone_number"
+              required
+            />
+          </label>
+        </div>
+        <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">Шаг 2: Информация о вашей деятельности</h3>
+        <label className="w-full flex flex-col text-black dark:text-white">
+          Сфера деятельности:
+          <input
+            className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+            type="text"
+            id="business_type"
+            name="business_type"
+          />
         </label>
-        <label>
-          <input type="checkbox" name="marketing_type[]" value="smm_marketing" />
-          SMM маркетинг
+        <label className="w-full flex flex-col text-black dark:text-white">
+          Адрес www (если есть)
+          <input
+            className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+            type="url"
+            id="website_url"
+            name="website_url"
+          ></input>
         </label>
-        <label>
-          <input type="checkbox" name="marketing_type[]" value="monetization" />
-          Монетизация сайта
-        </label>
-        <label>
-          <input type="checkbox" name="marketing_type[]" value="online_advertising" />
-          Реклама в интернете
-        </label>
-        <label>
-          <input type="checkbox" name="marketing_type[]" value="seo" />
-          Продвижение сайта
-        </label>
-        <label>
-          <input type="checkbox" name="marketing_type[]" value="ad_links" />
-          Рекламные ссылки
-        </label>
-
-        <h4>Типы сайтов</h4>
-        <label>
-          <input type="checkbox" name="website_type[]" value="visit_card" />
-          Сайт-визитка
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="corporate" />
-          Корпоративный сайт
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="online_store" />
-          Интернет-магазин
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="portal" />
-          Интернет-портал
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="ad_service" />
-          Сервис объявлений
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="blog" />
-          Блог
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="site_upgrade" />
-          Модернизация сайта
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="redesign" />
-          Редизайн сайта
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="catalog" />
-          Интернет-каталог
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="mobile_app" />
-          Мобильное приложение
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="custom_project" />
-          Индивидуальный проект
-        </label>
-        <label>
-          <input type="checkbox" name="website_type[]" value="website_accessibility" />
-          Доступность сайта
+        <label className="w-full flex flex-col text-black dark:text-white">
+          Общая информация о деятельности:
+          <textarea
+            className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+            id="business_info"
+            name="business_info"
+            placeholder="Введите информацию о деятельности..."
+          ></textarea>
         </label>
 
-        <h4>Сайты, которые вам нравятся</h4>
-        <label htmlFor="liked_sites">Укажите пару сайтов для примера, которые вам нравятся:</label>
-        <textarea id="liked_sites" name="liked_sites"></textarea>
+        <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">Шаг 3: Веб-сайты (Разработка, создание, модернизация)</h3>
+        <h4 className=" text-[1rem] text-black dark:text-white mb-2">Выберите тип сайта</h4>
+        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5">
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="visit_card" />
+            Сайт-визитка
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="corporate" />
+            Корпоративный сайт
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="e_shop" />
+            Интернет-магазин
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="portal" />
+            Интернет-портал
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="ads_service" />
+            Сервис объявлений
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="blog" />
+            Блог
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="site_upgrade" />
+            Модернизация сайта
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="site_redesign" />
+            Редизайн сайта
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="catalog" />
+            Интернет-каталог
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="mobile_app" />
+            Мобильное приложение
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="custom_project" />
+            Индивидуальный проект
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="website_type[]" value="site_accessibility" />
+            Доступность сайта
+          </label>
+        </div>
+        <h4 className=" text-[1rem] text-black dark:text-white mb-2">Внешний вид</h4>
+        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5">
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="design_project[]" value="design_present" />
+            Есть проект дизайна
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="design_project[]" value="no_design" />
+            Нет проекта дизайна
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="design_project[]" value="templates" />
+            Готовые шаблоны
+          </label>
+        </div>
 
-        <h3>Шаг 5: Дополнительные услуги</h3>
-
-        <label>
-          <input type="checkbox" name="extra_services[]" value="hosting" />
-          Хостинг
+        <h4 className=" text-[1rem] text-black dark:text-white mb-2">Сайты, которые вам нравятся</h4>
+        <label className="w-full flex flex-col text-black dark:text-white" for="liked_sites">
+          <textarea
+            id="liked_sites"
+            name="liked_sites"
+            placeholder=" Укажите пару сайтов для примера, которые вам нравятся..."
+            className="w-full h-16 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+          ></textarea>
         </label>
 
-        <label>
-          <input type="checkbox" name="extra_services[]" value="domain_registration" />
-          Регистрация домена
+        <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">Шаг 4: Интернет-маркетинг</h3>
+        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5">
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="marketing_type[]" value="email_marketing" />
+            E-mail маркетинг
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="marketing_type[]" value="smm_marketing" />
+            SMM маркетинг
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="marketing_type[]" value="monetization" />
+            Монетизация сайта
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="marketing_type[]" value="online_advertising" />
+            Реклама в интернете
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="marketing_type[]" value="seo" />
+            Продвижение сайта
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="marketing_type[]" value="ad_links" />
+            Рекламные ссылки
+          </label>
+        </div>
+
+        <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">Шаг 5: Дополнительные услуги</h3>
+        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5">
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="extra_services[]" value="hosting" />
+            Хостинг
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="extra_services[]" value="domain_registration" />
+            Регистрация домена
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="extra_services[]" value="ssl_certificate" />
+            SSL сертификат
+          </label>
+          <label className="flex items-center gap-2 text-black dark:text-white">
+            <input type="checkbox" name="extra_services[]" value="branded_email" />
+            Фирменные email
+          </label>
+        </div>
+
+        <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">Шаг 6: Дополнительные пожелания</h3>
+        <label className="w-full flex flex-col text-black dark:text-white">
+          <textarea
+            className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+            id="business_info"
+            name="business_info"
+            placeholder="Напишите все дополнительные пожелания касательно проекта..."
+          ></textarea>
         </label>
-
-        <label>
-          <input type="checkbox" name="extra_services[]" value="ssl_certificate" />
-          SSL сертификат
-        </label>
-
-        <label>
-          <input type="checkbox" name="extra_services[]" value="branded_email" />
-          Фирменные email
-        </label>
-
-        <label>
-          <input type="checkbox" name="extra_services[]" value="service_5" />
-          Услуга 5
-        </label>
-
-        <label>
-          <input type="checkbox" name="extra_services[]" value="service_6" />
-          Услуга 6
-        </label>
-
-        <label>
-          <input type="checkbox" name="extra_services[]" value="service_7" />
-          Услуга 7
-        </label>
-
-        <label>
-          <input type="checkbox" name="extra_services[]" value="service_8" />
-          Услуга 8
-        </label>
-
-        <label>
-          <input type="checkbox" name="extra_services[]" value="service_9" />
-          Услуга 9
-        </label>
-
-        <label>
-          <input type="checkbox" name="extra_services[]" value="service_10" />
-          Услуга 10
-        </label>
-
-        <h3>Шаг 6: Дополнительные пожелания</h3>
-        <textarea name="additional_requests" placeholder="Напишите все дополнительные пожелания касательно проекта"></textarea>
-
-        <button type="submit">Отправить бриф</button>
+        <button className="bg-transparent text-black dark:text-white border border-orange-400 duration-200 hover:bg-orange-400 hover:text-white  px-5 py-2" type="submit">
+          Отправить бриф
+        </button>
       </form>
     </>
   );

@@ -35,7 +35,10 @@
   },
   "brief-page": {
     "title": "Brief",
-    "sub-title": "sub title"
+    "sub-title": "sub title",
+    "text-information-1": "A brief is a short description of your ideas, goals, preferences, and expectations for the project. The brief will help me better understand your vision and develop the most suitable and personalized plan for your project, ensuring that we achieve the desired outcome.",
+    "text-information-2": "When filling out the brief, focus on the project and the desired outcome, and describe it in your own words - I will understand you!",
+    "text-information-3": "Once you complete this brief, I will be able to assess the scope and complexity of the work, suggest a suitable development plan, and prepare a commercial proposal with indicative timelines and costs for the project."
   },
   "contacts-page": {
     "title": "Contacts",
@@ -77,5 +80,8 @@
     "polish": "Polish",
     "ukrainian": "Ukrainian",
     "russian": "Russian"
+  },
+  "brief-form": {
+    
   }
 }
