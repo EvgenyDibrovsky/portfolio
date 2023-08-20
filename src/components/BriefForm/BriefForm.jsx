@@ -158,7 +158,7 @@ export default function BriefForm() {
         </div>
 
         <h4 className=" text-[1rem] text-black dark:text-white mb-2">Сайты, которые вам нравятся</h4>
-        <label className="w-full flex flex-col text-black dark:text-white" for="liked_sites">
+        <label className="w-full flex flex-col text-black dark:text-white">
           <textarea
             id="liked_sites"
             name="liked_sites"
@@ -219,8 +219,8 @@ export default function BriefForm() {
         <label className="w-full flex flex-col text-black dark:text-white">
           <textarea
             className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
-            id="business_info"
-            name="business_info"
+            id="dop_info"
+            name="dop_info"
             placeholder="Напишите все дополнительные пожелания касательно проекта..."
           ></textarea>
         </label>
