@@ -134,5 +134,19 @@
     "brand-emails": "Branded Email",
     "additional-project-wishes": "Write all the additional requests regarding the project...",
     "submit-brief": "Submit Brief"
+  },
+  "possibilities": {
+    "web-development": "Web development",
+    "web-development-description": "Development of websites and turnkey applications. Selection of the optimal stack of web technologies for successful development and convenient support of the project. For the development of large projects, it is possible to create a development team.",
+    "web-design": "Web Design",
+    "web-design-description": "Designing web user interfaces for sites or web applications. Creation of logos, banners, site animation. At the design stage of the site, there is also the opportunity to use template solutions.",
+    "e-marketing": "E-marketing",
+    "e-marketing-description": "A set of measures aimed at increasing profits from the sale of goods or services. Market analysis, creation of advertising campaigns on the Internet. Targeted advertising, advertising in search engines and social networks.",
+    "seo": "SEO",
+    "seo-description": "A set of measures for internal and external optimization to raise the position of the site in the results of search engines for certain user requests, in order to increase network traffic and potential customers.",
+    "site-availability": "Site availability",
+    "site-availability-description": "Design/adapt websites accessible to people with disabilities in accordance with WCAG 2.1. I have extensive experience and certifications in this area.",
+    "technical-support": "Technical support",
+    "technical-support-description": "Maintenance and support of websites, including projects developed not only by me, but also by other specialists. Updating, installation of SSL certificates, adjusting layout, functionality, design, and much more."
   }
 }
