@@ -1,16 +1,9 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import { BsX } from 'react-icons/bs';
+import { BsXLg, BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 
-export default function Modal({
-  closeModal,
-  children,
-  width = 'max-w-[28rem]',
-  backgroundImage = null,
-}) {
-  const backdropStyle = backgroundImage
-    ? { backgroundImage: `url(${process.env.PUBLIC_URL + backgroundImage})` }
-    : {};
+export default function Modal({ closeModal, children, width = 'max-w-[28rem]', backgroundImage = null, showChevrons = false, handleNext, handlePrev }) {
+  const backdropStyle = backgroundImage ? { backgroundImage: `url(${process.env.PUBLIC_URL + backgroundImage})` } : {};
 
   useEffect(() => {
     document.body.classList.add('overflow-y-hidden');
@@ -29,22 +22,24 @@ export default function Modal({
   }, [closeModal]); // Добавили closeModal в массив зависимостей
 
   const modalContent = (
-    <div
-      className="fixed h-full overflow-y-auto inset-0 flex items-center justify-center bg-bgModal z-50 backdrop-blur-sm bg-cover bg-center bg-fixed"
-      onClick={closeModal}
-      style={backdropStyle}
-    >
-      <div
-        className={`relative w-11/12 ${width} rounded-md transition-all duration-200 bg-white text-black dark:bg-black dark:text-white`}
-        onClick={e => e.stopPropagation()}
-      >
-        {children}
-        <div className="absolute cursor-pointer -right-2 -top-8 flex items-center justify-center">
-          <BsX
-            className=" w-8 h-8 text-white text-bold hover:scale-75 transition-all duration-200"
-            onClick={closeModal}
-          />
+    <div className="fixed h-full overflow-y-auto inset-0 flex items-center justify-center bg-bgModal z-50 backdrop-blur-sm bg-cover bg-center bg-fixed" onClick={closeModal} style={backdropStyle}>
+      <div className={`relative w-11/12 ${width} rounded-md duration-200`} onClick={e => e.stopPropagation()}>
+        <div className="flex items-center justify-between bg-transparent mb-2">
+          {showChevrons && (
+            <div className="flex gap-2">
+              <div className="cursor-pointer flex items-center justify-between bg-orange-400 group">
+                <BsChevronLeft className="w-8 h-8 p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={handlePrev} />
+              </div>
+              <div className="cursor-pointer flex items-center justify-between bg-orange-400 group">
+                <BsChevronRight className="w-8 h-8 p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={handleNext} />
+              </div>
+            </div>
+          )}
+          <div className="cursor-pointer flex items-center justify-between bg-orange-400  ml-auto group">
+            <BsXLg className="w-8 h-8  p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={closeModal} />
+          </div>
         </div>
+        <div className="bg-white  dark:bg-black text-black dark:text-white">{children}</div>
       </div>
     </div>
   );
