@@ -2,14 +2,13 @@ import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { BsXLg, BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 
-export default function Modal({ closeModal, children, width = 'max-w-[28rem]', backgroundImage = null, showChevrons = false, handleNext, handlePrev }) {
+export default function Modal({ closeModal, children, width = 'max-w-[28rem]', backgroundImage = null, showChevrons = false, handleNext, handlePrev, current, total }) {
   const backdropStyle = backgroundImage ? { backgroundImage: `url(${process.env.PUBLIC_URL + backgroundImage})` } : {};
 
   useEffect(() => {
     document.body.classList.add('overflow-y-hidden');
     const handleKeyDown = e => {
       if (e.keyCode === 27) {
-        // 27 is the keyCode for the ESC key
         closeModal();
       }
     };
@@ -33,10 +32,15 @@ export default function Modal({ closeModal, children, width = 'max-w-[28rem]', b
               <div className="cursor-pointer flex items-center justify-between bg-orange-400 group">
                 <BsChevronRight className="w-8 h-8 p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={handleNext} />
               </div>
+              <div className="flex items gap-2 bg-orange-400 h-8 py-1 px-4 text-white">
+                <div>{current}</div>
+                <div>/</div>
+                <div>{total}</div>
+              </div>
             </div>
           )}
           <div className="cursor-pointer flex items-center justify-between bg-orange-400  ml-auto group">
-            <BsXLg className="w-8 h-8  p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={closeModal} />
+            <BsXLg className="w-8 h-8 p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={closeModal} />
           </div>
         </div>
         <div className="bg-white  dark:bg-black text-black dark:text-white">{children}</div>

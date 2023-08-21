@@ -62,7 +62,15 @@ export default function PortfolioList({ currentFilter }) {
   return (
     <>
       {isModalOpen && (
-        <Modal closeModal={handleCloseModal} width="w-11/12 lg:w-8/12 xl:w-6/12" showChevrons={true} handleNext={handleNextItem} handlePrev={handlePrevItem}>
+        <Modal
+          closeModal={handleCloseModal}
+          width="w-11/12 lg:w-8/12 xl:w-6/12"
+          showChevrons={true}
+          handleNext={handleNextItem}
+          handlePrev={handlePrevItem}
+          current={currentItemIndex + 1}
+          total={filteredData.length}
+        >
           <div className="h-full max-h-[calc(100vh-8rem)]  overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
             <img src={process.env.PUBLIC_URL + modalData.image} alt={modalData.name} className="mx-auto w-full" />
             <div className="flex flex-col justify-start gap-4 px-5 py-10">
