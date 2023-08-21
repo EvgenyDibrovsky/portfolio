@@ -28,7 +28,7 @@ export default function CertificatesListItem({ item }) {
         </Modal>
       )}
       <div className="flex flex-col justify-between w-full px-4 lg:px-8 py-6">
-        <h3 className="w-full h-auto text-[1rem] lg:text-[1.5rem] font-semibold text-textColor dark:text-white mb-4">{item['name-certificate']}</h3>
+        <h3 className="w-full h-auto text-[1rem] lg:text-[1.25rem] font-semibold text-textColor dark:text-white mb-4">{item['name-certificate']}</h3>
         <div>
           <div className=" flex items-center gap-4 mb-2">
             <BsReverseListColumnsReverse className="text-orange-400" />

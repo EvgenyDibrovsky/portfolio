@@ -133,5 +133,19 @@
     "brand-emails": "Firmowe e-maile",
     "additional-project-wishes": "Napisz wszystkie dodatkowe życzenia dotyczące projektu...",
     "submit-brief": "Wyślij brief"
+  },
+  "possibilities": {
+    "web-development": "Tworzenie stron internetowych",
+    "web-development-description": "Tworzenie stron internetowych i aplikacji pod klucz. Dzięki wyborowi optymalnych technologii zapewniam szybki rozwój i wygodne wsparcie projektów. W przypadku dużych projektów jesteśm w stanie utworzyć zespół programistów, aby zapewnić najlepsze możliwe wyniki.",
+    "web-design": "Web Design",
+    "web-design-description": "Projektowanie internetowych interfejsów użytkownika dla witryn lub aplikacji internetowych. Tworzenie logotypów, banerów i animacja stron internetowych. Na etapie projektowania serwisu istnieje również możliwość skorzystania z rozwiązań szablonowych.",
+    "e-marketing": "Marketing internetowy",
+    "e-marketing-description": "Zestaw działań mających na celu zwiększenie zysków ze sprzedaży towarów lub usług. Analiza rynku, tworzenie kampanii reklamowych w Internecie, w tym reklamę targetowaną, reklamę w wyszukiwarkach oraz w sieciach społecznościowych.",
+    "seo": "SEO",
+    "seo-description": "Zestaw działań do optymalizacji wewnętrznej i zewnętrznej w celu podniesienia pozycji witryny w wynikach wyszukiwarek dla określonych zapytań użytkowników, w celu zwiększenia ruchu w sieci i potencjalnych klientów.",
+    "site-availability": "Dostępne strony",
+    "site-availability-description": "Wykonanie/dostosowanie stron internetowych dostępnych dla osób z niepełnosprawnością zgodnie z wytycznymi WCAG 2.1. Mam duże doświadczenie oraz certyfikat w tym zakresie.",
+    "technical-support": "Obsługa i wsparcie",
+    "technical-support-description": "Obsługa i wsparcie stron internetowych, w tym projektów opracowanych nie tylko przeze mnie, ale także przez innych specjalistów. Aktualizacja, instalacja certyfikatów SSL, poprawianie układu, funkcjonalności, projektu i wiele innych."
   }
 }

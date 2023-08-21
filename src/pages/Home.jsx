@@ -2,6 +2,7 @@ import PageTitle from 'components/Utility/PageTitle';
 import SubTitle from 'components/Utility/SubTitle';
 import { useTranslation } from 'react-i18next';
 import { BsHouseDoor } from 'react-icons/bs';
+import Possibilities from 'components/Possibilities/Possibilities';
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -10,6 +11,7 @@ export default function HomePage() {
     <>
       <PageTitle icon={<BsHouseDoor />} title={t('home-page.title')} />
       <SubTitle subTitle={t('home-page.sub-title')} />
+      <Possibilities />
     </>
   );
 }
