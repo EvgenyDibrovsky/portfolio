@@ -4,7 +4,7 @@ export default function Possibilities() {
   const { t } = useTranslation();
 
   return (
-    <ul className="grid grid-cols-2 gap-4">
+    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <li className="flex gap-4">
         <div>
           <h3 className="text-[1rem] lg:text-[1.25rem] font-semibold text-textColor dark:text-white mb-2">{t('possibilities.web-development')}</h3>
