@@ -9,7 +9,7 @@ export default function BriefForm() {
         <div className="flex items-center">
           <BsInfoSquare className="hidden  md:inline-block text-orange-400 w-8 h-8" />
         </div>
-        <div>
+        <div className="border-l-2 border-orange-400 pl-2">
           <p className="italic mb-5 text-black dark:text-white">{t('brief-page.text-information-1')}</p>
           <div>
             <p className=" underline mb-2 text-black dark:text-white">{t('brief-page.text-information-2')}</p>
@@ -102,7 +102,7 @@ export default function BriefForm() {
 
         <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-3')}</h3>
         <h4 className=" text-[1rem] text-black dark:text-white mb-2">{t('brief-form.select-site-type')}</h4>
-        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5">
+        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-4">
           <label className="flex items-center gap-2 text-black dark:text-white">
             <input
               type="checkbox"
@@ -193,7 +193,7 @@ export default function BriefForm() {
           </label>
         </div>
         <h4 className=" text-[1rem] text-black dark:text-white mb-2">{t('brief-form.design')}</h4>
-        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5">
+        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-4">
           <label className="flex items-center gap-2 text-black dark:text-white">
             <input
               type="checkbox"
@@ -234,7 +234,7 @@ export default function BriefForm() {
         </label>
 
         <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-4')}</h3>
-        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5">
+        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-4">
           <label className="flex items-center gap-2 text-black dark:text-white">
             <input
               type="checkbox"
@@ -287,7 +287,7 @@ export default function BriefForm() {
         </div>
 
         <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-5')}</h3>
-        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5">
+        <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-4">
           <label className="flex items-center gap-2 text-black dark:text-white">
             <input
               type="checkbox"
