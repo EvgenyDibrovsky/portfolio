@@ -1,14 +1,14 @@
 import React from 'react';
 import dbCertificate from '../../db/certificates.json';
-import { useTranslation } from 'react-i18next';
 import CertificatesListItem from './CertificatesListItem';
+import useCurrentLanguage from '../Hooks/useCurrentLanguage';
 
 export default function CertificatesList() {
-  const { i18n } = useTranslation();
-  const currentLanguage = i18n.language.toUpperCase();
+  const currentLanguage = useCurrentLanguage();
 
   const data = dbCertificate.map(item => {
     const languageSpecificData = item.certificate[currentLanguage];
+
     return {
       ...languageSpecificData,
       id: item.certificate.id,

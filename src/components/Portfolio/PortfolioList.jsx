@@ -4,10 +4,11 @@ import { useTranslation } from 'react-i18next';
 import PortfolioListItem from './PortfolioListItem';
 import Modal from '../Modal/Modal';
 import { BsCardText, BsCodeSlash, BsColumnsGap, BsGlobe } from 'react-icons/bs';
+import useCurrentLanguage from '../Hooks/useCurrentLanguage';
 
 export default function PortfolioList({ currentFilter }) {
-  const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language.toUpperCase();
+  const { t } = useTranslation();
+  const currentLanguage = useCurrentLanguage();
 
   const data = dbPortfolio.map(item => {
     const languageSpecificData = item.portfolio[currentLanguage];
