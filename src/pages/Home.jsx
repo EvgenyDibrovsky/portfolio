@@ -14,7 +14,7 @@ export default function HomePage() {
           <div className="w-full lg:w-6/12 ">
             <img src={bgHome} alt="Edweb" className="w-full h-full object-cover" />
           </div>
-          <div className="w-full lg:w-6/12 lg:p-20">
+          <div className="w-full lg:w-6/12 lg:p-10">
             <PageTitle title="Web development" />
           </div>
         </div>
