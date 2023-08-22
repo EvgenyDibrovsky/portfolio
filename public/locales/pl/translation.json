@@ -135,6 +135,7 @@
     "submit-brief": "Wyślij brief"
   },
   "possibilities": {
+    "my-capabilities":"Moje możliwości",
     "web-development": "Tworzenie stron internetowych",
     "web-development-description": "Tworzenie stron internetowych i aplikacji pod klucz. Dzięki wyborowi optymalnych technologii zapewniam szybki rozwój i wygodne wsparcie projektów. W przypadku dużych projektów jesteśm w stanie utworzyć zespół programistów, aby zapewnić najlepsze możliwe wyniki.",
     "web-design": "Web Design",
@@ -147,5 +148,10 @@
     "site-availability-description": "Wykonanie/dostosowanie stron internetowych dostępnych dla osób z niepełnosprawnością zgodnie z wytycznymi WCAG 2.1. Mam duże doświadczenie oraz certyfikat w tym zakresie.",
     "technical-support": "Obsługa i wsparcie",
     "technical-support-description": "Obsługa i wsparcie stron internetowych, w tym projektów opracowanych nie tylko przeze mnie, ale także przez innych specjalistów. Aktualizacja, instalacja certyfikatów SSL, poprawianie układu, funkcjonalności, projektu i wiele innych."
+  },
+  "working-conditions": {
+    "freelance":"Freelance",
+    "full-employment":"Pełne zatrudnienie",
+    "b2b":"B2B"
   }
 }

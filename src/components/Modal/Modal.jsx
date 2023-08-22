@@ -26,10 +26,10 @@ export default function Modal({ closeModal, children, width = 'max-w-[28rem]', b
         <div className="flex items-center justify-between bg-transparent mb-2">
           {showChevrons && (
             <div className="flex gap-2">
-              <div className="cursor-pointer flex items-center justify-between bg-orange-400 group">
+              <div className="cursor-pointer flex items-center justify-between bg-orange-400 active:bg-orange-400  group">
                 <BsChevronLeft className="w-8 h-8 p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={handlePrev} />
               </div>
-              <div className="cursor-pointer flex items-center justify-between bg-orange-400 group">
+              <div className="cursor-pointer flex items-center justify-between bg-orange-400 active:bg-orange-400  group ">
                 <BsChevronRight className="w-8 h-8 p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={handleNext} />
               </div>
               <div className="flex items gap-2 bg-orange-400 h-8 py-1 px-4 text-white">
@@ -39,7 +39,7 @@ export default function Modal({ closeModal, children, width = 'max-w-[28rem]', b
               </div>
             </div>
           )}
-          <div className="cursor-pointer flex items-center justify-between bg-orange-400  ml-auto group">
+          <div className="cursor-pointer flex items-center justify-between bg-orange-400 active:bg-orange-400  ml-auto group">
             <BsXLg className="w-8 h-8 p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={closeModal} />
           </div>
         </div>

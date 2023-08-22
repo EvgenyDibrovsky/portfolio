@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function ToggleLang() {
   const { i18n } = useTranslation();
+  const availableLanguages = ['en', 'pl', 'uk', 'ru'];
+
+  const getShortLanguageCode = lang => (lang ? lang.split('-')[0] : '');
+
+  const [currentLanguage, setCurrentLanguage] = useState(getShortLanguageCode(i18n.language));
+
+  useEffect(() => {
+    const handleLanguageChange = lang => {
+      setCurrentLanguage(getShortLanguageCode(lang));
+    };
+
+    i18n.on('languageChanged', handleLanguageChange);
+    return () => {
+      i18n.off('languageChanged', handleLanguageChange);
+    };
+  }, [i18n]);
 
   const changeLanguage = language => {
     i18n.changeLanguage(language);
@@ -10,39 +26,18 @@ export default function ToggleLang() {
 
   return (
     <div>
-      <ul className="list-none flex flex-wrap gap-2 ">
-        <li
-          onClick={() => changeLanguage('en')}
-          className={`cursor-pointer inline-flex justify-center items-center w-8 h-8 border-2 border-transparent bg-bgIcons dark:bg-bgIconsDark  focus:outline-none duration-200 leading-[0] text-sm hover:border-b-2 hover:bg-orange-400 hover:text-white dark:text-white dark:hover:bg-orange-400 ${
-            i18n.language === 'en' ? ' border-b-orange-400  ' : ''
-          }`}
-        >
-          EN
-        </li>
-        <li
-          onClick={() => changeLanguage('pl')}
-          className={`cursor-pointer inline-flex justify-center items-center w-8 h-8 border-2 border-transparent bg-bgIcons dark:bg-bgIconsDark  focus:outline-none duration-200 leading-[0] text-sm hover:border-b-2 hover:bg-orange-400 hover:text-white dark:text-white dark:hover:bg-orange-400 ${
-            i18n.language === 'pl' ? 'border-b-orange-400 ' : ''
-          }`}
-        >
-          PL
-        </li>
-        <li
-          onClick={() => changeLanguage('uk')}
-          className={`cursor-pointer inline-flex justify-center items-center w-8 h-8 border-2 border-transparent bg-bgIcons dark:bg-bgIconsDark  focus:outline-none duration-200 leading-[0] text-sm hover:border-b-2 hover:bg-orange-400 hover:text-white dark:text-white dark:hover:bg-orange-400 ${
-            i18n.language === 'uk' ? 'border-b-orange-400 ' : ''
-          }`}
-        >
-          UK
-        </li>
-        <li
-          onClick={() => changeLanguage('ru')}
-          className={`cursor-pointer inline-flex justify-center items-center w-8 h-8 border-2 border-transparent bg-bgIcons dark:bg-bgIconsDark  focus:outline-none duration-200 leading-[0] text-sm hover:border-b-2 hover:bg-orange-400 hover:text-white dark:text-white dark:hover:bg-orange-400 ${
-            i18n.language === 'ru' ? 'border-b-orange-400 ' : ''
-          }`}
-        >
-          RU
-        </li>
+      <ul className="list-none flex flex-wrap gap-2">
+        {availableLanguages.map(lang => (
+          <li
+            key={lang}
+            onClick={() => changeLanguage(lang)}
+            className={`cursor-pointer inline-flex justify-center items-center w-8 h-8 border-2 border-transparent bg-bgIcons dark:bg-bgIconsDark  focus:outline-none duration-200 leading-[0] text-sm hover:border-b-2 hover:bg-orange-400 hover:text-white dark:text-white dark:hover:bg-orange-400 ${
+              currentLanguage === lang ? 'border-b-orange-400' : ''
+            }`}
+          >
+            {lang.toUpperCase()}
+          </li>
+        ))}
       </ul>
     </div>
   );

@@ -25,3 +25,6 @@ i18n
       escapeValue: false,
     },
   });
+i18n.on('loaded', loaded => {
+  console.log('Переводы загружены!', loaded);
+});

@@ -18,12 +18,24 @@ import NotFound from '../pages/NotFound';
 
 export const App = () => {
   const [loading, setLoading] = useState(true);
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = useState(() => {
+    try {
+      return localStorage.getItem('theme') || 'light';
+    } catch (error) {
+      console.error('Не удалось получить тему из localStorage:', error);
+      return 'light'; // Значение по умолчанию
+    }
+  });
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-    localStorage.setItem('theme', newTheme);
+
+    try {
+      localStorage.setItem('theme', newTheme);
+      setTheme(newTheme);
+    } catch (error) {
+      console.error('Не удалось обновить тему в localStorage:', error);
+    }
   };
 
   useEffect(() => {
@@ -41,7 +53,6 @@ export const App = () => {
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      {/* <Router> */}
       <div>
         <Header theme={theme} toggleTheme={toggleTheme} />
         <Section>
@@ -58,7 +69,6 @@ export const App = () => {
             </Routes>
           </Container>
         </Section>
-        {/* <Footer /> */}
       </div>
     </Router>
   );
