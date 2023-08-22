@@ -136,6 +136,7 @@
     "submit-brief": "Submit Brief"
   },
   "possibilities": {
+    "my-capabilities":"My capabilities",
     "web-development": "Web development",
     "web-development-description": "Development of websites and turnkey applications. Selection of the optimal stack of web technologies for successful development and convenient support of the project. For the development of large projects, it is possible to create a development team.",
     "web-design": "Web Design",
@@ -148,5 +149,10 @@
     "site-availability-description": "Design/adapt websites accessible to people with disabilities in accordance with WCAG 2.1. I have extensive experience and certifications in this area.",
     "technical-support": "Technical support",
     "technical-support-description": "Maintenance and support of websites, including projects developed not only by me, but also by other specialists. Updating, installation of SSL certificates, adjusting layout, functionality, design, and much more."
+  },
+  "working-conditions": {
+    "freelance":"Freelance",
+    "full-employment":"Full employment",
+    "b2b":"B2B"
   }
 }
