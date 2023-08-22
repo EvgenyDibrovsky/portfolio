@@ -55,20 +55,87 @@ export const App = () => {
     <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Header theme={theme} toggleTheme={toggleTheme} />
-        <Section>
-          <Container>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/resume" element={<Resume />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/brief" element={<Brief />} />
-              <Route path="/contact" element={<Contacts />} />
-              <Route path="/privacy-policy-page" element={<TermsUse />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </Container>
-        </Section>
+
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Section customPadding="md:pl-[12.5rem]">
+                <Home />
+              </Section>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <Section>
+                <Container>
+                  <About />
+                </Container>
+              </Section>
+            }
+          />
+          <Route
+            path="/resume"
+            element={
+              <Section>
+                <Container>
+                  <Resume />
+                </Container>
+              </Section>
+            }
+          />
+          <Route
+            path="/portfolio"
+            element={
+              <Section>
+                <Container>
+                  <Portfolio />
+                </Container>
+              </Section>
+            }
+          />
+          <Route
+            path="/brief"
+            element={
+              <Section>
+                <Container>
+                  <Brief />
+                </Container>
+              </Section>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <Section>
+                <Container>
+                  <Contacts />
+                </Container>
+              </Section>
+            }
+          />
+          <Route
+            path="/privacy-policy-page"
+            element={
+              <Section>
+                <Container>
+                  <TermsUse />
+                </Container>
+              </Section>
+            }
+          />
+          <Route
+            path="*"
+            element={
+              <Section>
+                <Container>
+                  <NotFound />
+                </Container>
+              </Section>
+            }
+          />
+        </Routes>
       </div>
     </Router>
   );

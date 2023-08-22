@@ -1,7 +1,6 @@
-export default function Section({ children }) {
-  return (
-    <section className=" h-full bg-bgSection dark:bg-bgSectionDark md:pl-[12.5rem] pt-24 pb-10 md:py-6">
-      {children}
-    </section>
-  );
+export default function Section({ children, customPadding }) {
+  const defaultPadding = 'md:pl-[12.5rem] pt-24 pb-10 md:py-6';
+  const paddingClass = customPadding || defaultPadding;
+
+  return <section className={`h-full bg-bgSection dark:bg-bgSectionDark ${paddingClass}`}>{children}</section>;
 }
