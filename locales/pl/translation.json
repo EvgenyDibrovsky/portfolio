@@ -1,4 +1,13 @@
 {
+    "about-me": {
+    "title": "Tworzenie stron internetowych",
+    "name": "Jewgienij Dibrowski",
+    "web-development": "Frontend Developer",
+    "description-1": "Cześć!",
+    "description-2": "Jestem programistą stron internetowych, a moje hobby stopniowo zmieniło się w główną pracę. Zawodowo zajmuję się tworzeniem stron internetowych od kilku lat. Moje doświadczenie rośnie z każdym nowym projektem, za co jestem wdzięczny moim klientom za ich nie zawsze typowe pomysły i wymagania dotyczące realizacji projektu 😉.",
+    "description-3": "Dziś moje umiejętności i zakres technologiczny pozwalają mi na przeprowadzenie pełnego cyklu rozwoju najbardziej pożądanych zasobów internetowych. Nawet jeśli zostanę poproszony o bardzo skomplikowany projekt, chętnie podejmę się go! Przecież nie boję się wyzwań, a mam doświadczonych kolegów, którzy zawsze są gotowi pomóc.",
+    "description-4": "Zapraszam do współpracy i tworzenia czegoś nowego razem!"
+  },
   "nav-menu": {
     "home": "Stron glówna",
     "about-me": "O mnie",
