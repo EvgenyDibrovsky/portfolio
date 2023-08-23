@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-bgSection dark:bg-bgSectionDark;
+    @apply bg-bgSection dark:bg-bgSectionDark font-Poppins;
   }
 }
 

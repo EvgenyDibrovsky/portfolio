@@ -41,7 +41,7 @@ export const App = () => {
 
   useEffect(() => {
     // имитация асинхронной загрузки данных
-    setTimeout(() => setLoading(false), 2000);
+    setTimeout(() => setLoading(false), 1000);
   }, []);
 
   useEffect(() => {
