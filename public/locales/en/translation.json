@@ -1,4 +1,13 @@
 {
+  "about-me": {
+    "title": "Web Development",
+    "name": "Evgeny Dibrovsky",
+    "web-development": "Frontend Developer",
+    "description-1": "Hello!",
+    "description-2": "I'm a web developer, and my hobby has smoothly turned into my main job. I have been professionally engaged in web development for several years. My experience grows with each new project, and I am grateful to my clients for their not always standard ideas and requirements for project implementation 😉. ",
+    "description-3": "Today, my skills and technology stack allow me to carry out the full development cycle of the most in-demand web resources. And if I'm offered a mega-challenging project, I'll still happily take it on! After all, I'm not afraid of difficulties, and I have experienced colleagues who are always ready to help.",
+    "description-4": "Let's collaborate and create something new together!"
+  },
   "nav-menu": {
     "home": "Home",
     "about-me": "About me",
@@ -152,7 +161,7 @@
     "submit-brief": "Submit Brief"
   },
   "possibilities": {
-    "my-capabilities":"My capabilities",
+    "my-capabilities": "My capabilities",
     "web-development": "Web development",
     "web-development-description": "Development of websites and turnkey applications. Selection of the optimal stack of web technologies for successful development and convenient support of the project. For the development of large projects, it is possible to create a development team.",
     "web-design": "Web Design",
@@ -167,8 +176,8 @@
     "technical-support-description": "Maintenance and support of websites, including projects developed not only by me, but also by other specialists. Updating, installation of SSL certificates, adjusting layout, functionality, design, and much more."
   },
   "working-conditions": {
-    "freelance":"Freelance",
-    "full-employment":"Full employment",
-    "b2b":"B2B"
+    "freelance": "Freelance",
+    "full-employment": "Full employment",
+    "b2b": "B2B"
   }
 }

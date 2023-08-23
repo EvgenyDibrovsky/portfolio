@@ -5,7 +5,7 @@ import PortfolioFilter from 'components/Portfolio/PortfolioFilter';
 import PortfolioList from 'components/Portfolio/PortfolioList';
 import { BsCardImage } from 'react-icons/bs';
 import React, { useState } from 'react';
-
+import MetaTags from 'components/MetaTags/MetaTags';
 export default function PortfolioPage() {
   const { t } = useTranslation();
   const [currentFilter, setCurrentFilter] = useState('all');
@@ -16,6 +16,8 @@ export default function PortfolioPage() {
 
   return (
     <>
+      <MetaTags metaTitle={t('portfolio-page.meta-title')} metaDescription={t('portfolio-page.meta-description')} />
+
       <PageTitle icon={<BsCardImage />} title={t('portfolio-page.title')} />
       <div className="flex flex-col xl:flex-row items-center justify-between">
         <SubTitle subTitle={t('portfolio-page.sub-title')} />
