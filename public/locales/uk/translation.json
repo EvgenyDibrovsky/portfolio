@@ -41,7 +41,9 @@
   },
   "contacts-page": {
     "title": "Контакти",
-    "sub-title": "підзаголовок"
+    "sub-title": "підзаголовок",
+    "meta-title": "Мета заголовок",
+    "meta-description": "Мета описание"
   },
   "privacy-policy-page": {
     "title": "Політика приватності",
