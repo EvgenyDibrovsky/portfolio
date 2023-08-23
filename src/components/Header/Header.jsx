@@ -31,7 +31,7 @@ export default function Header({ theme, toggleTheme }) {
 
   return (
     <header ref={headerRef} className={headerClasses}>
-      <div className="flex flex-col items-center gap-8">
+      <div className="flex flex-col items-center gap-8 ">
         <div className="hidden md:flex mr-auto pl-5">
           <ToggleTheme theme={theme} toggleTheme={toggleTheme} />
         </div>
