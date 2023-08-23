@@ -42,7 +42,9 @@
   },
   "contacts-page": {
     "title": "Contacts",
-    "sub-title": "sub title"
+    "sub-title": "sub title",
+    "meta-title": "Мета заголовок",
+    "meta-description": "Мета описание"
   },
   "privacy-policy-page": {
     "title": "Privacy policy",
