@@ -7,7 +7,7 @@ export default function Possibilities() {
     <>
       <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <li className="flex flex-col lg:flex-row gap-4">
-          <div className="w-12 h-12 mx-auto">
+          <div className="w-12 h-12">
             <BsCodeSlash className="w-12 h-12 text-orange-400" />
           </div>
           <div>

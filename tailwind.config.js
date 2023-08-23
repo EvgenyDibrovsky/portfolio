@@ -36,6 +36,8 @@ module.exports = {
         bgBodyDark: '#333',
         bgHeader: '#f7f7f7',
         bgHeaderDark: '#333',
+        bgHeroSection: '#f7f7f7',
+        bgHeroSectionDark: '#333',
         bgFooter: '#f7f7f7',
         bgFooterDark: '#333',
         bgSection: '#fff',
@@ -77,6 +79,9 @@ module.exports = {
         btnAuthForm: '#36a6de',
         checkboxColor: '#36a6de',
         titleLine: '#36a6de',
+      },
+      backgroundImage: {
+        'hero-pattern': "url('./image/bg-section-home.jpg')",
       },
       keyframes: {
         iconTitle: {
