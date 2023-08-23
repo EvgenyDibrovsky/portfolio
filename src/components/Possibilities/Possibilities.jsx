@@ -7,7 +7,7 @@ export default function Possibilities() {
     <>
       <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <li className="flex flex-col lg:flex-row gap-6">
-          <div className="w-10 h-10">
+          <div className="w-10 h-10 mx-auto lg:mx-0">
             <BsCodeSlash className="w-10 h-10 text-orange-400" />
           </div>
           <div>
@@ -16,7 +16,7 @@ export default function Possibilities() {
           </div>
         </li>
         <li className="flex flex-col lg:flex-row gap-6">
-          <div className="w-10 h-10 mx-auto">
+          <div className="w-10 h-10 mx-auto lg:mx-0">
             <BsBrush className="w-10 h-10 text-orange-400" />
           </div>
           <div>
@@ -25,7 +25,7 @@ export default function Possibilities() {
           </div>
         </li>
         <li className="flex flex-col lg:flex-row gap-6">
-          <div className="w-10 h-10 mx-auto">
+          <div className="w-10 h-10 mx-auto lg:mx-0">
             <BsGlobeEuropeAfrica className="w-10 h-10 text-orange-400" />
           </div>
           <div>
@@ -34,7 +34,7 @@ export default function Possibilities() {
           </div>
         </li>
         <li className="flex flex-col lg:flex-row gap-6">
-          <div className="w-10 h-10 mx-auto">
+          <div className="w-10 h-10 mx-auto lg:mx-0">
             <BsRocketTakeoff className="w-10 h-10 text-orange-400" />
           </div>
           <div>
@@ -43,7 +43,7 @@ export default function Possibilities() {
           </div>
         </li>
         <li className="flex flex-col lg:flex-row gap-6">
-          <div className="w-10 h-10 mx-auto">
+          <div className="w-10 h-10 mx-auto lg:mx-0">
             <BsPeople className="w-10 h-10 text-orange-400" />
           </div>
           <div>
@@ -52,7 +52,7 @@ export default function Possibilities() {
           </div>
         </li>
         <li className="flex flex-col lg:flex-row gap-6">
-          <div className="w-12 h-12 mx-auto">
+          <div className="w-12 h-12 mx-auto lg:mx-0">
             <BsShieldCheck className="w-12 h-12 text-orange-400" />
           </div>
           <div>

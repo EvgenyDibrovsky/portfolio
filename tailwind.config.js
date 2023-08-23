@@ -92,10 +92,35 @@ module.exports = {
           '0%': { width: '0%' },
           '100%': { width: '100%' },
         },
+        'fade-in-el': {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+        'slide-up-el': {
+          '0%': { transform: 'translateY(100%)', opacity: 0 },
+          '100%': { transform: 'translateY(0)', opacity: 1 },
+        },
+        'slide-down-el': {
+          '0%': { transform: 'translateY(-100%)', opacity: 0 },
+          '100%': { transform: 'translateY(0)', opacity: 1 },
+        },
+        'slide-left-el': {
+          '0%': { transform: 'translateX(100%)', opacity: 0 },
+          '100%': { transform: 'translateX(0)', opacity: 1 },
+        },
+        'slide-right-el': {
+          '0%': { transform: 'translateX(-100%)', opacity: 0 },
+          '100%': { transform: 'translateX(0)', opacity: 1 },
+        },
       },
       animation: {
         iconTitle: 'iconTitle 5s linear infinite',
         animloader: 'animloader 1s linear infinite',
+        'animate-1': 'fade-in-el 1s ease-out',
+        'animate-2': 'slide-up-el 1s ease-out',
+        'animate-3': 'slide-down-el 1s ease-out',
+        'animate-4': 'slide-left-el 1s ease-out',
+        'animate-5': 'slide-right-el 1s ease-out',
       },
       boxShadow: {
         'md-up': '0 0px 6px -1px rgba(0, 0, 0, 0.1), 0 4px 9px 0px rgba(0, 0, 0, 0.06)',

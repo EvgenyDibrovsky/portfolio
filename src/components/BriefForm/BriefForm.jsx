@@ -5,8 +5,8 @@ export default function BriefForm() {
 
   return (
     <>
-      <div className="mb-8 border py-5 px-4 md:p-5 flex md:gap-5 justify-between rounded-md">
-        <div className="flex items-center">
+      <div className="mb-8  py-5 md:p-5 flex md:gap-5 justify-between ">
+        <div className="flex items-start">
           <BsInfoSquare className="hidden  md:inline-block text-orange-400 w-8 h-8" />
         </div>
         <div className="border-l-2 border-orange-400 pl-2">
