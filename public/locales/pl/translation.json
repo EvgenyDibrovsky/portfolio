@@ -19,6 +19,14 @@
   "footer": {
     "rights-reserved": "© 2023 Wszelkie prawa zastrzeżone"
   },
+  "main-services": {
+    "service-1": "Tworzenie stron internetowych ",
+    "service-2": "Marketing internetowy ",
+    "service-3": "Dostępne strony ",
+    "service-4": "Web Design ",
+    "service-5": "Optymalizacja stron (SEO)",
+    "service-6": "Obsługa i wsparcie"
+  },     
   "home-page": {
     "title": "Strona główna",
     "sub-title": "podtytuł",

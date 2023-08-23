@@ -62,7 +62,7 @@ export const App = () => {
             <Route
               path="/"
               element={
-                <Section customPadding="md:pl-[12.5rem]">
+                <Section customPadding="md:pl-[12.5rem] pb-10">
                   <Home />
                 </Section>
               }

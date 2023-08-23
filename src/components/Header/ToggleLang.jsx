@@ -25,7 +25,7 @@ export default function ToggleLang() {
   };
 
   return (
-    <div>
+    <>
       <ul className="list-none flex flex-wrap gap-2">
         {availableLanguages.map(lang => (
           <li
@@ -39,6 +39,6 @@ export default function ToggleLang() {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 }
