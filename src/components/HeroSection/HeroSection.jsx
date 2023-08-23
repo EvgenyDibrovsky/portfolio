@@ -4,10 +4,10 @@ export default function HeroSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col lg:flex-row lg:gap-8 mb-8 pt-20 lg:pt-0 bg-bgHeroSection dark:bg-bgHeroSectionDark">
-      <div className="relative lg:w-6/12  w-full h-auto bg-hero-pattern bg-cover py-20 flex justify-center items-center ">
+    <div className="flex flex-col xl:flex-row xl:gap-8 mb-8 pt-20 md:pt-0 bg-bgHeroSection dark:bg-bgHeroSectionDark">
+      <div className="relative xl:w-6/12  w-full h-auto bg-hero-pattern bg-cover bg-center py-20 flex justify-center items-center ">
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
-        <ul className="z-10 text-white text-[2rem] flex flex-col gap-2 list-[disc] marker:text-orange-400">
+        <ul className="z-10 text-white md:text-[1.5rem] xl:text-[2rem] flex flex-col gap-2 list-[disc] marker:text-orange-400">
           <li>{t('main-services.service-1')}</li>
           <li>{t('main-services.service-2')}</li>
           <li>{t('main-services.service-3')}</li>
@@ -17,7 +17,7 @@ export default function HeroSection() {
         </ul>
       </div>
 
-      <div className="w-full lg:w-6/12 py-12 px-4 lg:px-16 gap-8 flex flex-col justify-center items-center">
+      <div className="w-full xl:w-6/12 py-12 px-4 xl:px-16 gap-8 flex flex-col justify-center items-center">
         <div>
           <div className="relative flex items-center mb-8 after:content-[''] after:absolute after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400">
             <h1 className="text-[1.5rem] font-semibold text-black dark:text-white">{t('about-me.title')}</h1>
