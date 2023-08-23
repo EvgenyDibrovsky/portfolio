@@ -7,7 +7,7 @@ import MetaTags from 'components/MetaTags/MetaTags';
 
 export default function ContactPage() {
   const { t } = useTranslation();
-  console.log(MetaTags);
+
   return (
     <>
       <MetaTags metaTitle={t('contacts-page.meta-title')} metaDescription={t('contacts-page.meta-description')} />

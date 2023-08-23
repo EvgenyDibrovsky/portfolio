@@ -13,11 +13,15 @@
 
   "home-page": {
     "title": "Home page",
-    "sub-title": "sub title"
+    "sub-title": "sub title",
+    "meta-title": "Meta title",
+    "meta-description": "Meta description"
   },
   "about-page": {
     "title": "About me",
-    "sub-title": "sub title"
+    "sub-title": "sub title",
+    "meta-title": "Meta title",
+    "meta-description": "Meta description"
   },
   "resume-page": {
     "title": "Resume",
@@ -27,32 +31,42 @@
     "sub-title-4": "Umiejętności miękkie",
     "sub-title-5": "Education",
     "sub-title-6": "Work Experience",
-    "link-pdf": "View in PDF format"
+    "link-pdf": "View in PDF format",
+    "meta-title": "Meta title",
+    "meta-description": "Meta description"
   },
   "portfolio-page": {
     "title": "Portfolio",
-    "sub-title": "sub title"
+    "sub-title": "sub title",
+    "meta-title": "Meta title",
+    "meta-description": "Meta description"
   },
   "brief-page": {
     "title": "Brief",
     "sub-title": "sub title",
     "text-information-1": "A brief is a short description of your ideas, goals, preferences, and expectations for the project. The brief will help me better understand your vision and develop the most suitable and personalized plan for your project, ensuring that we achieve the desired outcome.",
     "text-information-2": "When filling out the brief, focus on the project and the desired outcome, and describe it in your own words - I will understand you!",
-    "text-information-3": "Once you complete this brief, I will be able to assess the scope and complexity of the work, suggest a suitable development plan, and prepare a commercial proposal with indicative timelines and costs for the project."
+    "text-information-3": "Once you complete this brief, I will be able to assess the scope and complexity of the work, suggest a suitable development plan, and prepare a commercial proposal with indicative timelines and costs for the project.",
+    "meta-title": "Meta title",
+    "meta-description": "Meta description"
   },
   "contacts-page": {
     "title": "Contacts",
     "sub-title": "sub title",
-    "meta-title": "Мета заголовок",
-    "meta-description": "Мета описание"
+    "meta-title": "Meta title",
+    "meta-description": "Meta description"
   },
   "privacy-policy-page": {
     "title": "Privacy policy",
-    "sub-title": "sub title"
+    "sub-title": "sub title",
+    "meta-title": "Meta title",
+    "meta-description": "Meta description"
   },
   "not-found-page": {
     "not-found": "Page not found",
-    "404": "404"
+    "404": "404",
+    "meta-title": "Meta title",
+    "meta-description": "Meta description"
   },
   "contact-form": {
     "name": "Name",

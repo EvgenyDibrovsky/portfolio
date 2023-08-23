@@ -12,11 +12,15 @@
   },
   "home-page": {
     "title": "Strona główna",
-    "sub-title": "podtytuł"
+    "sub-title": "podtytuł",
+    "meta-title": "Meta naglówek",
+    "meta-description": "Meta opis"
   },
   "about-page": {
     "title": "O mnie",
-    "sub-title": "podtytuł"
+    "sub-title": "podtytuł",
+    "meta-title": "Meta naglówek",
+    "meta-description": "Meta opis"
   },
   "resume-page": {
     "title": "CV",
@@ -26,18 +30,24 @@
     "sub-title-4": "Soft skills",
     "sub-title-5": "Edukacja",
     "sub-title-6": "Doświadczenie zawodowe",
-    "link-pdf": "Przejrzeć w formacie PDF"
+    "link-pdf": "Przejrzeć w formacie PDF",
+    "meta-title": "Meta naglówek",
+    "meta-description": "Meta opis"
   },
   "portfolio-page": {
     "title": "Portfolio",
-    "sub-title": "podtytuł"
+    "sub-title": "podtytuł",
+    "meta-title": "Meta naglówek",
+    "meta-description": "Meta opis"
   },
   "brief-page": {
     "title": "Brief",
     "sub-title": "podtytuł",
     "text-information-1": "Бриф – это краткое описание ваших идей, целей, предпочтений и ожиданий относительно проекта. Бриф пBrief to zwięzły opis Twoich pomysłów, celów, preferencji i oczekiwań dotyczących projektu. Brief pomoże mi dokładniej zrozumieć Twoją wizję i opracować najbardziej odpowiedni i spersonalizowany plan dla Twojego projektu, zapewniając zbliżenie do pożądanego wyniku.",
     "text-information-2": "Wypełniając brief, skup się na projekcie i pożądanym wyniku, opisuj słowami, które Cię najlepiej opisują - zrozumiem Cię!",
-    "text-information-3": "После того, как вы заполните этот бриф, я смогу оценить объем и сложность работы, прPo wypełnieniu tego briefu będę w stanie oszacować zakres i złożoność pracy, zaproponować odpowiedni plan rozwoju oraz sformułować ofertę handlową z przybliżonymi terminami i kosztami realizacji projektu."
+    "text-information-3": "После того, как вы заполните этот бриф, я смогу оценить объем и сложность работы, прPo wypełnieniu tego briefu będę w stanie oszacować zakres i złożoność pracy, zaproponować odpowiedni plan rozwoju oraz sformułować ofertę handlową z przybliżonymi terminami i kosztami realizacji projektu.",
+    "meta-title": "Meta naglówek",
+    "meta-description": "Meta opis"
   },
   "contacts-page": {
     "title": "Kontakt",
@@ -47,11 +57,15 @@
   },
   "privacy-policy-page": {
     "title": "Polityka prywatności",
-    "sub-title": "podtytuł"
+    "sub-title": "podtytuł",
+    "meta-title": "Meta naglówek",
+    "meta-description": "Meta opis"
   },
   "not-found-page": {
     "not-found": "Strona nie została znaleziona",
-    "404": "404"
+    "404": "404",
+    "meta-title": "Meta naglówek",
+    "meta-description": "Meta opis"
   },
   "contact-form": {
     "name": "imię",
