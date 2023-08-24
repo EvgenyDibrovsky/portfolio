@@ -10,6 +10,9 @@
 
 @layer components {
   .btn-contact-form {
-    @apply flex items-center justify-center h-12 w-full sm:max-w-[15rem] sm:mx-auto transition-all duration-200 border bg-transparent dark:bg-transparent border-orange-400 dark:border-orange-400 text-orange-400 dark:text-orange-400 text-lg rounded-md hover:bg-orange-400 hover:text-white hover:dark:bg-orange-400 hover:dark:text-black;
+    @apply flex items-center justify-center h-12 w-full sm:max-w-[15rem] sm:mx-auto transition-all duration-200 border bg-transparent  border-orange-400 dark:border-orange-400 text-orange-400 dark:text-orange-400 text-lg rounded-md hover:bg-orange-400 hover:text-white hover:dark:bg-orange-400 hover:dark:text-black;
+  }
+  .btn {
+    @apply inline-flex justify-center items-center w-full sm:max-w-[15rem] px-5 py-2 transition-all duration-200 border bg-transparent border-orange-400 dark:border-orange-400 text-black dark:text-white text-lg rounded-md hover:bg-orange-400 hover:text-white hover:dark:bg-orange-400;
   }
 }

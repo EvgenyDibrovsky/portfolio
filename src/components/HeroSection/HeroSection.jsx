@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import AnimateElements from '../Utility/AnimateElements';
+import { Link } from 'react-router-dom';
+
 export default function HeroSection() {
   const { t } = useTranslation();
 
@@ -42,9 +44,16 @@ export default function HeroSection() {
             <p className=" text-black dark:text-white mb-4 ">{t('about-me.description-3')}</p>
             <p className=" text-black dark:text-white mb-4 italic underline">{t('about-me.description-4')}</p>
           </div>
-          <div className="flex flex-col items-end ">
-            <p className="text-[1.5rem] mr-8  text-sky-700 dark:text-sky-600 font-semibold  font-marck -rotate-[8deg] ">{t('about-me.name')}</p>
-            <p className="text-black dark:text-white italic">{t('about-me.web-development')}</p>
+          <div className="w-full flex flex-col-reverse sm:flex-row xl:flex-col-reverse xxl:flex-row items-center justify-between md:mt-10">
+            <div>
+              <Link to="/contact" className="btn">
+                Написать сообщением
+              </Link>
+            </div>
+            <div className="flex flex-col items-end mt-5 mb-10 lg:my-0 xl:my-10 xxl:my-0 sm:ml-auto">
+              <p className="text-[1.5rem] mr-8 text-sky-700 dark:text-sky-600 font-semibold  font-marck -rotate-[8deg] ">{t('about-me.name')}</p>
+              <p className="text-black dark:text-white italic">{t('about-me.web-development')}</p>
+            </div>
           </div>
         </div>
       </div>
