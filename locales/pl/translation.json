@@ -8,6 +8,11 @@
     "description-3": "Dziś moje umiejętności i zakres technologiczny pozwalają mi na przeprowadzenie pełnego cyklu rozwoju najbardziej pożądanych zasobów internetowych. Nawet jeśli zostanę poproszony o bardzo skomplikowany projekt, chętnie podejmę się go! Przecież nie boję się wyzwań, a mam doświadczonych kolegów, którzy zawsze są gotowi pomóc.",
     "description-4": "Zapraszam do współpracy i tworzenia czegoś nowego razem!"
   },
+    "contact-dedails": {
+    "phone-number": "+48537450501",
+    "email-address": "contact@edweb.site",
+    "localization": "Kraków, Polska"
+  },
   "nav-menu": {
     "home": "Stron glówna",
     "about-me": "O mnie",
