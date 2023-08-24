@@ -8,6 +8,11 @@
     "description-3": "Today, my skills and technology stack allow me to carry out the full development cycle of the most in-demand web resources. And if I'm offered a mega-challenging project, I'll still happily take it on! After all, I'm not afraid of difficulties, and I have experienced colleagues who are always ready to help.",
     "description-4": "Let's collaborate and create something new together!"
   },
+  "contact-dedails": {
+    "phone-number": "+48537450501",
+    "email-address": "contact@edweb.site",
+    "localization": "Krakow, Poland"
+  },
   "nav-menu": {
     "home": "Home",
     "about-me": "About me",
