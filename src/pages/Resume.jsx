@@ -13,7 +13,11 @@ export default function ResumePage() {
   return (
     <>
       <MetaTags metaTitle={t('resume-page.meta-title')} metaDescription={t('resume-page.meta-description')} />
-      <PageTitle icon={<BsPersonVcard />} title={t('resume-page.title')} />
+
+      <div className="relative flex flex-col lg:flex-row items-center justify-between  gap-4 mb-8 after:content-[''] after:absolute after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:w-full after:h-[2px] after:bg-gray-200 dark:after:bg-orange-400 ">
+        <PageTitle icon={<BsPersonVcard />} title={t('resume-page.title')} />
+      </div>
+
       <div className="mb-5">
         <SubTitle subTitle={t('resume-page.sub-title-1')} />
         <CertificatesList />

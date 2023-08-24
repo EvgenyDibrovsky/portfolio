@@ -10,8 +10,10 @@ export default function AboutPage() {
   return (
     <>
       <MetaTags metaTitle={t('about-page.meta-title')} metaDescription={t('about-page.meta-description')} />
-      <PageTitle icon={<BsPerson />} title={t('about-page.title')} />
-      <SubTitle subTitle={t('about-page.sub-title')} />
+      <div className="relative flex flex-col lg:flex-row items-center justify-between  gap-4 mb-8 after:content-[''] after:absolute after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:w-full after:h-[2px] after:bg-gray-200 dark:after:bg-orange-400 ">
+        <PageTitle icon={<BsPerson />} title={t('about-page.title')} />
+        <SubTitle subTitle={t('about-page.sub-title')} />
+      </div>
       <WorkingСonditions />
     </>
   );
