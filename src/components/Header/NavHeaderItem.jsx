@@ -1,15 +1,19 @@
 // NavMenuItem.jsx
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 export default function NavMenuItem({ to, labelKey, closeMenu }) {
   const { t } = useTranslation();
 
   return (
-    <li className="w-full border-b border-r  border-b-colorBorderNavMenu border-r-transparent last:border-b-0 text-center hover:border-r-orange-400 group dark:border-b-colorBorderNavMenuDark">
-      <Link to={to} onClick={closeMenu} className="block font-semibold text-black py-4 dark:text-white duration-200  group-hover:text-orange-400 hover:dark:text-orange-400">
+    <>
+      <NavLink
+        to={to}
+        onClick={closeMenu}
+        className="w-full block font-semibold text-black py-4 dark:text-white border-b border-b-colorBorderNavMenu last:border-b-0 text-center group dark:border-b-colorBorderNavMenuDark  duration-200 hover:border-r hover:border-r-orange-400 hover:text-orange-400 dark:hover:text-orange-400 [&.active]:text-orange-400 [&.active]:border-r [&.active]:border-r-orange-400 "
+      >
         {t(labelKey)}
-      </Link>
-    </li>
+      </NavLink>
+    </>
   );
 }

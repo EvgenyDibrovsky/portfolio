@@ -1,88 +1,96 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Formik, Form, Field } from 'formik';
+import * as Yup from 'yup';
+
 function ContactForm() {
   const { t } = useTranslation();
 
-  const [formState, setFormState] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+  const validationSchema = Yup.object({
+    name: Yup.string().required(t('contact-form.enter-name')),
+    email: Yup.string().email().required(t('contact-form.enter-email')),
+    subject: Yup.string().required(t('contact-form.enter-message-subject')),
+    message: Yup.string().required(t('contact-form.enter-message')),
   });
 
-  const handleChange = e => {
-    setFormState({
-      ...formState,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = e => {
-    e.preventDefault();
+  const handleSubmit = (values, { setSubmitting }) => {
+    console.log(values);
+    setSubmitting(false);
   };
 
   return (
-    <form
+    <Formik
+      initialValues={{
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      }}
+      validationSchema={validationSchema}
       onSubmit={handleSubmit}
-      className="w-11/12 max-w-[40rem] mx-auto my-10"
     >
-      <label className="text-black dark:text-white">
-        {t('contact-form.name')}
+      {({ errors, touched }) => (
+        <Form className="w-full my-10 ">
+          <div className="w-full h-[18rem] flex gap-4 mb-10">
+            <div className="w-6/12 flex gap-5 flex-col justify-between">
+              <label className="flex flex-col gap-2 text-black dark:text-white">
+                {t('contact-form.name')}
+                <Field
+                  name="name"
+                  type="text"
+                  placeholder={t('contact-form.enter-name')}
+                  className={`w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none ${
+                    errors.name && touched.name ? 'error' : ''
+                  }`}
+                />
+              </label>
 
-        <input
-          type="text"
-          name="name"
-          placeholder={t('contact-form.enter-name')}
-          value={formState.name}
-          onChange={handleChange}
-          required
-          className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
-        />
-      </label>
+              <label className="flex flex-col gap-2 text-black dark:text-white">
+                {t('contact-form.email')}
+                <Field
+                  name="email"
+                  type="email"
+                  placeholder={t('contact-form.enter-email')}
+                  className={`w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none ${
+                    errors.email && touched.email ? 'error' : ''
+                  }`}
+                />
+              </label>
 
-      <label className="text-black dark:text-white">
-        {t('contact-form.email')}
-        <input
-          type="email"
-          name="email"
-          placeholder={t('contact-form.enter-email')}
-          value={formState.email}
-          onChange={handleChange}
-          required
-          className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
-        />
-      </label>
+              <label className="flex flex-col gap-2 text-black dark:text-white">
+                {t('contact-form.message-subject')}
+                <Field
+                  name="subject"
+                  type="text"
+                  placeholder={t('contact-form.enter-message-subject')}
+                  className={`w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none ${
+                    errors.subject && touched.subject ? 'error' : ''
+                  }`}
+                />
+              </label>
+            </div>
 
-      <label className="text-black dark:text-white">
-        {t('contact-form.message-subject')}
-        <input
-          type="text"
-          name="subject"
-          placeholder={t('contact-form.enter-message-subject')}
-          value={formState.subject}
-          onChange={handleChange}
-          required
-          className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
-        />
-      </label>
+            <div className="w-6/12">
+              <label className="flex flex-col gap-2 h-full text-black dark:text-white">
+                {t('contact-form.message')}
+                <Field
+                  as="textarea"
+                  name="message"
+                  placeholder={t('contact-form.enter-message')}
+                  className={`w-full h-full bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md resize-none ${
+                    errors.message && touched.message ? 'error' : ''
+                  }`}
+                />
+              </label>
+            </div>
+          </div>
 
-      <label className="text-black dark:text-white">
-        {t('contact-form.message')}
-
-        <textarea
-          name="message"
-          value={formState.message}
-          placeholder={t('contact-form.enter-message')}
-          onChange={handleChange}
-          required
-          className="w-full h-32  bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
-        />
-      </label>
-
-      <button type="submit" className="btn-contact-form">
-        {t('contact-form.send')}
-      </button>
-    </form>
+          <button type="submit" className="btn-contact-form  ">
+            {t('contact-form.send')}
+          </button>
+        </Form>
+      )}
+    </Formik>
   );
 }
 
