@@ -13,9 +13,9 @@ export default function HomePage() {
       <MetaTags metaTitle={t('home-page.meta-title')} metaDescription={t('home-page.meta-description')} />
       <HeroSection />
       <Container>
-        <div className="inline-block relative mb-2">
+        <div className="inline-block relative mb-6">
           <SubTitle subTitle={t('possibilities.my-capabilities')} />
-          <div className="relative after:block after:content-[''] after:absolute after:bottom-4 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
+          <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
         </div>
         <Possibilities />
       </Container>
