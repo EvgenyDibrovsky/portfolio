@@ -191,5 +191,10 @@
     "freelance":"Freelance",
     "full-employment":"Повна зайнятість",
     "b2b":"B2B"
-  }
+  },
+  "btn": {
+    "write-message": "Написати повідомлення",
+    "back-to-home": "Повернутися на головну",
+    "contact-form": "Контакти"
+}
 }

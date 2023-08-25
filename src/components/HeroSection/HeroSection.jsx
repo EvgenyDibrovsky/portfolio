@@ -47,7 +47,7 @@ export default function HeroSection() {
           <div className="w-full flex flex-col-reverse sm:flex-row xl:flex-col-reverse xxl:flex-row items-center justify-between md:mt-10">
             <div>
               <Link to="/contact" className="btn">
-                Написать сообщением
+                {t('btn.write-message')}
               </Link>
             </div>
             <div className="flex flex-col items-end mt-5 mb-10 lg:my-0 xl:my-10 xxl:my-0 sm:ml-auto">

@@ -130,11 +130,11 @@ export const App = () => {
             <Route
               path="*"
               element={
-                <Section>
+                <div className="w-full h-screen flex justify-center items-center md:pl-[12.5rem] pt-24 pb-10 md:py-6 bg-bgSection dark:bg-bgSectionDark">
                   <Container>
                     <NotFound />
                   </Container>
-                </Section>
+                </div>
               }
             />
           </Routes>

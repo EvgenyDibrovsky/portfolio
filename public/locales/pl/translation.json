@@ -191,5 +191,11 @@
     "freelance":"Freelance",
     "full-employment":"Pełne zatrudnienie",
     "b2b":"B2B"
-  }
+  },
+  "btn": {
+    "write-message": "Napisz wiadomość",
+    "back-to-home": "Wróć do strony głównej",
+    "contact-form": "Kontakty"
+}
+
 }
