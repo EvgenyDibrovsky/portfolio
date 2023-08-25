@@ -46,7 +46,6 @@
   },
   "resume-page": {
     "title": "Резюме",
-    "sub-title": "подзаголовок",
     "sub-title-1": "Сертификаты",
     "sub-title-2": "Технические навыки",
     "sub-title-3": "Владение языками",
@@ -192,5 +191,10 @@
     "freelance":"Freelance",
     "full-employment":"Полная занятость",
     "b2b":"B2B"
+  },
+  "btn": {
+    "write-message": "Написать сообщение",
+    "back-to-home": "Вернутся на главную",
+    "contact-form": "Контакты"
   }
 }

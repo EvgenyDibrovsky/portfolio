@@ -46,7 +46,6 @@
   },
   "resume-page": {
     "title": "CV",
-    "sub-title": "podtytuł",
     "sub-title-1": "Certyfikaty",
     "sub-title-2": "Umiejętności techniczne",
     "sub-title-3": "Znajomość języków",
@@ -192,5 +191,11 @@
     "freelance":"Freelance",
     "full-employment":"Pełne zatrudnienie",
     "b2b":"B2B"
-  }
+  },
+  "btn": {
+    "write-message": "Napisz wiadomość",
+    "back-to-home": "Wróć do strony głównej",
+    "contact-form": "Kontakty"
+}
+
 }
