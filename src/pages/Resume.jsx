@@ -20,25 +20,25 @@ export default function ResumePage() {
       </div>
 
       <div className="my-5">
-        <h3 className="my-5">{t('resume-page.sub-title-1')}</h3>
+        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-1')}</h3>
         <CertificatesList />
       </div>
       <div className="my-5">
-        <h3 className="my-5">{t('resume-page.sub-title-2')}</h3>
+        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-2')}</h3>
         <TechSkillsIndicators />
       </div>
       <div className="my-5">
-        <h3 className="my-5">{t('resume-page.sub-title-3')}</h3>
+        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-3')}</h3>
         <ProgressLangSkills />
       </div>
       <div className="my-5">
-        <h3 className="my-5">{t('resume-page.sub-title-4')}</h3>
+        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-4')}</h3>
       </div>
       <div className="my-5">
-        <h3 className="my-5">{t('resume-page.sub-title-5')}</h3>
+        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-5')}</h3>
       </div>
       <div className="my-5">
-        <h3 className="my-5">{t('resume-page.sub-title-6')}</h3>
+        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-6')}</h3>
       </div>
     </>
   );

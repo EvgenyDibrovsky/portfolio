@@ -15,6 +15,21 @@ function ContactForm() {
 
   const handleSubmit = (values, { setSubmitting }) => {
     console.log(values);
+    // axios
+    //   .post('http://localhost:5000/send-email', values)
+    //   .then(response => {
+    //     console.log('Email sent successfully:', response.data);
+    //     // Возможно, покажите уведомление об успешной отправке
+    //   })
+    //   .catch(error => {
+    //     console.error('Error sending email:', error);
+    //     // Возможно, покажите уведомление об ошибке
+    //   })
+    //   .finally(() => {
+    //     setSubmitting(false);
+    //   });
+
+    // setSubmitting(false);
     setSubmitting(false);
   };
 
