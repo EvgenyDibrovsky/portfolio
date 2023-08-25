@@ -20,7 +20,6 @@ function ContactForm() {
 
   return (
     <>
-
       <Formik
         initialValues={{
           name: '',
