@@ -1,5 +1,5 @@
 {
-    "about-me": {
+  "about-me": {
     "title": "Tworzenie stron internetowych",
     "name": "Jewgienij Dibrowski",
     "web-development": "Frontend Developer",
@@ -8,7 +8,7 @@
     "description-3": "Dziś moje umiejętności i zakres technologiczny pozwalają mi na przeprowadzenie pełnego cyklu rozwoju najbardziej pożądanych zasobów internetowych. Nawet jeśli zostanę poproszony o bardzo skomplikowany projekt, chętnie podejmę się go! Przecież nie boję się wyzwań, a mam doświadczonych kolegów, którzy zawsze są gotowi pomóc.",
     "description-4": "Zapraszam do współpracy i tworzenia czegoś nowego razem!"
   },
-    "contact-dedails": {
+  "contact-dedails": {
     "phone-number": "+48537450501",
     "email-address": "contact@edweb.site",
     "localization": "Kraków, Polska"
@@ -31,18 +31,18 @@
     "service-4": "Web Design ",
     "service-5": "Optymalizacja stron (SEO)",
     "service-6": "Obsługa i wsparcie"
-  },     
+  },
   "home-page": {
     "title": "Strona główna",
     "sub-title": "podtytuł",
-    "meta-title": "Meta naglówek",
-    "meta-description": "Meta opis"
+    "meta-title": "Tworzenie stron internetowych - edweb.site",
+    "meta-description": "Profesjonalne tworzenie stron internetowych pod klucz. Tylko aktualne i sprawdzone technologie."
   },
   "about-page": {
     "title": "O mnie",
     "sub-title": "podtytuł",
-    "meta-title": "Meta naglówek",
-    "meta-description": "Meta opis"
+    "meta-title": "Jewgienij Dibrowski - Frontend Developer",
+    "meta-description": "Tworzenie stron internetowych pod klucz."
   },
   "resume-page": {
     "title": "CV",
@@ -54,14 +54,14 @@
     "sub-title-5": "Edukacja",
     "sub-title-6": "Doświadczenie zawodowe",
     "link-pdf": "Przejrzeć w formacie PDF",
-    "meta-title": "Meta naglówek",
-    "meta-description": "Meta opis"
+    "meta-title": "CV - Frontend Developer",
+    "meta-description": "Zapoznaj się z moim CV, aby zobaczyć, jak bardzo lubię tworzyć strony internetowe"
   },
   "portfolio-page": {
     "title": "Portfolio",
     "sub-title": "podtytuł",
-    "meta-title": "Meta naglówek",
-    "meta-description": "Meta opis"
+    "meta-title": "Portfolio projektów internetowych - edweb.site",
+    "meta-description": "Portfolio projektów, które są tworzone w miarę mojego rozwoju i pracy"
   },
   "brief-page": {
     "title": "Brief",
@@ -69,26 +69,26 @@
     "text-information-1": "Бриф – это краткое описание ваших идей, целей, предпочтений и ожиданий относительно проекта. Бриф пBrief to zwięzły opis Twoich pomysłów, celów, preferencji i oczekiwań dotyczących projektu. Brief pomoże mi dokładniej zrozumieć Twoją wizję i opracować najbardziej odpowiedni i spersonalizowany plan dla Twojego projektu, zapewniając zbliżenie do pożądanego wyniku.",
     "text-information-2": "Wypełniając brief, skup się na projekcie i pożądanym wyniku, opisuj słowami, które Cię najlepiej opisują - zrozumiem Cię!",
     "text-information-3": "После того, как вы заполните этот бриф, я смогу оценить объем и сложность работы, прPo wypełnieniu tego briefu będę w stanie oszacować zakres i złożoność pracy, zaproponować odpowiedni plan rozwoju oraz sformułować ofertę handlową z przybliżonymi terminami i kosztami realizacji projektu.",
-    "meta-title": "Meta naglówek",
-    "meta-description": "Meta opis"
+    "meta-title": "Brief - Formularz zamówienia usług związanych z tworzeniem stron internetowych",
+    "meta-description": "Wypełnij Brief, aby stworzyć skuteczne rozwiązanie"
   },
   "contacts-page": {
     "title": "Kontakt",
     "sub-title": "Skontaktuj się ze mną jeśli masz jakieś pytania",
-    "meta-title": "Мета заголовок",
-    "meta-description": "Мета описание"
+    "meta-title": "Formularz kontaktowy",
+    "meta-description": "Napisz do mnie, jeśli masz pytania dotyczące tworzenia projektu internetowego"
   },
   "privacy-policy-page": {
     "title": "Polityka prywatności",
     "sub-title": "podtytuł",
-    "meta-title": "Meta naglówek",
-    "meta-description": "Meta opis"
+    "meta-title": "Polityka prywatności i Warunki użytkowania",
+    "meta-description": "Ważne informacje dla użytkowników strony"
   },
   "not-found-page": {
     "not-found": "Strona nie została znaleziona",
     "404": "404",
-    "meta-title": "Meta naglówek",
-    "meta-description": "Meta opis"
+    "meta-title": "404",
+    "meta-description": "Strona nie została znaleziona."
   },
   "contact-form": {
     "name": "imię",
@@ -174,7 +174,7 @@
     "submit-brief": "Wyślij brief"
   },
   "possibilities": {
-    "my-capabilities":"Moje możliwości",
+    "my-capabilities": "Moje możliwości",
     "web-development": "Tworzenie stron internetowych",
     "web-development-description": "Tworzenie stron internetowych i aplikacji pod klucz. Dzięki wyborowi optymalnych technologii zapewniam szybki rozwój i wygodne wsparcie projektów. W przypadku dużych projektów jesteśm w stanie utworzyć zespół programistów, aby zapewnić najlepsze możliwe wyniki.",
     "web-design": "Web Design",
@@ -189,14 +189,13 @@
     "technical-support-description": "Obsługa i wsparcie stron internetowych, w tym projektów opracowanych nie tylko przeze mnie, ale także przez innych specjalistów. Aktualizacja, instalacja certyfikatów SSL, poprawianie układu, funkcjonalności, projektu i wiele innych."
   },
   "working-conditions": {
-    "freelance":"Freelance",
-    "full-employment":"Pełne zatrudnienie",
-    "b2b":"B2B"
+    "freelance": "Freelance",
+    "full-employment": "Pełne zatrudnienie",
+    "b2b": "B2B"
   },
   "btn": {
     "write-message": "Napisz wiadomość",
     "back-to-home": "Wróć do strony głównej",
     "contact-form": "Kontakty"
-}
-
+  }
 }
