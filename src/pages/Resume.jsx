@@ -6,6 +6,7 @@ import CertificatesList from 'components/Certificates/CertificatesList';
 import TechSkillsIndicators from 'components/TechSkillsProgressBar/TechSkillsIndicators';
 import ProgressLangSkills from 'components/LangSkillsProgressBar/LangSkillsProgressBar';
 import MetaTags from 'components/MetaTags/MetaTags';
+import WrapperTitle from 'components/Utility/WrapperTitle';
 
 export default function ResumePage() {
   const { t } = useTranslation();
@@ -14,10 +15,10 @@ export default function ResumePage() {
     <>
       <MetaTags metaTitle={t('resume-page.meta-title')} metaDescription={t('resume-page.meta-description')} />
 
-      <div className="relative flex flex-col lg:flex-row items-center justify-between  gap-4 mb-8 after:content-[''] after:absolute after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:w-full after:h-[2px] after:bg-gray-200 dark:after:bg-orange-400 ">
+      <WrapperTitle>
         <PageTitle icon={<BsPersonVcard />} title={t('resume-page.title')} />
         <SubTitle subTitle={t('resume-page.sub-title')} />
-      </div>
+      </WrapperTitle>
 
       <div className="my-5">
         <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-1')}</h3>
