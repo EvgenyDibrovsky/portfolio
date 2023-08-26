@@ -14,7 +14,7 @@
     "localization": "Kraków, Polska"
   },
   "nav-menu": {
-    "home": "Stron glówna",
+    "home": "Strona glówna",
     "about-me": "O mnie",
     "resume": "CV",
     "portfolio": "Portfolio",
@@ -66,9 +66,9 @@
   "brief-page": {
     "title": "Brief",
     "sub-title": "podtytuł",
-    "text-information-1": "Бриф – это краткое описание ваших идей, целей, предпочтений и ожиданий относительно проекта. Бриф пBrief to zwięzły opis Twoich pomysłów, celów, preferencji i oczekiwań dotyczących projektu. Brief pomoże mi dokładniej zrozumieć Twoją wizję i opracować najbardziej odpowiedni i spersonalizowany plan dla Twojego projektu, zapewniając zbliżenie do pożądanego wyniku.",
+    "text-information-1": "Brief to zwięzły opis Twoich pomysłów, celów, preferencji i oczekiwań dotyczących projektu. Brief pomoże mi dokładniej zrozumieć Twoją wizję i opracować najbardziej odpowiedni i spersonalizowany plan dla Twojego projektu, zapewniając zbliżenie do pożądanego wyniku.",
     "text-information-2": "Wypełniając brief, skup się na projekcie i pożądanym wyniku, opisuj słowami, które Cię najlepiej opisują - zrozumiem Cię!",
-    "text-information-3": "После того, как вы заполните этот бриф, я смогу оценить объем и сложность работы, прPo wypełnieniu tego briefu będę w stanie oszacować zakres i złożoność pracy, zaproponować odpowiedni plan rozwoju oraz sformułować ofertę handlową z przybliżonymi terminami i kosztami realizacji projektu.",
+    "text-information-3": "Po wypełnieniu tego briefu będę w stanie oszacować zakres i złożoność pracy, zaproponować odpowiedni plan rozwoju oraz sformułować ofertę handlową z przybliżonymi terminami i kosztami realizacji projektu.",
     "meta-title": "Brief - Formularz zamówienia usług związanych z tworzeniem stron internetowych",
     "meta-description": "Wypełnij Brief, aby stworzyć skuteczne rozwiązanie"
   },
@@ -197,5 +197,11 @@
     "write-message": "Napisz wiadomość",
     "back-to-home": "Wróć do strony głównej",
     "contact-form": "Kontakty"
+  },
+  "cookies": {
+    "title": "Strona używa plików cookie",
+    "text": "Używamy plików cookie i Local Storage w celu poprawy komfortu korzystania z witryny oraz obsługi usług, takich jak wybór języka i przełączanie motywu kolorystycznego. Na stronie działa również Google Analytics do zbierania statystyk odwiedzin. Strona jest portfolio i nie przewiduje rejestracji. Dostępny jest dla Ciebie formularz kontaktowy, w którym możesz podać swoje imię, adres e-mail i treść wiadomości. Kontynuując korzystanie z witryny, wyrażasz zgodę na nasze stosowanie plików cookie i Local Storage. Jeśli się nie zgadzasz, opuść stronę. Dziękujemy za zrozumienie!",
+    "btn-accept": "Zgadzam się",
+    "btn-no-accept": "Nie zgadzam się"
   }
 }

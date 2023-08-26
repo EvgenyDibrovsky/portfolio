@@ -83,6 +83,9 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('./image/bg-section-home.jpg')",
       },
+      boxShadow: {
+        'md-up': '0 0px 6px -1px rgba(0, 0, 0, 0.1), 0 4px 9px 0px rgba(0, 0, 0, 0.06)',
+      },
       keyframes: {
         iconTitle: {
           '0%': { transform: 'rotateY(0deg)' },

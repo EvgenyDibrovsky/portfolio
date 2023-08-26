@@ -17,7 +17,6 @@ export default function ProgressLangSkills() {
     []
   );
 
-  // Крючок для определения, когда элемент становится видимым
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,

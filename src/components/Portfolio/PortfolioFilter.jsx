@@ -4,11 +4,11 @@ import AnimateElements from 'components/Utility/AnimateElements';
 
 export default function PortfolioFilter({ onFilterChange }) {
   const { t } = useTranslation();
-  const [activeFilter, setActiveFilter] = useState('all'); // инициализируем начальное состояние
+  const [activeFilter, setActiveFilter] = useState('all');
 
   const handleFilterChange = filter => {
     onFilterChange(filter);
-    setActiveFilter(filter); // устанавливаем новое активное значение при клике
+    setActiveFilter(filter);
   };
 
   return (
