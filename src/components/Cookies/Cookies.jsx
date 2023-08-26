@@ -43,9 +43,9 @@ export default function Cookies({ children }) {
   const { t } = useTranslation();
 
   const modalClasses = `
-    fixed bottom-0 bg-white dark:bg-black shadow-md-up shadow-orange-400 
+    flex items-between justify-between fixed bottom-0 bg-white dark:bg-black shadow-md-up shadow-orange-400 
     dark:shadow-orange-400 border-t border-t-orange-400 left-0 z-[999] 
-    w-full h-[100vh] md:h-auto py-10 px-10 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400
+    w-full h-[100vh] sm:h-auto py-10 px-10 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400
     ${isVisible ? 'translate-y-0' : 'translate-y-full'}
   `;
 
@@ -53,12 +53,12 @@ export default function Cookies({ children }) {
     <>
       {showModal && (
         <div className={modalClasses}>
-          <div className="w-full flex flex-col md:flex-row justify-between gap-10">
-            <div className="md:w-8/12 lg:w-9/12 xl:w-10/12 flex flex-col gap-4">
+          <div className="w-full flex flex-col lg:flex-row justify-between gap-10">
+            <div className="w-full lg:w-9/12 xl:w-10/12 flex flex-col gap-4">
               <p className="text-[1.25rem] text-black dark:text-white font-semibold">{t('cookies.title')}</p>
               <p className="text-[1rem] text-black dark:text-white">{t('cookies.text')}</p>
             </div>
-            <div className="md:w-4/12 lg:w-3/12 xl:w-2/12 flex justify-center flex-col gap-4">
+            <div className="w-full lg:w-3/12 xl:w-2/12 flex justify-center items-end flex-col sm:flex-row lg:flex-col gap-4">
               <button className="btn" onClick={handleAccept}>
                 {t('cookies.btn-accept')}
               </button>

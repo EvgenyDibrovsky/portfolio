@@ -14,7 +14,7 @@ const CurrentDateTime = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <p className="text-black dark:text-white text-lg">{currentDate.toLocaleDateString()}</p>
+        <p className="text-black dark:text-white text-lg font-semibold">{currentDate.toLocaleDateString()}</p>
         <p className="text-black dark:text-white text-md">{currentDate.toLocaleTimeString()}</p>
       </div>
     </>
