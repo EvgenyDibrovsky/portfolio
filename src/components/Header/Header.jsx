@@ -5,6 +5,7 @@ import NavHeader from './NavHeader';
 import ToggleLang from './ToggleLang';
 import SocialBtn from './SocialBtn';
 import Reserved from './Reserved';
+import Date from './Date';
 import { useState, useEffect, useRef } from 'react';
 import { BsCode, BsCodeSlash } from 'react-icons/bs';
 
@@ -35,6 +36,7 @@ export default function Header({ theme, toggleTheme }) {
         <div className="hidden md:flex mr-auto pl-5">
           <ToggleTheme theme={theme} toggleTheme={toggleTheme} />
         </div>
+        <Date />
         <Foto />
         <NavHeader closeMenu={() => setIsOpen(false)} />
         <ToggleLang />
