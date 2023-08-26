@@ -34,11 +34,11 @@ export default function HeroSection() {
       </div>
 
       <div className="w-full xl:w-6/12 py-12 px-4 xl:px-16 gap-8 flex flex-col justify-center items-center">
-        <div>
+        <AnimateElements>
           <div className="relative flex items-center mb-8 after:content-[''] after:absolute after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400">
             <h1 className="text-[1.25rem] font-semibold text-black dark:text-white">{t('about-me.title')}</h1>
           </div>
-          <div className="">
+          <div className="opacity-0 init-animate-1">
             <p className=" text-black dark:text-white mb-4 ">{t('about-me.description-1')}</p>
             <p className=" text-black dark:text-white mb-4 ">{t('about-me.description-2')}</p>
             <p className=" text-black dark:text-white mb-4 ">{t('about-me.description-3')}</p>
@@ -50,12 +50,13 @@ export default function HeroSection() {
                 {t('btn.write-message')}
               </Link>
             </div>
-            <div className="flex flex-col items-end mt-5 mb-10 lg:my-0 xl:my-10 xxl:my-0 sm:ml-auto">
+
+            <div className="flex flex-col items-end mt-5 mb-10 lg:my-0 xl:my-10 xxl:my-0 sm:ml-auto opacity-0 init-animate-1">
               <p className="text-[1.5rem] mr-8 text-sky-700 dark:text-sky-600 font-semibold  font-marck -rotate-[8deg] ">{t('about-me.name')}</p>
               <p className="text-black dark:text-white italic">{t('about-me.web-development')}</p>
             </div>
           </div>
-        </div>
+        </AnimateElements>
       </div>
     </div>
   );

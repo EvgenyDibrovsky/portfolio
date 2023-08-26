@@ -20,6 +20,7 @@
   .error::placeholder {
     @apply text-red-500 dark:text-red-400;
   }
+  /* Form */
   [type='text']:focus,
   input:where(:not([type])):focus,
   [type='email']:focus,
