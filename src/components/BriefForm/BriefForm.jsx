@@ -124,7 +124,7 @@ export default function BriefForm() {
                 <Field
                   name="business_info"
                   as="textarea"
-                  className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5"
+                  className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5 resize-none "
                   placeholder={t('brief-form.general-activity-info')}
                 />
                 <ErrorMessage name="business_info" component="div" />
@@ -271,7 +271,7 @@ export default function BriefForm() {
                 <Field
                   name="liked_sites"
                   as="textarea"
-                  className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5"
+                  className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5 resize-none "
                   placeholder={t('brief-form.example-sites-prompt')}
                 />
                 <ErrorMessage name="liked_sites" component="div" />
@@ -377,7 +377,7 @@ export default function BriefForm() {
                 <Field
                   name="dop_info"
                   as="textarea"
-                  className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5"
+                  className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5 resize-none "
                   placeholder={t('brief-form.additional-project-wishes')}
                 />
                 <ErrorMessage name="dop_info" component="div" />

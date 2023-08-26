@@ -56,7 +56,7 @@ function ContactForm() {
                       name="name"
                       type="text"
                       placeholder={t('contact-form.enter-name')}
-                      className={`w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none ${
+                      className={`appearance-none  w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md ${
                         errors.name && touched.name ? 'error' : ''
                       }`}
                     />
@@ -68,9 +68,7 @@ function ContactForm() {
                       name="email"
                       type="email"
                       placeholder={t('contact-form.enter-email')}
-                      className={`w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none ${
-                        errors.email && touched.email ? 'error' : ''
-                      }`}
+                      className={`w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md ${errors.email && touched.email ? 'error' : ''}`}
                     />
                   </label>
 
@@ -80,9 +78,7 @@ function ContactForm() {
                       name="subject"
                       type="text"
                       placeholder={t('contact-form.enter-message-subject')}
-                      className={`w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none ${
-                        errors.subject && touched.subject ? 'error' : ''
-                      }`}
+                      className={`w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md ${errors.subject && touched.subject ? 'error' : ''}`}
                     />
                   </label>
                 </div>
