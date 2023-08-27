@@ -78,12 +78,20 @@
     "meta-title": "Feedback Form",
     "meta-description": "Contact me if you have questions about the development of an internet project"
   },
-  "privacy-policy-page": {
-    "title": "Privacy policy",
-    "sub-title": "sub title",
-    "meta-title": "Privacy Policy and Terms of Use",
-    "meta-description": "Important information for website users"
-  },
+"term-of-use-page": {
+    "title": "Terms of Use",
+    "sub-title": "Dear Visitor!",
+    "meta-title": "Terms of Use",
+    "meta-description": "Important information for site users",
+    "text-1": "Dear Visitor!",
+    "text-2": "All materials presented on this site, including projects, images, and texts, are intended solely for acquaintance in the context of potential collaboration with me or a process required for recruitment.",
+    "text-3": "Please note the following:",
+    "text-4": "It is prohibited to use information and materials from this site for commercial, advertising, or other purposes without my written permission.",
+    "text-5": "Please respect my copyright and privacy.",
+    "text-6": "If you have questions or proposals for cooperation, feel free to contact me directly using the provided contact details.",
+    "text-7": "By providing your contact details or other personal data on this site, I express my consent to their processing exclusively for the purposes of collaboration regarding services listed on the site or recruitment.",
+    "text-8": "Thank you for understanding and respecting my work!"
+},
   "not-found-page": {
     "not-found": "Page not found",
     "404": "404",

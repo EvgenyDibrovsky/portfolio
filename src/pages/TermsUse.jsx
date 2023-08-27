@@ -1,5 +1,4 @@
 import PageTitle from 'components/Utility/PageTitle';
-import SubTitle from 'components/Utility/SubTitle';
 import { useTranslation } from 'react-i18next';
 import MetaTags from 'components/MetaTags/MetaTags';
 import WrapperTitle from 'components/Utility/WrapperTitle';
@@ -8,28 +7,22 @@ export default function TermsUsePage() {
   const { t } = useTranslation();
   return (
     <>
-      <MetaTags metaTitle={t('privacy-policy-page.meta-title')} metaDescription={t('privacy-policy-page.meta-description')} />
+      <MetaTags metaTitle={t('term-of-use-page.meta-title')} metaDescription={t('term-of-use-page.meta-description')} />
       <WrapperTitle>
-        <PageTitle title={t('privacy-policy-page.title')} />
-        <SubTitle subTitle={t('privacy-policy-page.sub-title')} />
+        <PageTitle title={t('term-of-use-page.title')} />
       </WrapperTitle>
-      <p className="text-xl text-center">Contacts will be here</p>
-      <p className="text-xl text-center text-black dark:text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quo maiores? Eveniet, fugit non ab corporis laudantium a nobis aspernatur qui, illum, cum officiis sunt debitis nihil fuga
-        minima expedita.
-      </p>{' '}
-      <p className="text-xl text-center text-black dark:text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quo maiores? Eveniet, fugit non ab corporis laudantium a nobis aspernatur qui, illum, cum officiis sunt debitis nihil fuga
-        minima expedita.
-      </p>{' '}
-      <p className="text-xl text-center text-black dark:text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quo maiores? Eveniet, fugit non ab corporis laudantium a nobis aspernatur qui, illum, cum officiis sunt debitis nihil fuga
-        minima expedita.
-      </p>{' '}
-      <p className="text-xl text-center text-black dark:text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quo maiores? Eveniet, fugit non ab corporis laudantium a nobis aspernatur qui, illum, cum officiis sunt debitis nihil fuga
-        minima expedita.
-      </p>
+      <div>
+        <h2>{t('term-of-use-page.text-1')}</h2>
+        <p>{t('term-of-use-page.text-2')}</p>
+        <ul>
+          <p>{t('term-of-use-page.text-3')}</p>
+          <li>{t('term-of-use-page.text-4')}</li>
+          <li>{t('term-of-use-page.text-5')}</li>
+          <li>{t('term-of-use-page.text-6')}</li>
+          <li>{t('term-of-use-page.text-7')}</li>
+        </ul>
+        <p>{t('term-of-use-page.text-8')}</p>
+      </div>
     </>
   );
 }

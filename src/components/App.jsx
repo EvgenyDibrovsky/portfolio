@@ -62,7 +62,6 @@ export const App = () => {
       <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Header theme={theme} toggleTheme={toggleTheme} />
-
           <Routes>
             <Route
               path="/"
@@ -123,7 +122,7 @@ export const App = () => {
               }
             />
             <Route
-              path="/privacy-policy-page"
+              path="/term-of-use-page"
               element={
                 <Section>
                   <Container>
