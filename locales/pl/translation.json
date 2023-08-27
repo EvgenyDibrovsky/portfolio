@@ -78,12 +78,20 @@
     "meta-title": "Formularz kontaktowy",
     "meta-description": "Napisz do mnie, jeśli masz pytania dotyczące tworzenia projektu internetowego"
   },
-  "privacy-policy-page": {
-    "title": "Polityka prywatności",
-    "sub-title": "podtytuł",
-    "meta-title": "Polityka prywatności i Warunki użytkowania",
-    "meta-description": "Ważne informacje dla użytkowników strony"
-  },
+"term-of-use-page": {
+    "title": "Warunki korzystania",
+    "sub-title": "Drogi odwiedzający!",
+    "meta-title": "Warunki korzystania",
+    "meta-description": "Ważne informacje dla użytkowników witryny",
+    "text-1": "Drogi odwiedzający!",
+    "text-2": "Wszystkie materiały prezentowane na tej stronie, w tym projekty, obrazy i teksty, są przeznaczone wyłącznie do zapoznania się w kontekście możliwej współpracy ze mną lub procesu niezbędnego do przeprowadzenia rekrutacji.",
+    "text-3": "Proszę mieć na uwadze następujące informacje:",
+    "text-4": "Zakazane jest używanie informacji i materiałów z tej strony w celach komercyjnych, reklamowych lub innych bez mojej pisemnej zgody.",
+    "text-5": "Proszę szanować moje prawa autorskie i prywatność.",
+    "text-6": "Jeśli masz pytania lub propozycje współpracy, skontaktuj się ze mną bezpośrednio za pomocą podanych danych kontaktowych.",
+    "text-7": "Podając swoje dane kontaktowe lub inne dane osobowe na tej stronie, wyrażam zgodę na ich przetwarzanie wyłącznie w celach współpracy w zakresie usług wskazanych na stronie lub rekrutacji.",
+    "text-8": "Dziękuję za zrozumienie i szacunek do mojej pracy!"
+},
   "not-found-page": {
     "not-found": "Strona nie została znaleziona",
     "404": "404",
