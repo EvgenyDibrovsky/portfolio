@@ -5,8 +5,8 @@ export default function Reserved() {
   const { t } = useTranslation();
   return (
     <div>
-      <div className="mb-2">
-        <Link to="/term-of-use-page" className="text-sm underline text-center text-black dark:text-textColorDark hover:text-sky-500  dark:hover:text-sky-500 ">
+      <div className="mb-2 text-center">
+        <Link to="/term-of-use-page" className="text-sm  text-black dark:text-textColorDark duration-200 hover:underline hover:text-sky-500  dark:hover:text-sky-500 ">
           {t('term-of-use-page.title')}
         </Link>
       </div>
