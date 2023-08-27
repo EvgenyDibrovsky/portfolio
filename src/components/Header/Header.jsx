@@ -8,13 +8,11 @@ import Reserved from './Reserved';
 import Date from './Date';
 import { useState, useEffect, useRef } from 'react';
 import { BsCode, BsCodeSlash } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
 
 export default function Header({ theme, toggleTheme }) {
   const [isOpen, setIsOpen] = useState(false);
   const headerRef = useRef(null);
-  const { t } = useTranslation();
+
   const toggleMenu = () => setIsOpen(prevState => !prevState);
 
   useEffect(() => {
@@ -45,11 +43,7 @@ export default function Header({ theme, toggleTheme }) {
         <Logo />
         <SocialBtn />
       </div>
-      <div className="mt-5 mb-5">
-        <Link to="/term-of-use-page" className="text-sm underline hover:text-blue-500">
-          {t('term-of-use-page.title')}
-        </Link>
-      </div>
+
       <Reserved />
 
       <div className="md:hidden border-b border-colorBorder dark:border-b-colorBorderDark bg-bgHeader dark:bg-bgHeaderDark flex justify-between items-center h-20 fixed top-0 left-0 w-full p-5">
