@@ -12,7 +12,7 @@ export default function TermsUsePage() {
         <PageTitle title={t('term-of-use-page.title')} />
       </WrapperTitle>
       <div>
-        <h2 className="text-black dark:text-white text-[1.25] mb-5">{t('term-of-use-page.text-1')}</h2>
+        <h2 className="text-black dark:text-white text-[1.25] mb-5 italic font-semibold">{t('term-of-use-page.text-1')}</h2>
         <p className="text-black dark:text-white">{t('term-of-use-page.text-2')}</p>
         <ul className="text-black dark:text-white list-disc px-5 py-5">
           <p className="text-black dark:text-white">{t('term-of-use-page.text-3')}</p>
