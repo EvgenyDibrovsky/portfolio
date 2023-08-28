@@ -51,7 +51,7 @@ export default function Cookies({ children }) {
 
   const modalClasses = `
     flex items-between justify-between fixed bottom-0 left-0 z-[999] bg-white dark:bg-black shadow-md-up shadow-orange-400 
-    dark:shadow-orange-400 border-t border-t-orange-400 w-full h-full sm:h-auto py-10 px-10 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400
+    dark:shadow-orange-400 border-t border-t-orange-400 w-full h-full sm:h-auto pt-20 pb-10 sm:py-10 px-10 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400
     ${isVisible ? 'translate-y-0' : 'translate-y-full'}
   `;
 
