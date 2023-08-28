@@ -62,7 +62,7 @@
     "sub-title-1": "Certyfikaty",
     "sub-title-2": "Umiejętności techniczne",
     "sub-title-3": "Znajomość języków",
-    "sub-title-4": "Soft skills",
+    "sub-title-4": "Umiejętności miękkie",
     "sub-title-5": "Edukacja",
     "sub-title-6": "Doświadczenie zawodowe",
     "link-pdf": "Przejrzeć w formacie PDF",
@@ -223,5 +223,13 @@
     "text": "Używamy plików cookie i Local Storage w celu poprawy komfortu korzystania z witryny oraz obsługi usług, takich jak wybór języka i przełączanie motywu kolorystycznego. Na stronie działa również Google Analytics do zbierania statystyk odwiedzin. Strona jest portfolio i nie przewiduje rejestracji. Dostępny jest dla Ciebie formularz kontaktowy, w którym możesz podać swoje imię, adres e-mail i treść wiadomości. Kontynuując korzystanie z witryny, wyrażasz zgodę na nasze stosowanie plików cookie i Local Storage. Jeśli się nie zgadzasz, opuść stronę. Dziękujemy za zrozumienie!",
     "btn-accept": "Zgadzam się",
     "btn-no-accept": "Nie zgadzam się"
+  },
+  "soft-skills": {
+    "skill-1": "Praca w zespole",
+    "skill-2": "Adaptacja",
+    "skill-3": "Zarządzanie czasem",
+    "skill-4": "Myślenie krytyczne",
+    "skill-5": "Odpowiedzialność",
+    "skill-6": "Umiejętność uczenia się"
   }
 }
