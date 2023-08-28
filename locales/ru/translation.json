@@ -233,12 +233,12 @@
     "skill-6": "Умение обучаться"
   },
   "education": {
-      "title": "Учебное завидение",
-      "faculty": "Факультет",
-      "speciality": "Специальность",
-      "form": "Форма обучения",
-      "county": "Страна",
-      "period": "Период обучения",
+    "title": "Учебное завидение",
+    "faculty": "Факультет",
+    "speciality": "Специальность",
+    "form": "Форма обучения",
+    "county": "Страна",
+    "period": "Период обучения",
     "id-1": {
       "title-description": "GoIT Курсы програмирования",
       "faculty-description": "Full Stack",

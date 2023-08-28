@@ -233,42 +233,42 @@
     "skill-6": "Umiejętność uczenia się"
   },
   "education": {
-      "title": "Centrum Edukacji RENOMA",
-      "Faculty": "Kierunek",
-      "speciality": "Specjalność",
-      "form": "Forma edukacji",
-      "county": "Kraj",
-      "Period": "Okres edukacji",
+    "title": "Centrum Edukacji RENOMA",
+    "Faculty": "Kierunek",
+    "speciality": "Specjalność",
+    "form": "Forma edukacji",
+    "county": "Kraj",
+    "Period": "Okres edukacji",
     "id-1": {
-      "title-description": "GoIT Курсы програмирования",
+      "title-description": "GoIT Kursy programowania",
       "faculty-description": "Full Stack",
-      "speciality-description": "Full Stack Разработчик",
+      "speciality-description": "Full Stack Developer",
       "form-description": "Online",
-      "county-description": "Украина",
+      "county-description": "Ukraina",
       "period-description": "05.2022 - 04.2023"
     },
     "id-2": {
-      "title-description": "Образовательный Центр Renoma",
-      "faculty-description": "Техника Администрации",
-      "speciality-description": "Техник Администрации",
-      "form-description": "По выходным",
-      "county-description": "Польша",
+      "title-description": "Centrum Edukacyjne Renoma",
+      "faculty-description": "Technika Administracji",
+      "speciality-description": "Technik Administracji",
+      "form-description": "W weekendy",
+      "county-description": "Polska",
       "period-description": "09.2020 - 01.2022"
     },
     "id-3": {
-      "title-description": "Класический Приватный Университет",
-      "faculty-description": "Экономическая кибернетика",
-      "speciality-description": "Экономист кибернетик | Бакалавр",
-      "form-description": "Заочно",
-      "county-description": "Украина",
+      "title-description": "Klasyczny Prywatny Uniwersytet",
+      "faculty-description": "Ekonomika Cybernetyki",
+      "speciality-description": "Ekonomista-Cybernetyk | Bakalarz",
+      "form-description": "Zaocznie",
+      "county-description": "Ukraina",
       "period-description": "09.2007 - 07.2012"
     },
     "id-4": {
-      "title-description": "Запорожский колледж радиоэлектроники Запорожского национального технического университета",
-      "faculty-description": "Вычеслительная техника",
-      "speciality-description": "Техник-электронщик",
-      "form-description": "Дневное",
-      "county-description": "Украина",
+      "title-description": "Zaporoski Kolegium Radioelektroniki Narodowego Uniwersytetu Technicznego w Zaporożu",
+      "faculty-description": "Technika Obliczeniowa",
+      "speciality-description": "Technik Elektronik",
+      "form-description": "Dzienne",
+      "county-description": "Ukraina",
       "period-description": "09.2003 - 06.2007"
     }
   }
