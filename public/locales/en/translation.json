@@ -231,5 +231,45 @@
     "skill-4": "Critical thinking",
     "skill-5": "Responsibility",
     "skill-6": "Ability to learn"
+  },
+  "education": {
+      "title": "Educational Institution",
+      "Faculty": "Faculty",
+      "speciality": "Speciality",
+      "form": "Form of study",
+      "county": "Country",
+      "Period": "Study period",
+    "id-1": {
+      "title-description": "GoIT Курсы програмирования",
+      "faculty-description": "Full Stack",
+      "speciality-description": "Full Stack Разработчик",
+      "form-description": "Online",
+      "county-description": "Украина",
+      "period-description": "05.2022 - 04.2023"
+    },
+    "id-2": {
+      "title-description": "Образовательный Центр Renoma",
+      "faculty-description": "Техника Администрации",
+      "speciality-description": "Техник Администрации",
+      "form-description": "По выходным",
+      "county-description": "Польша",
+      "period-description": "09.2020 - 01.2022"
+    },
+    "id-3": {
+      "title-description": "Класический Приватный Университет",
+      "faculty-description": "Экономическая кибернетика",
+      "speciality-description": "Экономист кибернетик | Бакалавр",
+      "form-description": "Заочно",
+      "county-description": "Украина",
+      "period-description": "09.2007 - 07.2012"
+    },
+    "id-4": {
+      "title-description": "Запорожский колледж радиоэлектроники Запорожского национального технического университета",
+      "faculty-description": "Вычеслительная техника",
+      "speciality-description": "Техник-электронщик",
+      "form-description": "Дневное",
+      "county-description": "Украина",
+      "period-description": "09.2003 - 06.2007"
+    }
   }
 }

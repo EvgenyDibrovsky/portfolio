@@ -3,11 +3,12 @@ import SubTitle from 'components/Utility/SubTitle';
 import { useTranslation } from 'react-i18next';
 import { BsPersonVcard } from 'react-icons/bs';
 import CertificatesList from 'components/Certificates/CertificatesList';
-import TechSkillsIndicators from 'components/TechSkillsProgressBar/TechSkillsIndicators';
+import TechSkillsIndicators from 'components/TechSkills/TechSkillsIndicators';
 import ProgressLangSkills from 'components/LangSkillsProgressBar/LangSkillsProgressBar';
 import MetaTags from 'components/MetaTags/MetaTags';
 import WrapperTitle from 'components/Utility/WrapperTitle';
-
+import SoftSkills from 'components/SoftSkills/SoftSkills';
+import Education from 'components/Education/Education';
 export default function ResumePage() {
   const { t } = useTranslation();
 
@@ -21,25 +22,27 @@ export default function ResumePage() {
       </WrapperTitle>
 
       <div className="my-5">
-        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-1')}</h3>
+        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-1')}</h3>
         <CertificatesList />
       </div>
       <div className="my-5">
-        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-2')}</h3>
+        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-2')}</h3>
         <TechSkillsIndicators />
       </div>
       <div className="my-5">
-        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-3')}</h3>
+        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-3')}</h3>
         <ProgressLangSkills />
       </div>
       <div className="my-5">
-        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-4')}</h3>
+        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-4')}</h3>
+        <SoftSkills />
       </div>
       <div className="my-5">
-        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-5')}</h3>
+        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-5')}</h3>
+        <Education />
       </div>
       <div className="my-5">
-        <h3 className="text-black dark:text-white my-5">{t('resume-page.sub-title-6')}</h3>
+        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-6')}</h3>
       </div>
     </>
   );
