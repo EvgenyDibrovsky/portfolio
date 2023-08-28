@@ -15,11 +15,12 @@
   },
   "nav-menu": {
     "home": "Strona glówna",
-    "about-me": "O mnie",
     "resume": "CV",
     "portfolio": "Portfolio",
     "brief": "Brief",
-    "contacts": "Kontakt"
+    "contacts": "Kontakt",
+    "сooperation": "Współpraca"
+
   },
   "footer": {
     "rights-reserved": "© 2023 Wszelkie prawa zastrzeżone"
@@ -38,15 +39,15 @@
     "meta-title": "Tworzenie stron internetowych - edweb.site",
     "meta-description": "Profesjonalne tworzenie stron internetowych pod klucz. Tylko aktualne i sprawdzone technologie."
   },
-  "about-page": {
-    "title": "O mnie",
+  "cooperation-page": {
+    "title": "Współpraca",
     "sub-title": "podtytuł",
     "meta-title": "Jewgienij Dibrowski - Frontend Developer",
     "meta-description": "Tworzenie stron internetowych pod klucz."
   },
   "resume-page": {
     "title": "CV",
-    "sub-title": "podtytuł",
+    "sub-title": "Trochę o mnie i moim doświadczeniu",
     "sub-title-1": "Certyfikaty",
     "sub-title-2": "Umiejętności techniczne",
     "sub-title-3": "Znajomość języków",
@@ -59,13 +60,13 @@
   },
   "portfolio-page": {
     "title": "Portfolio",
-    "sub-title": "podtytuł",
+    "sub-title": "Przegląd niektórych moich prac",
     "meta-title": "Portfolio projektów internetowych - edweb.site",
     "meta-description": "Portfolio projektów, które są tworzone w miarę mojego rozwoju i pracy"
   },
   "brief-page": {
     "title": "Brief",
-    "sub-title": "podtytuł",
+    "sub-title": "Szybka ocena projektu",
     "text-information-1": "Brief to zwięzły opis Twoich pomysłów, celów, preferencji i oczekiwań dotyczących projektu. Brief pomoże mi dokładniej zrozumieć Twoją wizję i opracować najbardziej odpowiedni i spersonalizowany plan dla Twojego projektu, zapewniając zbliżenie do pożądanego wyniku.",
     "text-information-2": "Wypełniając brief, skup się na projekcie i pożądanym wyniku, opisuj słowami, które Cię najlepiej opisują - zrozumiem Cię!",
     "text-information-3": "Po wypełnieniu tego briefu będę w stanie oszacować zakres i złożoność pracy, zaproponować odpowiedni plan rozwoju oraz sformułować ofertę handlową z przybliżonymi terminami i kosztami realizacji projektu.",

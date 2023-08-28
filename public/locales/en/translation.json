@@ -15,11 +15,11 @@
   },
   "nav-menu": {
     "home": "Home",
-    "about-me": "About me",
     "resume": "Resume",
     "portfolio": "Portfolio",
     "brief": "Brief",
-    "contacts": "Contact"
+    "contacts": "Contact",
+    "сooperation": "Cooperation"
   },
   "footer": {
     "rights-reserved": "© 2023 All rights reserved."
@@ -38,15 +38,15 @@
     "meta-title": "Web-development - edweb.site",
     "meta-description": "Professional turnkey website creation. Only up-to-date and verified technologies."
   },
-  "about-page": {
-    "title": "About me",
+  "cooperation-page": {
+    "title": "Cooperation",
     "sub-title": "sub title",
     "meta-title": "Evgeny Dibrovsky - Frontend Developer",
     "meta-description": "Turnkey website creation."
   },
   "resume-page": {
     "title": "Resume",
-    "sub-title": "Sub title",
+    "sub-title": "A bit about me and my experience",
     "sub-title-1": "Certificates",
     "sub-title-2": "Tech Skills",
     "sub-title-3": "Language Skills",
@@ -59,13 +59,13 @@
   },
   "portfolio-page": {
     "title": "Portfolio",
-    "sub-title": "sub title",
+    "sub-title": "Overview of some of my works",
     "meta-title": "Web projects portfolio - edweb.site",
     "meta-description": "Portfolio of projects that are created as I develop and work"
   },
   "brief-page": {
     "title": "Brief",
-    "sub-title": "sub title",
+    "sub-title": "Quick project evaluation",
     "text-information-1": "A brief is a short description of your ideas, goals, preferences, and expectations for the project. The brief will help me better understand your vision and develop the most suitable and personalized plan for your project, ensuring that we achieve the desired outcome.",
     "text-information-2": "When filling out the brief, focus on the project and the desired outcome, and describe it in your own words - I will understand you!",
     "text-information-3": "Once you complete this brief, I will be able to assess the scope and complexity of the work, suggest a suitable development plan, and prepare a commercial proposal with indicative timelines and costs for the project.",

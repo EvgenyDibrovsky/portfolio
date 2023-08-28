@@ -7,7 +7,7 @@ import Container from './Base/Container';
 import Loading from './Base/LoaderSite';
 
 import Home from '../pages/Home';
-import About from '../pages/About';
+import Cooperation from '../pages/Сooperation';
 import Resume from '../pages/Resume';
 import Portfolio from '../pages/Portfolio';
 import Brief from '../pages/Brief';
@@ -72,11 +72,11 @@ export const App = () => {
               }
             />
             <Route
-              path="/about"
+              path="/cooperation"
               element={
                 <Section>
                   <Container>
-                    <About />
+                    <Cooperation />
                   </Container>
                 </Section>
               }

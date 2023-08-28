@@ -5,14 +5,14 @@ import { BsPerson } from 'react-icons/bs';
 import WorkingСonditions from 'components/WorkingСonditions/WorkingСonditions';
 import MetaTags from 'components/MetaTags/MetaTags';
 import WrapperTitle from 'components/Utility/WrapperTitle';
-export default function AboutPage() {
+export default function CooperationPage() {
   const { t } = useTranslation();
   return (
     <>
-      <MetaTags metaTitle={t('about-page.meta-title')} metaDescription={t('about-page.meta-description')} />
+      <MetaTags metaTitle={t('cooperation-page.meta-title')} metaDescription={t('cooperation-page.meta-description')} />
       <WrapperTitle>
-        <PageTitle icon={<BsPerson />} title={t('about-page.title')} />
-        <SubTitle subTitle={t('about-page.sub-title')} />
+        <PageTitle icon={<BsPerson />} title={t('cooperation-page.title')} />
+        <SubTitle subTitle={t('cooperation-page.sub-title')} />
       </WrapperTitle>
       <WorkingСonditions />
     </>
