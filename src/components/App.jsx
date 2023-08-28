@@ -17,7 +17,6 @@ import TermsUse from '../pages/TermsUse';
 import NotFound from '../pages/NotFound';
 import { HelmetProvider } from 'react-helmet-async';
 import { isCookieAccepted } from './Cookies/Cookies'; // Замените на правильный путь к вашему Cookies компоненту
-
 export const App = () => {
   const [loading, setLoading] = useState(true);
   const [theme, setTheme] = useState(() => {

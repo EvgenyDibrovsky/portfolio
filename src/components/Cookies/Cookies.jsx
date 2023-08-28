@@ -15,8 +15,15 @@ export default function Cookies({ children }) {
 
   useEffect(() => {
     if (showModal) {
+      document.body.style.overflow = 'hidden';
       setTimeout(() => setIsVisible(true), TimeoutModal);
+    } else {
+      document.body.style.overflow = 'auto';
     }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
   }, [showModal]);
 
   const saveLanguagePreference = () => {
@@ -43,9 +50,8 @@ export default function Cookies({ children }) {
   const { t } = useTranslation();
 
   const modalClasses = `
-    flex items-between justify-between fixed bottom-0 bg-white dark:bg-black shadow-md-up shadow-orange-400 
-    dark:shadow-orange-400 border-t border-t-orange-400 left-0 z-[999] 
-    w-full h-[100vh] sm:h-auto py-10 px-10 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400
+    flex items-between justify-between fixed bottom-0 left-0 z-[999] bg-white dark:bg-black shadow-md-up shadow-orange-400 
+    dark:shadow-orange-400 border-t border-t-orange-400 w-full h-full sm:h-auto py-10 px-10 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400
     ${isVisible ? 'translate-y-0' : 'translate-y-full'}
   `;
 
