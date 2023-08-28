@@ -15,6 +15,28 @@ export default function CooperationPage() {
         <SubTitle subTitle={t('cooperation-page.sub-title')} />
       </WrapperTitle>
       <WorkingСonditions />
+      <div className="mt-5 mb-10">
+        <p className="text-black dark:text-white mb-5 ">{t('cooperation-page.text-1')}</p>
+        <div className="mb-5">
+          <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('cooperation-page.text-2')}</h3>
+          <p className="text-black dark:text-white">{t('cooperation-page.text-3')}</p>
+        </div>
+        <div className="mb-5">
+          <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('cooperation-page.text-4')}</h3>
+          <p className="text-black dark:text-white">{t('cooperation-page.text-5')}</p>
+        </div>
+        <div className="mb-5">
+          <h3 className="text-black dark:text-white  text-[1.25rem] font-semibold">{t('cooperation-page.text-6')}</h3>
+          <p className="text-black dark:text-white">{t('cooperation-page.text-7')}</p>
+        </div>
+        <ul className="text-black dark:text-white list-disc px-5 mb-5">
+          <p className="text-black dark:text-white mb-2 ">{t('cooperation-page.text-8')}</p>
+          <li className="text-black dark:text-white">{t('cooperation-page.text-9')}</li>
+          <li className="text-black dark:text-white">{t('cooperation-page.text-10')}</li>
+          <li className="text-black dark:text-white"> {t('cooperation-page.text-11')}</li>
+        </ul>
+        <p className="text-black dark:text-white">{t('cooperation-page.text-12')}</p>
+      </div>
     </>
   );
 }

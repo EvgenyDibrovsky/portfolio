@@ -20,7 +20,6 @@
     "brief": "Brief",
     "contacts": "Kontakt",
     "сooperation": "Współpraca"
-
   },
   "footer": {
     "rights-reserved": "© 2023 Wszelkie prawa zastrzeżone"
@@ -41,9 +40,21 @@
   },
   "cooperation-page": {
     "title": "Współpraca",
-    "sub-title": "podtytuł",
+    "sub-title": "Twój projekt to nasza wspólna misja",
     "meta-title": "Jewgienij Dibrowski - Frontend Developer",
-    "meta-description": "Tworzenie stron internetowych pod klucz."
+    "meta-description": "Tworzenie stron internetowych pod klucz.",
+    "text-1": "Szukasz specjalisty od tworzenia stron internetowych? Rozważ współpracę ze mną. Tutaj oferuję różne formy współpracy, aby jak najlepiej spełnić Twoje potrzeby.",
+    "text-2": "Freelance:",
+    "text-3": "Jeśli masz jednorazowy projekt lub potrzebujesz długoterminowego partnera bez codziennej obecności w biurze, rozważę Twoje propozycje jako freelancer. Podchodzę do każdego projektu z odpowiedzialnością, uwzględniając Twoje wymagania.",
+    "text-4": "Pełny etat:",
+    "text-5": "Otwarty na oferty pracy na pełny etat. Cenię stabilność i możliwość głębokiego zaangażowania w długoterminowe projekty.",
+    "text-6": "B2B:",
+    "text-7": "Szukasz partnera do tworzenia stron internetowych? Gotów omówić warunki współpracy, stać się częścią Twojego zespołu i skupić się na osiągnięciu wyników.",
+    "text-8": "Co zyskasz współpracując ze mną:",
+    "text-9": "Odpowiedzialność i niezawodność: Dążę do precyzji i przestrzegania terminów, zapewniając wysoką jakość wykonanej pracy. Możesz polegać na moim pełnym zaangażowaniu w Twój projekt.",
+    "text-10": "Doświadczenie: Mimo stosunkowo krótkiego doświadczenia posiadam szeroką wiedzę i umiejętności, podchodząc do każdego projektu z pełnym zaangażowaniem.",
+    "text-11": "Elastyczność: Gotów uwzględnić Twoje życzenia i dostosować się do wymagań projektu.",
+    "text-12": "Czekam na Twoje propozycje i jestem gotów do dyskusji. Razem znajdziemy optymalne rozwiązanie dla Twojego projektu!"
   },
   "resume-page": {
     "title": "CV",
@@ -79,7 +90,7 @@
     "meta-title": "Formularz kontaktowy",
     "meta-description": "Napisz do mnie, jeśli masz pytania dotyczące tworzenia projektu internetowego"
   },
-"term-of-use-page": {
+  "term-of-use-page": {
     "title": "Warunki korzystania",
     "sub-title": "Drogi odwiedzający!",
     "meta-title": "Warunki korzystania",
@@ -92,7 +103,7 @@
     "text-6": "Jeśli masz pytania lub propozycje współpracy, skontaktuj się ze mną bezpośrednio za pomocą podanych danych kontaktowych.",
     "text-7": "Podając swoje dane kontaktowe lub inne dane osobowe na tej stronie, wyrażam zgodę na ich przetwarzanie wyłącznie w celach współpracy w zakresie usług wskazanych na stronie lub rekrutacji.",
     "text-8": "Dziękuję za zrozumienie i szacunek do mojej pracy!"
-},
+  },
   "not-found-page": {
     "not-found": "Strona nie została znaleziona",
     "404": "404",
