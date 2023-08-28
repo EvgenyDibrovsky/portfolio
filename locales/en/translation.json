@@ -234,11 +234,11 @@
   },
   "education": {
     "title": "Educational Institution",
-    "Faculty": "Faculty",
+    "faculty": "Faculty",
     "speciality": "Speciality",
     "form": "Form of study",
     "county": "Country",
-    "Period": "Study period",
+    "period": "Study period",
     "id-1": {
       "title-description": "GoIT Programming Courses",
       "faculty-description": "Full Stack",
