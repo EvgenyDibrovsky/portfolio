@@ -119,7 +119,9 @@
     "enter-message-subject": "Wprowadź temat wiadomości",
     "message": "Wiadomość",
     "enter-message": "Wprowadź wiadomość",
-    "send": "Wyślij"
+    "send": "Wyślij",
+    "sent-successfully": "Wiadomość została wysłana pomyślnie",
+    "sent-no-successfully": "Wiadomość nie została wysłana"
   },
   "portfolio": {
     "portfolio-filter": {

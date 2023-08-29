@@ -119,7 +119,9 @@
     "enter-message-subject": "Введите тему сообщения",
     "message": "Сообщение",
     "enter-message": "Введите сообщение",
-    "send": "Отправить"
+    "send": "Отправить",
+    "sent-successfully": "Сообщение успешно отправлено",
+    "sent-no-successfully": "Сообщение не отправлено"
   },
   "portfolio": {
     "portfolio-filter": {
