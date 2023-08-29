@@ -42,32 +42,32 @@ export default function ProgressLangSkills() {
         <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
           <div className="fi fi-us bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[0]}%` }}>
             <div className="absolute w-full pl-16  top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
-              <div>{t('language-skills.english')}</div>
-              <div>{currentValues[0]}%</div>
+              <div className="hidden sm:block">{t('language-skills.english')}</div>
+              <div className="ml-auto">{currentValues[0]}%</div>
             </div>
           </div>
         </li>
         <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
           <div className="fi fi-pl bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[1]}%` }}>
             <div className="absolute w-full pl-16 top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
-              <div>{t('language-skills.polish')}</div>
-              <div>{currentValues[1]}%</div>
+              <div className="hidden sm:block">{t('language-skills.polish')}</div>
+              <div className="ml-auto">{currentValues[1]}%</div>
             </div>
           </div>
         </li>
         <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
           <div className="fi fi-ua bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[2]}%` }}>
             <div className="absolute w-full pl-16 top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
-              <div>{t('language-skills.ukrainian')}</div>
-              <div>{currentValues[2]}%</div>
+              <div className="hidden sm:block">{t('language-skills.ukrainian')}</div>
+              <div className="ml-auto">{currentValues[2]}%</div>
             </div>
           </div>
         </li>
         <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
           <div className="fi fi-ru bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[3]}%` }}>
             <div className="absolute w-full pl-16  top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
-              <div>{t('language-skills.russian')}</div>
-              <div>{currentValues[3]}%</div>
+              <div className="hidden sm:block">{t('language-skills.russian')}</div>
+              <div className="ml-auto">{currentValues[3]}%</div>
             </div>
           </div>
         </li>
