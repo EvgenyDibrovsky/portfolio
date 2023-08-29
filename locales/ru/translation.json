@@ -239,7 +239,7 @@
     "form": "Форма обучения",
     "county": "Страна",
     "period": "Период обучения",
-    "id-1": {
+    "id-4": {
       "title-description": "GoIT Курсы програмирования",
       "faculty-description": "Full Stack",
       "speciality-description": "Full Stack Разработчик",
@@ -247,7 +247,7 @@
       "county-description": "Украина",
       "period-description": "05.2022 - 04.2023"
     },
-    "id-2": {
+    "id-3": {
       "title-description": "Образовательный Центр Renoma",
       "faculty-description": "Техника Администрации",
       "speciality-description": "Техник Администрации",
@@ -255,7 +255,7 @@
       "county-description": "Польша",
       "period-description": "09.2020 - 01.2022"
     },
-    "id-3": {
+    "id-2": {
       "title-description": "Класический Приватный Университет",
       "faculty-description": "Экономическая кибернетика",
       "speciality-description": "Экономист кибернетик | Бакалавр",
@@ -263,13 +263,48 @@
       "county-description": "Украина",
       "period-description": "09.2007 - 07.2012"
     },
-    "id-4": {
+    "id-1": {
       "title-description": "Запорожский колледж радиоэлектроники Запорожского национального технического университета",
       "faculty-description": "Вычеслительная техника",
       "speciality-description": "Техник-электронщик",
       "form-description": "Дневная",
       "county-description": "Украина",
       "period-description": "09.2003 - 06.2007"
+    }
+  },
+  "experience": {
+    "title": "Место работы",
+    "position": "Должность",
+    "responsibilities": "Обязанности",
+    "county": "Страна",
+    "period": "Период",
+    "id-4": {
+      "title-description": "Veneo Sp. z o.o.",
+      "position-description": "Frontend разработчик",
+      "responsibilities-description": "Создание и продвижение сайтов под ключ. Поддержка существующих проектов",
+      "county-description": "Польша",
+      "period-description": "10.2022 - Наст.время"
+    },
+    "id-3": {
+      "title-description": "Фриланс",
+      "position-description": "Frontend Разработчик",
+      "responsibilities-description": "Создание и продвижение сайтов под ключ. Поддержка существующих проектов",
+      "county-description": "Польша",
+      "period-description": "06.2022 - Наст.время"
+    },
+    "id-2": {
+      "title-description": "BTP GROUP Sp.zo.o.",
+      "position-description": "Директор",
+      "responsibilities-description": "Веб-разработка, интернет-маркетинг, менеджмент, HR",
+      "county-description": "Польша",
+      "period-description": "12.2017 - 07.2023"
+    },
+    "id-1": {
+      "title-description": "BTP GROUP Sp.zo.o.",
+      "position-description": "Директор",
+      "responsibilities-description": "Менеджмент, интернет-маркетинг, веб-разработка",
+      "county-description": "Польша",
+      "period-description": "02.2016 - 11.2017"
     }
   }
 }
