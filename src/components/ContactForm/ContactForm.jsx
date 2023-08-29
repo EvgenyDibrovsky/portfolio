@@ -3,8 +3,9 @@ import { useTranslation } from 'react-i18next';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import AnimateElements from 'components/Utility/AnimateElements';
+import axios from 'axios';
 
-function ContactForm() {
+export default function ContactForm() {
   const { t } = useTranslation();
 
   const validationSchema = Yup.object({
@@ -15,22 +16,32 @@ function ContactForm() {
   });
 
   const handleSubmit = (values, { setSubmitting }) => {
-    console.log(values);
-    // axios
-    //   .post('http://localhost:5000/send-email', values)
-    //   .then(response => {
-    //     console.log('Email sent successfully:', response.data);
-    //     // Возможно, покажите уведомление об успешной отправке
-    //   })
-    //   .catch(error => {
-    //     console.error('Error sending email:', error);
-    //     // Возможно, покажите уведомление об ошибке
-    //   })
-    //   .finally(() => {
-    //     setSubmitting(false);
-    //   });
+    // console.log(values);
+    axios
+      .post('http://localhost:5000/send-email', values)
+      .then(response => {
+        console.log('Email sent successfully:', response.data);
+        // Возможно, покажите уведомление об успешной отправке
+      })
+      .catch(error => {
+        console.error('Error sending email:', error);
+        if (error.response) {
+          // Запрос был выполнен, и сервер ответил статус-кодом, который выпадает из диапазона 2xx
+          console.error('Server Response:', error.response.data);
+          console.error('Server Response Status:', error.response.status);
+          console.error('Server Response Headers:', error.response.headers);
+        } else if (error.request) {
+          // Запрос был выполнен, но ответа не было
+          console.error('No response was received:', error.request);
+        } else {
+          // Что-то произошло при настройке запроса, и произошла ошибка
+          console.error('Error', error.message);
+        }
+      })
+      .finally(() => {
+        setSubmitting(false);
+      });
 
-    // setSubmitting(false);
     setSubmitting(false);
   };
 
@@ -111,5 +122,3 @@ function ContactForm() {
     </>
   );
 }
-
-export default ContactForm;

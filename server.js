@@ -3,7 +3,8 @@ const nodemailer = require('nodemailer');
 const cors = require('cors');
 
 const app = express();
-
+const dotenv = require('dotenv');
+dotenv.config();
 // Позволяет обрабатывать JSON-запросы
 app.use(express.json());
 
@@ -13,27 +14,28 @@ app.use(cors());
 app.post('/send-email', async (req, res) => {
   const { name, email, subject, message } = req.body;
 
-  // Настройка транспорта для nodemailer
   let transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: 's160.cyber-folks.pl',
+    port: 587,
+    secure: false,
+    requireTLS: true,
     auth: {
-      user: 'email',
-      pass: 'Пароль',
+      user: 'contact@edweb.site',
+      pass: process.env.EMAIL_PASSWORD,
     },
   });
-
   let mailOptions = {
     from: email, // Адрес отправителя
-    to: 'ed190687@gmail.com',
+    to: 'contact@edweb.site',
     subject: subject,
-    text: `${name} (${email}) says: ${message}`,
+    text: `Имя: ${name}\nEmail: ${email}\nТема сообщения: ${subject}\nСообщение: ${message}`,
   };
 
   try {
     await transporter.sendMail(mailOptions);
     res.status(200).send('Email sent successfully');
   } catch (error) {
-    console.error('Error sending email:', error);
+    // console.error('Error sending email:', error);
     res.status(500).send('Error sending email');
   }
 });
