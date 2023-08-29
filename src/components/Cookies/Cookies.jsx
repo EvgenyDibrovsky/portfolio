@@ -15,15 +15,8 @@ export default function Cookies({ children }) {
 
   useEffect(() => {
     if (showModal) {
-      document.body.style.overflow = 'hidden';
       setTimeout(() => setIsVisible(true), TimeoutModal);
-    } else {
-      document.body.style.overflow = 'auto';
     }
-
-    return () => {
-      document.body.style.overflow = 'auto';
-    };
   }, [showModal]);
 
   const saveLanguagePreference = () => {
