@@ -1,31 +1,18 @@
-export default function ExperienceListItem({
-  name,
-  description,
-  image,
-  link,
-  technologies,
-  participation,
-}) {
+import { useTranslation } from 'react-i18next';
+
+export default function ExperienceListItem({ id }) {
+  const { t } = useTranslation();
+
   return (
-    <li className="group h-40 relative flex flex-col justify-between shadow-md transition-all duration-500 dark:shadow-white rounded-md overflow-hidden">
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        <div className="relative flex items-center justify-center">
-          <img
-            src={process.env.PUBLIC_URL + image}
-            alt={name}
-            className="h-40 p-4 transition-transform duration-200 ease-in-out group-hover:scale-90"
-          />
-          <p className="flex items-center justify-center text-white transition-transform duration-200 ease-in-out absolute inset-0 p-4 bg-black bg-opacity-50 dark:bg-white dark:bg-opacity-30 transform translate-y-full group-hover:translate-y-0">
-            {description}
-          </p>
-          <p className="flex items-center justify-center text-white transition-transform duration-200 ease-in-out absolute inset-0 p-4 bg-black bg-opacity-50 dark:bg-white dark:bg-opacity-30 transform translate-y-full group-hover:translate-y-0">
-            {technologies}
-          </p>
-          <p className="flex items-center justify-center text-white transition-transform duration-200 ease-in-out absolute inset-0 p-4 bg-black bg-opacity-50 dark:bg-white dark:bg-opacity-30 transform translate-y-full group-hover:translate-y-0">
-            {participation}
-          </p>
-        </div>
-      </a>
+    <li className="w-full flex justify-between h-full border border-colorBorder dark:border-colorBorderDark rounded-md">
+      <div className="z-10 h-full flex flex-col gap-2 justify-between p-5 mb-6">
+        {['title', 'position', 'responsibilities', 'county', 'period'].map(field => (
+          <div key={field}>
+            <p className="text-textColor dark:text-white text-[1rem] font-semibold">{t(`experience.${field}`)}</p>
+            <p className="text-textColor dark:text-white text-[1rem]">{t(`experience.${id}.${field}-description`)}</p>
+          </div>
+        ))}
+      </div>
     </li>
   );
 }

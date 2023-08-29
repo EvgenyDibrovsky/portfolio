@@ -239,7 +239,7 @@
     "form": "Form of study",
     "county": "Country",
     "period": "Study period",
-    "id-1": {
+    "id-4": {
       "title-description": "GoIT Programming Courses",
       "faculty-description": "Full Stack",
       "speciality-description": "Full Stack Developer",
@@ -247,7 +247,7 @@
       "county-description": "Ukraine",
       "period-description": "05.2022 - 04.2023"
     },
-    "id-2": {
+    "id-3": {
       "title-description": "Renoma Educational Center",
       "faculty-description": "Administration Techniques",
       "speciality-description": "Technician in Administration",
@@ -255,7 +255,7 @@
       "county-description": "Poland",
       "period-description": "09.2020 - 01.2022"
     },
-    "id-3": {
+    "id-2": {
       "title-description": "Classical Private University",
       "faculty-description": "Economic Cybernetics",
       "speciality-description": "Economist-Cybernetician | Bachelor",
@@ -263,13 +263,48 @@
       "county-description": "Ukraine",
       "period-description": "09.2007 - 07.2012"
     },
-    "id-4": {
+    "id-1": {
       "title-description": "Zaporizhzhia College of Radio Electronics of Zaporizhzhia National Technical University",
       "faculty-description": "Computing Technique",
       "speciality-description": "Technician-Electronic",
       "form-description": "Full-time",
       "county-description": "Ukraine",
       "period-description": "09.2003 - 06.2007"
+    }
+  },
+  "experience": {
+    "title": "Workplace",
+    "position": "Position",
+    "responsibilities": "Responsibilities",
+    "county": "Country",
+    "period": "Period",
+    "id-4": {
+      "title-description": "Veneo Sp. z o.o.",
+      "position-description": "Frontend developer",
+      "responsibilities-description": "Creating and promoting turn-key websites. Supporting existing projects",
+      "county-description": "Poland",
+      "period-description": "10.2022 - Present"
+    },
+    "id-3": {
+      "title-description": "Freelance",
+      "position-description": "Frontend developer",
+      "responsibilities-description": "Creating and promoting turn-key websites. Supporting existing projects",
+      "county-description": "Poland",
+      "period-description": "06.2022 - Present"
+    },
+    "id-2": {
+      "title-description": "BTP GROUP Sp.zo.o.",
+      "position-description": "Director",
+      "responsibilities-description": "Web development, online marketing, management, HR",
+      "county-description": "Poland",
+      "period-description": "12.2017 - 07.2023"
+    },
+    "id-1": {
+      "title-description": "BTP GROUP Sp.zo.o.",
+      "position-description": "Director",
+      "responsibilities-description": "Management, online marketing, web development",
+      "county-description": "Poland",
+      "period-description": "02.2016 - 11.2017"
     }
   }
 }

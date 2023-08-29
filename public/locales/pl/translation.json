@@ -239,7 +239,7 @@
     "form": "Forma edukacji",
     "county": "Kraj",
     "Period": "Okres edukacji",
-    "id-1": {
+    "id-4": {
       "title-description": "GoIT Kursy programowania",
       "faculty-description": "Full Stack",
       "speciality-description": "Full Stack Developer",
@@ -247,7 +247,7 @@
       "county-description": "Ukraina",
       "period-description": "05.2022 - 04.2023"
     },
-    "id-2": {
+    "id-3": {
       "title-description": "Centrum Edukacyjne Renoma",
       "faculty-description": "Technika Administracji",
       "speciality-description": "Technik Administracji",
@@ -255,7 +255,7 @@
       "county-description": "Polska",
       "period-description": "09.2020 - 01.2022"
     },
-    "id-3": {
+    "id-2": {
       "title-description": "Klasyczny Prywatny Uniwersytet",
       "faculty-description": "Ekonomika Cybernetyki",
       "speciality-description": "Ekonomista-Cybernetyk | Bakalarz",
@@ -263,13 +263,48 @@
       "county-description": "Ukraina",
       "period-description": "09.2007 - 07.2012"
     },
-    "id-4": {
+    "id-1": {
       "title-description": "Zaporoski Kolegium Radioelektroniki Narodowego Uniwersytetu Technicznego w Zaporożu",
       "faculty-description": "Technika Obliczeniowa",
       "speciality-description": "Technik Elektronik",
       "form-description": "Dzienne",
       "county-description": "Ukraina",
       "period-description": "09.2003 - 06.2007"
+    }
+  },
+  "experience": {
+    "title": "Miejsce pracy",
+    "position": "Stanowisko",
+    "responsibilities": "Obowiązki",
+    "county": "Kraj",
+    "period": "Okres",
+    "id-4": {
+      "title-description": "Veneo Sp. z o.o.",
+      "position-description": "Frontend deweloper",
+      "responsibilities-description": "Tworzenie stron internetowych. Wsparcie istniejących projektów",
+      "county-description": "Polska",
+      "period-description": "10.2022 - Obecnie"
+    },
+    "id-3": {
+      "title-description": "Freelancer",
+      "position-description": "Frontend deweloper",
+      "responsibilities-description": "Tworzenie stron internetowych. Wsparcie istniejących projektów",
+      "county-description": "Polska",
+      "period-description": "06.2022 - Obecnie"
+    },
+    "id-2": {
+      "title-description": "BTP GROUP Sp.zo.o.",
+      "position-description": "Dyrektor",
+      "responsibilities-description": "Tworzenie stron internetowych, marketing internetowy, zarządzanie, HR",
+      "county-description": "Polska",
+      "period-description": "12.2017 - 07.2023"
+    },
+    "id-1": {
+      "title-description": "BTP GROUP Sp.zo.o.",
+      "position-description": "Dyrektor",
+      "responsibilities-description": "Zarządzanie, marketing internetowy, tworzenie strony internetowej",
+      "county-description": "Polska",
+      "period-description": "02.2016 - 11.2017"
     }
   }
 }

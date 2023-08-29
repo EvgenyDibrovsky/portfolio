@@ -8,7 +8,9 @@ import ProgressLangSkills from 'components/LangSkillsProgressBar/LangSkillsProgr
 import MetaTags from 'components/MetaTags/MetaTags';
 import WrapperTitle from 'components/Utility/WrapperTitle';
 import SoftSkills from 'components/SoftSkills/SoftSkills';
-import Education from 'components/Education/Education';
+import EducationList from 'components/Education/EducationList';
+import ExperienceList from 'components/Experience/ExperienceList';
+
 export default function ResumePage() {
   const { t } = useTranslation();
 
@@ -39,10 +41,11 @@ export default function ResumePage() {
       </div>
       <div className="my-5">
         <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-5')}</h3>
-        <Education />
+        <EducationList />
       </div>
       <div className="my-5">
         <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-6')}</h3>
+        <ExperienceList />
       </div>
     </>
   );
