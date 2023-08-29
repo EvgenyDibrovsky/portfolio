@@ -24,27 +24,45 @@ export default function ResumePage() {
       </WrapperTitle>
 
       <div className="my-5">
-        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-1')}</h3>
+        <div className="inline-block relative my-5">
+          <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('resume-page.sub-title-1')}</h3>
+          <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
+        </div>
         <CertificatesList />
       </div>
       <div className="my-5">
-        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-2')}</h3>
+        <div className="inline-block relative my-5">
+          <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('resume-page.sub-title-2')}</h3>
+          <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
+        </div>
         <TechSkillsIndicators />
       </div>
       <div className="my-5">
-        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-3')}</h3>
+        <div className="inline-block relative my-5">
+          <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('resume-page.sub-title-3')}</h3>
+          <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
+        </div>
         <ProgressLangSkills />
       </div>
       <div className="my-5">
-        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-4')}</h3>
+        <div className="inline-block relative my-5">
+          <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('resume-page.sub-title-4')}</h3>
+          <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
+        </div>
         <SoftSkills />
       </div>
       <div className="my-5">
-        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-5')}</h3>
+        <div className="inline-block relative my-5">
+          <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('resume-page.sub-title-5')}</h3>
+          <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
+        </div>
         <EducationList />
       </div>
       <div className="my-5">
-        <h3 className="text-black dark:text-white text-[1.25rem] font-semibold my-5">{t('resume-page.sub-title-6')}</h3>
+        <div className="inline-block relative my-5">
+          <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('resume-page.sub-title-6')}</h3>
+          <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
+        </div>
         <ExperienceList />
       </div>
     </>
