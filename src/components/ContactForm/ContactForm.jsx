@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import AnimateElements from 'components/Utility/AnimateElements';
 import axios from 'axios';
+// import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function ContactForm() {
   const { t } = useTranslation();
+  const [statusMessage, setStatusMessage] = useState(null);
+  const [isSuccess, setIsSuccess] = useState(null);
 
   const validationSchema = Yup.object({
     name: Yup.string().required(t('contact-form.enter-name')),
@@ -14,35 +17,26 @@ export default function ContactForm() {
     subject: Yup.string().required(t('contact-form.enter-message-subject')),
     message: Yup.string().required(t('contact-form.enter-message')),
   });
+  const API_ENDPOINT = process.env.REACT_APP_API_ENDPOINT;
+  // const RECAPTCHA_KEY = process.env.RECAPTCHA_KEYT;
 
-  const handleSubmit = (values, { setSubmitting }) => {
-    // console.log(values);
+  const handleSubmit = (values, { setSubmitting, resetForm }) => {
     axios
-      .post('http://localhost:5000/send-email', values)
+      .post(API_ENDPOINT, values)
       .then(response => {
-        console.log('Email sent successfully:', response.data);
-        // Возможно, покажите уведомление об успешной отправке
+        setStatusMessage(t('contact-form.sent-successfully'));
+        setIsSuccess(true);
+        resetForm(); // Этот метод очистит вашу форму
       })
       .catch(error => {
-        console.error('Error sending email:', error);
-        if (error.response) {
-          // Запрос был выполнен, и сервер ответил статус-кодом, который выпадает из диапазона 2xx
-          console.error('Server Response:', error.response.data);
-          console.error('Server Response Status:', error.response.status);
-          console.error('Server Response Headers:', error.response.headers);
-        } else if (error.request) {
-          // Запрос был выполнен, но ответа не было
-          console.error('No response was received:', error.request);
-        } else {
-          // Что-то произошло при настройке запроса, и произошла ошибка
-          console.error('Error', error.message);
-        }
+        console.error('Ошибка при отправке формы:', error); // Добавляем логирование ошибки
+
+        setStatusMessage(t('contact-form.sent-no-successfully'));
+        setIsSuccess(false);
       })
       .finally(() => {
         setSubmitting(false);
       });
-
-    setSubmitting(false);
   };
 
   return (
@@ -110,6 +104,12 @@ export default function ContactForm() {
                     </label>
                   </div>
                 </div>
+                {statusMessage && (
+                  <div className={`flex justify-center items-center text-white text-center status-message h-16 sm:h-12 mb-10 rounded-sm ${isSuccess ? 'bg-green-600' : 'bg-red-600'}`}>
+                    {statusMessage}
+                  </div>
+                )}
+                {/* <ReCAPTCHA sitekey={RECAPTCHA_KEY} onChange={value => setFieldValue('recaptcha', value)} /> */}
 
                 <button type="submit" className="btn-contact-form inline-block mr-auto  ">
                   {t('contact-form.send')}

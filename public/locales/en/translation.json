@@ -119,7 +119,9 @@
     "enter-message-subject": "Enter-message-subject",
     "message": "Message",
     "enter-message": "Enter message",
-    "send": "Send"
+    "send": "Send",
+    "sent-successfully": "Message sent successfully",
+    "sent-no-successfully": "Message not sent"
   },
   "portfolio": {
     "portfolio-filter": {

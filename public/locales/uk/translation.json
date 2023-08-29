@@ -120,7 +120,9 @@
     "enter-message-subject": "Введіть тему повідомлення",
     "message": "Повідомлення",
     "enter-message": "Введіть повідомлення",
-    "send": "Відправити"
+    "send": "Відправити",
+    "sent-successfully": "Повідомлення успішно надіслано",
+    "sent-no-successfully": "Повідомлення не надіслано"
   },
   "portfolio": {
     "portfolio-filter": {
