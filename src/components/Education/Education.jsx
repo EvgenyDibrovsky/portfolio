@@ -32,7 +32,7 @@ export default function Education() {
             <p className="text-textColor dark:text-white text-[1rem] ">{t('education.id-1.period-description')}</p>
           </div>
         </div>
-        <div className="w-7/12 h-full clip-education relative bg-education-goit bg-cover bg-right bg-no-repeat">
+        <div className="w-full h-full clip-education relative bg-education-goit bg-cover bg-right bg-no-repeat">
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
         </div>
       </li>
@@ -63,6 +63,9 @@ export default function Education() {
             <p className="text-textColor dark:text-white text-[1rem] ">{t('education.id-2.period-description')}</p>
           </div>
         </div>
+        <div className="w-full h-full clip-education relative bg-education-renoma bg-cover bg-right bg-no-repeat">
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
+        </div>
       </li>
       <li className="w-full flex justify-between h-full border border-colorBorder dark:border-colorBorderDark rounded-md group p-5 mb-6">
         <div className="flex flex-col gap-2 justify-between">
@@ -91,6 +94,9 @@ export default function Education() {
             <p className="text-textColor dark:text-white text-[1rem] ">{t('education.id-3.period-description')}</p>
           </div>
         </div>
+        <div className="w-full h-full clip-education relative bg-education-economic-cybernetics bg-cover bg-right bg-no-repeat">
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
+        </div>
       </li>
       <li className="w-full flex justify-between h-full border border-colorBorder dark:border-colorBorderDark rounded-md group p-5 mb-6">
         <div className="flex flex-col gap-2 justify-between">
@@ -118,6 +124,9 @@ export default function Education() {
             <p className="text-textColor dark:text-white text-[1rem] font-semibold">{t('education.period')}</p>
             <p className="text-textColor dark:text-white text-[1rem]">{t('education.id-4.period-description')}</p>
           </div>
+        </div>
+        <div className="w-full h-full clip-education relative bg-education-zkr-zntu bg-cover bg-right bg-no-repeat">
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
         </div>
       </li>
     </ul>
