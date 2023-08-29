@@ -282,6 +282,7 @@
     "county": "Країна",
     "period": "Період",
     "id-4": {
+      "logo": "/experience-logo/Veneo.jpg",
       "title-description": "Veneo Sp. z o.o.",
       "position-description": "Frontend розробник",
       "responsibilities-description": "Створення сайтів під ключ. Підтримка існуючих проектів",
@@ -289,6 +290,7 @@
       "period-description": "10.2022 - Поточний час"
     },
     "id-3": {
+      "logo": "/experience-logo/freelancer.jpg",
       "title-description": "Фріланс",
       "position-description": "Frontend розробник",
       "responsibilities-description": "Створення та просування сайтів під ключ. Підтримка існуючих проектів",
@@ -296,6 +298,7 @@
       "period-description": "06.2022 - Поточний час"
     },
     "id-2": {
+      "logo": "/experience-logo/wbm-group.png",
       "title-description": "WBM GROUP Sp.zo.o.",
       "position-description": "Директор",
       "responsibilities-description": "Веб-розробка, інтернет-маркетинг, менеджмент, HR",
@@ -303,6 +306,7 @@
       "period-description": "12.2017 - 07.2023"
     },
     "id-1": {
+      "logo": "/experience-logo/btp-group.jpg",
       "title-description": "BTP GROUP Sp.zo.o.",
       "position-description": "Директор",
       "responsibilities-description": "Менеджмент, інтернет-маркетинг, веб-розробка",

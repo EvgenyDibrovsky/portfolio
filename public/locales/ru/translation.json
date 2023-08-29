@@ -235,7 +235,7 @@
     "skill-6": "Умение обучаться"
   },
   "education": {
-    "title": "Учебное завидение",
+    "title": "Учебное заведение",
     "faculty": "Факультет",
     "speciality": "Специальность",
     "form": "Форма обучения",
@@ -281,6 +281,7 @@
     "county": "Страна",
     "period": "Период",
     "id-4": {
+      "logo": "/experience-logo/Veneo.jpg",
       "title-description": "Veneo Sp. z o.o.",
       "position-description": "Frontend разработчик",
       "responsibilities-description": "Создание сайтов под ключ. Поддержка существующих проектов",
@@ -288,6 +289,7 @@
       "period-description": "10.2022 - Наст.время"
     },
     "id-3": {
+      "logo": "/experience-logo/freelancer.jpg",
       "title-description": "Фриланс",
       "position-description": "Frontend Разработчик",
       "responsibilities-description": "Создание и продвижение сайтов под ключ. Поддержка существующих проектов",
@@ -295,6 +297,7 @@
       "period-description": "06.2022 - Наст.время"
     },
     "id-2": {
+      "logo": "/experience-logo/wbm-group.png",
       "title-description": "WBM GROUP Sp.zo.o.",
       "position-description": "Директор",
       "responsibilities-description": "Веб-разработка, интернет-маркетинг, менеджмент, HR",
@@ -302,6 +305,7 @@
       "period-description": "12.2017 - 07.2023"
     },
     "id-1": {
+      "logo": "/experience-logo/btp-group.jpg",
       "title-description": "BTP GROUP Sp.zo.o.",
       "position-description": "Директор",
       "responsibilities-description": "Менеджмент, интернет-маркетинг, веб-разработка",
