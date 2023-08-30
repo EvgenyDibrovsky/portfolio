@@ -4,7 +4,6 @@ import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import AnimateElements from 'components/Utility/AnimateElements';
 import axios from 'axios';
-// import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function ContactForm() {
   const { t } = useTranslation();
@@ -18,7 +17,6 @@ export default function ContactForm() {
     message: Yup.string().required(t('contact-form.enter-message')),
   });
   const API_ENDPOINT = process.env.REACT_APP_API_ENDPOINT;
-  // const RECAPTCHA_KEY = process.env.RECAPTCHA_KEYT;
 
   const handleSubmit = (values, { setSubmitting, resetForm }) => {
     axios
@@ -26,7 +24,7 @@ export default function ContactForm() {
       .then(response => {
         setStatusMessage(t('contact-form.sent-successfully'));
         setIsSuccess(true);
-        resetForm(); // Этот метод очистит вашу форму
+        resetForm();
       })
       .catch(error => {
         console.error('Ошибка при отправке формы:', error); // Добавляем логирование ошибки
@@ -109,7 +107,6 @@ export default function ContactForm() {
                     {statusMessage}
                   </div>
                 )}
-                {/* <ReCAPTCHA sitekey={RECAPTCHA_KEY} onChange={value => setFieldValue('recaptcha', value)} /> */}
 
                 <button type="submit" className="btn-contact-form inline-block mr-auto  ">
                   {t('contact-form.send')}

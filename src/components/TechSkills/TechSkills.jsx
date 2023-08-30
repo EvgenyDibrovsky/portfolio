@@ -6,8 +6,8 @@ import AnimateElements from 'components/Utility/AnimateElements';
 export default function TechSkills({ skill }) {
   const [progressValue, setProgressValue] = useState(0);
   const [ref, inView] = useInView({
-    triggerOnce: true, // Это значит, что хук сработает только один раз, когда элемент войдет в область видимости
-    threshold: 0.1, // 10% элемента должны быть видны, чтобы сработал триггер
+    triggerOnce: true,
+    threshold: 0.1,
   });
 
   useEffect(() => {

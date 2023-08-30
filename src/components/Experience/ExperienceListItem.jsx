@@ -8,7 +8,6 @@ export default function ExperienceListItem({ id }) {
       <div className="z-10 w-full h-full flex flex-col gap-2 p-5">
         <div className="flex items-center gap-3">
           <img src={`${process.env.PUBLIC_URL}${t(`experience.${id}.logo`)}`} alt={t(`experience.${id}.title-description`)} className="absolute top-5 right-5 w-40 h-auto object-cover rounded" />
-          <p className="your-special-style-for-title-description">{t(`experience.${id}.title-description`)}</p>
         </div>
 
         {['title', 'position', 'responsibilities', 'county', 'period'].map(field => (
