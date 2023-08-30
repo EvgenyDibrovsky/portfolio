@@ -1,0 +1,218 @@
+[
+  {
+    "experience": {
+      "id": 4,
+      "logo": "/images/experience-logo/veneo-logo.png",
+      "EN": {
+        "title": "Workplace",
+        "title-description": "Veneo Sp. z o.o.",
+        "position": "Position",
+        "position-description": "Frontend developer",
+        "responsibilities": "Responsibilities",
+        "responsibilities-description": "Creating websites. Supporting existing projects",
+        "county": "Country",
+        "county-description": "Poland",
+        "period": "Period",
+        "period-description": "10.2022 - Present"
+      },
+      "PL": {
+        "title": "Miejsce pracy",
+        "title-description": "Veneo Sp. z o.o.",
+        "position": "Stanowisko",
+        "position-description": "Frontend deweloper",
+        "responsibilities": "Obowiązki",
+        "responsibilities-description": "Tworzenie stron internetowych. Wsparcie istniejących projektów",
+        "county": "Kraj",
+        "county-description": "Polska",
+        "period": "Okres",
+        "period-description": "10.2022 - Obecnie"
+      },
+      "UK": {
+        "title": "Місце роботи",
+        "title-description": "Veneo Sp. z o.o.",
+        "position": "Посада",
+        "position-description": "Frontend розробник",
+        "responsibilities": "Обов'язки",
+        "responsibilities-description": "Створення сайтів під ключ. Підтримка існуючих проектів",
+        "county": "Країна",
+        "county-description": "Польща",
+        "period": "Період",
+        "period-description": "10.2022 - Поточний час"
+      },
+      "RU": {
+        "title": "Место работы",
+        "title-description": "Veneo Sp. z o.o.",
+        "position": "Должность",
+        "position-description": "Frontend разработчик",
+        "responsibilities": "Обязанности",
+        "responsibilities-description": "Создание сайтов под ключ. Поддержка существующих проектов",
+        "county": "Страна",
+        "county-description": "Польша",
+        "period": "Период",
+        "period-description": "10.2022 - Наст.время"
+      }
+    }
+  },
+  {
+    "experience": {
+      "id": 3,
+      "logo": "/images/experience-logo/freelancer-logo.png",
+      "EN": {
+        "title": "Workplace",
+        "title-description": "Freelance",
+        "position": "Position",
+        "position-description": "Frontend developer",
+        "responsibilities": "Responsibilities",
+        "responsibilities-description": "Creating websites. Supporting existing projects",
+        "county": "Country",
+        "county-description": "Poland",
+        "period": "Period",
+        "period-description": "06.2022 - Present"
+      },
+      "PL": {
+        "title": "Miejsce pracy",
+        "title-description": "Freelancer",
+        "position": "Stanowisko",
+        "position-description": "Frontend deweloper",
+        "responsibilities": "Obowiązki",
+        "responsibilities-description": "Tworzenie stron internetowych. Wsparcie istniejących projektów",
+        "county": "Kraj",
+        "county-description": "Polska",
+        "period": "Okres",
+        "period-description": "06.2022 - Obecnie"
+      },
+      "UK": {
+        "title": "Місце роботи",
+        "title-description": "Фріланс",
+        "position": "Посада",
+        "position-description": "Frontend розробник",
+        "responsibilities": "Обов'язки",
+        "responsibilities-description": "Створення та просування сайтів під ключ. Підтримка існуючих проектів",
+        "county": "Країна",
+        "county-description": "Польща",
+        "period": "Період",
+        "period-description": "06.2022 - Поточний час"
+      },
+      "RU": {
+        "title": "Место работы",
+        "title-description": "Фриланс",
+        "position": "Должность",
+        "position-description": "Frontend Разработчик",
+        "responsibilities": "Обязанности",
+        "responsibilities-description": "Создание и продвижение сайтов под ключ. Поддержка существующих проектов",
+        "county": "Страна",
+        "county-description": "Польша",
+        "period": "Период",
+        "period-description": "06.2022 - Наст.время"
+      }
+    }
+  },
+  {
+    "experience": {
+      "id": 2,
+      "logo": "/images/experience-logo/wbm-group-logo.png",
+      "EN": {
+        "title": "Workplace",
+        "title-description": "WBM GROUP Sp.zo.o.",
+        "position": "Position",
+        "position-description": "Director",
+        "responsibilities": "Responsibilities",
+        "responsibilities-description": "Web development, online marketing, management, HR",
+        "county": "Country",
+        "county-description": "Poland",
+        "period": "Period",
+        "period-description": "12.2017 - 07.2023"
+      },
+      "PL": {
+        "title": "Miejsce pracy",
+        "title-description": "WBM GROUP Sp.zo.o.",
+        "position": "Stanowisko",
+        "position-description": "Prokurent / Udziałowiec",
+        "responsibilities": "Obowiązki",
+        "responsibilities-description": "Tworzenie stron internetowych, marketing internetowy, zarządzanie, HR",
+        "county": "Kraj",
+        "county-description": "Polska",
+        "period": "Okres",
+        "period-description": "12.2017 - 07.2023"
+      },
+      "UK": {
+        "title": "Місце роботи",
+        "title-description": "WBM GROUP Sp.zo.o.",
+        "position": "Посада",
+        "position-description": "Директор",
+        "responsibilities": "Обов'язки",
+        "responsibilities-description": "Веб-розробка, інтернет-маркетинг, менеджмент, HR",
+        "county": "Країна",
+        "county-description": "Польща",
+        "period": "Період",
+        "period-description": "12.2017 - 07.2023"
+      },
+      "RU": {
+        "title": "Место работы",
+        "title-description": "WBM GROUP Sp.zo.o.",
+        "position": "Должность",
+        "position-description": "Директор",
+        "responsibilities": "Обязанности",
+        "responsibilities-description": "Веб-разработка, интернет-маркетинг, менеджмент, HR",
+        "county": "Страна",
+        "county-description": "Польша",
+        "period": "Период",
+        "period-description": "12.2017 - 07.2023"
+      }
+    }
+  },
+  {
+    "experience": {
+      "id": 1,
+      "logo": "/images/experience-logo/btp-group-logo.png",
+      "EN": {
+        "title": "Workplace",
+        "title-description": "BTP GROUP Sp.zo.o.",
+        "position": "Position",
+        "position-description": "Director",
+        "responsibilities": "Responsibilities",
+        "responsibilities-description": "Management, online marketing, web development",
+        "county": "Country",
+        "county-description": "Poland",
+        "period": "Period",
+        "period-description": "02.2016 - 11.2017"
+      },
+      "PL": {
+        "title": "Miejsce pracy",
+        "title-description": "BTP GROUP Sp.zo.o.",
+        "position": "Stanowisko",
+        "position-description": "Prokurent",
+        "responsibilities": "Obowiązki",
+        "responsibilities-description": "Zarządzanie, marketing internetowy, tworzenie strony internetowej",
+        "county": "Kraj",
+        "county-description": "Polska",
+        "period": "Okres",
+        "period-description": "02.2016 - 11.2017"
+      },
+      "UK": {
+        "title": "Місце роботи",
+        "title-description": "BTP GROUP Sp.zo.o.",
+        "position": "Посада",
+        "position-description": "Директор",
+        "responsibilities": "Обов'язки",
+        "responsibilities-description": "Менеджмент, інтернет-маркетинг, веб-розробка",
+        "county": "Країна",
+        "county-description": "Польща",
+        "period": "Період",
+        "period-description": "02.2016 - 11.2017"
+      },
+      "RU": {
+        "title": "Место работы",
+        "title-description": "BTP GROUP Sp.zo.o.",
+        "position": "Должность",
+        "position-description": "Директор",
+        "responsibilities": "Обязанности",
+        "responsibilities-description": "Менеджмент, интернет-маркетинг, веб-разработка",
+        "county": "Страна",
+        "county-description": "Польша",
+        "period": "Период",
+        "period-description": "02.2016 - 11.2017"
+      }
+    }
+  }
+]

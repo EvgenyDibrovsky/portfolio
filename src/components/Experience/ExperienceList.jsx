@@ -1,15 +1,23 @@
-import { useTranslation } from 'react-i18next';
-import ExperienceistItem from './ExperienceListItem';
+import ExperienceListItem from './ExperienceListItem';
+import dbExperience from '../../db/experience.json';
+import useCurrentLanguage from '../Hooks/useCurrentLanguage';
 
-export default function Experienceist() {
-  const { t } = useTranslation();
+export default function ExperienceList() {
+  const currentLanguage = useCurrentLanguage();
 
-  const experienceListData = [{ id: 'id-4' }, { id: 'id-3' }, { id: 'id-2' }, { id: 'id-1' }];
+  const data = dbExperience.map(item => {
+    const languageSpecificData = item.experience[currentLanguage];
+    return {
+      ...languageSpecificData,
+      id: item.experience.id,
+      logo: item.experience.logo,
+    };
+  });
 
   return (
     <ul className="grid grid-cols-1 xl:grid-cols-2 gap-4">
-      {experienceListData.map(data => (
-        <ExperienceistItem key={data.id} id={data.id} bgClass={data.bgClass} t={t} />
+      {data.map(dataItem => (
+        <ExperienceListItem key={dataItem.id} data={dataItem} />
       ))}
     </ul>
   );
