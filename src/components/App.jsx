@@ -17,6 +17,9 @@ import TermsUse from '../pages/TermsUse';
 import NotFound from '../pages/NotFound';
 import { HelmetProvider } from 'react-helmet-async';
 import { isCookieAccepted } from './Cookies/Cookies'; // Замените на правильный путь к вашему Cookies компоненту
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
+const RECAPTCHA_KEY = process.env.REACT_APP_RECAPTCHA_KEY;
+
 export const App = () => {
   const [loading, setLoading] = useState(true);
   const [theme, setTheme] = useState(() => {
@@ -57,93 +60,95 @@ export const App = () => {
   }
 
   return (
-    <HelmetProvider>
-      <Router basename={process.env.PUBLIC_URL}>
-        {/* <Router> */}
-        <div>
-          <Header theme={theme} toggleTheme={toggleTheme} />
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <Section customPadding="md:pl-[12.5rem] pb-10">
-                  <Home />
-                </Section>
-              }
-            />
-            <Route
-              path="/cooperation"
-              element={
-                <Section>
-                  <Container>
-                    <Cooperation />
-                  </Container>
-                </Section>
-              }
-            />
-            <Route
-              path="/resume"
-              element={
-                <Section>
-                  <Container>
-                    <Resume />
-                  </Container>
-                </Section>
-              }
-            />
-            <Route
-              path="/portfolio"
-              element={
-                <Section>
-                  <Container>
-                    <Portfolio />
-                  </Container>
-                </Section>
-              }
-            />
-            <Route
-              path="/brief"
-              element={
-                <Section>
-                  <Container>
-                    <Brief />
-                  </Container>
-                </Section>
-              }
-            />
-            <Route
-              path="/contact"
-              element={
-                <Section>
-                  <Container>
-                    <Contacts />
-                  </Container>
-                </Section>
-              }
-            />
-            <Route
-              path="/term-of-use-page"
-              element={
-                <Section>
-                  <Container>
-                    <TermsUse />
-                  </Container>
-                </Section>
-              }
-            />
-            <Route
-              path="*"
-              element={
-                <div className="w-full h-screen flex justify-center items-center md:pl-[12.5rem] pt-24 pb-10 md:py-6 bg-bgSection dark:bg-bgSectionDark">
-                  <Container>
-                    <NotFound />
-                  </Container>
-                </div>
-              }
-            />
-          </Routes>
-        </div>
-      </Router>{' '}
-    </HelmetProvider>
+    <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_KEY}>
+      <HelmetProvider>
+        <Router basename={process.env.PUBLIC_URL}>
+          {/* <Router> */}
+          <div>
+            <Header theme={theme} toggleTheme={toggleTheme} />
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <Section customPadding="md:pl-[12.5rem] pb-10">
+                    <Home />
+                  </Section>
+                }
+              />
+              <Route
+                path="/cooperation"
+                element={
+                  <Section>
+                    <Container>
+                      <Cooperation />
+                    </Container>
+                  </Section>
+                }
+              />
+              <Route
+                path="/resume"
+                element={
+                  <Section>
+                    <Container>
+                      <Resume />
+                    </Container>
+                  </Section>
+                }
+              />
+              <Route
+                path="/portfolio"
+                element={
+                  <Section>
+                    <Container>
+                      <Portfolio />
+                    </Container>
+                  </Section>
+                }
+              />
+              <Route
+                path="/brief"
+                element={
+                  <Section>
+                    <Container>
+                      <Brief />
+                    </Container>
+                  </Section>
+                }
+              />
+              <Route
+                path="/contact"
+                element={
+                  <Section>
+                    <Container>
+                      <Contacts />
+                    </Container>
+                  </Section>
+                }
+              />
+              <Route
+                path="/term-of-use-page"
+                element={
+                  <Section>
+                    <Container>
+                      <TermsUse />
+                    </Container>
+                  </Section>
+                }
+              />
+              <Route
+                path="*"
+                element={
+                  <div className="w-full h-screen flex justify-center items-center md:pl-[12.5rem] pt-24 pb-10 md:py-6 bg-bgSection dark:bg-bgSectionDark">
+                    <Container>
+                      <NotFound />
+                    </Container>
+                  </div>
+                }
+              />
+            </Routes>
+          </div>
+        </Router>
+      </HelmetProvider>
+    </GoogleReCaptchaProvider>
   );
 };

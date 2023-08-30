@@ -2,9 +2,9 @@
   {
     "certificate": {
       "id": 1,
-      "thumbnail": "/certificate/thumb/go-It-full-stack.jpg",
-      "fullImage": "/certificate/full/go-It-full-stack.jpg",
-      "linkPDF": "/certificate/pdf/go-It-full-stack.pdf",
+      "thumbnail": "/images/certificate/thumb/go-It-full-stack.jpg",
+      "fullImage": "/images/certificate/full/go-It-full-stack.jpg",
+      "linkPDF": "/images/certificate/pdf/go-It-full-stack.pdf",
       "startDate": "11.05.2022",
       "finishtDate": "19.04.2023",
       "EN": {
@@ -32,9 +32,9 @@
   {
     "certificate": {
       "id": 2,
-      "thumbnail": "/certificate/thumb/figma.jpg",
-      "fullImage": "/certificate/full/figma.jpg",
-      "linkPDF": "/certificate/pdf/figma.pdf",
+      "thumbnail": "/images/certificate/thumb/figma.jpg",
+      "fullImage": "/images/certificate/full/figma.jpg",
+      "linkPDF": "/images/certificate/pdf/figma.pdf",
       "startDate": "16.04.2022",
       "finishtDate": "16.05.2022",
       "EN": {
@@ -62,9 +62,9 @@
   {
     "certificate": {
       "id": 3,
-      "thumbnail": "/certificate/thumb/wordpress-2.jpg",
-      "fullImage": "/certificate/full/wordpress-2.jpg",
-      "linkPDF": "/certificate/pdf/wordpress-2.pdf",
+      "thumbnail": "/images/certificate/thumb/wordpress-2.jpg",
+      "fullImage": "/images/certificate/full/wordpress-2.jpg",
+      "linkPDF": "/images/certificate/pdf/wordpress-2.pdf",
       "startDate": "24.07.2021",
       "finishtDate": "24.08.2021",
       "EN": {
@@ -92,9 +92,9 @@
   {
     "certificate": {
       "id": 4,
-      "thumbnail": "/certificate/thumb/assistive-and-compensating-technologies.jpg",
-      "fullImage": "/certificate/full/assistive-and-compensating-technologies.jpg",
-      "linkPDF": "/certificate/pdf/assistive-and-compensating-technologies.pdf",
+      "thumbnail": "/images/certificate/thumb/assistive-and-compensating-technologies.jpg",
+      "fullImage": "/images/certificate/full/assistive-and-compensating-technologies.jpg",
+      "linkPDF": "/images/certificate/pdf/assistive-and-compensating-technologies.pdf",
       "startDate": "05.03.2021",
       "finishtDate": "22.03.2021",
       "EN": {
@@ -122,9 +122,9 @@
   {
     "certificate": {
       "id": 5,
-      "thumbnail": "/certificate/thumb/wordpress-1.jpg",
-      "fullImage": "/certificate/full/wordpress-1.jpg",
-      "linkPDF": "/certificate/pdf/wordpress-1.pdf",
+      "thumbnail": "/images/certificate/thumb/wordpress-1.jpg",
+      "fullImage": "/images/certificate/full/wordpress-1.jpg",
+      "linkPDF": "/images/certificate/pdf/wordpress-1.pdf",
       "startDate": "20.12.2020",
       "finishtDate": "26.12.2020",
       "EN": {
@@ -152,9 +152,9 @@
   {
     "certificate": {
       "id": 6,
-      "thumbnail": "/certificate/thumb/wordpress-0.jpg",
-      "fullImage": "/certificate/full/wordpress-0.jpg",
-      "linkPDF": "/certificate/pdf/wordpress-0.pdf",
+      "thumbnail": "/images/certificate/thumb/wordpress-0.jpg",
+      "fullImage": "/images/certificate/full/wordpress-0.jpg",
+      "linkPDF": "/images/certificate/pdf/wordpress-0.pdf",
       "startDate": "26.11.2020",
       "finishtDate": "26.12.2020",
       "EN": {
@@ -182,9 +182,9 @@
   {
     "certificate": {
       "id": 7,
-      "thumbnail": "/certificate/thumb/html-css.jpg",
-      "fullImage": "/certificate/full/html-css.jpg",
-      "linkPDF": "/certificate/pdf/html-css.pdf",
+      "thumbnail": "/images/certificate/thumb/html-css.jpg",
+      "fullImage": "/images/certificate/full/html-css.jpg",
+      "linkPDF": "/images/certificate/pdf/html-css.pdf",
       "startDate": "01.07.2020",
       "finishtDate": "01.07.2020",
       "EN": {

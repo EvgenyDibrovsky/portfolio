@@ -81,12 +81,12 @@ module.exports = {
         titleLine: '#36a6de',
       },
       backgroundImage: {
-        'hero-pattern': "url('./image/bg/bg-section-home.jpg')",
-        'education-goit': "url('./image/bg/bg-goit-education.jpg')",
-        'education-renoma': "url('./image/bg/bg-administration-technician-education.jpg')",
-        'education-economic-cybernetics': "url('./image/bg/bg-cybernetics-education.jpg')",
+        'hero-pattern': "url('/public/images/bg/bg-section-home.jpg')",
+        'education-goit': "url('/public/images/bg/bg-goit-education.jpg')",
+        'education-renoma': "url('/public/images/bg/bg-administration-technician-education.jpg')",
+        'education-economic-cybernetics': "url('/public/images/bg/bg-cybernetics-education.jpg')",
 
-        'education-zkr-zntu': "url('./image/bg/bg-zkr-zntu-education.jpg')",
+        'education-zkr-zntu': "url('/public/images/bg/bg-zkr-zntu-education.jpg')",
       },
       boxShadow: {
         'md-up': '0 0px 6px -1px rgba(0, 0, 0, 0.1), 0 4px 9px 0px rgba(0, 0, 0, 0.06)',

@@ -4,9 +4,11 @@ import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import AnimateElements from 'components/Utility/AnimateElements';
 import axios from 'axios';
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 
 export default function ContactForm() {
   const { t } = useTranslation();
+  const { executeRecaptcha } = useGoogleReCaptcha();
   const [statusMessage, setStatusMessage] = useState(null);
   const [isSuccess, setIsSuccess] = useState(null);
 
@@ -18,7 +20,14 @@ export default function ContactForm() {
   });
   const API_ENDPOINT = process.env.REACT_APP_API_ENDPOINT;
 
-  const handleSubmit = (values, { setSubmitting, resetForm }) => {
+  const handleSubmit = async (values, { setSubmitting, resetForm }) => {
+    if (executeRecaptcha) {
+      const token = await executeRecaptcha('contact_form'); // Получаем токен reCAPTCHA
+      console.log(token);
+      // Вставляем токен в данные формы
+      values.recaptchaToken = token;
+    }
+
     axios
       .post(API_ENDPOINT, values)
       .then(response => {

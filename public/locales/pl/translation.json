@@ -281,7 +281,7 @@
     "county": "Kraj",
     "period": "Okres",
     "id-4": {
-      "logo": "/experience-logo/Veneo.jpg",
+      "logo": "/images/experience-logo/Veneo.jpg",
       "title-description": "Veneo Sp. z o.o.",
       "position-description": "Frontend deweloper",
       "responsibilities-description": "Tworzenie stron internetowych. Wsparcie istniejących projektów",
@@ -289,7 +289,7 @@
       "period-description": "10.2022 - Obecnie"
     },
     "id-3": {
-      "logo": "/experience-logo/freelancer.jpg",
+      "logo": "/images/experience-logo/freelancer.jpg",
       "title-description": "Freelancer",
       "position-description": "Frontend deweloper",
       "responsibilities-description": "Tworzenie stron internetowych. Wsparcie istniejących projektów",
@@ -297,7 +297,7 @@
       "period-description": "06.2022 - Obecnie"
     },
     "id-2": {
-      "logo": "/experience-logo/wbm-group.png",
+      "logo": "/images/experience-logo/wbm-group.png",
       "title-description": "WBM GROUP Sp.zo.o.",
       "position-description": "Prokurent / Udziałowiec",
       "responsibilities-description": "Tworzenie stron internetowych, marketing internetowy, zarządzanie, HR",
@@ -305,7 +305,7 @@
       "period-description": "12.2017 - 07.2023"
     },
     "id-1": {
-      "logo": "/experience-logo/btp-group.jpg",
+      "logo": "/images/experience-logo/btp-group.jpg",
       "title-description": "BTP GROUP Sp.zo.o.",
       "position-description": "Prokurent",
       "responsibilities-description": "Zarządzanie, marketing internetowy, tworzenie strony internetowej",

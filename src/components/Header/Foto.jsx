@@ -1,4 +1,4 @@
-import Foto from '../../image/photo.jpg';
+import Foto from '../../images/photo.jpg';
 import { Link } from 'react-router-dom';
 
 export default function foto() {
