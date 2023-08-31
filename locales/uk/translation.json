@@ -219,7 +219,8 @@
   "btn": {
     "write-message": "Написати повідомлення",
     "back-to-home": "Повернутися на головну",
-    "contact-form": "Контакти"
+    "contact-form": "Контакти",
+    "download-resume": "Скачать резюме (.pdf)"
   },
   "cookies": {
     "title": "Сайт використовує файли cookie",

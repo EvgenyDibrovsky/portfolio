@@ -218,7 +218,8 @@
   "btn": {
     "write-message": "Write a Message",
     "back-to-home": "Back to Home",
-    "contact-form": "Contacts"
+    "contact-form": "Contacts",
+    "download-resume": "Download resume (.pdf)"
   },
   "cookies": {
     "title": "The site uses cookies",
