@@ -2,7 +2,6 @@
   {
     "experience": {
       "id": 4,
-      "logo": "/images/experience-logo/veneo-logo.png",
       "EN": {
         "title": "Workplace",
         "title-description": "Veneo Sp. z o.o.",
@@ -56,7 +55,6 @@
   {
     "experience": {
       "id": 3,
-      "logo": "/images/experience-logo/freelancer-logo.png",
       "EN": {
         "title": "Workplace",
         "title-description": "Freelance",
@@ -110,7 +108,6 @@
   {
     "experience": {
       "id": 2,
-      "logo": "/images/experience-logo/wbm-group-logo.png",
       "EN": {
         "title": "Workplace",
         "title-description": "WBM GROUP Sp.zo.o.",
@@ -164,7 +161,6 @@
   {
     "experience": {
       "id": 1,
-      "logo": "/images/experience-logo/btp-group-logo.png",
       "EN": {
         "title": "Workplace",
         "title-description": "BTP GROUP Sp.zo.o.",

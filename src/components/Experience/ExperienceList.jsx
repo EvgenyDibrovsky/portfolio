@@ -10,7 +10,6 @@ export default function ExperienceList() {
     return {
       ...languageSpecificData,
       id: item.experience.id,
-      logo: item.experience.logo,
     };
   });
 
