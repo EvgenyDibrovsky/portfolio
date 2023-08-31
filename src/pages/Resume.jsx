@@ -11,20 +11,23 @@ import SoftSkills from 'components/SoftSkills/SoftSkills';
 import EducationList from 'components/Education/EducationList';
 import ExperienceList from 'components/Experience/ExperienceList';
 import { BsFillFilePdfFill } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
 export default function ResumePage() {
   const { t } = useTranslation();
 
   return (
     <>
       <MetaTags metaTitle={t('resume-page.meta-title')} metaDescription={t('resume-page.meta-description')} />
-
       <WrapperTitle>
         <PageTitle icon={<BsPersonVcard />} title={t('resume-page.title')} />
         <SubTitle subTitle={t('resume-page.sub-title')} />
       </WrapperTitle>
-
-      <div className="my-5">
+      <div className="flex items-center gap-4 justify-end mt-5 group">
+        <a href="/images/resume/evgeny-dibrovsky-resume.pdf" className="text-sky-600 text-[1.2rem] flex items-center gap-4" download>
+          {t('btn.download-resume')}
+          <BsFillFilePdfFill className="text-red-600 w-8 h-8 duration-200 group-hover:scale-110" />
+        </a>
+      </div>
+      <div className="mb-5">
         <div className="inline-block relative my-5">
           <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('resume-page.sub-title-1')}</h3>
           <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
@@ -65,13 +68,6 @@ export default function ResumePage() {
           <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
         </div>
         <ExperienceList />
-      </div>
-
-      <div className="flex items-center gap-4">
-        <Link href="#" className="text-sky-400 text-[1.2rem]">
-          {t('btn.download-resume')}
-        </Link>
-        <BsFillFilePdfFill className="text-red-600 w-8 h-8" />
       </div>
     </>
   );
