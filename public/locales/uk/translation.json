@@ -240,14 +240,14 @@
     "Faculty": "Факультет",
     "speciality": "Спеціальність",
     "form": "Форма навчання",
-    "county": "Країна",
+    "country": "Країна",
     "Period": "Період навчання",
     "id-4": {
       "title-description": "GoIT Курси програмування",
       "faculty-description": "Full Stack",
       "speciality-description": "Full Stack Розробник",
       "form-description": "Онлайн",
-      "county-description": "Україна",
+      "country-description": "Україна",
       "period-description": "05.2022 - 04.2023"
     },
     "id-3": {
@@ -255,7 +255,7 @@
       "faculty-description": "Техніка Адміністрації",
       "speciality-description": "Технік Адміністрації",
       "form-description": "По вихідних",
-      "county-description": "Польща",
+      "country-description": "Польща",
       "period-description": "09.2020 - 01.2022"
     },
     "id-2": {
@@ -263,7 +263,7 @@
       "faculty-description": "Економічна кібернетика",
       "speciality-description": "Економіст-кібернетик | Бакалавр",
       "form-description": "Заочнa",
-      "county-description": "Україна",
+      "country-description": "Україна",
       "period-description": "09.2007 - 07.2012"
     },
     "id-1": {
@@ -271,47 +271,8 @@
       "faculty-description": "Вичислювальна техніка",
       "speciality-description": "Технік-електронік",
       "form-description": "Денна",
-      "county-description": "Україна",
+      "country-description": "Україна",
       "period-description": "09.2003 - 06.2007"
-    }
-  },
-  "experience": {
-    "title": "Місце роботи",
-    "position": "Посада",
-    "responsibilities": "Обов'язки",
-    "county": "Країна",
-    "period": "Період",
-    "id-4": {
-      "logo": "/images/experience-logo/Veneo.jpg",
-      "title-description": "Veneo Sp. z o.o.",
-      "position-description": "Frontend розробник",
-      "responsibilities-description": "Створення сайтів під ключ. Підтримка існуючих проектів",
-      "county-description": "Польща",
-      "period-description": "10.2022 - Поточний час"
-    },
-    "id-3": {
-      "logo": "/images/experience-logo/freelancer.jpg",
-      "title-description": "Фріланс",
-      "position-description": "Frontend розробник",
-      "responsibilities-description": "Створення та просування сайтів під ключ. Підтримка існуючих проектів",
-      "county-description": "Польща",
-      "period-description": "06.2022 - Поточний час"
-    },
-    "id-2": {
-      "logo": "/images/experience-logo/wbm-group.png",
-      "title-description": "WBM GROUP Sp.zo.o.",
-      "position-description": "Директор",
-      "responsibilities-description": "Веб-розробка, інтернет-маркетинг, менеджмент, HR",
-      "county-description": "Польща",
-      "period-description": "12.2017 - 07.2023"
-    },
-    "id-1": {
-      "logo": "/images/experience-logo/btp-group.jpg",
-      "title-description": "BTP GROUP Sp.zo.o.",
-      "position-description": "Директор",
-      "responsibilities-description": "Менеджмент, інтернет-маркетинг, веб-розробка",
-      "county-description": "Польща",
-      "period-description": "02.2016 - 11.2017"
     }
   }
 }
