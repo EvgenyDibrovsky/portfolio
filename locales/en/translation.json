@@ -239,14 +239,14 @@
     "faculty": "Faculty",
     "speciality": "Speciality",
     "form": "Form of study",
-    "county": "Country",
+    "country": "Country",
     "period": "Study period",
     "id-4": {
       "title-description": "GoIT Programming Courses",
       "faculty-description": "Full Stack",
       "speciality-description": "Full Stack Developer",
       "form-description": "Online",
-      "county-description": "Ukraine",
+      "country-description": "Ukraine",
       "period-description": "05.2022 - 04.2023"
     },
     "id-3": {
@@ -254,7 +254,7 @@
       "faculty-description": "Administration Techniques",
       "speciality-description": "Technician in Administration",
       "form-description": "Weekends",
-      "county-description": "Poland",
+      "country-description": "Poland",
       "period-description": "09.2020 - 01.2022"
     },
     "id-2": {
@@ -262,7 +262,7 @@
       "faculty-description": "Economic Cybernetics",
       "speciality-description": "Economist-Cybernetician | Bachelor",
       "form-description": "Extramural",
-      "county-description": "Ukraine",
+      "country-description": "Ukraine",
       "period-description": "09.2007 - 07.2012"
     },
     "id-1": {
@@ -270,47 +270,8 @@
       "faculty-description": "Computing Technique",
       "speciality-description": "Technician-Electronic",
       "form-description": "Full-time",
-      "county-description": "Ukraine",
+      "country-description": "Ukraine",
       "period-description": "09.2003 - 06.2007"
-    }
-  },
-  "experience": {
-    "title": "Workplace",
-    "position": "Position",
-    "responsibilities": "Responsibilities",
-    "county": "Country",
-    "period": "Period",
-    "id-4": {
-      "logo": "/images/experience-logo/Veneo.jpg",
-      "title-description": "Veneo Sp. z o.o.",
-      "position-description": "Frontend developer",
-      "responsibilities-description": "Creating websites. Supporting existing projects",
-      "county-description": "Poland",
-      "period-description": "10.2022 - Present"
-    },
-    "id-3": {
-      "logo": "/images/experience-logo/freelancer.jpg",
-      "title-description": "Freelance",
-      "position-description": "Frontend developer",
-      "responsibilities-description": "Creating websites. Supporting existing projects",
-      "county-description": "Poland",
-      "period-description": "06.2022 - Present"
-    },
-    "id-2": {
-      "logo": "/images/experience-logo/wbm-group.png",
-      "title-description": "WBM GROUP Sp.zo.o.",
-      "position-description": "Director",
-      "responsibilities-description": "Web development, online marketing, management, HR",
-      "county-description": "Poland",
-      "period-description": "12.2017 - 07.2023"
-    },
-    "id-1": {
-      "logo": "/images/experience-logo/btp-group.jpg",
-      "title-description": "BTP GROUP Sp.zo.o.",
-      "position-description": "Director",
-      "responsibilities-description": "Management, online marketing, web development",
-      "county-description": "Poland",
-      "period-description": "02.2016 - 11.2017"
     }
   }
 }

@@ -239,14 +239,14 @@
     "Faculty": "Kierunek",
     "speciality": "Specjalność",
     "form": "Forma edukacji",
-    "county": "Kraj",
+    "country": "Kraj",
     "Period": "Okres edukacji",
     "id-4": {
       "title-description": "GoIT Kursy programowania",
       "faculty-description": "Full Stack",
       "speciality-description": "Full Stack Developer",
       "form-description": "Online",
-      "county-description": "Ukraina",
+      "country-description": "Ukraina",
       "period-description": "05.2022 - 04.2023"
     },
     "id-3": {
@@ -254,7 +254,7 @@
       "faculty-description": "Technika Administracji",
       "speciality-description": "Technik Administracji",
       "form-description": "Weekendowa",
-      "county-description": "Polska",
+      "country-description": "Polska",
       "period-description": "09.2020 - 01.2022"
     },
     "id-2": {
@@ -262,7 +262,7 @@
       "faculty-description": "Ekonomika Cybernetyki",
       "speciality-description": "Ekonomista-Cybernetyk | Bakalarz",
       "form-description": "Zaocznie",
-      "county-description": "Ukraina",
+      "country-description": "Ukraina",
       "period-description": "09.2007 - 07.2012"
     },
     "id-1": {
@@ -270,47 +270,8 @@
       "faculty-description": "Technika Obliczeniowa",
       "speciality-description": "Technik Elektronik",
       "form-description": "Dziennie",
-      "county-description": "Ukraina",
+      "country-description": "Ukraina",
       "period-description": "09.2003 - 06.2007"
-    }
-  },
-  "experience": {
-    "title": "Miejsce pracy",
-    "position": "Stanowisko",
-    "responsibilities": "Obowiązki",
-    "county": "Kraj",
-    "period": "Okres",
-    "id-4": {
-      "logo": "/images/experience-logo/Veneo.jpg",
-      "title-description": "Veneo Sp. z o.o.",
-      "position-description": "Frontend deweloper",
-      "responsibilities-description": "Tworzenie stron internetowych. Wsparcie istniejących projektów",
-      "county-description": "Polska",
-      "period-description": "10.2022 - Obecnie"
-    },
-    "id-3": {
-      "logo": "/images/experience-logo/freelancer.jpg",
-      "title-description": "Freelancer",
-      "position-description": "Frontend deweloper",
-      "responsibilities-description": "Tworzenie stron internetowych. Wsparcie istniejących projektów",
-      "county-description": "Polska",
-      "period-description": "06.2022 - Obecnie"
-    },
-    "id-2": {
-      "logo": "/images/experience-logo/wbm-group.png",
-      "title-description": "WBM GROUP Sp.zo.o.",
-      "position-description": "Prokurent / Udziałowiec",
-      "responsibilities-description": "Tworzenie stron internetowych, marketing internetowy, zarządzanie, HR",
-      "county-description": "Polska",
-      "period-description": "12.2017 - 07.2023"
-    },
-    "id-1": {
-      "logo": "/images/experience-logo/btp-group.jpg",
-      "title-description": "BTP GROUP Sp.zo.o.",
-      "position-description": "Prokurent",
-      "responsibilities-description": "Zarządzanie, marketing internetowy, tworzenie strony internetowej",
-      "county-description": "Polska",
-      "period-description": "02.2016 - 11.2017"
     }
   }
 }
