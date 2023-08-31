@@ -18,25 +18,23 @@ export default function ContactForm() {
     subject: Yup.string().required(t('contact-form.enter-message-subject')),
     message: Yup.string().required(t('contact-form.enter-message')),
   });
-  const API_ENDPOINT = process.env.REACT_APP_API_ENDPOINT;
 
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     if (executeRecaptcha) {
-      const token = await executeRecaptcha('contact_form'); // Получаем токен reCAPTCHA
+      const token = await executeRecaptcha('contact_form');
       console.log(token);
       values.recaptchaToken = token;
     }
 
     axios
-      .post(API_ENDPOINT, values)
+      .post('/send-email', values) // Замените на актуальный URL сервера
       .then(response => {
         setStatusMessage(t('contact-form.sent-successfully'));
         setIsSuccess(true);
         resetForm();
       })
       .catch(error => {
-        console.error('Ошибка при отправке формы:', error); 
-
+        console.error('Ошибка при отправке формы:', error);
         setStatusMessage(t('contact-form.sent-no-successfully'));
         setIsSuccess(false);
       })

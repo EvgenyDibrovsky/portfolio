@@ -1,3 +1,4 @@
+// server.js
 const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
@@ -66,28 +67,28 @@ app.post('/send-email', async (req, res) => {
 
     const verifyResponse = response.data;
 
-    console.log('reCAPTCHA Response:', verifyResponse);
+    // console.log('reCAPTCHA Response:', verifyResponse);
 
     if (!verifyResponse.success) {
       return res.status(403).send({ success: false, message: 'reCAPTCHA verification failed. Are you a robot?' });
     }
     try {
       await transporter.sendMail(mailOptions);
-      console.log('Email sent successfully');
+      // console.log('Email sent successfully');
       res.status(200).send('Email sent successfully');
     } catch (error) {
-      console.error('Error sending email:', error);
+      // console.error('Error sending email:', error);
       res.status(500).send('Error sending email');
     }
   } catch (error) {
-    console.error('reCAPTCHA verification error:', error);
+    // console.error('reCAPTCHA verification error:', error);
     return res.status(500).send({ success: false, message: 'Failed to verify reCAPTCHA' });
   }
 });
 
 // Обработчик ошибок должен идти последним
 app.use((err, req, res, next) => {
-  console.error(err.stack);
+  // console.error(err.stack);
   res.status(500).send('Something broke!');
 });
 
