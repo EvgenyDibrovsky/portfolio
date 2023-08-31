@@ -24,7 +24,6 @@ export default function ContactForm() {
     if (executeRecaptcha) {
       const token = await executeRecaptcha('contact_form'); // Получаем токен reCAPTCHA
       console.log(token);
-      // Вставляем токен в данные формы
       values.recaptchaToken = token;
     }
 
@@ -36,7 +35,7 @@ export default function ContactForm() {
         resetForm();
       })
       .catch(error => {
-        console.error('Ошибка при отправке формы:', error); // Добавляем логирование ошибки
+        console.error('Ошибка при отправке формы:', error); 
 
         setStatusMessage(t('contact-form.sent-no-successfully'));
         setIsSuccess(false);
