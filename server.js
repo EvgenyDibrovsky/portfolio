@@ -11,12 +11,15 @@ dotenv.config();
 const staticFilesPath = path.join('/home/tnpexygoyu/domains/edweb.site/public_html');
 const verificationURL = 'https://www.google.com/recaptcha/api/siteverify';
 const secretKey = process.env.RECAPTCHA_SECRET_KEY;
-const whitelist = ['https://edweb.site', 'http://edweb.site'];
+const whitelist = ['https://edweb.site', 'http://edweb.site', 'https://www.edweb.site'];
 
 // Инициализация приложения
 const app = express();
+
 app.use(express.json());
 app.use(express.static(staticFilesPath));
+app.options('*', cors());
+
 app.use(
   cors({
     origin: (origin, callback) => {
@@ -50,8 +53,6 @@ app.post('/send-email', async (req, res) => {
     text: `Имя: ${name}\nEmail: ${email}\nТема сообщения: ${subject}\nСообщение: ${message}`,
   };
 
-  // Проверка reCAPTCHA
-
   try {
     const response = await axios.post(
       verificationURL,
@@ -64,30 +65,19 @@ app.post('/send-email', async (req, res) => {
       }
     );
 
-    const verifyResponse = response.data;
-
-    console.log('reCAPTCHA Response:', verifyResponse);
-
-    if (!verifyResponse.success) {
+    if (!response.data.success) {
       return res.status(403).send({ success: false, message: 'reCAPTCHA verification failed. Are you a robot?' });
     }
-    try {
-      await transporter.sendMail(mailOptions);
-      console.log('Email sent successfully');
-      res.status(200).send('Email sent successfully');
-    } catch (error) {
-      console.error('Error sending email:', error);
-      res.status(500).send('Error sending email');
-    }
+
+    await transporter.sendMail(mailOptions);
+    res.status(200).send('Email sent successfully');
   } catch (error) {
-    console.error('reCAPTCHA verification error:', error);
-    return res.status(500).send({ success: false, message: 'Failed to verify reCAPTCHA' });
+    res.status(500).send({ success: false, message: 'Failed to verify reCAPTCHA or send email.' });
   }
 });
 
 // Обработчик ошибок
 app.use((err, req, res, next) => {
-  console.error('Server Error:', err.message);
   res.status(500).send('Internal Server Error');
 });
 
@@ -95,7 +85,5 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(staticFilesPath, 'index.html'));
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server started on port ${PORT}`);
-});
+const PORT = process.env.NODE_ENV === 'production' ? 443 : 5000;
+app.listen(PORT);

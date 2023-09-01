@@ -22,19 +22,17 @@ export default function ContactForm() {
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     if (executeRecaptcha) {
       const token = await executeRecaptcha('contact_form');
-      console.log('Отправлено с contact form', token);
       values.recaptchaToken = token;
     }
 
     axios
-      .post('https://edweb.site:5000/send-email', values) // Замените на актуальный URL сервера
+      .post('https://edweb.site/send-email', values) // Замените на актуальный URL сервера
       .then(response => {
         setStatusMessage(t('contact-form.sent-successfully'));
         setIsSuccess(true);
         resetForm();
       })
       .catch(error => {
-        console.error('Ошибка при отправке формы:', error);
         setStatusMessage(t('contact-form.sent-no-successfully'));
         setIsSuccess(false);
       })
