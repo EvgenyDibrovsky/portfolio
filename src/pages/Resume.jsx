@@ -27,7 +27,7 @@ export default function ResumePage() {
           <BsFillFilePdfFill className="text-red-600 dark:text-red-500 w-8 h-8 duration-200 group-hover:scale-110" />
         </a>
       </div>
-      <div className="mb-5">
+      <div className="my-5">
         <div className="inline-block relative my-5">
           <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('resume-page.sub-title-1')}</h3>
           <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>

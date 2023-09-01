@@ -15,7 +15,7 @@ export default function CooperationPage() {
         <SubTitle subTitle={t('cooperation-page.sub-title')} />
       </WrapperTitle>
       <WorkingСonditions />
-      <div className="mt-5 mb-10">
+      <div className="w-full lg:w-10/12 mx-auto mt-5 mb-10 ">
         <p className="text-black dark:text-white mb-5 ">{t('cooperation-page.text-1')}</p>
         <div className="mb-5">
           <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('cooperation-page.text-2')}</h3>

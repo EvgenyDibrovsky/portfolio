@@ -68,7 +68,7 @@ export default function BriefForm() {
             </div>
           </div>
         </div>
-        <div className="w-full xl:w-10/12 mx-auto opacity-0 init-animate-1">
+        <div className="w-full lg:w-10/12 mx-auto opacity-0 init-animate-1">
           <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
             {({ errors, touched, isSubmitting }) => (
               <Form>
