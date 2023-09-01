@@ -22,12 +22,12 @@ export default function ContactForm() {
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     if (executeRecaptcha) {
       const token = await executeRecaptcha('contact_form');
-      console.log(token);
+      console.log('Отправлено с contact form', token);
       values.recaptchaToken = token;
     }
 
     axios
-      .post('/send-email', values) // Замените на актуальный URL сервера
+      .post('https://edweb.site:5000/send-email', values) // Замените на актуальный URL сервера
       .then(response => {
         setStatusMessage(t('contact-form.sent-successfully'));
         setIsSuccess(true);

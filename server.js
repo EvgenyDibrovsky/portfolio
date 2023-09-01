@@ -1,34 +1,33 @@
-// server.js
+// Импорты
 const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const axios = require('axios');
-
-const app = express();
 const path = require('path');
+
+// Конфигурация
 dotenv.config();
-app.use(express.json());
-const staticFilesPath = path.join(__dirname, '/home/tnpexygoyu/domains/edweb.site/public_html');
-app.use(express.static(staticFilesPath));
-
+const staticFilesPath = path.join('/home/tnpexygoyu/domains/edweb.site/public_html');
+const verificationURL = 'https://www.google.com/recaptcha/api/siteverify';
+const secretKey = process.env.RECAPTCHA_SECRET_KEY;
 const whitelist = ['https://edweb.site', 'http://edweb.site'];
-const corsOptions = {
-  origin: function (origin, callback) {
-    if (whitelist.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
-};
 
-// Настройка CORS
-app.use(cors(corsOptions));
-
-app.get('/', (req, res) => {
-  res.send('Welcome to edweb.site!');
-});
+// Инициализация приложения
+const app = express();
+app.use(express.json());
+app.use(express.static(staticFilesPath));
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      if (whitelist.includes(origin) || !origin) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
+  })
+);
 
 app.post('/send-email', async (req, res) => {
   const { name, email, subject, message, recaptchaToken } = req.body;
@@ -52,8 +51,6 @@ app.post('/send-email', async (req, res) => {
   };
 
   // Проверка reCAPTCHA
-  const verificationURL = 'https://www.google.com/recaptcha/api/siteverify';
-  const secretKey = process.env.RECAPTCHA_SECRET_KEY;
 
   try {
     const response = await axios.post(
@@ -69,29 +66,33 @@ app.post('/send-email', async (req, res) => {
 
     const verifyResponse = response.data;
 
-    // console.log('reCAPTCHA Response:', verifyResponse);
+    console.log('reCAPTCHA Response:', verifyResponse);
 
     if (!verifyResponse.success) {
       return res.status(403).send({ success: false, message: 'reCAPTCHA verification failed. Are you a robot?' });
     }
     try {
       await transporter.sendMail(mailOptions);
-      // console.log('Email sent successfully');
+      console.log('Email sent successfully');
       res.status(200).send('Email sent successfully');
     } catch (error) {
-      // console.error('Error sending email:', error);
+      console.error('Error sending email:', error);
       res.status(500).send('Error sending email');
     }
   } catch (error) {
-    // console.error('reCAPTCHA verification error:', error);
+    console.error('reCAPTCHA verification error:', error);
     return res.status(500).send({ success: false, message: 'Failed to verify reCAPTCHA' });
   }
 });
 
-// Обработчик ошибок должен идти последним
+// Обработчик ошибок
 app.use((err, req, res, next) => {
-  // console.error(err.stack);
-  res.status(500).send('Something broke!');
+  console.error('Server Error:', err.message);
+  res.status(500).send('Internal Server Error');
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(staticFilesPath, 'index.html'));
 });
 
 const PORT = process.env.PORT || 5000;
