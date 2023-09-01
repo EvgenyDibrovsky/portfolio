@@ -6,9 +6,11 @@ const dotenv = require('dotenv');
 const axios = require('axios');
 
 const app = express();
-
+const path = require('path');
 dotenv.config();
 app.use(express.json());
+const staticFilesPath = path.join(__dirname, '/home/tnpexygoyu/domains/edweb.site/public_html');
+app.use(express.static(staticFilesPath));
 
 const whitelist = ['https://edweb.site', 'http://edweb.site'];
 const corsOptions = {
