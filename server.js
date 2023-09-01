@@ -76,7 +76,7 @@ app.post('/contact-form', async (req, res) => {
   }
 });
 // Brief-Form
-app.post('/send-brief-email', async (req, res) => {
+app.post('/brief-form', async (req, res) => {
   const { first_name, last_name, email, phone_number, business_type, website_url, business_info, website_type, design_project, liked_sites, marketing_type, extra_services, dop_info, recaptchaToken } =
     req.body;
 
