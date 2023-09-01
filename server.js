@@ -31,8 +31,8 @@ app.use(
     },
   })
 );
-
-app.post('/send-email', async (req, res) => {
+// Contact-Form
+app.post('/contact-form', async (req, res) => {
   const { name, email, subject, message, recaptchaToken } = req.body;
 
   let transporter = nodemailer.createTransport({
@@ -51,6 +51,65 @@ app.post('/send-email', async (req, res) => {
     to: 'contact@edweb.site',
     subject: subject,
     text: `Имя: ${name}\nEmail: ${email}\nТема сообщения: ${subject}\nСообщение: ${message}`,
+  };
+
+  try {
+    const response = await axios.post(
+      verificationURL,
+      {},
+      {
+        params: {
+          secret: secretKey,
+          response: recaptchaToken,
+        },
+      }
+    );
+
+    if (!response.data.success) {
+      return res.status(403).send({ success: false, message: 'reCAPTCHA verification failed. Are you a robot?' });
+    }
+
+    await transporter.sendMail(mailOptions);
+    res.status(200).send('Email sent successfully');
+  } catch (error) {
+    res.status(500).send({ success: false, message: 'Failed to verify reCAPTCHA or send email.' });
+  }
+});
+// Brief-Form
+app.post('/send-brief-email', async (req, res) => {
+  const { first_name, last_name, email, phone_number, business_type, website_url, business_info, website_type, design_project, liked_sites, marketing_type, extra_services, dop_info, recaptchaToken } =
+    req.body;
+
+  let transporter = nodemailer.createTransport({
+    host: 's160.cyber-folks.pl',
+    port: 587,
+    secure: false,
+    requireTLS: true,
+    auth: {
+      user: 'contact@edweb.site',
+      pass: process.env.EMAIL_PASSWORD,
+    },
+  });
+
+  let mailOptions = {
+    from: email,
+    to: 'contact@edweb.site',
+    subject: `Новый запрос из формы: ${first_name} ${last_name}`,
+    text: `
+      Имя: ${first_name}
+      Фамилия: ${last_name}
+      Email: ${email}
+      Телефон: ${phone_number}
+      Тип бизнеса: ${business_type}
+      URL сайта: ${website_url}
+      Информация о бизнесе: ${business_info}
+      Тип сайта: ${website_type.join(', ')}
+      Проект дизайна: ${design_project.join(', ')}
+      Понравившиеся сайты: ${liked_sites}
+      Тип маркетинга: ${marketing_type.join(', ')}
+      Дополнительные услуги: ${extra_services.join(', ')}
+      Дополнительная информация: ${dop_info}
+    `,
   };
 
   try {

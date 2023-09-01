@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import AnimateElements from 'components/Utility/AnimateElements';
+import axios from 'axios';
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 
 export default function BriefForm() {
   const { t } = useTranslation();
+  const { executeRecaptcha } = useGoogleReCaptcha();
+  const [statusMessage, setStatusMessage] = useState(null);
+  const [isSuccess, setIsSuccess] = useState(null);
 
   const initialValues = {
     first_name: '',
@@ -29,10 +34,26 @@ export default function BriefForm() {
     phone_number: Yup.string().required(t('brief-form.enter-phone')),
   });
 
-  const onSubmit = (values, { setSubmitting }) => {
-    console.log('Данные формы', values);
-    // Здесь вы можете обработать отправку формы к API или выполнить другую логику.
-    setSubmitting(false);
+  const handleSubmit = async (values, { setSubmitting, resetForm }) => {
+    if (executeRecaptcha) {
+      const token = await executeRecaptcha('brief_form');
+      values.recaptchaToken = token;
+    }
+
+    axios
+      .post('https://edweb.site/brief-form', values)
+      .then(response => {
+        setStatusMessage(t('brief-form.sent-successfully'));
+        setIsSuccess(true);
+        resetForm();
+      })
+      .catch(error => {
+        setStatusMessage(t('brief-form.sent-no-successfully'));
+        setIsSuccess(false);
+      })
+      .finally(() => {
+        setSubmitting(false);
+      });
   };
 
   return (
@@ -48,7 +69,7 @@ export default function BriefForm() {
           </div>
         </div>
         <div className="w-full xl:w-10/12 mx-auto opacity-0 init-animate-1">
-          <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
+          <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
             {({ errors, touched, isSubmitting }) => (
               <Form>
                 <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-1')}</h3>
@@ -107,18 +128,16 @@ export default function BriefForm() {
                     className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
                     placeholder={t('brief-form.specify-activity-sphere')}
                   />
-                  <ErrorMessage name="business_type" component="div" />
                 </label>
 
                 <label className="w-full flex flex-col text-black dark:text-white">
                   {t('brief-form.www-address')}
                   <Field
                     name="website_url"
-                    type="url"
+                    type="text"
                     className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
                     placeholder={t('brief-form.specify-domain-name')}
                   />
-                  <ErrorMessage name="website_url" component="div" />
                 </label>
 
                 <label className="w-full flex flex-col text-black dark:text-white">
@@ -129,7 +148,6 @@ export default function BriefForm() {
                     className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5 resize-none "
                     placeholder={t('brief-form.general-activity-info')}
                   />
-                  <ErrorMessage name="business_info" component="div" />
                 </label>
                 <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-3')}</h3>
                 <h4 className="text-[1rem] text-black dark:text-white mb-2">{t('brief-form.select-site-type')}</h4>
@@ -281,7 +299,6 @@ export default function BriefForm() {
                     className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5 resize-none "
                     placeholder={t('brief-form.example-sites-prompt')}
                   />
-                  <ErrorMessage name="liked_sites" component="div" />
                 </label>
                 <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-4')}</h3>
                 <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-4">
@@ -387,8 +404,14 @@ export default function BriefForm() {
                     className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5 resize-none "
                     placeholder={t('brief-form.additional-project-wishes')}
                   />
-                  <ErrorMessage name="dop_info" component="div" />
                 </label>
+
+                {statusMessage && (
+                  <div className={`flex justify-center items-center text-white text-center status-message h-16 sm:h-12 mb-10 rounded-sm ${isSuccess ? 'bg-green-600' : 'bg-red-600'}`}>
+                    {statusMessage}
+                  </div>
+                )}
+
                 <button className="btn-contact-form" type="submit" disabled={isSubmitting}>
                   {t('brief-form.submit-brief')}
                 </button>

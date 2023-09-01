@@ -26,7 +26,7 @@ export default function ContactForm() {
     }
 
     axios
-      .post('https://edweb.site/send-email', values) // Замените на актуальный URL сервера
+      .post('https://edweb.site/contact-form', values) // Замените на актуальный URL сервера
       .then(response => {
         setStatusMessage(t('contact-form.sent-successfully'));
         setIsSuccess(true);
