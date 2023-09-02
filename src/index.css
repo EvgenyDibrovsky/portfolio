@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply min-h-screen font-Poppins bg-body-white dark:bg-body-dark bg-cover bg-center bg-no-repeat;
+    @apply min-h-screen font-Poppins bg-bgSection dark:bg-bgSectionDark lg:bg-body-white lg:dark:bg-body-dark bg-cover bg-center bg-no-repeat;
   }
 }
 

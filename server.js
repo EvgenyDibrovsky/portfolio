@@ -132,6 +132,7 @@ app.post('/brief-form', async (req, res) => {
     res.status(200).send('Email sent successfully');
   } catch (error) {
     res.status(500).send({ success: false, message: 'Failed to verify reCAPTCHA or send email.' });
+    console.error('Error:', error);
   }
 });
 

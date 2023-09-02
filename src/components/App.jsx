@@ -64,9 +64,8 @@ export const App = () => {
     <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_KEY}>
       <HelmetProvider>
         <Router basename={process.env.PUBLIC_URL}>
-          <ScrollToTop />
-
           {/* <Router> */}
+          <ScrollToTop />
           <div>
             <Header theme={theme} toggleTheme={toggleTheme} />
             <Routes>
