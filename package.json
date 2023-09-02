@@ -39,7 +39,6 @@
     "start": "react-scripts start",
     "start-server": "node server.js",
     "build": "react-scripts build",
-    "postbuild": "cp -r build/* /home/tnpexygoyu/domains/edweb.site/public_html/",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}"
