@@ -147,3 +147,6 @@ app.get('*', (req, res) => {
 
 const PORT = process.env.NODE_ENV === 'production' ? 443 : 5000;
 app.listen(PORT);
+
+// copy public_html / package.json
+// "postbuild": "cp -r build/* /home/tnpexygoyu/domains/edweb.site/public_html/"
