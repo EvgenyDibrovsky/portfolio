@@ -193,7 +193,9 @@
     "ssl-certificate": "Certyfikat SSL",
     "brand-emails": "Firmowe e-maile",
     "additional-project-wishes": "Napisz wszystkie dodatkowe życzenia dotyczące projektu...",
-    "submit-brief": "Wyślij brief"
+    "submit-brief": "Wyślij brief",
+    "sent-successfully": "Wiadomość została wysłana pomyślnie",
+    "sent-no-successfully": "Wiadomość nie została wysłana"
   },
   "possibilities": {
     "my-capabilities": "Moje możliwości",

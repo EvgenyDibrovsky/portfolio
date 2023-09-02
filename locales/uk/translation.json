@@ -194,7 +194,9 @@
     "ssl-certificate": "SSL сертифікат",
     "brand-emails": "Фірмові email",
     "additional-project-wishes": "Напишіть всі додаткові побажання стосовно проекту...",
-    "submit-brief": "Надіслати бриф"
+    "submit-brief": "Надіслати бриф",
+    "sent-successfully": "Повідомлення успішно надіслано",
+    "sent-no-successfully": "Повідомлення не надіслано"
   },
   "possibilities": {
     "my-capabilities": "Мої можливості",

@@ -193,7 +193,9 @@
     "ssl-certificate": "SSL сертификат",
     "brand-emails": "Фирменные email",
     "additional-project-wishes": "Напишите все дополнительные пожелания касательно проекта...",
-    "submit-brief": "Отправить бриф"
+    "submit-brief": "Отправить бриф",
+    "sent-successfully": "Сообщение успешно отправлено",
+    "sent-no-successfully": "Сообщение не отправлено"
   },
   "possibilities": {
     "my-capabilities": "Мои возможности",

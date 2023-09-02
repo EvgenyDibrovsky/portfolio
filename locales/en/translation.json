@@ -193,7 +193,9 @@
     "ssl-certificate": "SSL Certificate",
     "brand-emails": "Branded Email",
     "additional-project-wishes": "Write all the additional requests regarding the project...",
-    "submit-brief": "Submit Brief"
+    "submit-brief": "Submit Brief",
+    "sent-successfully": "Message sent successfully",
+    "sent-no-successfully": "Message not sent"
   },
   "possibilities": {
     "my-capabilities": "My capabilities",
