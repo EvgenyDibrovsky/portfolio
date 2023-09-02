@@ -85,8 +85,9 @@ module.exports = {
         'education-goit': "url('images/bg/bg-goit-education.jpg')",
         'education-renoma': "url('images/bg/bg-administration-technician-education.jpg')",
         'education-economic-cybernetics': "url('images/bg/bg-cybernetics-education.jpg')",
-
         'education-zkr-zntu': "url('images/bg/bg-zkr-zntu-education.jpg')",
+        'body-dark': "url('images/bg/bg-body-dark.svg')",
+        'body-white': "url('images/bg/bg-body-white.svg')",
       },
       boxShadow: {
         'md-up': '0 0px 6px -1px rgba(0, 0, 0, 0.1), 0 4px 9px 0px rgba(0, 0, 0, 0.06)',

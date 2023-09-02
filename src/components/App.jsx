@@ -18,6 +18,7 @@ import NotFound from '../pages/NotFound';
 import { HelmetProvider } from 'react-helmet-async';
 import { isCookieAccepted } from './Cookies/Cookies'; // Замените на правильный путь к вашему Cookies компоненту
 import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
+import ScrollToTop from './ScrollToTop/ScrollToTop';
 const RECAPTCHA_KEY = process.env.REACT_APP_RECAPTCHA_KEY;
 
 export const App = () => {
@@ -63,6 +64,8 @@ export const App = () => {
     <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_KEY}>
       <HelmetProvider>
         <Router basename={process.env.PUBLIC_URL}>
+          <ScrollToTop />
+
           {/* <Router> */}
           <div>
             <Header theme={theme} toggleTheme={toggleTheme} />
