@@ -36,19 +36,19 @@ app.post('/contact-form', async (req, res) => {
   const { name, email, subject, message, recaptchaToken } = req.body;
 
   let transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_HOST,
-    port: process.env.EMAIL_PORT,
+    host: 's160.cyber-folks.pl',
+    port: 587,
     secure: false,
     requireTLS: true,
     auth: {
-      user: process.env.EMAIL_ADDRESS,
+      user: 'contact@edweb.site',
       pass: process.env.EMAIL_PASSWORD,
     },
   });
 
   let mailOptions = {
     from: email,
-    to: process.env.EMAIL_ADDRESS,
+    to: 'contact@edweb.site',
     subject: `Contact form - edweb.site`,
     html: `
     <div>
@@ -88,19 +88,19 @@ app.post('/brief-form', async (req, res) => {
     req.body;
 
   let transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_HOST,
-    port: process.env.EMAIL_PORT,
+    host: 's160.cyber-folks.pl',
+    port: 587,
     secure: false,
     requireTLS: true,
     auth: {
-      user: process.env.EMAIL_ADDRESS,
+      user: 'contact@edweb.site',
       pass: process.env.EMAIL_PASSWORD,
     },
   });
 
   let mailOptions = {
     from: email,
-    to: process.env.EMAIL_ADDRESS,
+    to: 'contact@edweb.site',
     subject: `Brief form - edweb.site`,
     html: `
     <div>
