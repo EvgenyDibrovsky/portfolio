@@ -49,8 +49,15 @@ app.post('/contact-form', async (req, res) => {
   let mailOptions = {
     from: email,
     to: 'contact@edweb.site',
-    subject: subject,
-    text: `Имя: ${name}\nEmail: ${email}\nТема сообщения: ${subject}\nСообщение: ${message}`,
+    subject: `Contact form - edweb.site`,
+    html: `
+    <div>
+      <p style="font-weight: bold;">Feedback Form</p>
+      <p style="font-weight: bold;">Name: <span style="font-weight: normal;">${name}</span></p>
+      <p style="font-weight: bold;">Email: <span style="font-weight: normal;">${email}</span></p>
+      <p style="font-weight: bold;">Subject: <span style="font-weight: normal;">${subject}</span></p>
+      <p style="font-weight: bold;">Message: <span style="font-weight: normal;">${message}</span></p>
+    </div>`,
   };
 
   try {
@@ -94,22 +101,30 @@ app.post('/brief-form', async (req, res) => {
   let mailOptions = {
     from: email,
     to: 'contact@edweb.site',
-    subject: `Новый запрос из формы: ${first_name} ${last_name}`,
-    text: `
-      Имя: ${first_name}
-      Фамилия: ${last_name}
-      Email: ${email}
-      Телефон: ${phone_number}
-      Тип бизнеса: ${business_type}
-      URL сайта: ${website_url}
-      Информация о бизнесе: ${business_info}
-      Тип сайта: ${website_type.join(', ')}
-      Проект дизайна: ${design_project.join(', ')}
-      Понравившиеся сайты: ${liked_sites}
-      Тип маркетинга: ${marketing_type.join(', ')}
-      Дополнительные услуги: ${extra_services.join(', ')}
-      Дополнительная информация: ${dop_info}
-    `,
+    subject: `Brief form - edweb.site`,
+    html: `
+    <div>
+      <p style="font-weight: bold;">Brief Form</p>
+      <p style="font-weight: bold;">Step 1: Contact Information</p>
+      <p style="font-weight: bold;">Name: <span style="font-weight: normal;">${first_name}</span></p>
+      <p style="font-weight: bold;">Surname: <span style="font-weight: normal;">${last_name}</span></p>
+      <p style="font-weight: bold;">Email: <span style="font-weight: normal;">${email}</span></p>
+      <p style="font-weight: bold;">Phone: <span style="font-weight: normal;">${phone_number}</span></p>
+      <p style="font-weight: bold;">Step 2: Information About Your Activity</p>
+      <p style="font-weight: bold;">Type of Business: <span style="font-weight: normal;">${business_type}</span></p>
+      <p style="font-weight: bold;">Website URL: <span style="font-weight: normal;">${website_url}</span></p>
+      <p style="font-weight: bold;">Business Information: <span style="font-weight: normal;">${business_info}</span></p>
+      <p style="font-weight: bold;">Step 3: Websites (Development, Creation, Modernization)</p>
+      <p style="font-weight: bold;">Website Type: <span style="font-weight: normal;">${website_type.join(', ')}</span></p>
+      <p style="font-weight: bold;">Design Project: <span style="font-weight: normal;">${design_project.join(', ')}</span></p>
+      <p style="font-weight: bold;">Websites You Like: <span style="font-weight: normal;">${liked_sites}</span></p>
+      <p style="font-weight: bold;">Step 4: Internet Marketing</p>
+      <p style="font-weight: bold;">Type of Marketing: <span style="font-weight: normal;">${marketing_type.join(', ')}</span></p>
+      <p style="font-weight: bold;">Step 5: Additional Services</p>
+      <p style="font-weight: bold;">Additional Services: <span style="font-weight: normal;">${extra_services.join(', ')}</span></p>
+      <p style="font-weight: bold;">Step 6: Additional Requests</p>
+      <p style="font-weight: bold;">Additional Information: <span style="font-weight: normal;">${dop_info}</span></p>
+    </div>`,
   };
 
   try {

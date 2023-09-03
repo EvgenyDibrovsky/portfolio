@@ -156,7 +156,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="visit_card"
+                      value={t('brief-form.visit-card')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.visit-card')}
@@ -165,7 +165,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="corporate"
+                      value={t('brief-form.corporate-site')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.corporate-site')}
@@ -174,7 +174,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="e_shop"
+                      value={t('brief-form.e-shop')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.e-shop')}
@@ -183,7 +183,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="portal"
+                      value={t('brief-form.internet-portal')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.internet-portal')}
@@ -192,7 +192,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="ads_service"
+                      value={t('brief-form.ads-service')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.ads-service')}
@@ -201,7 +201,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="blog"
+                      value={t('brief-form.blog')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.blog')}
@@ -210,7 +210,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="site_upgrade"
+                      value={t('brief-form.site-upgrade')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.site-upgrade')}
@@ -219,7 +219,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="site_redesign"
+                      value={t('brief-form.site-redesign')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.site-redesign')}
@@ -228,7 +228,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="catalog"
+                      value={t('brief-form.online-catalog')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.online-catalog')}
@@ -237,7 +237,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="mobile_app"
+                      value={t('brief-form.mobile-app')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.mobile-app')}
@@ -246,7 +246,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="custom_project"
+                      value={t('brief-form.custom-project')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.custom-project')}
@@ -255,7 +255,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="website_type"
-                      value="site_accessibility"
+                      value={t('brief-form.site-accessibility')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.site-accessibility')}
@@ -267,7 +267,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="design_project"
-                      value="design_present"
+                      value={t('brief-form.has-design-project')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.has-design-project')}
@@ -276,7 +276,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="design_project"
-                      value="no_design"
+                      value={t('brief-form.no-design-project')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.no-design-project')}
@@ -285,7 +285,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="design_project"
-                      value="templates"
+                      value={t('brief-form.ready-templates')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.ready-templates')}
@@ -306,7 +306,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="marketing_type"
-                      value="email_marketing"
+                      value={t('brief-form.email-marketing')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.email-marketing')}
@@ -315,7 +315,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="marketing_type"
-                      value="smm_marketing"
+                      value={t('brief-form.smm-marketing')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.smm-marketing')}
@@ -324,7 +324,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="marketing_type"
-                      value="monetization"
+                      value={t('brief-form.site-monetization')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.site-monetization')}
@@ -333,7 +333,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="marketing_type"
-                      value="online_advertising"
+                      value={t('brief-form.online-advertising')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.online-advertising')}
@@ -342,7 +342,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="marketing_type"
-                      value="seo"
+                      value={t('brief-form.site-promotion')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.site-promotion')}
@@ -351,7 +351,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="marketing_type"
-                      value="ad_links"
+                      value={t('brief-form.ad-links')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.ad-links')}
@@ -363,7 +363,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="extra_services"
-                      value="hosting"
+                      value={t('brief-form.hosting')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.hosting')}
@@ -372,7 +372,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="extra_services"
-                      value="domain_registration"
+                      value={t('brief-form.domain-registration')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.domain-registration')}
@@ -381,7 +381,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="extra_services"
-                      value="ssl_certificate"
+                      value={t('brief-form.ssl-certificate')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.ssl-certificate')}
@@ -390,7 +390,7 @@ export default function BriefForm() {
                     <Field
                       type="checkbox"
                       name="extra_services"
-                      value="branded_email"
+                      value={t('brief-form.brand-emails')}
                       className="form-checkbox focus:ring-0 focus:ring-offset-0 border bg-white border-orange-400  text-orange-400 dark:bg-black"
                     />
                     {t('brief-form.brand-emails')}
