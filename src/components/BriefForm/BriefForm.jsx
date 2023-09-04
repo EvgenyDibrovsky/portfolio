@@ -72,7 +72,7 @@ export default function BriefForm() {
           <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
             {({ errors, touched, isSubmitting }) => (
               <Form>
-                <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-1')}</h3>
+                <h3 className="text-[1.25rem] font-medium text-black dark:text-white my-8">{t('brief-form.step-1')}</h3>
                 <div className="flex flex-col md:flex-row gap-4">
                   <label className="w-full lg:w-6/12 flex flex-col text-black dark:text-white">
                     {t('brief-form.name')}
@@ -119,7 +119,7 @@ export default function BriefForm() {
                     />
                   </label>
                 </div>
-                <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-2')}</h3>
+                <h3 className="text-[1.25rem] font-medium text-black dark:text-white my-8">{t('brief-form.step-2')}</h3>
                 <label className="w-full flex flex-col text-black dark:text-white">
                   {t('brief-form.activity-sphere')}
                   <Field
@@ -149,9 +149,9 @@ export default function BriefForm() {
                     placeholder={t('brief-form.general-activity-info')}
                   />
                 </label>
-                <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-3')}</h3>
-                <h4 className="text-[1rem] text-black dark:text-white mb-2">{t('brief-form.select-site-type')}</h4>
-                <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-4">
+                <h3 className="text-[1.25rem] font-medium text-black dark:text-white my-8">{t('brief-form.step-3')}</h3>
+                <h4 className="text-[1rem] text-black dark:text-white mb-6">{t('brief-form.select-site-type')}</h4>
+                <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-10 gap-6">
                   <label className="flex items-center gap-2 text-black dark:text-white">
                     <Field type="checkbox" name="website_type" value={t('brief-form.visit-card')} className="form-checkbox" />
                     {t('brief-form.visit-card')}
@@ -201,8 +201,8 @@ export default function BriefForm() {
                     {t('brief-form.site-accessibility')}
                   </label>
                 </div>
-                <h4 className=" text-[1rem] text-black dark:text-white mb-2">{t('brief-form.design')}</h4>
-                <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-4">
+                <h4 className=" text-[1rem] text-black dark:text-white mb-6">{t('brief-form.design')}</h4>
+                <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-6">
                   <label className="flex items-center gap-2 text-black dark:text-white">
                     <Field type="checkbox" name="design_project" value={t('brief-form.has-design-project')} className="form-checkbox" />
                     {t('brief-form.has-design-project')}
@@ -225,8 +225,8 @@ export default function BriefForm() {
                     placeholder={t('brief-form.example-sites-prompt')}
                   />
                 </label>
-                <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-4')}</h3>
-                <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-4">
+                <h3 className="text-[1.25rem] font-medium text-black dark:text-white my-8">{t('brief-form.step-4')}</h3>
+                <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-6">
                   <label className="flex items-center gap-2 text-black dark:text-white">
                     <Field type="checkbox" name="marketing_type" value={t('brief-form.email-marketing')} className="form-checkbox" />
                     {t('brief-form.email-marketing')}
@@ -252,8 +252,8 @@ export default function BriefForm() {
                     {t('brief-form.ad-links')}
                   </label>
                 </div>
-                <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-5')}</h3>
-                <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-4">
+                <h3 className="text-[1.25rem] font-medium text-black dark:text-white  my-8">{t('brief-form.step-5')}</h3>
+                <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-6">
                   <label className="flex items-center gap-2 text-black dark:text-white">
                     <Field type="checkbox" name="extra_services" value={t('brief-form.hosting')} className="form-checkbox" />
                     {t('brief-form.hosting')}
@@ -271,7 +271,7 @@ export default function BriefForm() {
                     {t('brief-form.brand-emails')}
                   </label>
                 </div>
-                <h3 className="text-[1.25rem] font-medium text-black dark:text-white mb-5">{t('brief-form.step-6')}</h3>
+                <h3 className="text-[1.25rem] font-medium text-black dark:text-white my-8">{t('brief-form.step-6')}</h3>
                 <label className="w-full flex flex-col text-black dark:text-white">
                   <Field
                     name="dop_info"
