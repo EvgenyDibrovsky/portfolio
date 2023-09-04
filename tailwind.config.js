@@ -131,9 +131,6 @@ module.exports = {
         'animate-4': 'slide-left-el 1s ease-out',
         'animate-5': 'slide-right-el 1s ease-out',
       },
-      boxShadow: {
-        'md-up': '0 0px 6px -1px rgba(0, 0, 0, 0.1), 0 4px 9px 0px rgba(0, 0, 0, 0.06)',
-      },
       fontFamily: {
         marck: ['Marck Script', 'cursive'], // 'marck' - это просто пример названия. Вы можете выбрать любое другое.
         Montserrat: ['Montserrat', 'sans-serif'], // 'marck' - это просто пример названия. Вы можете выбрать любое другое.

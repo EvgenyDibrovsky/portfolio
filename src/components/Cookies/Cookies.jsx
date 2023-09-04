@@ -1,9 +1,11 @@
+import ReactDOM from 'react-dom';
 import React, { useState, useEffect } from 'react';
 import { useCookies } from 'react-cookie';
 import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
 
-const TimeoutModal = 1500;
+const MODAL_TIMEOUT = 1500;
+const MOBILE_MAX_WIDTH = 768;
 
 export default function Cookies({ children }) {
   const [cookies, setCookie, removeCookie] = useCookies(['settings']);
@@ -15,7 +17,7 @@ export default function Cookies({ children }) {
 
   useEffect(() => {
     if (showModal) {
-      setTimeout(() => setIsVisible(true), TimeoutModal);
+      setTimeout(() => setIsVisible(true), MODAL_TIMEOUT);
     }
   }, [showModal]);
 
@@ -27,17 +29,32 @@ export default function Cookies({ children }) {
 
   const closeModal = () => {
     setShowModal(false);
+    document.body.style.overflow = 'auto'; // Always reset to 'auto' when modal closes
   };
+
+  useEffect(() => {
+    if (window.innerWidth < MOBILE_MAX_WIDTH && isVisible) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [isVisible]);
 
   const handleAccept = () => {
     setCookie('settings', 'cookie', { path: '/' });
     saveLanguagePreference();
     closeModal();
+    document.body.style.overflow = 'auto'; // Разблокировка прокрутки body
   };
 
   const handleDecline = () => {
     removeCookie('settings', { path: '/' });
     closeModal();
+    document.body.style.overflow = 'auto'; // Разблокировка прокрутки body
   };
 
   const { t } = useTranslation();
@@ -48,26 +65,28 @@ export default function Cookies({ children }) {
     ${isVisible ? 'translate-y-0' : 'translate-y-full'}
   `;
 
+  const modalContent = (
+    <div className={modalClasses}>
+      <div className="w-full flex flex-col lg:flex-row justify-between gap-10 ">
+        <div className="w-full lg:w-9/12 xl:w-10/12 flex flex-col gap-4">
+          <p className="text-[1.25rem] text-black dark:text-white font-semibold">{t('cookies.title')}</p>
+          <p className="text-[0.8rem] sm:text-[1rem] text-black dark:text-white">{t('cookies.text')}</p>
+        </div>
+        <div className="w-full lg:w-3/12 xl:w-2/12 flex justify-center items-end flex-col sm:flex-row lg:flex-col gap-4">
+          <button className="btn" onClick={handleAccept}>
+            {t('cookies.btn-accept')}
+          </button>
+          <button className="btn" onClick={handleDecline}>
+            {t('cookies.btn-no-accept')}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <>
-      {showModal && (
-        <div className={modalClasses}>
-          <div className="w-full flex flex-col lg:flex-row justify-between gap-10 ">
-            <div className="w-full lg:w-9/12 xl:w-10/12 flex flex-col gap-4">
-              <p className="text-[1.25rem] text-black dark:text-white font-semibold">{t('cookies.title')}</p>
-              <p className="text-[0.8rem] sm:text-[1rem] text-black dark:text-white">{t('cookies.text')}</p>
-            </div>
-            <div className="w-full lg:w-3/12 xl:w-2/12 flex justify-center items-end flex-col sm:flex-row lg:flex-col gap-4">
-              <button className="btn" onClick={handleAccept}>
-                {t('cookies.btn-accept')}
-              </button>
-              <button className="btn" onClick={handleDecline}>
-                {t('cookies.btn-no-accept')}
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+      {showModal && ReactDOM.createPortal(modalContent, document.getElementById('modal-root'))}
       {children}
     </>
   );

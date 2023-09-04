@@ -22,7 +22,7 @@ export default function ResumePage() {
         <SubTitle subTitle={t('resume-page.sub-title')} />
       </WrapperTitle>
       <div className="flex items-center gap-4 justify-end mt-5 group">
-        <a href="/images/resume/evgeny-dibrovsky-resume.pdf" className="text-sky-600 dark:text-sky-400 text-[1.2rem] flex items-center gap-4" download>
+        <a href="/images/resume/evgeny-dibrovsky-resume.pdf" className="text-sky-600 hover:underline  dark:text-sky-400 text-[1.2rem] flex items-center gap-4" download>
           {t('btn.download-resume')}
           <BsFillFilePdfFill className="text-red-600 dark:text-red-500 w-8 h-8 duration-200 group-hover:scale-110" />
         </a>

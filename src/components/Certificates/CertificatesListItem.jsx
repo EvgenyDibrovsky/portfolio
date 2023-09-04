@@ -50,7 +50,7 @@ export default function CertificatesListItem({ item }) {
             <div className=" flex items-center gap-4 mb-2">
               <BsFiletypePdf className="text-orange-400" />
               <a
-                className="text-textColor dark:text-white  group-hover:text-sky-500 text-[1rem] lg:text-[1.25rem] "
+                className="text-sky-600 dark:text-sky-400   group-hover:underline text-[1rem] lg:text-[1.25rem] "
                 href={process.env.PUBLIC_URL + item.linkPDF}
                 target="_blank"
                 rel="noopener noreferrer"
