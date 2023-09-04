@@ -13,7 +13,7 @@ const CurrentDateTime = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-row gap-4 md:gap-0 md:flex-col items-center justify-center">
         <p className="text-black dark:text-white text-lg font-semibold">{currentDate.toLocaleDateString()}</p>
         <p className="text-black dark:text-white text-md">{currentDate.toLocaleTimeString()}</p>
       </div>

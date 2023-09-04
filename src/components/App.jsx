@@ -141,7 +141,7 @@ export const App = () => {
                 <Route
                   path="*"
                   element={
-                    <div className="w-full h-screen flex justify-center items-center md:pl-[12.5rem] pt-24 pb-10 md:py-6 bg-bgSection dark:bg-bgSectionDark">
+                    <div className="w-full h-screen flex justify-center items-center md:pl-[12.5rem] pt-24 pb-10 md:py-6">
                       <Container>
                         <NotFound />
                       </Container>

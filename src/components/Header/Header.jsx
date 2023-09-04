@@ -57,6 +57,8 @@ export default function Header({ theme, toggleTheme }) {
 
       <div className="md:hidden border-b border-colorBorder dark:border-b-colorBorderDark bg-bgHeader dark:bg-bgHeaderDark flex justify-between items-center h-20 fixed top-0 left-0 w-full p-5">
         <ToggleTheme theme={theme} toggleTheme={toggleTheme} />
+        <Date />
+
         <button className="z-50 ml-auto rounded-full text-3xl  duration-200 text-black dark:text-white focus:outline-none" onClick={toggleMenu}>
           {isOpen ? <BsCodeSlash /> : <BsCode />}
         </button>
