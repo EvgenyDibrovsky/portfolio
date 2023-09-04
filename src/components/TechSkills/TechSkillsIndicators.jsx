@@ -4,7 +4,7 @@ import TechSkills from './TechSkills'; // Импортируем компоне�
 
 export default function TechSkillsIndicators() {
   return (
-    <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-2">
+    <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 gap-6 md:gap-4">
       {dbTechSkills.map(skill => (
         <TechSkills skill={skill.techskill} key={skill.techskill.id} />
       ))}
