@@ -1,4 +1,4 @@
-import Foto from '../../images/photo.jpg';
+import Foto from '../../images/photo.png';
 import { Link } from 'react-router-dom';
 
 export default function foto({ closeHeader }) {

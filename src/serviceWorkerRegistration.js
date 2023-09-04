@@ -1,16 +1,9 @@
-// serviceWorkerRegistration.js
-
 export function register() {
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker
-        .register('/service-worker.js')
-        .then(registration => {
-          console.log('Service Worker зарегистрирован:', registration);
-        })
-        .catch(registrationError => {
-          console.log('Ошибка регистрации Service Worker:', registrationError);
-        });
+      navigator.serviceWorker.register('/service-worker.js').catch(registrationError => {
+        //   console.log('Ошибка регистрации Service Worker:', registrationError);
+      });
     });
   }
 }
@@ -22,7 +15,7 @@ export function unregister() {
         registration.unregister();
       })
       .catch(error => {
-        console.log('Ошибка при отмене регистрации Service Worker:', error);
+        //  console.log('Ошибка при отмене регистрации Service Worker:', error);
       });
   }
 }
