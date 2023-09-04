@@ -1,12 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-export default function Reserved() {
+export default function Reserved({ closeHeader }) {
   const { t } = useTranslation();
   return (
     <div>
       <div className="mb-2 text-center">
-        <Link to="/term-of-use-page" className="text-sm  text-black dark:text-textColorDark duration-200 hover:underline hover:text-sky-500  dark:hover:text-sky-500 ">
+        <Link to="/term-of-use-page" onClick={closeHeader} className="text-sm  text-black dark:text-textColorDark duration-200 hover:underline hover:text-sky-500  dark:hover:text-sky-500 ">
           {t('term-of-use-page.title')}
         </Link>
       </div>

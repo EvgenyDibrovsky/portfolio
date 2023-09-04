@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
-export default function ToggleLang() {
+export default function ToggleLang({ closeHeader }) {
   const { i18n } = useTranslation();
   const availableLanguages = ['en', 'pl', 'uk', 'ru'];
 
@@ -22,6 +22,7 @@ export default function ToggleLang() {
 
   const changeLanguage = language => {
     i18n.changeLanguage(language);
+    closeHeader && closeHeader();
   };
 
   return (

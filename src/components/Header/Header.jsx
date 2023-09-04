@@ -37,14 +37,14 @@ export default function Header({ theme, toggleTheme }) {
           <ToggleTheme theme={theme} toggleTheme={toggleTheme} />
         </div>
         <Date />
-        <Foto />
-        <NavHeader closeMenu={() => setIsOpen(false)} />
-        <ToggleLang />
-        <Logo />
+        <Foto closeHeader={() => setIsOpen(false)} />
+        <NavHeader closeHeader={() => setIsOpen(false)} />
+        <ToggleLang closeHeader={() => setIsOpen(false)} />
+        <Logo closeHeader={() => setIsOpen(false)} />
         <SocialBtn />
       </div>
 
-      <Reserved />
+      <Reserved closeHeader={() => setIsOpen(false)} />
 
       <div className="md:hidden border-b border-colorBorder dark:border-b-colorBorderDark bg-bgHeader dark:bg-bgHeaderDark flex justify-between items-center h-20 fixed top-0 left-0 w-full p-5">
         <ToggleTheme theme={theme} toggleTheme={toggleTheme} />

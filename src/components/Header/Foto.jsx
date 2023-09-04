@@ -1,10 +1,10 @@
 import Foto from '../../images/photo.jpg';
 import { Link } from 'react-router-dom';
 
-export default function foto() {
+export default function foto({ closeHeader }) {
   return (
     <Link to="/">
-      <img src={Foto} alt="Foto" className="w-6/12 mx-auto rounded-full " />
+      <img src={Foto} alt="Foto" onClick={closeHeader} className="w-6/12 mx-auto rounded-full " />
     </Link>
   );
 }
