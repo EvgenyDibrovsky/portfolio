@@ -91,19 +91,14 @@
     "meta-description": "Napisz do mnie, jeśli masz pytania dotyczące tworzenia projektu internetowego"
   },
   "regulations-edweb": {
-    "title": "Warunki korzystania",
+    "title": "Regulamin",
     "sub-title": "Drogi odwiedzający!",
-    "meta-title": "Warunki korzystania",
+    "meta-title": "Regulamin",
     "meta-description": "Ważne informacje dla użytkowników witryny",
-    "regulations": "Regulamin",
-    "text-1": "Drogi odwiedzający!",
-    "text-2": "Wszystkie materiały prezentowane na tej stronie, w tym projekty, obrazy i teksty, są przeznaczone wyłącznie do zapoznania się w kontekście możliwej współpracy ze mną lub procesu niezbędnego do przeprowadzenia rekrutacji.",
-    "text-3": "Proszę mieć na uwadze następujące informacje:",
-    "text-4": "Zakazane jest używanie informacji i materiałów z tej strony w celach komercyjnych, reklamowych lub innych bez mojej pisemnej zgody.",
-    "text-5": "Proszę szanować moje prawa autorskie i prywatność.",
-    "text-6": "Jeśli masz pytania lub propozycje współpracy, skontaktuj się ze mną bezpośrednio za pomocą podanych danych kontaktowych.",
-    "text-7": "Podając swoje dane kontaktowe lub inne dane osobowe na tej stronie, wyrażam zgodę na ich przetwarzanie wyłącznie w celach współpracy w zakresie usług wskazanych na stronie lub rekrutacji.",
-    "text-8": "Dziękuję za zrozumienie i szacunek do mojej pracy!"
+    "terms-of-use": {
+      "title": "Warunki korzystania",
+      "descriptionHtml": "<p>Szanowny Użytkowniku!</p><p>Wszystkie materiały dostępne na tej stronie, w tym projekty, obrazy i teksty, są przeznaczone wyłącznie do celów informacyjnych w kontekście możliwej współpracy ze mną lub procesu niezbędnego do przeprowadzenia rekrutacji.</p><ul><p>Proszę uwzględnić następujące:</p><li><p>Informacji i materiałów z tej strony nie wolno używać w celach komercyjnych, reklamowych czy innych celach bez mojej pisemnej zgody.</p></li><li><p>Proszę szanować moje prawa autorskie i prywatność.</p></li><li><p>Jeśli masz pytania czy propozycje współpracy, proszę nie krępuj się i skontaktuj się ze mną bezpośrednio za pośrednictwem dostępnych danych kontaktowych.</p></li><li><p>Podając swoje dane kontaktowe lub inne dane osobowe na tej stronie, wyrażam zgodę na ich przetwarzanie wyłącznie w celu współpracy dotyczącej usług wymienionych na stronie lub rekrutacji.</p></li></ul><p>Dziękuję za zrozumienie i szacunek do mojej pracy!</p>"
+    }
   },
   "not-found-page": {
     "not-found": "Strona nie została znaleziona",
@@ -123,7 +118,8 @@
     "send": "Wyślij",
     "sent-successfully": "Wiadomość została wysłana pomyślnie",
     "sent-no-successfully": "Wiadomość nie została wysłana",
-    "confirmation-of-conditions": "Potwierdzenie warunków"
+    "confirmation-of-conditions": "Potwierdzenie warunków",
+    "accept-form": "Zgadzam się z warunkami określonymi w regulaminie."
   },
   "portfolio": {
     "portfolio-filter": {
@@ -198,7 +194,8 @@
     "submit-brief": "Wyślij brief",
     "sent-successfully": "Wiadomość została wysłana pomyślnie",
     "sent-no-successfully": "Wiadomość nie została wysłana",
-    "confirmation-of-conditions": "Potwierdzenie warunków"
+    "confirmation-of-conditions": "Potwierdzenie warunków",
+    "accept-form": "Zgadzam się z warunkami określonymi w regulaminie."
   },
   "possibilities": {
     "my-capabilities": "Moje możliwości",
@@ -286,6 +283,5 @@
     "text-2": "i ",
     "terms-of-service": "Warunki korzystania z usług.",
     "text-3": ""
-
   }
 }

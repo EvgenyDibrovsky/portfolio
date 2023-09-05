@@ -2,11 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
-  body {
-    @apply min-h-screen font-Poppins bg-bgSection dark:bg-bgSectionDark lg:bg-body-white lg:dark:bg-body-dark bg-cover bg-center bg-no-repeat;
+@layer base {
+  .content-box p {
+    @apply mb-2 text-black dark:text-white;
   }
-} */
+  .content-box ul {
+    @apply list-disc p-4 text-black dark:text-white;
+  }
+  .content-box ul li {
+    @apply mb-2;
+  }
+  .content-box ul li p {
+    @apply mb-0;
+  }
+}
 
 @layer components {
   .btn-contact-form {

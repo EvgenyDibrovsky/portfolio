@@ -91,19 +91,14 @@
     "meta-description": "Contact me if you have questions about the development of an internet project"
   },
   "regulations-edweb": {
-    "title": "Terms of Use",
+    "title": "Regulations",
     "sub-title": "Dear Visitor!",
-    "meta-title": "Terms of Use",
+    "meta-title": "Regulations",
     "meta-description": "Important information for site users",
-    "regulations": "Regulations",
-    "text-1": "Dear Visitor!",
-    "text-2": "All materials presented on this site, including projects, images, and texts, are intended solely for acquaintance in the context of potential collaboration with me or a process required for recruitment.",
-    "text-3": "Please note the following:",
-    "text-4": "It is prohibited to use information and materials from this site for commercial, advertising, or other purposes without my written permission.",
-    "text-5": "Please respect my copyright and privacy.",
-    "text-6": "If you have questions or proposals for cooperation, feel free to contact me directly using the provided contact details.",
-    "text-7": "By providing your contact details or other personal data on this site, I express my consent to their processing exclusively for the purposes of collaboration regarding services listed on the site or recruitment.",
-    "text-8": "Thank you for understanding and respecting my work!"
+    "terms-of-use": {
+      "title": "Terms of Use",
+      "descriptionHtml": "<p>Dear Visitor!</p><p>All the materials available on this website, including projects, images, and texts, are intended solely for informational purposes within the context of potential collaboration with me or the process necessary for recruitment.</p><ul><p>Please consider the following:</p><li><p>Information and materials from this website may not be used for commercial, advertising, or other purposes without my written consent.</p></li><li><p>Please respect my copyrights and privacy.</p></li><li><p>If you have questions or proposals for collaboration, feel free to contact me directly through the provided contact details.</p></li><li><p>By providing my contact details or other personal data on this website, I give my consent for their processing solely for the purpose of collaboration for services mentioned on the website, or recruitment.</p></li></ul><p>Thank you for your understanding and respect for my work!</p>"
+    }
   },
   "not-found-page": {
     "not-found": "Page not found",
@@ -117,13 +112,14 @@
     "email": "Email",
     "enter-email": "Enter email",
     "message-subject": "Message subject",
-    "enter-message-subject": "Enter-message-subject",
+    "enter-message-subject": "Enter message subject",
     "message": "Message",
     "enter-message": "Enter message",
     "send": "Send",
     "sent-successfully": "Message sent successfully",
     "sent-no-successfully": "Message not sent",
-    "confirmation-of-conditions": "Confirmation of conditions"
+    "confirmation-of-conditions": "Confirmation of conditions",
+    "accept-form": "I agree with the terms set forth in the regulations."
   },
   "portfolio": {
     "portfolio-filter": {
@@ -198,7 +194,8 @@
     "submit-brief": "Submit Brief",
     "sent-successfully": "Message sent successfully",
     "sent-no-successfully": "Message not sent",
-    "confirmation-of-conditions": "Confirmation of conditions"
+    "confirmation-of-conditions": "Confirmation of conditions",
+    "accept-form": "I agree with the terms set forth in the regulations."
   },
   "possibilities": {
     "my-capabilities": "My capabilities",

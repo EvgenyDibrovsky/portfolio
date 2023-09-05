@@ -13,7 +13,7 @@ import Portfolio from '../pages/Portfolio';
 import Brief from '../pages/Brief';
 
 import Contacts from '../pages/Contacts';
-import TermsUse from '../pages/TermsUse';
+import TermsUse from '../pages/Regulations';
 import NotFound from '../pages/NotFound';
 import { HelmetProvider } from 'react-helmet-async';
 import { isCookieAccepted } from './Cookies/Cookies'; // Замените на правильный путь к вашему Cookies компоненту

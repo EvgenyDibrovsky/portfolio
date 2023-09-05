@@ -116,24 +116,32 @@ export default function ContactForm() {
                   </div>
                 </div>
 
-                <div className="block mb-10">
-                  <label className="inline-flex items-center gap-4 text-black dark:text-white mb-5">
-                    <Field type="checkbox" name="confirmation_of_conditions" className={`form-checkbox ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`} />
-                    Какой-то текст CF
+                <div className="block mb-2">
+                  <label className="lg:inline-flex lg:items-center lg:gap-1 text-black dark:text-white">
+                    <Field
+                      type="checkbox"
+                      name="confirmation_of_conditions"
+                      className={`form-checkbox mr-2 ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`}
+                    />
+                    {t('contact-form.accept-form')}
+                    <a href="/regulations-edweb" target="_blank" rel="noopener noreferrer" className="inline-block font-semibold underline duration-200 hover:text-sky-600">
+                      {t('regulations-edweb.title')}
+                    </a>
                   </label>
-                  <p className="text-center">
+                </div>
+                <div className="mb-10">
+                  <p className="text-xs text-black dark:text-white">
                     {t('recaptcha.text-1')}
-                    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline hover:text-sky-600">
+                    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="font-bold underline duration-200  hover:text-sky-600">
                       {t('recaptcha.privacy-policy')}
                     </a>
                     {t('recaptcha.text-2')}
-                    <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline hover:text-sky-600">
+                    <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer" className="font-bold underline duration-200  hover:text-sky-600">
                       {t('recaptcha.terms-of-service')}
                     </a>
                     {t('recaptcha.text-3')}
                   </p>
                 </div>
-
                 {statusMessage && (
                   <div className={`flex justify-center items-center text-white text-center status-message h-16 sm:h-12 mb-10 rounded-sm ${isSuccess ? 'bg-green-600' : 'bg-red-600'}`}>
                     {statusMessage}
