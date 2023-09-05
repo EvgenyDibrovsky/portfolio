@@ -90,11 +90,12 @@
     "meta-title": "Feedback Form",
     "meta-description": "Contact me if you have questions about the development of an internet project"
   },
-  "term-of-use-page": {
+  "regulations-edweb": {
     "title": "Terms of Use",
     "sub-title": "Dear Visitor!",
     "meta-title": "Terms of Use",
     "meta-description": "Important information for site users",
+    "regulations": "Regulations",
     "text-1": "Dear Visitor!",
     "text-2": "All materials presented on this site, including projects, images, and texts, are intended solely for acquaintance in the context of potential collaboration with me or a process required for recruitment.",
     "text-3": "Please note the following:",
@@ -121,7 +122,8 @@
     "enter-message": "Enter message",
     "send": "Send",
     "sent-successfully": "Message sent successfully",
-    "sent-no-successfully": "Message not sent"
+    "sent-no-successfully": "Message not sent",
+    "confirmation-of-conditions": "Confirmation of conditions"
   },
   "portfolio": {
     "portfolio-filter": {
@@ -195,7 +197,8 @@
     "additional-project-wishes": "Write all the additional requests regarding the project...",
     "submit-brief": "Submit Brief",
     "sent-successfully": "Message sent successfully",
-    "sent-no-successfully": "Message not sent"
+    "sent-no-successfully": "Message not sent",
+    "confirmation-of-conditions": "Confirmation of conditions"
   },
   "possibilities": {
     "my-capabilities": "My capabilities",
@@ -276,5 +279,12 @@
       "country-description": "Ukraine",
       "period-description": "09.2003 - 06.2007"
     }
+  },
+  "recaptcha": {
+    "text-1": "This site is protected by reCAPTCHA and the ",
+    "privacy-policy": "Privacy Policy ",
+    "text-2": "and ",
+    "terms-of-service": "Terms of Service ",
+    "text-3": "apply."
   }
 }

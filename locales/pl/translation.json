@@ -90,11 +90,12 @@
     "meta-title": "Formularz kontaktowy",
     "meta-description": "Napisz do mnie, jeśli masz pytania dotyczące tworzenia projektu internetowego"
   },
-  "term-of-use-page": {
+  "regulations-edweb": {
     "title": "Warunki korzystania",
     "sub-title": "Drogi odwiedzający!",
     "meta-title": "Warunki korzystania",
     "meta-description": "Ważne informacje dla użytkowników witryny",
+    "regulations": "Regulamin",
     "text-1": "Drogi odwiedzający!",
     "text-2": "Wszystkie materiały prezentowane na tej stronie, w tym projekty, obrazy i teksty, są przeznaczone wyłącznie do zapoznania się w kontekście możliwej współpracy ze mną lub procesu niezbędnego do przeprowadzenia rekrutacji.",
     "text-3": "Proszę mieć na uwadze następujące informacje:",
@@ -121,7 +122,8 @@
     "enter-message": "Wprowadź wiadomość",
     "send": "Wyślij",
     "sent-successfully": "Wiadomość została wysłana pomyślnie",
-    "sent-no-successfully": "Wiadomość nie została wysłana"
+    "sent-no-successfully": "Wiadomość nie została wysłana",
+    "confirmation-of-conditions": "Potwierdzenie warunków"
   },
   "portfolio": {
     "portfolio-filter": {
@@ -195,7 +197,8 @@
     "additional-project-wishes": "Napisz wszystkie dodatkowe życzenia dotyczące projektu...",
     "submit-brief": "Wyślij brief",
     "sent-successfully": "Wiadomość została wysłana pomyślnie",
-    "sent-no-successfully": "Wiadomość nie została wysłana"
+    "sent-no-successfully": "Wiadomość nie została wysłana",
+    "confirmation-of-conditions": "Potwierdzenie warunków"
   },
   "possibilities": {
     "my-capabilities": "Moje możliwości",
@@ -276,5 +279,13 @@
       "country-description": "Ukraina",
       "period-description": "09.2003 - 06.2007"
     }
+  },
+  "recaptcha": {
+    "text-1": "Ta strona jest chroniona przez reCAPTCHA oraz obowiązują ",
+    "privacy-policy": "Polityka prywatności ",
+    "text-2": "i ",
+    "terms-of-service": "Warunki korzystania z usług.",
+    "text-3": ""
+
   }
 }
