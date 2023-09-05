@@ -18,7 +18,7 @@ export default function Modal({ closeModal, children, width = 'max-w-[28rem]', b
       document.body.classList.remove('overflow-y-hidden');
       document.removeEventListener('keydown', handleKeyDown);
     };
-  }, [closeModal]); // Добавили closeModal в массив зависимостей
+  }, [closeModal]);
 
   const modalContent = (
     <div className="fixed h-full overflow-y-auto inset-0 flex items-center justify-center bg-bgModal z-50 backdrop-blur-sm bg-cover bg-center bg-fixed" onClick={closeModal} style={backdropStyle}>

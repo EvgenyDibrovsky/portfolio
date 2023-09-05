@@ -6,6 +6,8 @@ import { BsPhone } from 'react-icons/bs';
 import MetaTags from 'components/MetaTags/MetaTags';
 import ContactDetails from 'components/ContactDetails/ContactDetails';
 import WrapperTitle from 'components/Utility/WrapperTitle';
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
+const RECAPTCHA_KEY = process.env.REACT_APP_RECAPTCHA_KEY;
 
 export default function ContactPage() {
   const { t } = useTranslation();
@@ -18,7 +20,9 @@ export default function ContactPage() {
         <SubTitle subTitle={t('contacts-page.sub-title')} />
       </WrapperTitle>
       <ContactDetails />
-      <ContactForm />
+      <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_KEY}>
+        <ContactForm />
+      </GoogleReCaptchaProvider>
     </>
   );
 }

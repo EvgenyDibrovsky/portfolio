@@ -5,6 +5,9 @@ import { BsListCheck } from 'react-icons/bs';
 import BriefForm from 'components/BriefForm/BriefForm';
 import MetaTags from 'components/MetaTags/MetaTags';
 import WrapperTitle from 'components/Utility/WrapperTitle';
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
+const RECAPTCHA_KEY = process.env.REACT_APP_RECAPTCHA_KEY;
+
 export default function BriefPage() {
   const { t } = useTranslation();
 
@@ -15,7 +18,9 @@ export default function BriefPage() {
         <PageTitle icon={<BsListCheck />} title={t('brief-page.title')} />
         <SubTitle subTitle={t('brief-page.sub-title')} />
       </WrapperTitle>
-      <BriefForm />
+      <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_KEY}>
+        <BriefForm />
+      </GoogleReCaptchaProvider>
     </>
   );
 }

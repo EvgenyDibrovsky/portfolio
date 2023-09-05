@@ -23,14 +23,14 @@ export default function Header({ theme, toggleTheme }) {
     };
 
     if (isOpen) {
-      document.body.style.overflow = 'hidden';
+      document.body.classList.add('overflow-y-hidden'); // Изменение здесь
       document.addEventListener('mousedown', handleClickOutside);
     } else {
-      document.body.style.overflow = 'auto';
+      document.body.classList.remove('overflow-y-hidden'); // Изменение здесь
     }
 
     return () => {
-      document.body.style.overflow = 'auto';
+      document.body.classList.remove('overflow-y-hidden'); // Изменение здесь
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isOpen]);

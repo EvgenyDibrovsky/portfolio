@@ -29,18 +29,18 @@ export default function Cookies({ children }) {
 
   const closeModal = () => {
     setShowModal(false);
-    document.body.style.overflow = 'auto'; // Always reset to 'auto' when modal closes
+    document.body.classList.remove('overflow-y-hidden'); // Изменение здесь
   };
 
   useEffect(() => {
     if (window.innerWidth < MOBILE_MAX_WIDTH && isVisible) {
-      document.body.style.overflow = 'hidden';
+      document.body.classList.add('overflow-y-hidden'); // Изменение здесь
     } else {
-      document.body.style.overflow = 'auto';
+      document.body.classList.remove('overflow-y-hidden'); // Изменение здесь
     }
 
     return () => {
-      document.body.style.overflow = 'auto';
+      document.body.classList.remove('overflow-y-hidden'); // Изменение здесь
     };
   }, [isVisible]);
 
@@ -48,13 +48,11 @@ export default function Cookies({ children }) {
     setCookie('settings', 'cookie', { path: '/' });
     saveLanguagePreference();
     closeModal();
-    document.body.style.overflow = 'auto'; // Разблокировка прокрутки body
   };
 
   const handleDecline = () => {
     removeCookie('settings', { path: '/' });
     closeModal();
-    document.body.style.overflow = 'auto'; // Разблокировка прокрутки body
   };
 
   const { t } = useTranslation();

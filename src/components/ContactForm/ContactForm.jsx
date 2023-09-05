@@ -17,9 +17,17 @@ export default function ContactForm() {
     email: Yup.string().email().required(t('contact-form.enter-email')),
     subject: Yup.string().required(t('contact-form.enter-message-subject')),
     message: Yup.string().required(t('contact-form.enter-message')),
+    confirmation_of_conditions: Yup.boolean().required(t('contact-form.confirmation-required')),
   });
 
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
+    if (!values.confirmation_of_conditions) {
+      setStatusMessage(t('contact-form.confirmation-required'));
+      setIsSuccess(false);
+      setSubmitting(false);
+      return;
+    }
+
     if (executeRecaptcha) {
       const token = await executeRecaptcha('contact_form');
       values.recaptchaToken = token;
@@ -51,6 +59,7 @@ export default function ContactForm() {
               email: '',
               subject: '',
               message: '',
+              confirmation_of_conditions: '',
             }}
             validationSchema={validationSchema}
             onSubmit={handleSubmit}
@@ -106,12 +115,30 @@ export default function ContactForm() {
                     </label>
                   </div>
                 </div>
+
+                <div className="block mb-10">
+                  <label className="inline-flex items-center gap-4 text-black dark:text-white mb-5">
+                    <Field type="checkbox" name="confirmation_of_conditions" className={`form-checkbox ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`} />
+                    Какой-то текст CF
+                  </label>
+                  <p className="text-center">
+                    {t('recaptcha.text-1')}
+                    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline hover:text-sky-600">
+                      {t('recaptcha.privacy-policy')}
+                    </a>
+                    {t('recaptcha.text-2')}
+                    <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline hover:text-sky-600">
+                      {t('recaptcha.terms-of-service')}
+                    </a>
+                    {t('recaptcha.text-3')}
+                  </p>
+                </div>
+
                 {statusMessage && (
                   <div className={`flex justify-center items-center text-white text-center status-message h-16 sm:h-12 mb-10 rounded-sm ${isSuccess ? 'bg-green-600' : 'bg-red-600'}`}>
                     {statusMessage}
                   </div>
                 )}
-
                 <button type="submit" className="btn-contact-form inline-block mr-auto  ">
                   {t('contact-form.send')}
                 </button>

@@ -1,6 +1,6 @@
 {
   "short_name": "edweb.site",
-  "name": "edweb.site - Evgeny Dibrovsky",
+  "name": "Web Development",
   "icons": [
     {
       "src": "favicon.ico",
@@ -41,7 +41,7 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": "https://www.edweb.site/",
+  "start_url": "https://edweb.site/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
