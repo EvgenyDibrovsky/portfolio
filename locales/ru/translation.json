@@ -221,7 +221,9 @@
     "write-message": "Написать сообщение",
     "back-to-home": "Вернутся на главную",
     "contact-form": "Контакты",
-    "download-resume": "Завантажити резюме (.pdf)"
+    "download-resume": "Завантажити резюме (.pdf)",
+    "nav-menu": "Навигационное меню",
+    "theme-switcher": "Перекючатель темы"
   },
   "cookies": {
     "title": "Сайт использует файлы cookie",
@@ -283,5 +285,11 @@
     "text-2": "и ",
     "terms-of-service": "Условия использования.",
     "text-3": ""
+  },
+  "social-links": {
+    "github": "Ссылка на github",
+    "telegram": "Ссылка на telegram",
+    "facebook": "Ссылка на facebook",
+    "linkedin": "Ссылка на linkedin"
   }
 }
