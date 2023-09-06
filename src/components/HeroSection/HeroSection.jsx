@@ -11,22 +11,22 @@ export default function HeroSection() {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
         <AnimateElements>
           <ul className="text-white md:text-[1.25rem] xl:text-[1.5rem] flex flex-col gap-5 list-[disc] marker:text-orange-400">
-            <li className="z-10 opacity-0 init-animate-5" data-time="0.6s" data-delay="0.5s">
+            <li className="z-10 opacity-0 init-animate-5" data-time="0.4s" data-delay="0.2s">
               {t('main-services.service-1')}
             </li>
-            <li className="z-10 opacity-0 init-animate-5" data-time="0.8s" data-delay="0.5s">
+            <li className="z-10 opacity-0 init-animate-5" data-time="0.6s" data-delay="0.2s">
               {t('main-services.service-2')}
             </li>
-            <li className="z-10 opacity-0 init-animate-5" data-time="1s" data-delay="0.5s">
+            <li className="z-10 opacity-0 init-animate-5" data-time="0.8s" data-delay="0.2s">
               {t('main-services.service-3')}
             </li>
-            <li className="z-10 opacity-0 init-animate-5" data-time="1.2s" data-delay="0.5s">
+            <li className="z-10 opacity-0 init-animate-5" data-time="1s" data-delay="0.2s">
               {t('main-services.service-4')}
             </li>
-            <li className="z-10 opacity-0 init-animate-5" data-time="1.4s" data-delay="0.5s">
+            <li className="z-10 opacity-0 init-animate-5" data-time="1.2s" data-delay="0.2s">
               {t('main-services.service-5')}
             </li>
-            <li className="z-10 opacity-0 init-animate-5" data-time="1.6s" data-delay="0.5s">
+            <li className="z-10 opacity-0 init-animate-5" data-time="1.4s" data-delay="0.2s">
               {t('main-services.service-6')}
             </li>
           </ul>
