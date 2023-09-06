@@ -9,8 +9,11 @@ import Reserved from './Reserved';
 import Date from './Date';
 import { useState, useEffect, useRef } from 'react';
 import { BsCode, BsCodeSlash } from 'react-icons/bs';
+import { useTranslation } from 'react-i18next';
 
 export default function Header({ theme, toggleTheme }) {
+  const { t } = useTranslation();
+
   const [isOpen, setIsOpen] = useState(false);
   const headerRef = useRef(null);
 
@@ -61,7 +64,7 @@ export default function Header({ theme, toggleTheme }) {
         <div className="w-32">
           <LogoMobile closeHeader={() => setIsOpen(false)} />
         </div>
-        <button className="z-50 ml-auto rounded-full text-3xl  duration-200 text-black dark:text-white focus:outline-none" onClick={toggleMenu}>
+        <button className="z-50 ml-auto rounded-full text-3xl  duration-200 text-black dark:text-white focus:outline-none" onClick={toggleMenu} title={t('btn.nav-menu')}>
           {isOpen ? <BsCodeSlash /> : <BsCode />}
         </button>
       </div>

@@ -221,7 +221,9 @@
     "write-message": "Write a Message",
     "back-to-home": "Back to Home",
     "contact-form": "Contacts",
-    "download-resume": "Download resume (.pdf)"
+    "download-resume": "Download resume (.pdf)",
+    "nav-menu": "Nav menu",
+    "theme-switcher": "Theme switcher"
   },
   "cookies": {
     "title": "The site uses cookies",
@@ -283,5 +285,11 @@
     "text-2": "and ",
     "terms-of-service": "Terms of Service ",
     "text-3": "apply."
+  },
+  "social-links": {
+    "github": "Link to github",
+    "telegram": "Link to telegram",
+    "facebook": "Link to facebook",
+    "linkedin": "Link to linkedin"
   }
 }

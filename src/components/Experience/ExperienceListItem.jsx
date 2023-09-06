@@ -1,6 +1,6 @@
 export default function ExperienceListItem({ data }) {
   return (
-    <li className="relative w-full flex justify-between h-full p-5  border border-colorBorder dark:border-colorBorderDark rounded-md">
+    <li className="relative w-full flex justify-between h-full p-5 shadow-sm shadow-black dark:shadow-white rounded-md opacity-0 init-animate-1">
       <div></div>
       <div className="w-full flex flex-col  gap-2">
         {['title', 'position', 'responsibilities', 'country', 'period'].map(field => (

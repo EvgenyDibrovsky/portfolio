@@ -298,7 +298,13 @@ export default function BriefForm() {
                       className={`form-checkbox mr-2 ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`}
                     />
                     {t('brief-form.accept-form')}
-                    <a href="/regulations-edweb" target="_blank" rel="noopener noreferrer" className="inline-block font-semibold underline duration-200 hover:text-sky-600 ml-1 lg:ml-0">
+                    <a
+                      href="/regulations-edweb"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block font-semibold underline duration-200 hover:text-sky-600 ml-1 lg:ml-0"
+                      aria-label={t('regulations-edweb.title')}
+                    >
                       {t('regulations-edweb.title')}
                     </a>
                   </label>
@@ -306,11 +312,23 @@ export default function BriefForm() {
                 <div className="mb-10">
                   <p className="text-xs text-black dark:text-white">
                     {t('recaptcha.text-1')}
-                    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="font-bold underline duration-200 hover:text-sky-600">
+                    <a
+                      href="https://policies.google.com/privacy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-bold underline duration-200 hover:text-sky-600"
+                      aria-label={t('recaptcha.privacy-policy')}
+                    >
                       {t('recaptcha.privacy-policy')}
                     </a>
                     {t('recaptcha.text-2')}
-                    <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer" className="font-bold underline duration-200 hover:text-sky-600">
+                    <a
+                      href="https://policies.google.com/terms"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-bold underline duration-200 hover:text-sky-600"
+                      aria-label={t('recaptcha.terms-of-service')}
+                    >
                       {t('recaptcha.terms-of-service')}
                     </a>
                     {t('recaptcha.text-3')}
@@ -323,7 +341,7 @@ export default function BriefForm() {
                   </div>
                 )}
 
-                <button className="btn-contact-form" type="submit" disabled={isSubmitting}>
+                <button className="btn-contact-form" type="submit" disabled={isSubmitting} title={t('brief-form.submit-brief')}>
                   {t('brief-form.submit-brief')}
                 </button>
               </Form>

@@ -124,7 +124,13 @@ export default function ContactForm() {
                       className={`form-checkbox mr-2 ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`}
                     />
                     {t('contact-form.accept-form')}
-                    <a href="/regulations-edweb" target="_blank" rel="noopener noreferrer" className="inline-block font-semibold underline duration-200 hover:text-sky-600 ml-1 lg:ml-0">
+                    <a
+                      href="/regulations-edweb"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block font-semibold underline duration-200 hover:text-sky-600 ml-1 lg:ml-0"
+                      aria-label={t('regulations-edweb.title')}
+                    >
                       {t('regulations-edweb.title')}
                     </a>
                   </label>
@@ -132,11 +138,23 @@ export default function ContactForm() {
                 <div className="mb-10">
                   <p className="text-xs text-black dark:text-white">
                     {t('recaptcha.text-1')}
-                    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="font-bold underline duration-200  hover:text-sky-600">
+                    <a
+                      href="https://policies.google.com/privacy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-bold underline duration-200  hover:text-sky-600"
+                      aria-label={t('recaptcha.privacy-policy')}
+                    >
                       {t('recaptcha.privacy-policy')}
                     </a>
                     {t('recaptcha.text-2')}
-                    <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer" className="font-bold underline duration-200  hover:text-sky-600">
+                    <a
+                      href="https://policies.google.com/terms"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-bold underline duration-200  hover:text-sky-600"
+                      aria-label={t('recaptcha.terms-of-service')}
+                    >
                       {t('recaptcha.terms-of-service')}
                     </a>
                     {t('recaptcha.text-3')}
@@ -147,7 +165,7 @@ export default function ContactForm() {
                     {statusMessage}
                   </div>
                 )}
-                <button type="submit" className="btn-contact-form inline-block mr-auto  ">
+                <button type="submit" className="btn-contact-form inline-block mr-auto" title={t('contact-form.send')}>
                   {t('contact-form.send')}
                 </button>
               </Form>

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import EducationListItem from './EducationListItem';
+import AnimateElements from 'components/Utility/AnimateElements';
 
 export default function EducationList() {
   const { t } = useTranslation();
@@ -12,10 +13,12 @@ export default function EducationList() {
   ];
 
   return (
-    <ul className="grid grid-cols-1 xl:grid-cols-2 gap-4">
-      {educationData.map(data => (
-        <EducationListItem key={data.id} id={data.id} bgClass={data.bgClass} t={t} />
-      ))}
-    </ul>
+    <AnimateElements>
+      <ul className="grid grid-cols-1 xl:grid-cols-2 gap-4">
+        {educationData.map(data => (
+          <EducationListItem key={data.id} id={data.id} bgClass={data.bgClass} t={t} />
+        ))}
+      </ul>
+    </AnimateElements>
   );
 }

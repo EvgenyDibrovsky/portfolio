@@ -5,6 +5,7 @@ import PortfolioListItem from './PortfolioListItem';
 import Modal from '../Modal/Modal';
 import { BsCardText, BsCodeSlash, BsColumnsGap, BsGlobe } from 'react-icons/bs';
 import useCurrentLanguage from '../Hooks/useCurrentLanguage';
+import AnimateElements from 'components/Utility/AnimateElements';
 
 export default function PortfolioList({ currentFilter }) {
   const { t } = useTranslation();
@@ -16,6 +17,7 @@ export default function PortfolioList({ currentFilter }) {
       ...languageSpecificData,
       id: item.portfolio.id,
       image: item.portfolio.image,
+      image_webp: item.portfolio.image_webp,
       link: item.portfolio.link,
       technologies: item.portfolio.technologies,
       type: item.portfolio.type,
@@ -73,7 +75,11 @@ export default function PortfolioList({ currentFilter }) {
           total={filteredData.length}
         >
           <div className="h-full max-h-[calc(100vh-8rem)]  overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
-            <img src={process.env.PUBLIC_URL + modalData.image} alt={modalData.name} className="mx-auto w-full" />
+            <picture>
+              <source srcSet={process.env.PUBLIC_URL + modalData.image_webp} type="image/webp" />
+              <source srcSet={process.env.PUBLIC_URL + modalData.image} type="image/jpg" />
+              <img src={process.env.PUBLIC_URL + modalData.image} alt={modalData.name} className="mx-auto w-full h-auto" />
+            </picture>
             <div className="flex flex-col justify-start gap-4 px-5 py-10">
               <h1 className="text-xl font-semibold text-black dark:text-white">{modalData.name}</h1>
               <div className="border-b pb-4">
@@ -100,7 +106,13 @@ export default function PortfolioList({ currentFilter }) {
 
               <div className="flex items-center gap-4 ">
                 <BsGlobe className="text-orange-400 text-[1.25rem]" />
-                <a href={modalData.link} target="_blank" rel="noopener noreferrer" className="underline decoration-solid transition-all duration-200 hover:text-blue-400">
+                <a
+                  href={modalData.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-solid transition-all duration-200 hover:text-blue-400"
+                  aria-label={t('portfolio.project-link')}
+                >
                   {t('portfolio.project-link')}
                 </a>
               </div>
@@ -108,11 +120,13 @@ export default function PortfolioList({ currentFilter }) {
           </div>
         </Modal>
       )}
-      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-6">
-        {filteredData.map((itemData, index) => (
-          <PortfolioListItem key={itemData.id} {...itemData} onCardClick={() => handleOpenModal(itemData, index)} />
-        ))}
-      </ul>
+      <AnimateElements>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-6 opacity-0 init-animate-1">
+          {filteredData.map((itemData, index) => (
+            <PortfolioListItem key={itemData.id} {...itemData} onCardClick={() => handleOpenModal(itemData, index)} />
+          ))}
+        </ul>
+      </AnimateElements>
     </>
   );
 }

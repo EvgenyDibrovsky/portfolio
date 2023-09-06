@@ -1,6 +1,7 @@
 import ExperienceListItem from './ExperienceListItem';
 import dbExperience from '../../db/experience.json';
 import useCurrentLanguage from '../Hooks/useCurrentLanguage';
+import AnimateElements from 'components/Utility/AnimateElements';
 
 export default function ExperienceList() {
   const currentLanguage = useCurrentLanguage();
@@ -14,10 +15,12 @@ export default function ExperienceList() {
   });
 
   return (
-    <ul className="grid grid-cols-1 xl:grid-cols-2 gap-4">
-      {data.map(dataItem => (
-        <ExperienceListItem key={dataItem.id} data={dataItem} />
-      ))}
-    </ul>
+    <AnimateElements>
+      <ul className="grid grid-cols-1 xl:grid-cols-2 gap-4">
+        {data.map(dataItem => (
+          <ExperienceListItem key={dataItem.id} data={dataItem} />
+        ))}
+      </ul>
+    </AnimateElements>
   );
 }

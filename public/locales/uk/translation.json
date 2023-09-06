@@ -222,7 +222,9 @@
     "write-message": "Написати повідомлення",
     "back-to-home": "Повернутися на головну",
     "contact-form": "Контакти",
-    "download-resume": "Скачать резюме (.pdf)"
+    "download-resume": "Скачать резюме (.pdf)",
+    "nav-menu": "Навігаційне меню",
+    "theme-switcher": "Перемикач теми"
   },
   "cookies": {
     "title": "Сайт використовує файли cookie",
@@ -284,6 +286,11 @@
     "text-2": "та ",
     "terms-of-service": "Умови використання.",
     "text-3": ""
-
+  },
+  "social-links": {
+    "github": "Посилання на github",
+    "telegram": "Посилання на telegram",
+    "facebook": "Посилання на facebook",
+    "linkedin": "Посилання на linkedin"
   }
 }

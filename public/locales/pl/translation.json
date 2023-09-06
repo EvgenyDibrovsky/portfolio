@@ -221,7 +221,9 @@
     "write-message": "Napisz wiadomość",
     "back-to-home": "Wróć do strony głównej",
     "contact-form": "Kontakty",
-    "download-resume": "Pobierz CV (.pdf)"
+    "download-resume": "Pobierz CV (.pdf)",
+    "nav-menu": "Menu nawigacyjne",
+    "theme-switcher": "Przełącznik motywów"
   },
   "cookies": {
     "title": "Strona używa plików cookie",
@@ -283,5 +285,11 @@
     "text-2": "i ",
     "terms-of-service": "Warunki korzystania z usług.",
     "text-3": ""
+  },
+  "social-links": {
+    "github": "Link do github",
+    "telegram": "Link do telegram",
+    "facebook": "Link do facebook",
+    "linkedin": "Link do linkedin"
   }
 }

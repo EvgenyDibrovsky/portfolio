@@ -71,10 +71,10 @@ export default function Cookies({ children }) {
           <p className="text-[0.8rem] sm:text-[1rem] text-black dark:text-white">{t('cookies.text')}</p>
         </div>
         <div className="w-full lg:w-3/12 xl:w-2/12 flex justify-center items-end flex-col sm:flex-row lg:flex-col gap-4">
-          <button className="btn" onClick={handleAccept}>
+          <button className="btn" onClick={handleAccept} title={t('cookies.btn-accept')}>
             {t('cookies.btn-accept')}
           </button>
-          <button className="btn" onClick={handleDecline}>
+          <button className="btn" onClick={handleDecline} title={t('cookies.btn-no-accept')}>
             {t('cookies.btn-no-accept')}
           </button>
         </div>

@@ -3,6 +3,7 @@
     "portfolio": {
       "id": 1,
       "image": "/images/portfolio/iprofi.jpg",
+      "image_webp": "/images/portfolio/iprofi.webp",
       "link": "https://iprofi.pl/",
       "technologies": "CMS-Tamaranga, PHP, HTML5, CSS, JavaScript",
       "type": "commercial",
@@ -32,6 +33,7 @@
     "portfolio": {
       "id": 2,
       "image": "/images/portfolio/zvonti.jpg",
+      "image_webp": "/images/portfolio/zvonti.webp",
       "link": "https://zvonti.com/",
       "technologies": "CMS OsClass, PHP, HTML5, CSS, JavaScript",
       "type": "commercial",
@@ -61,6 +63,7 @@
     "portfolio": {
       "id": 3,
       "image": "/images/portfolio/pobytok.jpg",
+      "image_webp": "/images/portfolio/pobytok.webp",
       "link": "https://pobytok.com/",
       "technologies": "HTML5, CSS, JavaScript",
       "type": "commercial",
@@ -90,6 +93,7 @@
     "portfolio": {
       "id": 4,
       "image": "/images/portfolio/ice-cream.jpg",
+      "image_webp": "/images/portfolio/ice-cream.webp",
       "link": "https://evgenydibrovsky.github.io/landing-ice-cream/",
       "technologies": "HTML5, CSS, jQuery, JavaScript, SASS, Parcel",
       "type": "educational",
@@ -119,6 +123,7 @@
     "portfolio": {
       "id": 5,
       "image": "/images/portfolio/wbm.jpg",
+      "image_webp": "/images/portfolio/wbm.webp",
       "link": "https://wbm-group.pl/",
       "technologies": "CMS Wordpress, PHP, HTML5, CSS",
       "type": "commercial",
@@ -148,6 +153,7 @@
     "portfolio": {
       "id": 6,
       "image": "/images/portfolio/wbm-landing.jpg",
+      "image_webp": "/images/portfolio/wbm-landing.webp",
       "link": "https://evgenydibrovsky.github.io/hr-partner",
       "technologies": "HTML5, CSS, JavaScript",
       "type": "commercial",
@@ -177,6 +183,7 @@
     "portfolio": {
       "id": 7,
       "image": "/images/portfolio/web-studio.jpg",
+      "image_webp": "/images/portfolio/web-studio.webp",
       "link": "https://evgenydibrovsky.github.io/goit-markup-hw-08/",
       "technologies": "HTML5, CSS, JavaScript",
 
@@ -207,6 +214,7 @@
     "portfolio": {
       "id": 8,
       "image": "/images/portfolio/maxiservice.jpg",
+      "image_webp": "/images/portfolio/maxiservice.webp",
       "link": "https://maxiserwis.eu/",
       "technologies": "CMS Wordpress, PHP, HTML5, CSS",
       "type": "commercial",
@@ -236,6 +244,7 @@
     "portfolio": {
       "id": 9,
       "image": "/images/portfolio/altcome.jpg",
+      "image_webp": "/images/portfolio/altcome.webp",
       "link": "https://altcome.eu/",
       "technologies": "HTML5, SASS, JavaScript, PHP",
       "type": "commercial",
@@ -265,6 +274,7 @@
     "portfolio": {
       "id": 10,
       "image": "/images/portfolio/auto-usa.jpg",
+      "image_webp": "/images/portfolio/auto-usa.webp",
       "link": "https://evgenydibrovsky.github.io/lp-cars-from-usa/",
       "technologies": "HTML5, CSS, JavaScript",
       "type": "educational",
@@ -294,6 +304,7 @@
     "portfolio": {
       "id": 11,
       "image": "/images/portfolio/lamborghini.jpg",
+      "image_webp": "/images/portfolio/lamborghini.webp",
       "link": "https://evgenydibrovsky.github.io/lamborghini-Landing/",
       "technologies": "HTML5, CSS, JavaScript",
       "type": "educational",
@@ -323,6 +334,7 @@
     "portfolio": {
       "id": 12,
       "image": "/images/portfolio/lease-cars.jpg",
+      "image_webp": "/images/portfolio/lease-cars.webp",
       "link": "https://evgenydibrovsky.github.io/lease-cars/",
       "technologies": "HTML5, CSS, JavaScript",
       "type": "educational",
@@ -352,6 +364,7 @@
     "portfolio": {
       "id": 13,
       "image": "/images/portfolio/gurov.jpg",
+      "image_webp": "/images/portfolio/gurov.webp",
       "link": "https://gurov.pl/",
       "technologies": "Bootstrap, JavaScript, jQuery",
       "type": "commercial",
@@ -381,6 +394,7 @@
     "portfolio": {
       "id": 14,
       "image": "/images/portfolio/candle.jpg",
+      "image_webp": "/images/portfolio/candle.webp",
       "link": "https://evgenydibrovsky.github.io/lp-candle/",
       "technologies": "HTML5, CSS, JavaScript",
       "type": "educational",
@@ -410,6 +424,7 @@
     "portfolio": {
       "id": 15,
       "image": "/images/portfolio/project-home.jpg",
+      "image_webp": "/images/portfolio/project-home.webp",
       "link": "https://evgenydibrovsky.github.io/lp-project-home/",
       "technologies": "HTML5, Tailwind CSS, JavaScript",
       "type": "educational",
@@ -439,6 +454,7 @@
     "portfolio": {
       "id": 16,
       "image": "/images/portfolio/giard-design.jpg",
+      "image_webp": "/images/portfolio/giard-design.webp",
       "link": "https://evgenydibrovsky.github.io/lp-giard-design/",
       "technologies": "HTML5, Tailwind CSS, JavaScript",
       "type": "educational",
