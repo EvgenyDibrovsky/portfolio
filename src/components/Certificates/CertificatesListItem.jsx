@@ -18,11 +18,13 @@ export default function CertificatesListItem({ item }) {
         alt={item['name-certificate']}
         className="block w-full xl:w-[31.25rem] h-auto duration-200 group-hover:scale-105 cursor-pointer"
         onClick={handleOpenModal}
+        width="500"
+        height="281"
       />
       {isModalOpen && (
         <Modal closeModal={handleCloseModal} width="w-11/12 lg:w-10/12 xl:w-10/12">
           <div className="h-full max-h-[calc(100vh-5rem)] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
-            <img src={process.env.PUBLIC_URL + item.fullImage} alt={item['name-certificate']} className="w-full" />
+            <img src={process.env.PUBLIC_URL + item.fullImage} alt={item['name-certificate']} className="w-full" width="1000" height="562" />
           </div>
         </Modal>
       )}

@@ -19,10 +19,13 @@
 
 @layer components {
   .btn-contact-form {
-    @apply flex items-center justify-center h-12 w-full sm:max-w-[15rem] sm:mx-auto transition-all duration-200 border bg-transparent  border-orange-400 dark:border-orange-400 text-black dark:text-white text-lg rounded-md hover:bg-orange-400 hover:text-white hover:dark:bg-orange-400 hover:dark:text-black;
+    @apply flex items-center justify-center h-12 w-full sm:max-w-[15rem] sm:mx-auto transition-all duration-200 border bg-transparent  border-orange-400 dark:border-orange-400 text-black dark:text-white text-lg rounded-md hover:bg-gradient-to-r hover:from-orange-300 hover:to-orange-400 hover:text-white hover:dark:text-black;
   }
   .btn {
-    @apply inline-flex justify-center items-center w-full sm:max-w-[16rem] px-5 py-2 transition-all duration-200 border bg-transparent border-orange-400 dark:border-orange-400 text-black dark:text-white text-lg rounded-md hover:bg-orange-400 hover:text-white hover:dark:bg-orange-400 hover:dark:text-black;
+    @apply inline-flex justify-center items-center w-full sm:max-w-[16rem] px-5 py-2 transition-all duration-200 border border-orange-400 dark:border-orange-400 text-black dark:text-white text-lg rounded-md bg-transparent hover:bg-gradient-to-r hover:from-orange-300 hover:to-orange-400 hover:text-white hover:dark:text-black;
+  }
+  .btn-filter {
+    @apply w-full sm:w-6/12 md:w-7/12 lg:w-5/12 xl:w-6/12 cursor-pointer rounded-sm py-1 px-4 border border-orange-400 text-center text-black dark:text-white transition-all duration-200 hover:bg-gradient-to-r hover:from-orange-300 hover:to-orange-400 hover:text-white hover:dark:text-black;
   }
 }
 @layer utilities {

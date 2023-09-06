@@ -78,7 +78,7 @@ export default function PortfolioList({ currentFilter }) {
             <picture>
               <source srcSet={process.env.PUBLIC_URL + modalData.image_webp} type="image/webp" />
               <source srcSet={process.env.PUBLIC_URL + modalData.image} type="image/jpg" />
-              <img src={process.env.PUBLIC_URL + modalData.image} alt={modalData.name} className="mx-auto w-full h-auto" />
+              <img src={process.env.PUBLIC_URL + modalData.image} alt={modalData.name} className="mx-auto w-full h-auto" width="800" height="600" />
             </picture>
             <div className="flex flex-col justify-start gap-4 px-5 py-10">
               <h1 className="text-xl font-semibold text-black dark:text-white">{modalData.name}</h1>
