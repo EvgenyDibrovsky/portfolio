@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function logo({ closeHeader }) {
   return (
     <Link to="./">
-      <img src={Logo} alt="Logo-Edweb" onClick={closeHeader} className="w-8/12 mx-auto" />
+      <img src={Logo} alt="Logo-Edweb" onClick={closeHeader} className="w-8/12 lg:w-9/12 h-full mx-auto" />
     </Link>
   );
 }
