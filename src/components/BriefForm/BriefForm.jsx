@@ -290,7 +290,7 @@ export default function BriefForm() {
                   />
                 </label>
 
-                <div className="block mb-2">
+                <div className="block mb-4">
                   <label className="lg:inline-flex lg:items-center lg:gap-1 text-black dark:text-white ">
                     <Field
                       type="checkbox"
@@ -298,7 +298,7 @@ export default function BriefForm() {
                       className={`form-checkbox mr-2 ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`}
                     />
                     {t('brief-form.accept-form')}
-                    <a href="/regulations-edweb" target="_blank" rel="noopener noreferrer" className="inline-block font-semibold underline duration-200 hover:text-sky-600">
+                    <a href="/regulations-edweb" target="_blank" rel="noopener noreferrer" className="inline-block font-semibold underline duration-200 hover:text-sky-600 ml-1 lg:ml-0">
                       {t('regulations-edweb.title')}
                     </a>
                   </label>
