@@ -2,20 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Header from './Header/Header';
-// import Footer from './Footer';
 import Section from './Base/Section';
 import Container from './Base/Container';
 import Loading from './Base/LoaderSite';
 import LoadingPage from './Base/LoaderPage';
-
-// import Home from '../pages/Home';
-// import Cooperation from '../pages/Сooperation';
-// import Resume from '../pages/Resume';
-// import Portfolio from '../pages/Portfolio';
-// import Brief from '../pages/Brief';
-// import Contacts from '../pages/Contacts';
-// import TermsUse from '../pages/Regulations';
-// import NotFound from '../pages/NotFound';
 
 import { HelmetProvider } from 'react-helmet-async';
 import { isCookieAccepted } from './Cookies/Cookies'; // Замените на правильный путь к вашему Cookies компоненту
