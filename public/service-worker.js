@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cache-edweb.site-v6';
+const CACHE_NAME = 'cache-edweb.site-v7';
 const urlsToCache = [
   '/',
   '/index.html', // добавьте другие ресурсы, которые вы хотите кешировать
