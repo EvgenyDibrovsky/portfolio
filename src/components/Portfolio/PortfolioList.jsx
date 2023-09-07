@@ -6,6 +6,7 @@ import Modal from '../Modal/Modal';
 import { BsCardText, BsCodeSlash, BsColumnsGap, BsGlobe } from 'react-icons/bs';
 import useCurrentLanguage from '../Hooks/useCurrentLanguage';
 import AnimateElements from 'components/Utility/AnimateElements';
+import { useSwipeable } from 'react-swipeable';
 
 export default function PortfolioList({ currentFilter }) {
   const { t } = useTranslation();
@@ -53,6 +54,13 @@ export default function PortfolioList({ currentFilter }) {
     setModalData({});
   };
 
+  const swipeHandlers = useSwipeable({
+    onSwipedLeft: () => handleNextItem(),
+    onSwipedRight: () => handlePrevItem(),
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: false,
+  });
+
   if (data.length === 0) {
     return <p className="text-[2rem] text-black dark:text-white text-center">{t('nothing-found')}</p>;
   }
@@ -74,7 +82,7 @@ export default function PortfolioList({ currentFilter }) {
           current={currentItemIndex + 1}
           total={filteredData.length}
         >
-          <div className="h-full max-h-[calc(100vh-8rem)]  overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
+          <div {...swipeHandlers} className="h-full max-h-[calc(100vh-8rem)]  overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
             <picture>
               <source srcSet={process.env.PUBLIC_URL + modalData.image_webp} type="image/webp" />
               <source srcSet={process.env.PUBLIC_URL + modalData.image} type="image/jpg" />
