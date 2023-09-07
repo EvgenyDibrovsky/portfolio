@@ -4,7 +4,7 @@ export default function PortfolioListItem({ image, image_webp, name, onCardClick
   return (
     <li
       onClick={onCardClick}
-      className="shadow-sm shadow-black dark:shadow-white group max-h-72 relative flex flex-col justify-between transition-all duration-500 rounded-md overflow-hidden init-animate-1 "
+      className="shadow-sm shadow-black dark:shadow-white group max-h-72 relative flex flex-col justify-between transition-all duration-500 rounded-md overflow-hidden opacity-0 init-animate-1 "
     >
       <div className="relative flex items-center justify-center cursor-pointer aspect-video ">
         <picture>

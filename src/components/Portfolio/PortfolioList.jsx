@@ -120,8 +120,8 @@ export default function PortfolioList({ currentFilter }) {
           </div>
         </Modal>
       )}
-      <AnimateElements>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-6 opacity-0 init-animate-1">
+      <AnimateElements key={currentFilter}>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-6 ">
           {filteredData.map((itemData, index) => (
             <PortfolioListItem key={itemData.id} {...itemData} onCardClick={() => handleOpenModal(itemData, index)} />
           ))}
