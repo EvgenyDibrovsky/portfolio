@@ -161,7 +161,11 @@ export default function ContactForm() {
                   </p>
                 </div>
                 {statusMessage && (
-                  <div className={`flex justify-center items-center text-white text-center status-message h-16 sm:h-12 mb-10 rounded-sm ${isSuccess ? 'bg-green-600' : 'bg-red-600'}`}>
+                  <div
+                    className={`flex justify-center items-center text-white text-center font-semibold status-message h-16 sm:h-12 mb-10 rounded-sm ${
+                      isSuccess ? 'bg-gradient-to-r from-green-600 via-green-400 to-green-600' : 'bg-gradient-to-r from-red-600 via-red-400 to-red-600'
+                    }`}
+                  >
                     {statusMessage}
                   </div>
                 )}

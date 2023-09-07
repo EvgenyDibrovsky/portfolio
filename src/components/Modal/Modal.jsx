@@ -26,21 +26,21 @@ export default function Modal({ closeModal, children, width = 'max-w-[28rem]', b
         <div className="flex items-center justify-between bg-transparent mb-2">
           {showChevrons && (
             <div className="flex gap-2">
-              <div className="cursor-pointer flex items-center justify-between bg-orange-400 active:bg-orange-400  group">
-                <BsChevronLeft className="w-8 h-8 p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={handlePrev} />
+              <div className="cursor-pointer flex items-center justify-between bg-gradient-to-r from-orange-300 to-orange-400 group">
+                <BsChevronLeft className="w-8 h-8 p-1 text-white dark:text-black font-bold duration-200 group-hover:scale-75" onClick={handlePrev} />
               </div>
-              <div className="cursor-pointer flex items-center justify-between bg-orange-400 active:bg-orange-400  group ">
-                <BsChevronRight className="w-8 h-8 p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={handleNext} />
+              <div className="cursor-pointer flex items-center justify-between bg-gradient-to-l from-orange-300 to-orange-400 group ">
+                <BsChevronRight className="w-8 h-8 p-1 text-white dark:text-black font-bold duration-200 group-hover:scale-75" onClick={handleNext} />
               </div>
-              <div className="flex items gap-2 bg-orange-400 h-8 py-1 px-4 text-white">
+              <div className="flex items gap-2  text-white dark:text-black bg-gradient-to-t from-orange-300 to-orange-400 h-8 py-1 px-4">
                 <div>{current}</div>
                 <div>/</div>
                 <div>{total}</div>
               </div>
             </div>
           )}
-          <div className="cursor-pointer flex items-center justify-between bg-orange-400 active:bg-orange-400  ml-auto group">
-            <BsXLg className="w-8 h-8 p-1 text-white font-bold duration-200 group-hover:scale-75" onClick={closeModal} />
+          <div className="cursor-pointer flex items-center justify-between bg-gradient-to-b from-orange-300 to-orange-400  ml-auto group">
+            <BsXLg className="w-8 h-8 p-1 text-white dark:text-black font-bold duration-200 group-hover:scale-75" onClick={closeModal} />
           </div>
         </div>
         <div className="bg-white  dark:bg-black text-black dark:text-white">{children}</div>

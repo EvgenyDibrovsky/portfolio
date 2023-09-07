@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cache-edweb.site';
+const CACHE_NAME = 'cache-edweb.site-v2';
 const urlsToCache = [
   '/',
   '/index.html', // добавьте другие ресурсы, которые вы хотите кешировать
@@ -11,6 +11,7 @@ self.addEventListener('install', event => {
       return cache.addAll(urlsToCache);
     })
   );
+  self.skipWaiting(); // Принудительно активирует Service Worker после установки
 });
 
 // Отлов сетевых запросов
