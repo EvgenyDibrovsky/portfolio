@@ -479,5 +479,35 @@
         "participation": "Front-end Разработчик"
       }
     }
+  },
+  {
+    "portfolio": {
+      "id": 17,
+      "image": "/images/portfolio/stawowa.jpg",
+      "image_webp": "/images/portfolio/stawowa.webp",
+      "link": "https://www.imperialstawowa.pl/",
+      "technologies": "Wordpress, ACF, PHP, TailwindCss, HTML5, JavaScript",
+      "type": "commercial",
+      "EN": {
+        "name": "Project - Stawowa Residence",
+        "description": "Commercial project.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - Stawowa Residence",
+        "description": " Projekt komercyjny.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект -Stawowa Residence",
+        "description": "Комерційний проект.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Stawowa Residence",
+        "description": "Коммерческий проект.",
+        "participation": "Front-end Разработчик"
+      }
+    }
   }
 ]
