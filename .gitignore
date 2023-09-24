@@ -17,7 +17,7 @@
 /build
 
 # server
-/server.js
+.server.js
 # misc
 .DS_Store
 .env
