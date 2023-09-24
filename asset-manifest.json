@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.50bc2a53.css",
-    "main.js": "/portfolio/static/js/main.d5c52ac4.js",
+    "main.css": "/portfolio/static/css/main.09ead8ef.css",
+    "main.js": "/portfolio/static/js/main.1b212689.js",
     "static/js/497.260dfd89.chunk.js": "/portfolio/static/js/497.260dfd89.chunk.js",
     "static/js/714.b7bbaa64.chunk.js": "/portfolio/static/js/714.b7bbaa64.chunk.js",
     "static/css/180.d40b11d2.chunk.css": "/portfolio/static/css/180.d40b11d2.chunk.css",
-    "static/js/180.bb40df9b.chunk.js": "/portfolio/static/js/180.bb40df9b.chunk.js",
+    "static/js/180.845b6ad2.chunk.js": "/portfolio/static/js/180.845b6ad2.chunk.js",
     "static/js/267.9a24d533.chunk.js": "/portfolio/static/js/267.9a24d533.chunk.js",
     "static/js/522.34e3cfac.chunk.js": "/portfolio/static/js/522.34e3cfac.chunk.js",
     "static/js/418.a89c0268.chunk.js": "/portfolio/static/js/418.a89c0268.chunk.js",
@@ -24,12 +24,12 @@
     "static/media/logo-mobile.svg": "/portfolio/static/media/logo-mobile.3e14b68eb245ef310016cda8bedb8e6b.svg",
     "index.html": "/portfolio/index.html",
     "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.50bc2a53.css.map": "/portfolio/static/css/main.50bc2a53.css.map",
-    "main.d5c52ac4.js.map": "/portfolio/static/js/main.d5c52ac4.js.map",
+    "main.09ead8ef.css.map": "/portfolio/static/css/main.09ead8ef.css.map",
+    "main.1b212689.js.map": "/portfolio/static/js/main.1b212689.js.map",
     "497.260dfd89.chunk.js.map": "/portfolio/static/js/497.260dfd89.chunk.js.map",
     "714.b7bbaa64.chunk.js.map": "/portfolio/static/js/714.b7bbaa64.chunk.js.map",
     "180.d40b11d2.chunk.css.map": "/portfolio/static/css/180.d40b11d2.chunk.css.map",
-    "180.bb40df9b.chunk.js.map": "/portfolio/static/js/180.bb40df9b.chunk.js.map",
+    "180.845b6ad2.chunk.js.map": "/portfolio/static/js/180.845b6ad2.chunk.js.map",
     "267.9a24d533.chunk.js.map": "/portfolio/static/js/267.9a24d533.chunk.js.map",
     "522.34e3cfac.chunk.js.map": "/portfolio/static/js/522.34e3cfac.chunk.js.map",
     "418.a89c0268.chunk.js.map": "/portfolio/static/js/418.a89c0268.chunk.js.map",
@@ -38,7 +38,7 @@
     "71.cdd6f5b1.chunk.js.map": "/portfolio/static/js/71.cdd6f5b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50bc2a53.css",
-    "static/js/main.d5c52ac4.js"
+    "static/css/main.09ead8ef.css",
+    "static/js/main.1b212689.js"
   ]
 }

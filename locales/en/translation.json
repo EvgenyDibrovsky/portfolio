@@ -137,7 +137,11 @@
     "english": "English",
     "polish": "Polish",
     "ukrainian": "Ukrainian",
-    "russian": "Russian"
+    "russian": "Russian",
+    "en": "EN",
+    "pl": "PL",
+    "uk": "UK",
+    "ru": "ru"
   },
   "brief-form": {
     "step-1": "Step 1: Contact Information",
