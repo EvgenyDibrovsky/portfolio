@@ -42,6 +42,7 @@ export default function ProgressLangSkills() {
           <div className="absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[0]}%` }}>
             <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.english')}</div>
+              <div className="block sm:hidden">{t('language-skills.en')}</div>
               <div className="ml-auto">{currentValues[0]}%</div>
             </div>
           </div>
@@ -50,6 +51,7 @@ export default function ProgressLangSkills() {
           <div className="absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[1]}%` }}>
             <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.polish')}</div>
+              <div className="block sm:hidden">{t('language-skills.pl')}</div>
               <div className="ml-auto">{currentValues[1]}%</div>
             </div>
           </div>
@@ -58,6 +60,7 @@ export default function ProgressLangSkills() {
           <div className=" absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[2]}%` }}>
             <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.ukrainian')}</div>
+              <div className="block sm:hidden">{t('language-skills.uk')}</div>
               <div className="ml-auto">{currentValues[2]}%</div>
             </div>
           </div>
@@ -66,6 +69,7 @@ export default function ProgressLangSkills() {
           <div className=" absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[3]}%` }}>
             <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.russian')}</div>
+              <div className="block sm:hidden">{t('language-skills.ru')}</div>
               <div className="ml-auto">{currentValues[3]}%</div>
             </div>
           </div>
