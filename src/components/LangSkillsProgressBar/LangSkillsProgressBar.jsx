@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useInView } from 'react-intersection-observer';
-import '/node_modules/flag-icons/css/flag-icons.min.css';
 import AnimateElements from 'components/Utility/AnimateElements';
 
 export default function ProgressLangSkills() {
@@ -40,34 +39,32 @@ export default function ProgressLangSkills() {
     <AnimateElements>
       <ul className="grid grid-cols lg:grid-cols-2 gap-4" ref={ref}>
         <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
-          <div className="fi fi-us bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[0]}%` }}>
-            <div className="absolute w-full pl-16  top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
+          <div className="absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[0]}%` }}>
+            <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.english')}</div>
               <div className="ml-auto">{currentValues[0]}%</div>
             </div>
           </div>
         </li>
         <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
-          <div className="fi fi-pl bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[1]}%` }}>
-            <div className="absolute w-full pl-16 top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
+          <div className="absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[1]}%` }}>
+            <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.polish')}</div>
               <div className="ml-auto">{currentValues[1]}%</div>
             </div>
           </div>
         </li>
         <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
-          <div className="fi fi-ua bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[2]}%` }}>
-            <div className="absolute w-full pl-16 top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
+          <div className=" absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[2]}%` }}>
+            <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.ukrainian')}</div>
               <div className="ml-auto">{currentValues[2]}%</div>
             </div>
           </div>
         </li>
         <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
-          {/* <div className="fi fi-ru bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[3]}%` }}> */}
-          <div className="bg-left bg-contain absolute left-0 top-0 h-8 bg-orange-400 rounded-lg " style={{ width: `${currentValues[3]}%` }}>
-            <span className="flex items-center text-black dark:text-white font-semibold absolute top-1/2 -translate-y-1/2 left-3 h-full border-r pr-2">RU</span>
-            <div className="absolute w-full pl-16  top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
+          <div className=" absolute left-0 top-0 h-8 bg-orange-400 rounded-lg" style={{ width: `${currentValues[3]}%` }}>
+            <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.russian')}</div>
               <div className="ml-auto">{currentValues[3]}%</div>
             </div>
