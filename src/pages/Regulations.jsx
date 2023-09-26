@@ -14,8 +14,39 @@ export default function TermsUsePage() {
       </WrapperTitle>
       <div className="w-full xl:w-10/12 mx-auto">
         <div className="mb-10">
+          <h3 className="font-bold text-[1.2rem] text-black dark:text-white my-5">{t('regulations-edweb.terms-of-use.title_1')}</h3>
           <div className="content-box">
-            <Trans i18nKey="regulations-edweb.terms-of-use.descriptionHtml" components={{ h3: <h3 />, br: <br />, ul: <ul />, li: <li /> }} />
+            <Trans i18nKey="regulations-edweb.terms-of-use.descriptionHtml_1" components={{ br: <br />, ul: <ul />, li: <li /> }} />
+          </div>
+
+          <h3 className="font-bold text-[1.2rem] text-black dark:text-white my-5">{t('regulations-edweb.terms-of-use.title_2')}</h3>
+          <div className="content-box">
+            <Trans i18nKey="regulations-edweb.terms-of-use.descriptionHtml_2" components={{ br: <br />, ul: <ul />, li: <li /> }} />
+          </div>
+
+          <h3 className="font-bold text-[1.2rem] text-black dark:text-white my-5">{t('regulations-edweb.terms-of-use.title_3')}</h3>
+          <div className="content-box">
+            <Trans i18nKey="regulations-edweb.terms-of-use.descriptionHtml_3" components={{ br: <br />, ul: <ul />, li: <li /> }} />
+          </div>
+
+          <h3 className="font-bold text-[1.2rem] text-black dark:text-white my-5">{t('regulations-edweb.terms-of-use.title_4')}</h3>
+          <div className="content-box">
+            <Trans i18nKey="regulations-edweb.terms-of-use.descriptionHtml_4" components={{ br: <br />, ul: <ul />, li: <li /> }} />
+          </div>
+
+          <h3 className="font-bold text-[1.2rem] text-black dark:text-white my-5">{t('regulations-edweb.terms-of-use.title_5')}</h3>
+          <div className="content-box">
+            <Trans i18nKey="regulations-edweb.terms-of-use.descriptionHtml_5" components={{ br: <br />, ul: <ul />, li: <li /> }} />
+          </div>
+
+          <h3 className="font-bold text-[1.2rem] text-black dark:text-white my-5">{t('regulations-edweb.terms-of-use.title_6')}</h3>
+          <div className="content-box">
+            <Trans i18nKey="regulations-edweb.terms-of-use.descriptionHtml_6" components={{ br: <br />, ul: <ul />, li: <li /> }} />
+          </div>
+
+          <h3 className="font-bold text-[1.2rem] text-black dark:text-white my-5">{t('regulations-edweb.terms-of-use.title_7')}</h3>
+          <div className="content-box">
+            <Trans i18nKey="regulations-edweb.terms-of-use.descriptionHtml_7" components={{ br: <br />, ul: <ul />, li: <li /> }} />
           </div>
         </div>
       </div>
