@@ -14,9 +14,8 @@ export default function TermsUsePage() {
       </WrapperTitle>
       <div className="w-full xl:w-10/12 mx-auto">
         <div className="mb-10">
-          <h3 className="font-bold text-[1.2rem] text-black dark:text-white mb-5">{t('regulations-edweb.terms-of-use.title')}</h3>
           <div className="content-box">
-            <Trans i18nKey="regulations-edweb.terms-of-use.descriptionHtml" components={{ br: <br />, ul: <ul />, li: <li /> }} />
+            <Trans i18nKey="regulations-edweb.terms-of-use.descriptionHtml" components={{ h3: <h3 />, br: <br />, ul: <ul />, li: <li /> }} />
           </div>
         </div>
       </div>
