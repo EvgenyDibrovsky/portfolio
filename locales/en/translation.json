@@ -96,8 +96,20 @@
     "meta-title": "Regulations",
     "meta-description": "Important information for site users",
     "terms-of-use": {
-      "title": "Terms of Use",
-      "descriptionHtml": "<p>Dear Visitor!</p><p>All the materials available on this website, including projects, images, and texts, are intended solely for informational purposes within the context of potential collaboration with me or the process necessary for recruitment.</p><ul><p>Please consider the following:</p><li><p>Information and materials from this website may not be used for commercial, advertising, or other purposes without my written consent.</p></li><li><p>Please respect my copyrights and privacy.</p></li><li><p>If you have questions or proposals for collaboration, feel free to contact me directly through the provided contact details.</p></li><li><p>By providing my contact details or other personal data on this website, I give my consent for their processing solely for the purpose of collaboration for services mentioned on the website, or recruitment.</p></li></ul><p>Thank you for your understanding and respect for my work!</p>"
+      "title_1": "Terms of Use",
+      "descriptionHtml_1": "<p>Dear Visitor!</p><p>All materials presented on this site, including projects, images, and texts, are intended exclusively for acquaintance in the context of possible cooperation with me or the process required for recruitment.</p><ul><li><p>It is prohibited to use information and materials from this site for commercial, advertising, or other purposes without my written consent.</p></li><li><p>Please respect my copyrights and confidentiality.</p></li></ul><p>If you have any questions or suggestions for cooperation, feel free to contact me directly through the provided contact details.</p>",
+      "title_2": "Consent to Data Processing",
+      "descriptionHtml_2": "<p>By providing my contact details or other personal information on this site, I express my consent to their processing exclusively for the purpose of cooperation on services specified on the site, or recruitment.</p>",
+      "title_3": "Use of Cookies and Local Storage",
+      "descriptionHtml_3": "<p>The site uses cookies and Local Storage to enhance your user experience, as well as for the operation of services such as language selection and switching color themes. Google Analytics is also active on the site for collecting visit statistics. The site serves as a portfolio and does not involve registration. You have access to a contact form to communicate with me, where you can leave your name, email, and message. By continuing to use the site, you agree to our use of cookies and Local Storage. If you disagree, please leave the site.</p>",
+      "title_4": "Confidentiality",
+      "descriptionHtml_4": "<p>We respect your privacy and take all necessary measures to protect your personal information. All personal information provided on the site through the contact form or any other means will be used exclusively to contact you regarding cooperation or recruitment and will not be disclosed to third parties without your clear consent.</p>",
+      "title_5": "Content Rights",
+      "descriptionHtml_5": "<p>The content presented on the site is my property and is protected by copyright laws. No part of the site and its content may be reproduced, transmitted, copied, modified, or used in any way without prior written permission.</p>",
+      "title_6": "Changes to the Regulation",
+      "descriptionHtml_6": "<p>I reserve the right to make changes to this regulation at any time without prior notice. Site visitors are obliged to regularly check the regulation for changes. Continuing to use the site after making changes will be considered your agreement to such changes.</p>",
+      "title_7": "Contacts",
+      "descriptionHtml_7": "<p>If you have any questions regarding this regulation, please contact me using the contact information provided on the site.</p><p>Thank you for understanding and respecting my work!</p>"
     }
   },
   "not-found-page": {
