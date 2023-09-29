@@ -49,8 +49,8 @@ export const App = () => {
   return (
     <div className={`${loading ? '' : 'lg:bg-body-white lg:dark:bg-body-dark'} min-h-screen font-Poppins bg-bgSection dark:bg-bgSectionDark bg-cover bg-center bg-no-repeat`}>
       <HelmetProvider>
-        {/* <Router basename={process.env.PUBLIC_URL}> */}
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
+          {/* <Router> */}
           <ScrollToTop />
           <div>
             <Header theme={theme} toggleTheme={toggleTheme} />
