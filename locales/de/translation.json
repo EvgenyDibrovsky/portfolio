@@ -1,0 +1,311 @@
+{
+  "about-me": {
+    "title": "Web-Entwicklung",
+    "name": "Eugen Dibrovsky",
+    "web-development": "Frontend-Entwickler",
+    "description-1": "Hallo!",
+    "description-2": "Ich bin ein Webentwickler, und es begann als ein Hobby und wurde dann zu meinem Hauptberuf. Ich beschäftige mich seit mehreren Jahren professionell mit Webentwicklung. Mit jedem neuen Projekt wächst meine Erfahrung, und dafür bin ich meinen Kunden dankbar – besonders wenn sie mit nicht immer standardmäßigen Ideen und Anforderungen für die Projektumsetzung kommen 😉.",
+    "description-3": "Heutzutage ermöglichen mir meine Fähigkeiten und mein technologischer Stack, den gesamten Entwicklungszyklus der gefragtesten Webressourcen durchzuführen. Und selbst wenn ich ein sehr komplexes Projekt angeboten bekomme, werde ich es gerne annehmen! Denn ich fürchte mich nicht vor Herausforderungen und habe erfahrene Kollegen, die immer bereit sind zu helfen.",
+    "description-4": "Lassen Sie uns zusammenarbeiten und etwas Neues schaffen!"
+  },
+  "contact-details": {
+    "phone-number": "+48537450501",
+    "email-address": "contact@edweb.site",
+    "localization": "Krakau, Polen"
+  },
+  "nav-menu": {
+    "home": "Startseite",
+    "resume": "Lebenslauf",
+    "portfolio": "Portfolio",
+    "brief": "Brief",
+    "contacts": "Kontakte",
+    "cooperation": "Zusammenarbeit"
+  },
+  "footer": {
+    "rights-reserved": "© 2023 Alle Rechte vorbehalten"
+  },
+  "main-services": {
+    "service-1": "Web-Entwicklung",
+    "service-2": "Online-Marketing",
+    "service-3": "Website-Zugänglichkeit",
+    "service-4": "Webdesign",
+    "service-5": "Suchmaschinenoptimierung (SEO)",
+    "service-6": "Technischer Support"
+  },
+  "home-page": {
+    "title": "Startseite",
+    "sub-title": "Untertitel",
+    "meta-title": "Web-Entwicklung - edweb.site",
+    "meta-description": "Professionelle Website-Erstellung von A bis Z. Nur aktuelle und getestete Technologien."
+  },
+  "cooperation-page": {
+    "title": "Zusammenarbeit",
+    "sub-title": "Ihr Projekt - unsere gemeinsame Mission",
+    "meta-title": "Eugen Dibrovsky - Frontend-Entwickler",
+    "meta-description": "Website-Erstellung von A bis Z.",
+    "text-1": "Suchen Sie einen Webentwicklungsspezialisten? Betrachten Sie die Möglichkeit einer Zusammenarbeit mit mir. Hier biete ich verschiedene Kooperationsformate an, die Ihren Anforderungen am besten entsprechen.",
+    "text-2": "Freiberuflich:",
+    "text-3": "Wenn Sie ein Einzelprojekt haben oder einen langfristigen Partner ohne die Notwendigkeit einer täglichen Büropräsenz suchen, werde ich Ihre Freelance-Angebote in Betracht ziehen. Ich gehe verantwortungsbewusst an jedes Projekt heran und berücksichtige Ihre Anforderungen.",
+    "text-4": "Vollzeitanstellung:",
+    "text-5": "Offen für Vollzeitangebote. Ich schätze Stabilität und die Möglichkeit, mich tief in langfristige Projekte einzutauchen.",
+    "text-6": "B2B:",
+    "text-7": "Suchen Sie einen Webentwicklungspartner? Ich bin bereit, die Kooperationsbedingungen zu besprechen, Teil Ihres Teams zu werden und konzentriert auf das Ergebnis zu arbeiten.",
+    "text-8": "Was Sie bekommen, wenn Sie mit mir zusammenarbeiten:",
+    "text-9": "Verantwortung und Zuverlässigkeit: Ich strebe nach Präzision und Einhaltung von Deadlines, und biete hochwertige Arbeit. Sie können auf meine volle Hingabe zu Ihrem Projekt zählen.",
+    "text-10": "Erfahrung: Trotz meiner relativ kurzen Berufserfahrung verfüge ich über ein umfangreiches Wissen und Fähigkeiten und gehe jedes Projekt mit höchster Ernsthaftigkeit an.",
+    "text-11": "Flexibilität: Ich bin bereit, Ihre Wünsche zu berücksichtigen und mich an die Projektanforderungen anzupassen.",
+    "text-12": "Ich freue mich auf Ihre Angebote und bin bereit zur Diskussion. Gemeinsam finden wir die beste Lösung für Ihr Projekt!"
+  },
+  "resume-page": {
+    "title": "Lebenslauf",
+    "sub-title": "Ein wenig über mich und meine Erfahrung",
+    "sub-title-1": "Zertifikate",
+    "sub-title-2": "Technische Fähigkeiten",
+    "sub-title-3": "Sprachkenntnisse",
+    "sub-title-4": "Soft Skills",
+    "sub-title-5": "Bildung",
+    "sub-title-6": "Berufserfahrung",
+    "link-pdf": "Im PDF-Format anzeigen",
+    "meta-title": "Lebenslauf - Frontend-Entwickler",
+    "meta-description": "Sehen Sie sich meinen Lebenslauf an und erfahren Sie, wie sehr ich Webentwicklung liebe"
+  },
+  "portfolio-page": {
+    "title": "Portfolio",
+    "sub-title": "Ein Überblick über einige meiner Arbeiten",
+    "meta-title": "Webprojekt-Portfolio - edweb.site",
+    "meta-description": "Ein Portfolio von Projekten, die im Laufe meiner Entwicklung und Arbeit entstehen"
+  },
+  "brief-page": {
+    "title": "Briefing",
+    "sub-title": "Schnelle Projektbewertung",
+    "text-information-1": "Ein Briefing ist eine kurze Beschreibung Ihrer Ideen, Ziele, Vorlieben und Erwartungen bezüglich des Projekts. Es hilft mir, Ihre Vision genauer zu erfassen und einen maßgeschneiderten Plan für Ihr Projekt zu entwickeln, um das gewünschte Ergebnis zu erzielen.",
+    "text-information-2": "Wenn Sie das Briefing ausfüllen, konzentrieren Sie sich auf das Projekt und das gewünschte Ergebnis. Beschreiben Sie es mit Ihren eigenen Worten - ich werde Sie verstehen!",
+    "text-information-3": "Nachdem Sie dieses Briefing ausgefüllt haben, kann ich den Umfang und die Komplexität der Arbeit bewerten, Ihnen einen geeigneten Entwicklungsplan vorschlagen und ein Angebot mit geschätzten Zeiten und Kosten für die Umsetzung des Projekts erstellen.",
+    "meta-title": "Briefing - Bestellformular für Webentwicklungsdienste",
+    "meta-description": "Füllen Sie das Briefing aus, um eine effektive Lösung zu erstellen"
+  },
+  "contacts-page": {
+    "title": "Kontakte",
+    "sub-title": "Kontaktieren Sie mich bei Fragen",
+    "meta-title": "Kontaktformular",
+    "meta-description": "Schreiben Sie mir, wenn Sie Fragen zur Entwicklung von Internetprojekten haben"
+  },
+  "regulations-edweb": {
+    "title": "Regelung",
+    "sub-title": "Liebe Besucher!",
+    "meta-title": "Regelung",
+    "meta-description": "Wichtige Informationen für Website-Benutzer",
+    "terms-of-use": {
+      "title_1": "Nutzungsbedingungen",
+      "descriptionHtml_1": "<p>Liebe Besucher!</p><p>Alle auf dieser Website präsentierten Materialien, einschließlich Projekte, Bilder und Texte, dienen ausschließlich zur Information im Kontext einer möglichen Zusammenarbeit mit mir oder eines für die Rekrutierung erforderlichen Prozesses.</p><ul><li><p>Es ist verboten, Informationen und Materialien von dieser Website für kommerzielle, werbliche oder andere Zwecke ohne meine schriftliche Zustimmung zu verwenden.</p></li><li><p>Bitte respektieren Sie meine Urheberrechte und die Vertraulichkeit.</p></li></ul><p>Wenn Sie Fragen oder Vorschläge zur Zusammenarbeit haben, zögern Sie nicht, mich direkt über die bereitgestellten Kontaktinformationen zu kontaktieren.</p>",
+      "title_2": "Einwilligung zur Datenverarbeitung",
+      "descriptionHtml_2": "<p>Indem ich meine Kontaktdaten oder andere persönliche Informationen auf dieser Website angebe, gebe ich meine Zustimmung zu ihrer Verarbeitung ausschließlich zum Zweck der Zusammenarbeit bei den auf der Website angegebenen Dienstleistungen oder der Rekrutierung.</p>",
+      "title_3": "Verwendung von Cookies und Local Storage",
+      "descriptionHtml_3": "<p>Diese Website verwendet Cookies und Local Storage, um Ihr Benutzererlebnis zu verbessern und Dienste wie Sprachauswahl und Farbschema-Umschaltung zu ermöglichen. Auf der Website wird auch Google Analytics verwendet, um Besucherstatistiken zu sammeln. Die Website dient als Portfolio und erfordert keine Registrierung. Es steht Ihnen ein Kontaktformular zur Verfügung, über das Sie Ihren Namen, Ihre E-Mail-Adresse und eine Nachricht hinterlassen können. Wenn Sie die Website weiterhin nutzen, stimmen Sie unserer Verwendung von Cookies und Local Storage zu. Wenn Sie nicht einverstanden sind, verlassen Sie bitte die Website.</p>",
+      "title_4": "Datenschutz",
+      "descriptionHtml_4": "<p>Wir respektieren Ihre Privatsphäre und ergreifen alle notwendigen Maßnahmen, um Ihre persönlichen Daten zu schützen. Alle persönlichen Informationen, die über das Kontaktformular oder auf andere Weise auf der Website bereitgestellt werden, werden ausschließlich zur Kontaktaufnahme mit Ihnen in Bezug auf die Zusammenarbeit oder Rekrutierung verwendet und werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.</p>",
+      "title_5": "Urheberrechte am Inhalt",
+      "descriptionHtml_5": "<p>Der auf der Website präsentierte Inhalt ist mein Eigentum und durch Urheberrechtsgesetze geschützt. Kein Teil der Website oder ihres Inhalts darf reproduziert, übertragen, kopiert, geändert oder auf andere Weise verwendet werden, ohne vorherige schriftliche Zustimmung.</p>",
+      "title_6": "Änderungen der Regelung",
+      "descriptionHtml_6": "<p>Ich behalte mir das Recht vor, jederzeit Änderungen an dieser Regelung vorzunehmen, ohne vorherige Ankündigung. Website-Besucher sollten die Regelung regelmäßig auf Änderungen überprüfen. Die fortgesetzte Nutzung der Website nach der Einführung von Änderungen gilt als Ihre Zustimmung zu solchen Änderungen.</p>",
+      "title_7": "Kontakte",
+      "descriptionHtml_7": "<p>Wenn Sie Fragen zu dieser Regelung haben, kontaktieren Sie mich bitte über die auf der Website bereitgestellten Kontaktinformationen.</p><p>Vielen Dank für Ihr Verständnis und Respekt für meine Arbeit!</p>"
+    }
+  },
+  "not-found-page": {
+    "not-found": "Seite nicht gefunden",
+    "404": "404",
+    "meta-title": "404",
+    "meta-description": "Seite nicht gefunden."
+  },
+  "contact-form": {
+    "name": "Name",
+    "enter-name": "Name eingeben",
+    "email": "Email",
+    "enter-email": "E-Mail eingeben",
+    "message-subject": "Betreff der Nachricht",
+    "enter-message-subject": "Betreff eingeben",
+    "message": "Nachricht",
+    "enter-message": "Nachricht eingeben",
+    "send": "Senden",
+    "sent-successfully": "Nachricht erfolgreich gesendet",
+    "sent-no-successfully": "Nachricht nicht gesendet",
+    "confirmation-of-conditions": "Bestätigung der Bedingungen",
+    "accept-form": "Ich stimme den im Regelwerk dargelegten Bedingungen zu."
+  },
+  "portfolio": {
+    "portfolio-filter": {
+      "all": "Alle Projekte",
+      "educational": "Bildungsprojekte",
+      "commercial": "Kommerzielle Projekte"
+    },
+    "project-description": "Projektbeschreibung",
+    "project-participation": "Projektbeteiligung",
+    "project-technologies": "Verwendete Technologien",
+    "project-site": "Projektwebsite",
+    "project-link": "Projektwebsite besuchen"
+  },
+  "language-skills": {
+    "english": "Englisch",
+    "polish": "Polnisch",
+    "ukrainian": "Ukrainisch",
+    "russian": "Russisch",
+    "en": "EN",
+    "pl": "PL",
+    "uk": "UK",
+    "ru": "RU"
+  },
+  "brief-form": {
+    "step-1": "Schritt 1: Kontaktdaten",
+    "step-2": "Schritt 2: Informationen über Ihre Tätigkeit",
+    "step-3": "Schritt 3: Webseiten (Entwicklung, Erstellung, Modernisierung)",
+    "step-4": "Schritt 4: Online-Marketing",
+    "step-5": "Schritt 5: Zusätzliche Dienstleistungen",
+    "step-6": "Schritt 6: Zusätzliche Wünsche",
+    "name": "Name",
+    "enter-name": "Name eingeben",
+    "last-name": "Nachname",
+    "enter-last-name": "Nachname eingeben",
+    "email": "Email",
+    "enter-email": "E-Mail-Adresse eingeben",
+    "message-subject": "Betreff der Nachricht",
+    "phone": "Telefonnummer",
+    "enter-phone": "Telefonnummer eingeben",
+    "activity-sphere": "Tätigkeitsbereich",
+    "specify-activity-sphere": "Tätigkeitsbereich angeben",
+    "www-address": "WWW-Adresse (falls vorhanden)",
+    "specify-domain-name": "Geplanten oder registrierten Domainnamen angeben",
+    "general-activity-info": "Allgemeine Informationen zur Tätigkeit",
+    "enter-general-activity-info": "Allgemeine Informationen zur Tätigkeit eingeben",
+    "select-site-type": "Webseitentyp auswählen",
+    "visit-card": "Visitenkarten-Website",
+    "corporate-site": "Unternehmenswebsite",
+    "e-shop": "Online-Shop",
+    "internet-portal": "Internetportal",
+    "ads-service": "Anzeigenservice",
+    "blog": "Blog",
+    "site-upgrade": "Website-Upgrade",
+    "site-redesign": "Website-Redesign",
+    "online-catalog": "Online-Katalog",
+    "mobile-app": "Mobile App",
+    "custom-project": "Individuelles Projekt",
+    "site-accessibility": "Website-Zugänglichkeit",
+    "design": "Design",
+    "has-design-project": "Designprojekt vorhanden",
+    "no-design-project": "Kein Designprojekt",
+    "ready-templates": "Fertige Vorlagen",
+    "liked-sites": "Websites, die Ihnen gefallen",
+    "example-sites-prompt": "Geben Sie ein paar Websites als Beispiel an, die Ihnen gefallen...",
+    "email-marketing": "E-Mail-Marketing",
+    "smm-marketing": "SMM-Marketing",
+    "site-monetization": "Website-Monetarisierung",
+    "online-advertising": "Online-Werbung",
+    "site-promotion": "Website-Promotion",
+    "ad-links": "Werbelinks",
+    "hosting": "Hosting",
+    "domain-registration": "Domain-Registrierung",
+    "ssl-certificate": "SSL-Zertifikat",
+    "brand-emails": "Marken-E-Mails",
+    "additional-project-wishes": "Geben Sie alle zusätzlichen Projektanforderungen an...",
+    "submit-brief": "Brief absenden",
+    "sent-successfully": "Nachricht erfolgreich gesendet",
+    "sent-no-successfully": "Nachricht nicht gesendet",
+    "confirmation-of-conditions": "Bestätigung der Bedingungen",
+    "accept-form": "Ich stimme den im Reglement festgelegten Bedingungen zu."
+  },
+  "possibilities": {
+    "my-capabilities": "Meine Fähigkeiten",
+    "web-development": "Webentwicklung",
+    "web-development-description": "Entwicklung von Websites und Anwendungen. Auswahl der optimalen Webtechnologien für eine erfolgreiche Entwicklung und einfache Projektunterstützung. Für große Projekte besteht die Möglichkeit, ein Entwicklerteam zu erstellen.",
+    "web-design": "Webdesign",
+    "web-design-description": "Design von Benutzeroberflächen für Websites oder Webanwendungen. Erstellung von Logos, Bannern, Website-Animationen. In der Designphase besteht auch die Möglichkeit, Vorlagenlösungen zu verwenden.",
+    "e-marketing": "Online-Marketing",
+    "e-marketing-description": "Maßnahmen zur Steigerung des Gewinns aus dem Verkauf von Produkten oder Dienstleistungen. Marktanalyse, Erstellung von Online-Werbekampagnen. Gezielte Werbung, Werbung in Suchmaschinen und sozialen Netzwerken.",
+    "seo": "Suchmaschinenoptimierung (SEO)",
+    "seo-description": "Maßnahmen zur internen und externen Optimierung, um die Position einer Website in den Suchergebnissen für bestimmte Benutzeranfragen zu verbessern, mit dem Ziel, den Webverkehr und potenzielle Kunden zu erhöhen.",
+    "site-availability": "Website-Zugänglichkeit",
+    "site-availability-description": "Entwicklung/Anpassung von Websites, die für Menschen mit Behinderungen zugänglich sind, gemäß WCAG 2.1. Ich habe viel Erfahrung und Zertifikate in diesem Bereich.",
+    "technical-support": "Technischer Support",
+    "technical-support-description": "Wartung und Unterstützung von Websites, einschließlich Projekten, die nicht nur von mir, sondern auch von anderen Spezialisten entwickelt wurden. Updates, Installation von SSL-Zertifikaten, Anpassung von Layout, Funktionalität, Design, Hosting und vieles mehr."
+  },
+  "working-conditions": {
+    "freelance": "Freiberuflich",
+    "full-employment": "Vollzeit",
+    "b2b": "B2B"
+  },
+  "btn": {
+    "write-message": "Nachricht schreiben",
+    "back-to-home": "Zurück zur Startseite",
+    "contact-form": "Kontakt",
+    "download-resume": "Lebenslauf herunterladen (.pdf)",
+    "nav-menu": "Navigationsmenü",
+    "theme-switcher": "Themenwechsler"
+  },
+  "cookies": {
+    "title": "Diese Website verwendet Cookies",
+    "text": "Wir verwenden Cookies und Local Storage, um Ihr Benutzererlebnis zu verbessern und Dienste wie Sprachauswahl und Themenumstellung zu ermöglichen. Auf der Website wird auch Google Analytics verwendet, um Besucherstatistiken zu sammeln. Diese Website ist ein Portfolio und erfordert keine Registrierung. Ein Kontaktformular steht zur Verfügung, um mit mir in Kontakt zu treten, wo Sie Ihren Namen, E-Mail und Nachricht hinterlassen können. Indem Sie die Website weiter nutzen, stimmen Sie unserer Verwendung von Cookies und Local Storage zu. Wenn Sie nicht einverstanden sind, verlassen Sie bitte die Website. Vielen Dank für Ihr Verständnis!",
+    "btn-accept": "Ich stimme zu",
+    "btn-no-accept": "Ich stimme nicht zu"
+  },
+  "soft-skills": {
+    "skill-1": "Teamarbeit",
+    "skill-2": "Anpassungsfähigkeit",
+    "skill-3": "Zeitmanagement",
+    "skill-4": "Kritisches Denken",
+    "skill-5": "Verantwortung",
+    "skill-6": "Lernfähigkeit"
+  },
+  "education": {
+    "title": "Bildungseinrichtung",
+    "faculty": "Fakultät",
+    "speciality": "Fachrichtung",
+    "form": "Bildungsform",
+    "country": "Land",
+    "period": "Studienzeitraum",
+    "id-4": {
+      "title-description": "GoIT Programmierkurse",
+      "faculty-description": "Full Stack",
+      "speciality-description": "Full Stack Entwickler",
+      "form-description": "Online",
+      "country-description": "Ukraine",
+      "period-description": "05.2022 - 04.2023"
+    },
+    "id-3": {
+      "title-description": "Bildungszentrum Renoma",
+      "faculty-description": "Technik der Verwaltung",
+      "speciality-description": "Techniker der Verwaltung",
+      "form-description": "Wochenendkurse",
+      "country-description": "Polen",
+      "period-description": "09.2020 - 01.2022"
+    },
+    "id-2": {
+      "title-description": "Klassische Private Universität",
+      "faculty-description": "Wirtschaftsinformatik",
+      "speciality-description": "Wirtschaftsinformatiker | Bachelor",
+      "form-description": "Fernstudium",
+      "country-description": "Ukraine",
+      "period-description": "09.2007 - 07.2012"
+    },
+    "id-1": {
+      "title-description": "Saporischschja College für Radioelektronik der Saporischschja Nationalen Technischen Universität",
+      "faculty-description": "Computertechnik",
+      "speciality-description": "Techniker-Elektroniker",
+      "form-description": "Vollzeit",
+      "country-description": "Ukraine",
+      "period-description": "09.2003 - 06.2007"
+    }
+  },
+  "recaptcha": {
+    "text-1": "Diese Website ist durch reCAPTCHA geschützt und es gelten die ",
+    "privacy-policy": "Datenschutzbestimmungen ",
+    "text-2": "und die ",
+    "terms-of-service": "Nutzungsbedingungen.",
+    "text-3": ""
+  },
+  "social-links": {
+    "github": "Link zu github",
+    "telegram": "Link zu telegram",
+    "facebook": "Link zu facebook",
+    "linkedin": "Link zu linkedin"
+  }
+}
