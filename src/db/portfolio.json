@@ -2,457 +2,36 @@
   {
     "portfolio": {
       "id": 1,
-      "image": "/images/portfolio/iprofi.jpg",
-      "image_webp": "/images/portfolio/iprofi.webp",
-      "link": "https://iprofi.pl/",
-      "technologies": "CMS-Tamaranga, PHP, HTML5, CSS, JavaScript",
+      "image": "/images/portfolio/stawowa.jpg",
+      "image_webp": "/images/portfolio/stawowa.webp",
+      "link": "https://www.imperialstawowa.pl/",
+      "technologies": "Wordpress, ACF, PHP, TailwindCss, HTML5, JavaScript",
       "type": "commercial",
       "EN": {
-        "name": "Projekt - Services exchange",
-        "description": "He services exchange has been designed for specialists and those who need them. More than 500 specializations are available on this service. The focus is on availability, simplicity, and responsiveness. Users can take advantage of all available options for free, with the exception of paid promotion of ads and offers.",
-        "participation": " Project Manager, Frontend Developer, SEO Specialist"
+        "name": "Project - Stawowa Residence",
+        "description": "Commercial project.",
+        "participation": "Frontend Developer"
       },
       "PL": {
-        "name": "Projekt - Giełda usług",
-        "description": "Giełda usług przeznaczona jest dla profesjonalistów i tych, którzy potrzebuję ich. Na tej stronie dostępnych jest ponad 500 specjalizacji. usługa. Nacisk kładziony jest na dostępność, prostotę i reakcja na coś. Użytkownicy mogą skorzystać ze wszystkich dostępnych opcji bezpłatnie, z wyjątkiem płatnego promowania ogłoszeń i ofert.",
-        "participation": "Menadżer projektu, Front-end Deweloper, Specjalista SEO"
+        "name": "Projekt - Stawowa Residence",
+        "description": " Projekt komercyjny.",
+        "participation": "Front-end Deweloper"
       },
       "UK": {
-        "name": "Проект - Біржа послуг",
-        "description": "Біржа послуг призначена для фахівців та тих, хто потрібно їх. На цьому сайті є понад 500 спеціалізацій. надання послуг. Основна увага приділяється доступності, простоті та відповідна реакція. Користувачі можуть скористатися всіма доступними опціями безкоштовно, за винятком платного просування оголошень та пропозицій.",
-        "participation": "Проджект-менеджер, Front-end Розробник, SEO Фахівець"
+        "name": "Проект -Stawowa Residence",
+        "description": "Комерційний проект.",
+        "participation": "Front-end Розробник"
       },
       "RU": {
-        "name": "Проект - Биржа услуг",
-        "description": "Биржа услуг предназначена для специалистов и тех, кто их ищет. На этом сайте доступно более 500 специализаций. оказание услуг. Основное внимание уделяется доступности, простоте и ответная реакция. Пользователи могут воспользоваться всеми доступными опциями бесплатно, за исключением платного продвижения объявлений и предложений.",
-        "participation": "Проджект-менеджер, Front-end Разработчик, SEO Специалист"
+        "name": "Проект - Stawowa Residence",
+        "description": "Коммерческий проект.",
+        "participation": "Front-end Разработчик"
       }
     }
   },
   {
     "portfolio": {
       "id": 2,
-      "image": "/images/portfolio/zvonti.jpg",
-      "image_webp": "/images/portfolio/zvonti.webp",
-      "link": "https://zvonti.com/",
-      "technologies": "CMS OsClass, PHP, HTML5, CSS, JavaScript",
-      "type": "commercial",
-      "EN": {
-        "name": "Projekt - Announcement service",
-        "description": "The multilingual bulletin board has been designed to provide a more comfortable way to post ads for users from different countries. The service is free, except for paid ad promotion services.",
-        "participation": "Project Manager, Frontend Developer, SEO Specialist"
-      },
-      "PL": {
-        "name": "Projekt - Serwis ogloszeniowy",
-        "description": "Wielojęzyczna tablica ogłoszeń została zaprojektowana tak, aby zapewnić więcej wygodny sposób reklamowania się dla użytkowników z różnych krajów. usługa jest bezpłatna, z wyjątkiem płatnych usług promocji reklamy.",
-        "participation": "Menadżer projektu, Front-end Deweloper, Specjalista SEO"
-      },
-      "UK": {
-        "name": "Проект - Сервіс оголошень",
-        "description": "Багатомовна дошка оголошень була розроблена, щоб забезпечити більше зручний спосіб розміщення реклами для користувачів із різних країн. послуга безкоштовна, крім платних послуг з просування реклами.",
-        "participation": "Проджект-менеджер, Front-end Розробник, SEO Фахівець"
-      },
-      "RU": {
-        "name": "Проект - Сервис объявлений",
-        "description": "Многоязычная доска объявлений была разработана, чтобы обеспечить более удобный способ размещения рекламы для пользователей из разных стран. услуга бесплатная, за исключением платных услуг по продвижению рекламы.",
-        "participation": "Проджект-менеджер, Front-end Разработчик, SEO Специалист"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 3,
-      "image": "/images/portfolio/pobytok.jpg",
-      "image_webp": "/images/portfolio/pobytok.webp",
-      "link": "https://pobytok.com/",
-      "technologies": "HTML5, CSS, JavaScript",
-      "type": "commercial",
-      "EN": {
-        "name": "Projekt - Integration portal",
-        "description": "The Integration Portal for immigrants in Poland. The portal includes 4 types of users, a bulletin board, a document generator related to the legalization of stay in Poland, a system of direct interaction between a Polish employer and a foreign applicant, a system of moderation and verification of employment agencies. The service has great social and commercial functionality. At the moment, the service is at the stage of migration to the Laravel framework.",
-        "participation": "Project Manager, Team Leader, Frontend Developer, SEO Specialist"
-      },
-      "PL": {
-        "name": "Projekt - Portal integracyjny",
-        "description": "Portal integracyjny dla imigrantów w Polsce. Portal zawiera 4 typy użytkowników, tablica ogłoszeń, generator dokumentów związanych z legalizacja pobytu w Polsce, system bezpośredniej interakcji pomiędzy polskim pracodawcą a cudzoziemcem poszukującym pracy, system moderacja i weryfikacja agencji zatrudnienia. Serwis posiada świetna funkcjonalność społeczna i komercyjna. W tym momencie serwis jest na etapie migracji na framework Laravel.",
-        "participation": "Menadżer projektu, Team leader , Front-end Deweloper, Specjalista SEO"
-      },
-      "UK": {
-        "name": "Проект - Інтеграційний портал",
-        "description": "Інтеграційний портал для іммігрантів у Польщі. Портал включає в себе 4 типи користувачів, дошка оголошень, генератор документів пов'язаних з легалізація перебування у Польщі, система прямої взаємодії між польським роботодавцем та іноземним шукачем, система модерація та перевірка агенцій з працевлаштування. Сервіс має великий соціальний та комерційний функціонал. На даний момент сервіс знаходиться на стадії міграції на фреймворк Laravel.",
-        "participation": "Проджект-менеджер, Тімлід, Front-end Розробник, SEO Фахівець"
-      },
-      "RU": {
-        "name": "Проект - Интеграционный портал",
-        "description": "Интеграционный портал для иммигрантов в Польше. Портал включает в себя 4 типа пользователей, доска объявлений, генератор документов связанных с легализация пребывания в Польше, система прямого взаимодействия между польским работодателем и иностранным соискателем, система модерация и проверка агентств по трудоустройству. Сервис имеет большой социальный и коммерческий функционал. На данный момент сервис находится на стадии миграции на фреймворк Laravel.",
-        "participation": "Проджект-менеджер, Тимлид, Front-end Разработчик, SEO Специалист"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 4,
-      "image": "/images/portfolio/ice-cream.jpg",
-      "image_webp": "/images/portfolio/ice-cream.webp",
-      "link": "https://evgenydibrovsky.github.io/landing-ice-cream/",
-      "technologies": "HTML5, CSS, jQuery, JavaScript, SASS, Parcel",
-      "type": "educational",
-      "EN": {
-        "name": "Projekt - Ice Cream",
-        "description": "A team project after finishing the HTML/CSS course at a GoIT school.",
-        "participation": " Scrum master, Frontend Developer"
-      },
-      "PL": {
-        "name": "Projekt - Strona do zamawiania lodów",
-        "description": "Projekt zespołowy po ukończeniu kursu HTML/CSS w szkole GoIT.",
-        "participation": "Scrum-master, Front-end Deweloper"
-      },
-      "UK": {
-        "name": "Проект - Сайт для замовлення морозива",
-        "description": "Командний проект після закінчення курсу HTML/CSS у школі GoIT.",
-        "participation": "Скрам-майстер, Front-end Розробник"
-      },
-      "RU": {
-        "name": "Проект - Сайт для заказа мороженого",
-        "description": "Командный проект после окончания курса HTML/CSS в школе GoIT.",
-        "participation": "Скрам-мастер, Front-end Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 5,
-      "image": "/images/portfolio/wbm.jpg",
-      "image_webp": "/images/portfolio/wbm.webp",
-      "link": "https://wbm-group.pl/",
-      "technologies": "CMS Wordpress, PHP, HTML5, CSS",
-      "type": "commercial",
-      "EN": {
-        "name": "Projekt - Consulting company",
-        "description": "Client - Consulting company WBM Group.",
-        "participation": "Frontend Developer, Wordpress Developer"
-      },
-      "PL": {
-        "name": "Projekt - Firma konsultingowa",
-        "description": "Klient - firma konsultingowa WBM Group.",
-        "participation": "Front-end Deweloper, Wordpress Deweloper"
-      },
-      "UK": {
-        "name": "Проект - Консалтингова компанія",
-        "description": "Клієнт – Консалтингова компанія WBM Group.",
-        "participation": " Front-end Розробник, Wordpress Розробник"
-      },
-      "RU": {
-        "name": "Проект - Консалтинговая компания",
-        "description": "Клиент - Консалтинговая компания WBM Group.",
-        "participation": "Front-end Разработчик, Wordpress Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 6,
-      "image": "/images/portfolio/wbm-landing.jpg",
-      "image_webp": "/images/portfolio/wbm-landing.webp",
-      "link": "https://evgenydibrovsky.github.io/hr-partner",
-      "technologies": "HTML5, CSS, JavaScript",
-      "type": "commercial",
-      "EN": {
-        "name": "Projekt - Landing page (HR)",
-        "description": "Client - Consulting company WBM Group.",
-        "participation": "Frontend Developer"
-      },
-      "PL": {
-        "name": "Projekt - Landing page (HR)",
-        "description": "Klient - firma konsultingowa WBM Group.",
-        "participation": "Front-end Deweloper"
-      },
-      "UK": {
-        "name": "Проект - Цільова сторінка (HR)",
-        "description": "Клієнт – Консалтингова компанія WBM Group.",
-        "participation": " Front-end Розробник"
-      },
-      "RU": {
-        "name": "Проект - Целевая страница (HR)",
-        "description": "Клиент - Консалтинговая компания WBM Group.",
-        "participation": "Front-end Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 7,
-      "image": "/images/portfolio/web-studio.jpg",
-      "image_webp": "/images/portfolio/web-studio.webp",
-      "link": "https://evgenydibrovsky.github.io/goit-markup-hw-08/",
-      "technologies": "HTML5, CSS, JavaScript",
-
-      "type": "educational",
-      "EN": {
-        "name": "Projekt - Web Studio",
-        "description": "Project after finishing the HTML/CSS course at a GoIT school.",
-        "participation": "Front-end Deweloper"
-      },
-      "PL": {
-        "name": "Projekt - Web Studio",
-        "description": "Projekt po ukończeniu kursu HTML/CSS w szkole GoIT.",
-        "participation": "Front-end Deweloper"
-      },
-      "UK": {
-        "name": "Проект - Веб-студия",
-        "description": "Проект після закінчення курсу HTML/CSS у школі GoIT.",
-        "participation": " Front-end Розробник"
-      },
-      "RU": {
-        "name": "Проект - Целевая страница (HR)",
-        "description": "Проект после окончания курса HTML/CSS в школе GoIT.",
-        "participation": "Front-end Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 8,
-      "image": "/images/portfolio/maxiservice.jpg",
-      "image_webp": "/images/portfolio/maxiservice.webp",
-      "link": "https://maxiserwis.eu/",
-      "technologies": "CMS Wordpress, PHP, HTML5, CSS",
-      "type": "commercial",
-      "EN": {
-        "name": "Projekt - Auto Service",
-        "description": "Website a car service in Krakow.",
-        "participation": "Frontend Developer, SEO Specialist"
-      },
-      "PL": {
-        "name": "Projekt - Auto Service",
-        "description": "Strona powstała serwisu samochodowego w Krakowie.",
-        "participation": "Front-end Deweloper, Specjalista SEO"
-      },
-      "UK": {
-        "name": "Проект - Авто Сервіс",
-        "description": "Сайт автосервісу в Кракові.",
-        "participation": "Front-end Розробник, SEO Фахівець"
-      },
-      "RU": {
-        "name": "Проект - Авто Сервис",
-        "description": "Сайт авто-сервиса в Кракове.",
-        "participation": "Front-end Разработчик, SEO Специалист"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 9,
-      "image": "/images/portfolio/altcome.jpg",
-      "image_webp": "/images/portfolio/altcome.webp",
-      "link": "https://altcome.eu/",
-      "technologies": "HTML5, SASS, JavaScript, PHP",
-      "type": "commercial",
-      "EN": {
-        "name": "Projekt - Web studio - Altcome",
-        "description": "Web studio Altcome - Commercial project for the WBM Group company.",
-        "participation": "Frontend Developer, SEO Specialist"
-      },
-      "PL": {
-        "name": "Projekt - Web studio - Altcome",
-        "description": "Web studio Altcome - Projekt komercyjny dla firmy WBM Group.",
-        "participation": "Front-end Deweloper, Specjalista SEO"
-      },
-      "UK": {
-        "name": "Проект - Веб студія -Altcome",
-        "description": "Веб студія Altcome - Комерційний проект для клмпанії WBM Group.",
-        "participation": "Front-end Розробник, SEO Фахівець"
-      },
-      "RU": {
-        "name": "Проект - Веб студия - Altcome",
-        "description": "Веб студия Altcome - Коммерческий проект для компании WBM Group.",
-        "participation": "Front-end Разработчик, SEO Специалист"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 10,
-      "image": "/images/portfolio/auto-usa.jpg",
-      "image_webp": "/images/portfolio/auto-usa.webp",
-      "link": "https://evgenydibrovsky.github.io/lp-cars-from-usa/",
-      "technologies": "HTML5, CSS, JavaScript",
-      "type": "educational",
-      "EN": {
-        "name": "Projekt - Cars from USA",
-        "description": "Website for the sale of cars from the USA - The project was created in order to gain practical skills.",
-        "participation": "Frontend Developer"
-      },
-      "PL": {
-        "name": "Projekt - Samochody z USA",
-        "description": "Strona internetowa do sprzedaży samochodów z USA - Projekt powstał w celu zdobycia praktycznych umiejętności.",
-        "participation": "Front-end Deweloper"
-      },
-      "UK": {
-        "name": "Проект - Автомобілі з США",
-        "description": "Сайт з продажу автомобілів із США - Проект створено з метою отримання практичних навичок.",
-        "participation": "Front-end Розробник"
-      },
-      "RU": {
-        "name": "Проект - Автомобили из США",
-        "description": "Сайт по продаже автомобилей из США - Проект создан в целях получения практических навыков.",
-        "participation": "Front-end Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 11,
-      "image": "/images/portfolio/lamborghini.jpg",
-      "image_webp": "/images/portfolio/lamborghini.webp",
-      "link": "https://evgenydibrovsky.github.io/lamborghini-Landing/",
-      "technologies": "HTML5, CSS, JavaScript",
-      "type": "educational",
-      "EN": {
-        "name": "Projekt - Grand Final 2022",
-        "description": "Grand Final 2022 - The project was created in order to gain practical skills.",
-        "participation": "Frontend Developer"
-      },
-      "PL": {
-        "name": "Projekt - Wielki Finał 2022",
-        "description": "Wielki Finał 2022 - Projekt powstał w celu zdobycia praktycznych umiejętności.",
-        "participation": "Front-end Deweloper"
-      },
-      "UK": {
-        "name": "Проект - Гранд-фінал 2022",
-        "description": "Гранд-фінал 2022 - Проект створено з метою отримання практичних навичок.",
-        "participation": "Front-end Розробник"
-      },
-      "RU": {
-        "name": "Проект - Гранд-финал 2022",
-        "description": "Гранд-финал 2022 - Проект создан в целях получения практических навыков.",
-        "participation": "Front-end Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 12,
-      "image": "/images/portfolio/lease-cars.jpg",
-      "image_webp": "/images/portfolio/lease-cars.webp",
-      "link": "https://evgenydibrovsky.github.io/lease-cars/",
-      "technologies": "HTML5, CSS, JavaScript",
-      "type": "educational",
-      "EN": {
-        "name": "Projekt - Lease cars",
-        "description": "Lease cars - The project was created in order to gain practical skills.",
-        "participation": "Frontend Developer"
-      },
-      "PL": {
-        "name": "Projekt - leasing samochodów",
-        "description": "leasing samochodów - Projekt powstał w celu zdobycia praktycznych umiejętności.",
-        "participation": "Front-end Deweloper"
-      },
-      "UK": {
-        "name": "Проект - Оренда автомобілів",
-        "description": "Оренда автомобілів - Проект створено з метою отримання практичних навичок.",
-        "participation": "Front-end Розробник"
-      },
-      "RU": {
-        "name": "Проект - Аренда автомобилей",
-        "description": "Аренда автомобилей - Проект создан в целях получения практических навыков.",
-        "participation": "Front-end Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 13,
-      "image": "/images/portfolio/gurov.jpg",
-      "image_webp": "/images/portfolio/gurov.webp",
-      "link": "https://gurov.pl/",
-      "technologies": "Bootstrap, JavaScript, jQuery",
-      "type": "commercial",
-      "EN": {
-        "name": "Projekt - Hairdressing Salon",
-        "description": "Website a hairdressing salon in Krakow.",
-        "participation": "Frontend Developer"
-      },
-      "PL": {
-        "name": "Projekt - Salon Fryzjerski",
-        "description": "Strona internetowa salonu fryzjerskiego w Krakowie.",
-        "participation": "Front-end Deweloper"
-      },
-      "UK": {
-        "name": "Проект - Перукарня",
-        "description": "Сайт перукврні в Кракові.",
-        "participation": "Front-end Розробник"
-      },
-      "RU": {
-        "name": "Проект - Парикмахерская",
-        "description": "Сайт парикмахерской в Кракове.",
-        "participation": "Front-end Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 14,
-      "image": "/images/portfolio/candle.jpg",
-      "image_webp": "/images/portfolio/candle.webp",
-      "link": "https://evgenydibrovsky.github.io/lp-candle/",
-      "technologies": "HTML5, CSS, JavaScript",
-      "type": "educational",
-      "EN": {
-        "name": "Projekt - Candle",
-        "description": "The project was created in order to gain practical skills.",
-        "participation": "Frontend Developer"
-      },
-      "PL": {
-        "name": "Projekt - Candle",
-        "description": " Projekt powstał w celu zdobycia praktycznych umiejętności.",
-        "participation": "Front-end Deweloper"
-      },
-      "UK": {
-        "name": "Проект - Candle",
-        "description": "Проект створено з метою отримання практичних навичок.",
-        "participation": "Front-end Розробник"
-      },
-      "RU": {
-        "name": "Проект - Candle",
-        "description": "Проект создан в целях получения практических навыков.",
-        "participation": "Front-end Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 15,
-      "image": "/images/portfolio/project-home.jpg",
-      "image_webp": "/images/portfolio/project-home.webp",
-      "link": "https://evgenydibrovsky.github.io/lp-project-home/",
-      "technologies": "HTML5, Tailwind CSS, JavaScript",
-      "type": "educational",
-      "EN": {
-        "name": "Project - Home",
-        "description": "The project was created in order to gain practical skills.",
-        "participation": "Frontend Developer"
-      },
-      "PL": {
-        "name": "Projekt - Dom",
-        "description": " Projekt powstał w celu zdobycia praktycznych umiejętności.",
-        "participation": "Front-end Deweloper"
-      },
-      "UK": {
-        "name": "Проект -Будинок",
-        "description": "Проект створено з метою отримання практичних навичок.",
-        "participation": "Front-end Розробник"
-      },
-      "RU": {
-        "name": "Проект - Дом",
-        "description": "Проект создан в целях получения практических навыков.",
-        "participation": "Front-end Разработчик"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 16,
       "image": "/images/portfolio/giard-design.jpg",
       "image_webp": "/images/portfolio/giard-design.webp",
       "link": "https://evgenydibrovsky.github.io/lp-giard-design/",
@@ -482,30 +61,420 @@
   },
   {
     "portfolio": {
-      "id": 17,
-      "image": "/images/portfolio/stawowa.jpg",
-      "image_webp": "/images/portfolio/stawowa.webp",
-      "link": "https://www.imperialstawowa.pl/",
-      "technologies": "Wordpress, ACF, PHP, TailwindCss, HTML5, JavaScript",
-      "type": "commercial",
+      "id": 3,
+      "image": "/images/portfolio/project-home.jpg",
+      "image_webp": "/images/portfolio/project-home.webp",
+      "link": "https://evgenydibrovsky.github.io/lp-project-home/",
+      "technologies": "HTML5, Tailwind CSS, JavaScript",
+      "type": "educational",
       "EN": {
-        "name": "Project - Stawowa Residence",
-        "description": "Commercial project.",
+        "name": "Project - Home",
+        "description": "The project was created in order to gain practical skills.",
         "participation": "Frontend Developer"
       },
       "PL": {
-        "name": "Projekt - Stawowa Residence",
-        "description": " Projekt komercyjny.",
+        "name": "Projekt - Dom",
+        "description": " Projekt powstał w celu zdobycia praktycznych umiejętności.",
         "participation": "Front-end Deweloper"
       },
       "UK": {
-        "name": "Проект -Stawowa Residence",
-        "description": "Комерційний проект.",
+        "name": "Проект -Будинок",
+        "description": "Проект створено з метою отримання практичних навичок.",
         "participation": "Front-end Розробник"
       },
       "RU": {
-        "name": "Проект - Stawowa Residence",
-        "description": "Коммерческий проект.",
+        "name": "Проект - Дом",
+        "description": "Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 4,
+      "image": "/images/portfolio/maxiservice.jpg",
+      "image_webp": "/images/portfolio/maxiservice.webp",
+      "link": "https://maxiserwis.eu/",
+      "technologies": "CMS Wordpress, PHP, HTML5, CSS",
+      "type": "commercial",
+      "EN": {
+        "name": "Projekt - Auto Service",
+        "description": "Website a car service in Krakow.",
+        "participation": "Frontend Developer, SEO Specialist"
+      },
+      "PL": {
+        "name": "Projekt - Auto Service",
+        "description": "Strona powstała serwisu samochodowego w Krakowie.",
+        "participation": "Front-end Deweloper, Specjalista SEO"
+      },
+      "UK": {
+        "name": "Проект - Авто Сервіс",
+        "description": "Сайт автосервісу в Кракові.",
+        "participation": "Front-end Розробник, SEO Фахівець"
+      },
+      "RU": {
+        "name": "Проект - Авто Сервис",
+        "description": "Сайт авто-сервиса в Кракове.",
+        "participation": "Front-end Разработчик, SEO Специалист"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 5,
+      "image": "/images/portfolio/altcome.jpg",
+      "image_webp": "/images/portfolio/altcome.webp",
+      "link": "https://altcome.eu/",
+      "technologies": "HTML5, SASS, JavaScript, PHP",
+      "type": "commercial",
+      "EN": {
+        "name": "Projekt - Web studio - Altcome",
+        "description": "Web studio Altcome - Commercial project for the WBM Group company.",
+        "participation": "Frontend Developer, SEO Specialist"
+      },
+      "PL": {
+        "name": "Projekt - Web studio - Altcome",
+        "description": "Web studio Altcome - Projekt komercyjny dla firmy WBM Group.",
+        "participation": "Front-end Deweloper, Specjalista SEO"
+      },
+      "UK": {
+        "name": "Проект - Веб студія -Altcome",
+        "description": "Веб студія Altcome - Комерційний проект для клмпанії WBM Group.",
+        "participation": "Front-end Розробник, SEO Фахівець"
+      },
+      "RU": {
+        "name": "Проект - Веб студия - Altcome",
+        "description": "Веб студия Altcome - Коммерческий проект для компании WBM Group.",
+        "participation": "Front-end Разработчик, SEO Специалист"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 6,
+      "image": "/images/portfolio/auto-usa.jpg",
+      "image_webp": "/images/portfolio/auto-usa.webp",
+      "link": "https://evgenydibrovsky.github.io/lp-cars-from-usa/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "type": "educational",
+      "EN": {
+        "name": "Projekt - Cars from USA",
+        "description": "Website for the sale of cars from the USA - The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - Samochody z USA",
+        "description": "Strona internetowa do sprzedaży samochodów z USA - Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект - Автомобілі з США",
+        "description": "Сайт з продажу автомобілів із США - Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Автомобили из США",
+        "description": "Сайт по продаже автомобилей из США - Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 7,
+      "image": "/images/portfolio/pobytok.jpg",
+      "image_webp": "/images/portfolio/pobytok.webp",
+      "link": "https://pobytok.com/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "type": "commercial",
+      "EN": {
+        "name": "Projekt - Integration portal",
+        "description": "The Integration Portal for immigrants in Poland. The portal includes 4 types of users, a bulletin board, a document generator related to the legalization of stay in Poland, a system of direct interaction between a Polish employer and a foreign applicant, a system of moderation and verification of employment agencies. The service has great social and commercial functionality. At the moment, the service is at the stage of migration to the Laravel framework.",
+        "participation": "Project Manager, Team Leader, Frontend Developer, SEO Specialist"
+      },
+      "PL": {
+        "name": "Projekt - Portal integracyjny",
+        "description": "Portal integracyjny dla imigrantów w Polsce. Portal zawiera 4 typy użytkowników, tablica ogłoszeń, generator dokumentów związanych z legalizacja pobytu w Polsce, system bezpośredniej interakcji pomiędzy polskim pracodawcą a cudzoziemcem poszukującym pracy, system moderacja i weryfikacja agencji zatrudnienia. Serwis posiada świetna funkcjonalność społeczna i komercyjna. W tym momencie serwis jest na etapie migracji na framework Laravel.",
+        "participation": "Menadżer projektu, Team leader , Front-end Deweloper, Specjalista SEO"
+      },
+      "UK": {
+        "name": "Проект - Інтеграційний портал",
+        "description": "Інтеграційний портал для іммігрантів у Польщі. Портал включає в себе 4 типи користувачів, дошка оголошень, генератор документів пов'язаних з легалізація перебування у Польщі, система прямої взаємодії між польським роботодавцем та іноземним шукачем, система модерація та перевірка агенцій з працевлаштування. Сервіс має великий соціальний та комерційний функціонал. На даний момент сервіс знаходиться на стадії міграції на фреймворк Laravel.",
+        "participation": "Проджект-менеджер, Тімлід, Front-end Розробник, SEO Фахівець"
+      },
+      "RU": {
+        "name": "Проект - Интеграционный портал",
+        "description": "Интеграционный портал для иммигрантов в Польше. Портал включает в себя 4 типа пользователей, доска объявлений, генератор документов связанных с легализация пребывания в Польше, система прямого взаимодействия между польским работодателем и иностранным соискателем, система модерация и проверка агентств по трудоустройству. Сервис имеет большой социальный и коммерческий функционал. На данный момент сервис находится на стадии миграции на фреймворк Laravel.",
+        "participation": "Проджект-менеджер, Тимлид, Front-end Разработчик, SEO Специалист"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 8,
+      "image": "/images/portfolio/wbm-landing.jpg",
+      "image_webp": "/images/portfolio/wbm-landing.webp",
+      "link": "https://evgenydibrovsky.github.io/hr-partner",
+      "technologies": "HTML5, CSS, JavaScript",
+      "type": "commercial",
+      "EN": {
+        "name": "Projekt - Landing page (HR)",
+        "description": "Client - Consulting company WBM Group.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - Landing page (HR)",
+        "description": "Klient - firma konsultingowa WBM Group.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект - Цільова сторінка (HR)",
+        "description": "Клієнт – Консалтингова компанія WBM Group.",
+        "participation": " Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Целевая страница (HR)",
+        "description": "Клиент - Консалтинговая компания WBM Group.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 9,
+      "image": "/images/portfolio/ice-cream.jpg",
+      "image_webp": "/images/portfolio/ice-cream.webp",
+      "link": "https://evgenydibrovsky.github.io/landing-ice-cream/",
+      "technologies": "HTML5, CSS, jQuery, JavaScript, SASS, Parcel",
+      "type": "educational",
+      "EN": {
+        "name": "Projekt - Ice Cream",
+        "description": "A team project after finishing the HTML/CSS course at a GoIT school.",
+        "participation": " Scrum master, Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - Strona do zamawiania lodów",
+        "description": "Projekt zespołowy po ukończeniu kursu HTML/CSS w szkole GoIT.",
+        "participation": "Scrum-master, Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект - Сайт для замовлення морозива",
+        "description": "Командний проект після закінчення курсу HTML/CSS у школі GoIT.",
+        "participation": "Скрам-майстер, Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Сайт для заказа мороженого",
+        "description": "Командный проект после окончания курса HTML/CSS в школе GoIT.",
+        "participation": "Скрам-мастер, Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 10,
+      "image": "/images/portfolio/gurov.jpg",
+      "image_webp": "/images/portfolio/gurov.webp",
+      "link": "https://gurov.pl/",
+      "technologies": "Bootstrap, JavaScript, jQuery",
+      "type": "commercial",
+      "EN": {
+        "name": "Projekt - Hairdressing Salon",
+        "description": "Website a hairdressing salon in Krakow.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - Salon Fryzjerski",
+        "description": "Strona internetowa salonu fryzjerskiego w Krakowie.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект - Перукарня",
+        "description": "Сайт перукврні в Кракові.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Парикмахерская",
+        "description": "Сайт парикмахерской в Кракове.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 11,
+      "image": "/images/portfolio/candle.jpg",
+      "image_webp": "/images/portfolio/candle.webp",
+      "link": "https://evgenydibrovsky.github.io/lp-candle/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "type": "educational",
+      "EN": {
+        "name": "Projekt - Candle",
+        "description": "The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - Candle",
+        "description": " Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект - Candle",
+        "description": "Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Candle",
+        "description": "Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 12,
+      "image": "/images/portfolio/web-studio.jpg",
+      "image_webp": "/images/portfolio/web-studio.webp",
+      "link": "https://evgenydibrovsky.github.io/goit-markup-hw-08/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "type": "educational",
+      "EN": {
+        "name": "Projekt - Web Studio",
+        "description": "Project after finishing the HTML/CSS course at a GoIT school.",
+        "participation": "Front-end Deweloper"
+      },
+      "PL": {
+        "name": "Projekt - Web Studio",
+        "description": "Projekt po ukończeniu kursu HTML/CSS w szkole GoIT.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект - Веб-студія",
+        "description": "Проект після закінчення курсу HTML/CSS у школі GoIT.",
+        "participation": " Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Веб-студия",
+        "description": "Проект после окончания курса HTML/CSS в школе GoIT.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 13,
+      "image": "/images/portfolio/zvonti.jpg",
+      "image_webp": "/images/portfolio/zvonti.webp",
+      "link": "https://zvonti.com/",
+      "technologies": "CMS OsClass, PHP, HTML5, CSS, JavaScript",
+      "type": "commercial",
+      "EN": {
+        "name": "Projekt - Announcement service",
+        "description": "The multilingual bulletin board has been designed to provide a more comfortable way to post ads for users from different countries. The service is free, except for paid ad promotion services.",
+        "participation": "Project Manager, Frontend Developer, SEO Specialist"
+      },
+      "PL": {
+        "name": "Projekt - Serwis ogloszeniowy",
+        "description": "Wielojęzyczna tablica ogłoszeń została zaprojektowana tak, aby zapewnić więcej wygodny sposób reklamowania się dla użytkowników z różnych krajów. usługa jest bezpłatna, z wyjątkiem płatnych usług promocji reklamy.",
+        "participation": "Menadżer projektu, Front-end Deweloper, Specjalista SEO"
+      },
+      "UK": {
+        "name": "Проект - Сервіс оголошень",
+        "description": "Багатомовна дошка оголошень була розроблена, щоб забезпечити більше зручний спосіб розміщення реклами для користувачів із різних країн. послуга безкоштовна, крім платних послуг з просування реклами.",
+        "participation": "Проджект-менеджер, Front-end Розробник, SEO Фахівець"
+      },
+      "RU": {
+        "name": "Проект - Сервис объявлений",
+        "description": "Многоязычная доска объявлений была разработана, чтобы обеспечить более удобный способ размещения рекламы для пользователей из разных стран. услуга бесплатная, за исключением платных услуг по продвижению рекламы.",
+        "participation": "Проджект-менеджер, Front-end Разработчик, SEO Специалист"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 14,
+      "image": "/images/portfolio/lease-cars.jpg",
+      "image_webp": "/images/portfolio/lease-cars.webp",
+      "link": "https://evgenydibrovsky.github.io/lease-cars/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "type": "educational",
+      "EN": {
+        "name": "Projekt - Lease cars",
+        "description": "Lease cars - The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - leasing samochodów",
+        "description": "leasing samochodów - Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект - Оренда автомобілів",
+        "description": "Оренда автомобілів - Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Аренда автомобилей",
+        "description": "Аренда автомобилей - Проект создан в целях получения практических навыков.",
+        "participation": "Front-end Разработчик"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 15,
+      "image": "/images/portfolio/iprofi.jpg",
+      "image_webp": "/images/portfolio/iprofi.webp",
+      "link": "https://iprofi.pl/",
+      "technologies": "CMS-Tamaranga, PHP, HTML5, CSS, JavaScript",
+      "type": "commercial",
+      "EN": {
+        "name": "Projekt - Services exchange",
+        "description": "He services exchange has been designed for specialists and those who need them. More than 500 specializations are available on this service. The focus is on availability, simplicity, and responsiveness. Users can take advantage of all available options for free, with the exception of paid promotion of ads and offers.",
+        "participation": " Project Manager, Frontend Developer, SEO Specialist"
+      },
+      "PL": {
+        "name": "Projekt - Giełda usług",
+        "description": "Giełda usług przeznaczona jest dla profesjonalistów i tych, którzy potrzebuję ich. Na tej stronie dostępnych jest ponad 500 specjalizacji. usługa. Nacisk kładziony jest na dostępność, prostotę i reakcja na coś. Użytkownicy mogą skorzystać ze wszystkich dostępnych opcji bezpłatnie, z wyjątkiem płatnego promowania ogłoszeń i ofert.",
+        "participation": "Menadżer projektu, Front-end Deweloper, Specjalista SEO"
+      },
+      "UK": {
+        "name": "Проект - Біржа послуг",
+        "description": "Біржа послуг призначена для фахівців та тих, хто потрібно їх. На цьому сайті є понад 500 спеціалізацій. надання послуг. Основна увага приділяється доступності, простоті та відповідна реакція. Користувачі можуть скористатися всіма доступними опціями безкоштовно, за винятком платного просування оголошень та пропозицій.",
+        "participation": "Проджект-менеджер, Front-end Розробник, SEO Фахівець"
+      },
+      "RU": {
+        "name": "Проект - Биржа услуг",
+        "description": "Биржа услуг предназначена для специалистов и тех, кто их ищет. На этом сайте доступно более 500 специализаций. оказание услуг. Основное внимание уделяется доступности, простоте и ответная реакция. Пользователи могут воспользоваться всеми доступными опциями бесплатно, за исключением платного продвижения объявлений и предложений.",
+        "participation": "Проджект-менеджер, Front-end Разработчик, SEO Специалист"
+      }
+    }
+  },
+  {
+    "portfolio": {
+      "id": 16,
+      "image": "/images/portfolio/lamborghini.jpg",
+      "image_webp": "/images/portfolio/lamborghini.webp",
+      "link": "https://evgenydibrovsky.github.io/lamborghini-Landing/",
+      "technologies": "HTML5, CSS, JavaScript",
+      "type": "educational",
+      "EN": {
+        "name": "Projekt - Grand Final 2022",
+        "description": "Grand Final 2022 - The project was created in order to gain practical skills.",
+        "participation": "Frontend Developer"
+      },
+      "PL": {
+        "name": "Projekt - Wielki Finał 2022",
+        "description": "Wielki Finał 2022 - Projekt powstał w celu zdobycia praktycznych umiejętności.",
+        "participation": "Front-end Deweloper"
+      },
+      "UK": {
+        "name": "Проект - Гранд-фінал 2022",
+        "description": "Гранд-фінал 2022 - Проект створено з метою отримання практичних навичок.",
+        "participation": "Front-end Розробник"
+      },
+      "RU": {
+        "name": "Проект - Гранд-финал 2022",
+        "description": "Гранд-финал 2022 - Проект создан в целях получения практических навыков.",
         "participation": "Front-end Разработчик"
       }
     }
