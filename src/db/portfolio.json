@@ -422,36 +422,6 @@
   {
     "portfolio": {
       "id": 15,
-      "image": "/images/portfolio/iprofi.jpg",
-      "image_webp": "/images/portfolio/iprofi.webp",
-      "link": "https://iprofi.pl/",
-      "technologies": "CMS-Tamaranga, PHP, HTML5, CSS, JavaScript",
-      "type": "commercial",
-      "EN": {
-        "name": "Projekt - Services exchange",
-        "description": "He services exchange has been designed for specialists and those who need them. More than 500 specializations are available on this service. The focus is on availability, simplicity, and responsiveness. Users can take advantage of all available options for free, with the exception of paid promotion of ads and offers.",
-        "participation": " Project Manager, Frontend Developer, SEO Specialist"
-      },
-      "PL": {
-        "name": "Projekt - Giełda usług",
-        "description": "Giełda usług przeznaczona jest dla profesjonalistów i tych, którzy potrzebuję ich. Na tej stronie dostępnych jest ponad 500 specjalizacji. usługa. Nacisk kładziony jest na dostępność, prostotę i reakcja na coś. Użytkownicy mogą skorzystać ze wszystkich dostępnych opcji bezpłatnie, z wyjątkiem płatnego promowania ogłoszeń i ofert.",
-        "participation": "Menadżer projektu, Front-end Deweloper, Specjalista SEO"
-      },
-      "UK": {
-        "name": "Проект - Біржа послуг",
-        "description": "Біржа послуг призначена для фахівців та тих, хто потрібно їх. На цьому сайті є понад 500 спеціалізацій. надання послуг. Основна увага приділяється доступності, простоті та відповідна реакція. Користувачі можуть скористатися всіма доступними опціями безкоштовно, за винятком платного просування оголошень та пропозицій.",
-        "participation": "Проджект-менеджер, Front-end Розробник, SEO Фахівець"
-      },
-      "RU": {
-        "name": "Проект - Биржа услуг",
-        "description": "Биржа услуг предназначена для специалистов и тех, кто их ищет. На этом сайте доступно более 500 специализаций. оказание услуг. Основное внимание уделяется доступности, простоте и ответная реакция. Пользователи могут воспользоваться всеми доступными опциями бесплатно, за исключением платного продвижения объявлений и предложений.",
-        "participation": "Проджект-менеджер, Front-end Разработчик, SEO Специалист"
-      }
-    }
-  },
-  {
-    "portfolio": {
-      "id": 16,
       "image": "/images/portfolio/lamborghini.jpg",
       "image_webp": "/images/portfolio/lamborghini.webp",
       "link": "https://evgenydibrovsky.github.io/lamborghini-Landing/",

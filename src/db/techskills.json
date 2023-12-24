@@ -58,7 +58,7 @@
   {
     "techskill": {
       "id": 9,
-      "label": "Wordpress ",
+      "label": "Wordpress  ACF ",
       "value": "60"
     }
   },
@@ -107,7 +107,7 @@
   {
     "techskill": {
       "id": 16,
-      "label": "Ilustrator",
+      "label": "Adobe Ilustrator",
       "value": "20"
     }
   },
@@ -144,6 +144,13 @@
       "id": 21,
       "label": "Webpack   Gulp",
       "value": "40"
+    }
+  },
+  {
+    "techskill": {
+      "id": 21,
+      "label": "Strapi",
+      "value": "35"
     }
   }
 ]

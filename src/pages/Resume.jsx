@@ -8,8 +8,8 @@ import ProgressLangSkills from 'components/LangSkillsProgressBar/LangSkillsProgr
 import MetaTags from 'components/MetaTags/MetaTags';
 import WrapperTitle from 'components/Utility/WrapperTitle';
 import SoftSkills from 'components/SoftSkills/SoftSkills';
-import EducationList from 'components/Education/EducationList';
-import ExperienceList from 'components/Experience/ExperienceList';
+// import EducationList from 'components/Education/EducationList';
+// import ExperienceList from 'components/Experience/ExperienceList';
 import { BsFillFilePdfFill } from 'react-icons/bs';
 export default function ResumePage() {
   const { t } = useTranslation();
@@ -60,20 +60,20 @@ export default function ResumePage() {
         </div>
         <SoftSkills />
       </div>
-      <div className="my-5">
+      {/* <div className="my-5">
         <div className="inline-block relative my-5">
           <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('resume-page.sub-title-5')}</h3>
           <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
         </div>
         <EducationList />
-      </div>
-      <div className="my-5">
+      </div> */}
+      {/* <div className="my-5">
         <div className="inline-block relative my-5">
           <h3 className="text-black dark:text-white text-[1.25rem] font-semibold">{t('resume-page.sub-title-6')}</h3>
           <div className="relative after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400"></div>
         </div>
         <ExperienceList />
-      </div>
+      </div> */}
     </>
   );
 }
