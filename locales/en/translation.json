@@ -1,7 +1,7 @@
 {
   "about-me": {
     "title": "Web Development",
-    "name": "Evgeny Dibrovsky",
+    "name": "Yevhen Dibrovskyi",
     "web-development": "Frontend Developer",
     "description-1": "Hello!",
     "description-2": "I'm a web developer, and my hobby has smoothly turned into my main job. I have been professionally engaged in web development for several years. My experience grows with each new project, and I am grateful to my clients for their not always standard ideas and requirements for project implementation 😉. ",
@@ -213,21 +213,21 @@
     "confirmation-of-conditions": "Confirmation of conditions",
     "accept-form": "I agree with the terms set forth in the regulations."
   },
-  "possibilities": {
-    "my-capabilities": "My capabilities",
-    "web-development": "Web development",
-    "web-development-description": "Development of websites and turnkey applications. Selection of the optimal stack of web technologies for successful development and convenient support of the project. For the development of large projects, it is possible to create a development team.",
-    "web-design": "Web Design",
-    "web-design-description": "Designing web user interfaces for sites or web applications. Creation of logos, banners, site animation. At the design stage of the site, there is also the opportunity to use template solutions.",
-    "e-marketing": "E-marketing",
-    "e-marketing-description": "A set of measures aimed at increasing profits from the sale of goods or services. Market analysis, creation of advertising campaigns on the Internet. Targeted advertising, advertising in search engines and social networks.",
-    "seo": "SEO",
-    "seo-description": "A set of measures for internal and external optimization to raise the position of the site in the results of search engines for certain user requests, in order to increase network traffic and potential customers.",
-    "site-availability": "Site availability",
-    "site-availability-description": "Design/adapt websites accessible to people with disabilities in accordance with WCAG 2.1. I have extensive experience and certifications in this area.",
-    "technical-support": "Technical support",
-    "technical-support-description": "Maintenance and support of websites, including projects developed not only by me, but also by other specialists. Updating, installation of SSL certificates, adjusting layout, functionality, design, and much more."
-  },
+"possibilities": {
+  "my-capabilities": "Professional Experience",
+  "web-development": "Web Development",
+  "web-development-description": "Development of turnkey websites and applications. Choosing the optimal stack of web technologies for successful development and convenient future support. Teamwork.",
+  "web-design": "Web Design",
+  "web-design-description": "Designing the user web interface and logic for websites, web applications. Creating logos, banners, animating website elements.",
+  "e-marketing": "Internet Marketing",
+  "e-marketing-description": "A set of activities aimed at increasing profit from the sale of goods or services. Market analysis, creation of advertising campaigns on the internet.",
+  "seo": "Search Engine Optimization (SEO)",
+  "seo-description": "Internal and external optimization to improve website rankings in search engine results for specific user queries.",
+  "site-availability": "Website Accessibility",
+  "site-availability-description": "Development/adaptation of websites accessible to people with disabilities, in accordance with WCAG 2.1. I have extensive experience and certifications in this area.",
+  "technical-support": "Technical Support",
+  "technical-support-description": "Website maintenance and support. Updates, SSL certificate installation, layout adjustment, functionality, design, hosting, and much more."
+},
   "working-conditions": {
     "freelance": "Freelance",
     "full-employment": "Full employment",

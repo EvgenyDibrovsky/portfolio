@@ -214,19 +214,19 @@
     "accept-form": "Zgadzam się z warunkami określonymi w regulaminie."
   },
   "possibilities": {
-    "my-capabilities": "Moje możliwości",
-    "web-development": "Tworzenie stron internetowych",
-    "web-development-description": "Tworzenie stron internetowych i aplikacji pod klucz. Dzięki wyborowi optymalnych technologii zapewniam szybki rozwój i wygodne wsparcie projektów. W przypadku dużych projektów jesteśm w stanie utworzyć zespół programistów, aby zapewnić najlepsze możliwe wyniki.",
-    "web-design": "Web Design",
-    "web-design-description": "Projektowanie internetowych interfejsów użytkownika dla witryn lub aplikacji internetowych. Tworzenie logotypów, banerów i animacja stron internetowych. Na etapie projektowania serwisu istnieje również możliwość skorzystania z rozwiązań szablonowych.",
-    "e-marketing": "Marketing internetowy",
-    "e-marketing-description": "Zestaw działań mających na celu zwiększenie zysków ze sprzedaży towarów lub usług. Analiza rynku, tworzenie kampanii reklamowych w Internecie, w tym reklamę targetowaną, reklamę w wyszukiwarkach oraz w sieciach społecznościowych.",
-    "seo": "SEO",
-    "seo-description": "Zestaw działań do optymalizacji wewnętrznej i zewnętrznej w celu podniesienia pozycji witryny w wynikach wyszukiwarek dla określonych zapytań użytkowników, w celu zwiększenia ruchu w sieci i potencjalnych klientów.",
-    "site-availability": "Dostępne strony",
-    "site-availability-description": "Wykonanie/dostosowanie stron internetowych dostępnych dla osób z niepełnosprawnością zgodnie z wytycznymi WCAG 2.1. Mam duże doświadczenie oraz certyfikat w tym zakresie.",
-    "technical-support": "Obsługa i wsparcie",
-    "technical-support-description": "Obsługa i wsparcie stron internetowych, w tym projektów opracowanych nie tylko przeze mnie, ale także przez innych specjalistów. Aktualizacja, instalacja certyfikatów SSL, poprawianie układu, funkcjonalności, projektu i wiele innych."
+    "my-capabilities": "Doświadczenie zawodowe",
+    "web-development": "Rozwój Webowy",
+    "web-development-description": "Tworzenie stron internetowych i aplikacji pod klucz. Dobór optymalnego zestawu technologii internetowych dla skutecznego rozwoju i wygodnego wsparcia projektu w przyszłości. Praca zespołowa.",
+    "web-design": "Projektowanie Webowe",
+    "web-design-description": "Projektowanie interfejsu użytkownika i logiki dla stron internetowych, aplikacji webowych. Tworzenie logotypów, banerów, animacji elementów strony.",
+    "e-marketing": "Marketing Internetowy",
+    "e-marketing-description": "Kompleks działań zmierzających do zwiększenia zysków ze sprzedaży towarów lub usług. Analiza rynku, tworzenie kampanii reklamowych w Internecie.",
+    "seo": "Optymalizacja dla Wyszukiwarek (SEO)",
+    "seo-description": "Wewnętrzna i zewnętrzna optymalizacja, aby podnieść pozycje strony w wynikach wyszukiwania systemów wyszukiwania według określonych zapytań użytkowników.",
+    "site-availability": "Dostępność Strony",
+    "site-availability-description": "Tworzenie/adaptacja stron internetowych dostępnych dla osób z ograniczonymi możliwościami, zgodnie z WCAG 2.1. Posiadam duże doświadczenie i certyfikaty w tej dziedzinie.",
+    "technical-support": "Wsparcie Techniczne",
+    "technical-support-description": "Obsługa i wsparcie stron internetowych. Aktualizacja, instalacja certyfikatów SSL, korekta układu strony, funkcjonalności, designu, hosting i wiele więcej."
   },
   "working-conditions": {
     "freelance": "Freelance",
