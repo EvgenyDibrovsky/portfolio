@@ -117,11 +117,11 @@ export default function ContactForm() {
                 </div>
 
                 <div className="block mb-4">
-                  <label className="lg:inline-flex lg:items-center lg:gap-1 text-black dark:text-white">
+                  <label className="lg:inline-flex lg:items-center lg:gap-1 text-black dark:text-white cursor-pointer">
                     <Field
                       type="checkbox"
                       name="confirmation_of_conditions"
-                      className={`form-checkbox mr-2 ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`}
+                      className={`form-checkbox mr-2 cursor-pointer ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`}
                     />
                     {t('contact-form.accept-form')}
                     <a

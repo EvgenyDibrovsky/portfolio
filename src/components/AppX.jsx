@@ -6,9 +6,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import { isCookieAccepted } from './Cookies/Cookies'; // Замените на правильный путь к вашему Cookies компоненту
 import ScrollToTop from './ScrollToTop/ScrollToTop';
 import AppRoutes from '../components/AppRoutes/AppRoutes';
-import Telegram from './Messenger/Telegram';
 
-// eslint-disable-next-line react/prop-types
 export const App = () => {
   const [loading, setLoading] = useState(true);
   const [theme, setTheme] = useState(() => {
@@ -54,7 +52,6 @@ export const App = () => {
         <Router basename={process.env.PUBLIC_URL}>
           {/* <Router> */}
           <ScrollToTop />
-          <Telegram />
           <div>
             <Header theme={theme} toggleTheme={toggleTheme} />
             <AppRoutes />

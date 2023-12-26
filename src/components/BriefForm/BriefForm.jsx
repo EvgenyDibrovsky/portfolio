@@ -161,67 +161,67 @@ export default function BriefForm() {
                 <h3 className="text-[1.25rem] font-medium text-black dark:text-white my-8">{t('brief-form.step-3')}</h3>
                 <h4 className="text-[1rem] text-black dark:text-white mb-6">{t('brief-form.select-site-type')}</h4>
                 <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-10 gap-6">
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.visit-card')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.visit-card')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.visit-card')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.corporate-site')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.corporate-site')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.corporate-site')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.e-shop')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.e-shop')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.e-shop')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.internet-portal')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.internet-portal')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.internet-portal')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.ads-service')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.ads-service')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.ads-service')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.blog')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.blog')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.blog')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.site-upgrade')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.site-upgrade')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.site-upgrade')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.site-redesign')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.site-redesign')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.site-redesign')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.online-catalog')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.online-catalog')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.online-catalog')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.mobile-app')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.mobile-app')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.mobile-app')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.custom-project')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.custom-project')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.custom-project')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="website_type" value={t('brief-form.site-accessibility')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="website_type" value={t('brief-form.site-accessibility')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.site-accessibility')}
                   </label>
                 </div>
                 <h4 className=" text-[1rem] text-black dark:text-white mb-6">{t('brief-form.design')}</h4>
                 <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-6">
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="design_project" value={t('brief-form.has-design-project')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="design_project" value={t('brief-form.has-design-project')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.has-design-project')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="design_project" value={t('brief-form.no-design-project')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="design_project" value={t('brief-form.no-design-project')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.no-design-project')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="design_project" value={t('brief-form.ready-templates')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="design_project" value={t('brief-form.ready-templates')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.ready-templates')}
                   </label>
                 </div>
@@ -236,47 +236,47 @@ export default function BriefForm() {
                 </label>
                 <h3 className="text-[1.25rem] font-medium text-black dark:text-white my-8">{t('brief-form.step-4')}</h3>
                 <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-6">
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="marketing_type" value={t('brief-form.email-marketing')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="marketing_type" value={t('brief-form.email-marketing')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.email-marketing')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="marketing_type" value={t('brief-form.smm-marketing')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="marketing_type" value={t('brief-form.smm-marketing')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.smm-marketing')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="marketing_type" value={t('brief-form.site-monetization')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="marketing_type" value={t('brief-form.site-monetization')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.site-monetization')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="marketing_type" value={t('brief-form.online-advertising')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="marketing_type" value={t('brief-form.online-advertising')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.online-advertising')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="marketing_type" value={t('brief-form.site-promotion')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="marketing_type" value={t('brief-form.site-promotion')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.site-promotion')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="marketing_type" value={t('brief-form.ad-links')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="marketing_type" value={t('brief-form.ad-links')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.ad-links')}
                   </label>
                 </div>
                 <h3 className="text-[1.25rem] font-medium text-black dark:text-white  my-8">{t('brief-form.step-5')}</h3>
                 <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 mb-5 gap-6">
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="extra_services" value={t('brief-form.hosting')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="extra_services" value={t('brief-form.hosting')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.hosting')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="extra_services" value={t('brief-form.domain-registration')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="extra_services" value={t('brief-form.domain-registration')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.domain-registration')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="extra_services" value={t('brief-form.ssl-certificate')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="extra_services" value={t('brief-form.ssl-certificate')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.ssl-certificate')}
                   </label>
-                  <label className="flex items-center gap-2 text-black dark:text-white">
-                    <Field type="checkbox" name="extra_services" value={t('brief-form.brand-emails')} className="form-checkbox" />
+                  <label className="flex items-center gap-2 text-black dark:text-white cursor-pointer">
+                    <Field type="checkbox" name="extra_services" value={t('brief-form.brand-emails')} className="form-checkbox cursor-pointer" />
                     {t('brief-form.brand-emails')}
                   </label>
                 </div>
@@ -291,11 +291,11 @@ export default function BriefForm() {
                 </label>
 
                 <div className="block mb-4">
-                  <label className="lg:inline-flex lg:items-center lg:gap-1 text-black dark:text-white ">
+                  <label className="lg:inline-flex lg:items-center lg:gap-1 text-black dark:text-white cursor-pointer">
                     <Field
                       type="checkbox"
                       name="confirmation_of_conditions"
-                      className={`form-checkbox mr-2 ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`}
+                      className={`form-checkbox mr-2 cursor-pointer ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`}
                     />
                     {t('brief-form.accept-form')}
                     <a
