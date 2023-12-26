@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://evgenydibrovsky.github.io/portfolio/",
+  "homepage": "https://edweb.site/",
   "dependencies": {
     "@tailwindcss/forms": "^0.5.4",
     "@testing-library/jest-dom": "^5.16.3",
@@ -39,6 +39,7 @@
     "start": "react-scripts start",
     "start-server": "node server.js",
     "build": "react-scripts build",
+    "postbuild": "cp -r build/* /home/tnpexygoyu/domains/edweb.site/public_html/",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}"

@@ -18,6 +18,28 @@
   .content-box h3 {
     @apply font-bold text-[1.2rem] text-black dark:text-white my-5;
   }
+  /* scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-[0.3rem] h-[0.3rem];
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-orange-400 rounded-xl;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-orange-400;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-[#888];
+  }
+
+  /* Стилизация для Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
 }
 
 @layer components {

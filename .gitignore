@@ -26,6 +26,8 @@ server.js
 .env.test.local
 .env.production.local
 
+.package-server.json
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

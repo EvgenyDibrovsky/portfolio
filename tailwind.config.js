@@ -16,10 +16,9 @@ module.exports = {
       '5xl': '100%', // covers everything above
     },
     container: {
+      center: true,
       padding: {
-        xs: '5px', // extra small devices, phones
-        sm: '10px', // small devices, tablets
-        md: '15px', // medium devices, small laptops
+        DEFAULT: '15px',
         lg: '20px', // large devices, laptops
         xl: '25px', // extra large devices, large laptops, desktops
         xxl: '30px', // xxl devices, large desktops
@@ -138,5 +137,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwind-scrollbar')({ nocompatible: true }), require('@tailwindcss/forms')],
+  plugins: [require('@tailwindcss/forms')],
 };

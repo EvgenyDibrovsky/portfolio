@@ -39,13 +39,13 @@ export default function Header({ theme, toggleTheme }) {
     };
   }, [isOpen]);
 
-  const headerClasses = `md:left-0 bg-bgHeader border-r border-colorBorder z-50 w-[16.5rem]  lg:w-[12.5rem] fixed bottom-0 top-0 h-full pt-28 pb-5 md:py-5 flex flex-col justify-between items-center dark:border-colorBorderDark  dark:bg-bgHeaderDark transition-all duration-500 ease-in-out overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400 ${
+  const headerClasses = `md:left-0 bg-bgHeader border-r border-colorBorder z-50 w-[16.5rem]  md:w-[12.5rem] fixed bottom-0 top-0 h-full pt-28 pb-5 md:py-5 flex flex-col justify-between items-center dark:border-colorBorderDark  dark:bg-bgHeaderDark transition-all duration-500 ease-in-out overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400 ${
     isOpen ? 'left-0' : '-left-[16.5rem]'
   }`;
 
   return (
     <header ref={headerRef} className={headerClasses}>
-      <div className="flex flex-col items-center gap-8 ">
+      <div className="flex flex-col items-center gap-6 ">
         <div className="hidden md:flex mr-auto pl-5">
           <ToggleTheme theme={theme} toggleTheme={toggleTheme} />
         </div>

@@ -1,4 +1,6 @@
 import PageTitle from 'components/Utility/PageTitle';
+import { BsInfoCircle } from 'react-icons/bs';
+
 import { useTranslation } from 'react-i18next';
 import MetaTags from 'components/MetaTags/MetaTags';
 import WrapperTitle from 'components/Utility/WrapperTitle';
@@ -10,7 +12,7 @@ export default function TermsUsePage() {
     <>
       <MetaTags metaTitle={t('regulations-edweb.meta-title')} metaDescription={t('regulations-edweb.meta-description')} />
       <WrapperTitle>
-        <PageTitle title={t('regulations-edweb.title')} />
+        <PageTitle icon={<BsInfoCircle />} title={t('regulations-edweb.title')} />
       </WrapperTitle>
       <div className="w-full xl:w-10/12 mx-auto">
         <div className="mb-10">
