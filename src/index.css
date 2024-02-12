@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Чтобы не прыгал scrollbar при открытии модального окна */
+  html,
+  body {
+    scrollbar-gutter: stale;
+  }
+
   .content-box p {
     @apply mb-2 text-black dark:text-white;
   }
@@ -19,26 +28,15 @@
     @apply font-bold text-[1.2rem] text-black dark:text-white my-5;
   }
   /* scrollbar */
+
   ::-webkit-scrollbar {
-    @apply w-[0.3rem] h-[0.3rem];
+    @apply w-1 h-1 bg-[#c6c6c6] rounded-full;
   }
-
-  ::-webkit-scrollbar-thumb {
-    @apply bg-orange-400 rounded-xl;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-orange-400;
-  }
-
   ::-webkit-scrollbar-track {
-    @apply bg-[#888];
+    @apply bg-[#c6c6c6] rounded-full;
   }
-
-  /* Стилизация для Firefox */
-  * {
-    scrollbar-width: thin;
-    scrollbar-color: #888 #f1f1f1;
+  ::-webkit-scrollbar-thumb {
+    @apply bg-orange-400  rounded-full;
   }
 }
 

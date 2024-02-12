@@ -58,19 +58,37 @@ export default function Cookies({ children }) {
   const { t } = useTranslation();
 
   const modalClasses = `
-    flex items-between justify-between fixed bottom-0 left-0 z-[999] bg-white dark:bg-black shadow-md-up shadow-orange-400 
-    dark:shadow-orange-400 border-t border-t-orange-400 w-full h-full sm:h-auto py-14 sm:py-10 px-5 sm:px-10 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400
+    flex items-between justify-between fixed bottom-0 lg:bottom-5 left-0 lg:left-5 z-[999] bg-white dark:bg-black shadow-md lg:shadow-md-up shadow-orange-400 
+    dark:shadow-orange-400 border-t lg:border border-t-orange-400 lg:border-orange-400 w-full lg:w-9/12 xl:w-7/12 xxl:w-7/12 2xl:w-5/12 3xl:w-4/12 h-full sm:h-auto py-14 px-5 sm:py-5 sm:px-10 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400
     ${isVisible ? 'translate-y-0' : 'translate-y-full'}
   `;
 
+  // const modalContent = (
+  //   <div className={modalClasses}>
+  //     <div className="w-full flex flex-col lg:flex-row justify-between gap-10 ">
+  //       <div className="w-full lg:w-9/12 xl:w-10/12 flex flex-col gap-4">
+  //         <p className="text-[1.25rem] text-black dark:text-white font-semibold">{t('cookies.title')}</p>
+  //         <p className="text-[0.8rem] sm:text-[1rem] text-black dark:text-white">{t('cookies.text')}</p>
+  //       </div>
+  //       <div className="w-full lg:w-3/12 xl:w-2/12 flex justify-center items-end flex-col sm:flex-row lg:flex-col gap-4">
+  //         <button className="btn" onClick={handleAccept} title={t('cookies.btn-accept')}>
+  //           {t('cookies.btn-accept')}
+  //         </button>
+  //         <button className="btn" onClick={handleDecline} title={t('cookies.btn-no-accept')}>
+  //           {t('cookies.btn-no-accept')}
+  //         </button>
+  //       </div>
+  //     </div>
+  //   </div>
+  // );
   const modalContent = (
     <div className={modalClasses}>
-      <div className="w-full flex flex-col lg:flex-row justify-between gap-10 ">
-        <div className="w-full lg:w-9/12 xl:w-10/12 flex flex-col gap-4">
-          <p className="text-[1.25rem] text-black dark:text-white font-semibold">{t('cookies.title')}</p>
+      <div className="w-full flex flex-col justify-between gap-5">
+        <div>
+          <p className="text-[1.25rem] text-black dark:text-white font-semibold mb-2">{t('cookies.title')}</p>
           <p className="text-[0.8rem] sm:text-[1rem] text-black dark:text-white">{t('cookies.text')}</p>
         </div>
-        <div className="w-full lg:w-3/12 xl:w-2/12 flex justify-center items-end flex-col sm:flex-row lg:flex-col gap-4">
+        <div className="w-full flex flex-col sm:flex-row gap-4">
           <button className="btn" onClick={handleAccept} title={t('cookies.btn-accept')}>
             {t('cookies.btn-accept')}
           </button>
@@ -81,7 +99,6 @@ export default function Cookies({ children }) {
       </div>
     </div>
   );
-
   return (
     <>
       {showModal && ReactDOM.createPortal(modalContent, document.getElementById('modal-root'))}
