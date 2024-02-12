@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://edweb.site/</loc>
+        <lastmod>2023-10-02T10:32:27+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://edweb.site/cooperation</loc>
+        <lastmod>2023-10-02T10:32:27+01:00</lastmod>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://edweb.site/resume</loc>
+        <lastmod>2023-10-02T10:32:27+01:00</lastmod>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://edweb.site/portfolio</loc>
+        <lastmod>2023-10-02T10:32:27+01:00</lastmod>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://edweb.site/brief</loc>
+        <lastmod>2023-10-02T10:32:27+01:00</lastmod>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://edweb.site/contact</loc>
+        <lastmod>2023-10-02T10:32:27+01:00</lastmod>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://edweb.site/regulations-edweb</loc>
+        <lastmod>2023-10-02T10:32:27+01:00</lastmod>
+        <priority>0.9</priority>
+    </url>
+
+</urlset>

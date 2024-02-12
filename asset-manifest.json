@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d9cc4bba.css",
-    "main.js": "/portfolio/static/js/main.d8dd571f.js",
+    "main.js": "/portfolio/static/js/main.b15a8a60.js",
     "static/js/497.e27ad19d.chunk.js": "/portfolio/static/js/497.e27ad19d.chunk.js",
     "static/js/714.e6463a05.chunk.js": "/portfolio/static/js/714.e6463a05.chunk.js",
     "static/css/88.77b5acbb.chunk.css": "/portfolio/static/css/88.77b5acbb.chunk.css",
-    "static/js/88.a59b333a.chunk.js": "/portfolio/static/js/88.a59b333a.chunk.js",
+    "static/js/88.b706de8b.chunk.js": "/portfolio/static/js/88.b706de8b.chunk.js",
     "static/js/267.1583cc34.chunk.js": "/portfolio/static/js/267.1583cc34.chunk.js",
     "static/js/522.b2b73c9d.chunk.js": "/portfolio/static/js/522.b2b73c9d.chunk.js",
     "static/js/418.ebcbe5e9.chunk.js": "/portfolio/static/js/418.ebcbe5e9.chunk.js",
@@ -25,11 +25,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.d9cc4bba.css.map": "/portfolio/static/css/main.d9cc4bba.css.map",
-    "main.d8dd571f.js.map": "/portfolio/static/js/main.d8dd571f.js.map",
+    "main.b15a8a60.js.map": "/portfolio/static/js/main.b15a8a60.js.map",
     "497.e27ad19d.chunk.js.map": "/portfolio/static/js/497.e27ad19d.chunk.js.map",
     "714.e6463a05.chunk.js.map": "/portfolio/static/js/714.e6463a05.chunk.js.map",
     "88.77b5acbb.chunk.css.map": "/portfolio/static/css/88.77b5acbb.chunk.css.map",
-    "88.a59b333a.chunk.js.map": "/portfolio/static/js/88.a59b333a.chunk.js.map",
+    "88.b706de8b.chunk.js.map": "/portfolio/static/js/88.b706de8b.chunk.js.map",
     "267.1583cc34.chunk.js.map": "/portfolio/static/js/267.1583cc34.chunk.js.map",
     "522.b2b73c9d.chunk.js.map": "/portfolio/static/js/522.b2b73c9d.chunk.js.map",
     "418.ebcbe5e9.chunk.js.map": "/portfolio/static/js/418.ebcbe5e9.chunk.js.map",
@@ -39,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.d9cc4bba.css",
-    "static/js/main.d8dd571f.js"
+    "static/js/main.b15a8a60.js"
   ]
 }
