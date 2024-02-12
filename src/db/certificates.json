@@ -1,7 +1,37 @@
-[
+[  
   {
     "certificate": {
       "id": 1,
+      "thumbnail": "/images/certificate/thumb/сourse_certificate_google_analytics.jpg",
+      "fullImage": "/images/certificate/full/сourse_certificate_google_analytics.jpg",
+      "linkPDF": "/images/certificate/pdf/сourse_certificate_google_analytics.pdf",
+      "startDate": "01.02.2024",
+      "finishtDate": "03.02.2024",
+      "EN": {
+        "name-certificate": "Google Analytics for Beginners",
+        "description": "Learning Google analytical tools and applying the acquired knowledge in practice",
+        "name-school": "Google Analytics Academy"
+      },
+      "PL": {
+        "name-certificate": "Google Analytics dla początkujących",
+        "description": "Nauka narzędzi analitycznych Google i zastosowanie zdobytej wiedzy w praktyce",
+        "name-school": "Google Analytics Academy"
+      },
+      "UK": {
+        "name-certificate": "Google Analytics для початківців",
+        "description": "Вивчення аналітичних інструментів Google та застосування отриманих знань на практиці",
+        "name-school": "Google Analytics Academy"
+      },
+      "RU": {
+        "name-certificate": "Google Аналитика для начинающих",
+        "description": "Изучение аналитических инструментов  Google и применение полученные знаний на практике",
+        "name-school": "Google Analytics Academy"
+      }
+    }
+  },
+  {
+    "certificate": {
+      "id": 2,
       "thumbnail": "/images/certificate/thumb/go-It-full-stack.jpg",
       "fullImage": "/images/certificate/full/go-It-full-stack.jpg",
       "linkPDF": "/images/certificate/pdf/go-It-full-stack.pdf",
@@ -31,7 +61,7 @@
   },
   {
     "certificate": {
-      "id": 2,
+      "id": 3,
       "thumbnail": "/images/certificate/thumb/figma.jpg",
       "fullImage": "/images/certificate/full/figma.jpg",
       "linkPDF": "/images/certificate/pdf/figma.pdf",
@@ -61,7 +91,7 @@
   },
   {
     "certificate": {
-      "id": 3,
+      "id": 4,
       "thumbnail": "/images/certificate/thumb/wordpress-2.jpg",
       "fullImage": "/images/certificate/full/wordpress-2.jpg",
       "linkPDF": "/images/certificate/pdf/wordpress-2.pdf",
@@ -91,7 +121,7 @@
   },
   {
     "certificate": {
-      "id": 4,
+      "id": 5,
       "thumbnail": "/images/certificate/thumb/assistive-and-compensating-technologies.jpg",
       "fullImage": "/images/certificate/full/assistive-and-compensating-technologies.jpg",
       "linkPDF": "/images/certificate/pdf/assistive-and-compensating-technologies.pdf",
@@ -121,7 +151,7 @@
   },
   {
     "certificate": {
-      "id": 5,
+      "id": 6,
       "thumbnail": "/images/certificate/thumb/wordpress-1.jpg",
       "fullImage": "/images/certificate/full/wordpress-1.jpg",
       "linkPDF": "/images/certificate/pdf/wordpress-1.pdf",
@@ -151,7 +181,7 @@
   },
   {
     "certificate": {
-      "id": 6,
+      "id": 7,
       "thumbnail": "/images/certificate/thumb/wordpress-0.jpg",
       "fullImage": "/images/certificate/full/wordpress-0.jpg",
       "linkPDF": "/images/certificate/pdf/wordpress-0.pdf",
@@ -181,7 +211,7 @@
   },
   {
     "certificate": {
-      "id": 7,
+      "id": 8,
       "thumbnail": "/images/certificate/thumb/html-css.jpg",
       "fullImage": "/images/certificate/full/html-css.jpg",
       "linkPDF": "/images/certificate/pdf/html-css.pdf",

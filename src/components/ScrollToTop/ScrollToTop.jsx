@@ -5,15 +5,7 @@ export default function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    // Проверяем, доступен ли объект window
-    if (typeof window !== 'undefined') {
-      window.scrollTo({
-        top: 0,
-        left: 0,
-        // Включаем плавную прокрутку
-        behavior: 'smooth',
-      });
-    }
+    window.scrollTo(0, 0);
   }, [pathname]);
 
   return null;
