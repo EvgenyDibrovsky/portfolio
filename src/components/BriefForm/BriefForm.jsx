@@ -5,6 +5,7 @@ import * as Yup from 'yup';
 import AnimateElements from 'components/Utility/AnimateElements';
 import axios from 'axios';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+import { IoIosArrowForward } from 'react-icons/io';
 
 export default function BriefForm() {
   const { t } = useTranslation();
@@ -345,8 +346,9 @@ export default function BriefForm() {
                   </div>
                 )}
 
-                <button className="btn-contact-form" type="submit" disabled={isSubmitting} title={t('brief-form.submit-brief')}>
+                <button className="btn-contact-form group" type="submit" disabled={isSubmitting} title={t('brief-form.submit-brief')}>
                   {t('brief-form.submit-brief')}
+                  <IoIosArrowForward className="duration-200 group-hover:translate-x-2" />
                 </button>
               </Form>
             )}

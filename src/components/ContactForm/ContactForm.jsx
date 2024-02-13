@@ -5,6 +5,7 @@ import * as Yup from 'yup';
 import AnimateElements from 'components/Utility/AnimateElements';
 import axios from 'axios';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+import { IoIosArrowForward } from 'react-icons/io';
 
 export default function ContactForm() {
   const { t } = useTranslation();
@@ -169,8 +170,10 @@ export default function ContactForm() {
                     {statusMessage}
                   </div>
                 )}
-                <button type="submit" className="btn-contact-form inline-block mr-auto" title={t('contact-form.send')}>
+
+                <button type="submit" className="btn-contact-form group" title={t('contact-form.send')}>
                   {t('contact-form.send')}
+                  <IoIosArrowForward className="duration-200 group-hover:translate-x-2" />
                 </button>
               </Form>
             )}
