@@ -53,7 +53,7 @@ export default function ContactForm() {
   return (
     <>
       <AnimateElements>
-        <div className="w-full lg:w-10/12 mx-auto bg-bgForms/80 dark:bg-neutral-900/80 p-10 opacity-0 init-animate-1">
+        <div className="w-full lg:w-10/12 mx-auto opacity-0 init-animate-1">
           <Formik
             initialValues={{
               name: '',
