@@ -52,7 +52,7 @@ export default function ContactForm() {
   return (
     <>
       <AnimateElements>
-        <div className="w-full xl:w-10/12 mx-auto opacity-0 init-animate-1">
+        <div className="w-full mx-auto bg-bgForms/80 dark:bg-neutral-900/80 p-10 opacity-0 init-animate-1">
           <Formik
             initialValues={{
               name: '',
@@ -65,7 +65,7 @@ export default function ContactForm() {
             onSubmit={handleSubmit}
           >
             {({ errors, touched }) => (
-              <Form className="w-full my-10 ">
+              <Form className="w-full">
                 <div className="w-full flex-col lg:flex-row min-h-[18rem] flex gap-4 mb-10">
                   <div className="w-full lg:w-6/12 flex gap-5 flex-col justify-between">
                     <label className="flex flex-col gap-2 text-black dark:text-white">

@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import AnimateElements from '../Utility/AnimateElements';
 import { Link } from 'react-router-dom';
+import { BsPencilSquare } from 'react-icons/bs';
 
 export default function HeroSection() {
   const { t } = useTranslation();
@@ -46,7 +47,8 @@ export default function HeroSection() {
           </div>
           <div className="w-full flex flex-col-reverse sm:flex-row xl:flex-col-reverse xxl:flex-row items-center justify-between md:mt-10">
             <div>
-              <Link to="/contact" className="btn">
+              <Link to="/contact" className="btn-hero">
+                <BsPencilSquare />
                 {t('btn.write-message')}
               </Link>
             </div>

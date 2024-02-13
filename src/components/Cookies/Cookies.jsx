@@ -58,8 +58,8 @@ export default function Cookies({ children }) {
   const { t } = useTranslation();
 
   const modalClasses = `
-    flex items-between justify-between fixed bottom-0 lg:bottom-5 left-0 lg:left-5 z-[999] bg-white dark:bg-black shadow-md-up lg:shadow-md shadow-orange-400 
-    dark:shadow-orange-400 border-t lg:border border-t-orange-400 lg:border-orange-400 w-full lg:max-w-[38rem] h-full sm:h-auto py-14 px-5 sm:py-5 sm:px-10 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400 rounded-lg
+    flex items-between justify-between fixed bottom-0 lg:bottom-5 left-0 lg:left-5 z-[999] bg-white dark:bg-black shadow-md-up lg:shadow-sm shadow-orange-400 
+    dark:shadow-orange-400 border-t lg:border border-t-orange-400 lg:border-orange-400 w-full lg:max-w-[38rem] h-full sm:h-auto py-14 px-5 sm:p-5 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400 
     ${isVisible ? 'translate-y-0' : 'translate-y-full'}
   `;
 
@@ -71,10 +71,10 @@ export default function Cookies({ children }) {
           <p className="text-[0.8rem] sm:text-[0.9rem] text-black dark:text-white">{t('cookies.text')}</p>
         </div>
         <div className="w-full flex flex-col sm:flex-row gap-4 justify-end lg:justify-center">
-          <button className="btn" onClick={handleAccept} title={t('cookies.btn-accept')}>
+          <button className="btn-cookies" onClick={handleAccept} title={t('cookies.btn-accept')}>
             {t('cookies.btn-accept')}
           </button>
-          <button className="btn" onClick={handleDecline} title={t('cookies.btn-no-accept')}>
+          <button className="btn-cookies" onClick={handleDecline} title={t('cookies.btn-no-accept')}>
             {t('cookies.btn-no-accept')}
           </button>
         </div>

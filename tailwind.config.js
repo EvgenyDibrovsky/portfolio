@@ -31,17 +31,19 @@ module.exports = {
     extend: {
       colors: {
         mainColor: ' #fa9600',
-        bgBody: '#fff',
+        bgBody: '#ffffff',
         bgBodyDark: '#333',
+        bgForms: '#f7f7f7',
+        bgCardsTop: '#f7f7f7',
         bgHeader: '#f7f7f7',
         bgHeaderDark: '#333',
         bgHeroSection: '#f7f7f7',
         bgHeroSectionDark: '#333',
         bgFooter: '#f7f7f7',
         bgFooterDark: '#333',
-        bgSection: '#fff',
+        bgSection: '#ffffff',
         bgSectionDark: '#222',
-        bgContainer: '#fff',
+        bgContainer: '#ffffff',
         bgContainerDark: '#222',
 
         colorBorderNavMenu: ' #dbdbdb',
