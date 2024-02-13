@@ -78,7 +78,7 @@ export default function BriefForm() {
             </div>
           </div>
         </div>
-        <div className="w-full mx-auto bg-bgForms/80 dark:bg-neutral-900/80 p-10 opacity-0 init-animate-1">
+        <div className="w-full lg:w-10/12 mx-auto bg-bgForms/80 dark:bg-neutral-900/80 p-10 opacity-0 init-animate-1">
           <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
             {({ errors, touched, isSubmitting }) => (
               <Form>
@@ -90,7 +90,7 @@ export default function BriefForm() {
                       name="first_name"
                       type="text"
                       placeholder={t('brief-form.enter-name')}
-                      className={`h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5 ${
+                      className={`h-14 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-4 rounded-md focus:outline-none mt-2 mb-5 ${
                         errors.first_name && touched.first_name ? 'error' : ''
                       }`}
                     />
@@ -101,7 +101,7 @@ export default function BriefForm() {
                     <Field
                       name="last_name"
                       type="text"
-                      className="h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+                      className="h-14 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-4 rounded-md focus:outline-none mt-2 mb-5"
                       placeholder={t('brief-form.enter-last-name')}
                     />
                   </label>
@@ -113,7 +113,7 @@ export default function BriefForm() {
                       name="email"
                       type="email"
                       placeholder={t('brief-form.enter-email')}
-                      className={`h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5 ${
+                      className={`h-14 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-4 rounded-md focus:outline-none mt-2 mb-5 ${
                         errors.email && touched.email ? 'error' : ''
                       }`}
                     />
@@ -124,7 +124,7 @@ export default function BriefForm() {
                       name="phone_number"
                       type="tel"
                       placeholder={t('brief-form.enter-phone')}
-                      className={`h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+                      className={`h-14 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-4 rounded-md focus:outline-none mt-2 mb-5"
                   ${errors.phone_number && touched.phone_number ? 'error' : ''}`}
                     />
                   </label>
@@ -135,7 +135,7 @@ export default function BriefForm() {
                   <Field
                     name="business_type"
                     type="text"
-                    className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+                    className="w-full h-14 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-4 rounded-md focus:outline-none mt-2 mb-5"
                     placeholder={t('brief-form.specify-activity-sphere')}
                   />
                 </label>
@@ -145,7 +145,7 @@ export default function BriefForm() {
                   <Field
                     name="website_url"
                     type="text"
-                    className="w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md focus:outline-none mt-2 mb-5"
+                    className="w-full h-14 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-4 rounded-md focus:outline-none mt-2 mb-5"
                     placeholder={t('brief-form.specify-domain-name')}
                   />
                 </label>
@@ -155,7 +155,7 @@ export default function BriefForm() {
                   <Field
                     name="business_info"
                     as="textarea"
-                    className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5 resize-none "
+                    className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-4 rounded-md focus:outline-none mt-2 mb-5 resize-none "
                     placeholder={t('brief-form.general-activity-info')}
                   />
                 </label>
@@ -231,7 +231,7 @@ export default function BriefForm() {
                   <Field
                     name="liked_sites"
                     as="textarea"
-                    className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5 resize-none "
+                    className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-4 rounded-md focus:outline-none mt-2 mb-5 resize-none "
                     placeholder={t('brief-form.example-sites-prompt')}
                   />
                 </label>
@@ -286,7 +286,7 @@ export default function BriefForm() {
                   <Field
                     name="dop_info"
                     as="textarea"
-                    className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-2 rounded-md focus:outline-none mt-2 mb-5 resize-none "
+                    className="w-full h-28 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-4 rounded-md focus:outline-none mt-2 mb-5 resize-none "
                     placeholder={t('brief-form.additional-project-wishes')}
                   />
                 </label>
@@ -338,7 +338,7 @@ export default function BriefForm() {
 
                 {statusMessage && (
                   <div
-                    className={`flex justify-center items-center text-white text-center font-semibold status-message h-16 sm:h-12 mb-10 rounded-sm ${
+                    className={`flex justify-center items-center text-white text-center font-semibold status-message h-16 sm:h-14 mb-10 rounded-sm ${
                       isSuccess ? 'bg-gradient-to-r from-green-600 via-green-400 to-green-600' : 'bg-gradient-to-r from-red-600 via-red-400 to-red-600'
                     }`}
                   >

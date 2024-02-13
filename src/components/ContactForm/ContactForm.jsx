@@ -53,7 +53,7 @@ export default function ContactForm() {
   return (
     <>
       <AnimateElements>
-        <div className="w-full mx-auto bg-bgForms/80 dark:bg-neutral-900/80 p-10 opacity-0 init-animate-1">
+        <div className="w-full lg:w-10/12 mx-auto bg-bgForms/80 dark:bg-neutral-900/80 p-10 opacity-0 init-animate-1">
           <Formik
             initialValues={{
               name: '',
@@ -75,7 +75,7 @@ export default function ContactForm() {
                         name="name"
                         type="text"
                         placeholder={t('contact-form.enter-name')}
-                        className={`appearance-none  w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md ${
+                        className={`appearance-none w-full h-14 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-4 rounded-md ${
                           errors.name && touched.name ? 'error' : ''
                         }`}
                       />
@@ -87,7 +87,7 @@ export default function ContactForm() {
                         name="email"
                         type="email"
                         placeholder={t('contact-form.enter-email')}
-                        className={`w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md ${errors.email && touched.email ? 'error' : ''}`}
+                        className={`w-full h-14 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-4 rounded-md ${errors.email && touched.email ? 'error' : ''}`}
                       />
                     </label>
 
@@ -97,7 +97,7 @@ export default function ContactForm() {
                         name="subject"
                         type="text"
                         placeholder={t('contact-form.enter-message-subject')}
-                        className={`w-full h-12 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md ${errors.subject && touched.subject ? 'error' : ''}`}
+                        className={`w-full h-14 bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-4 rounded-md ${errors.subject && touched.subject ? 'error' : ''}`}
                       />
                     </label>
                   </div>
@@ -109,7 +109,7 @@ export default function ContactForm() {
                         as="textarea"
                         name="message"
                         placeholder={t('contact-form.enter-message')}
-                        className={`w-full h-full bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark px-2 rounded-md resize-none ${
+                        className={`w-full h-full  bg-white dark:bg-black border border-colorBorder dark:border-colorBorderDark p-4 rounded-md resize-none ${
                           errors.message && touched.message ? 'error' : ''
                         }`}
                       />
