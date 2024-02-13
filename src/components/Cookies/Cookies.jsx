@@ -58,9 +58,9 @@ export default function Cookies({ children }) {
   const { t } = useTranslation();
 
   const modalClasses = `
-    flex items-between justify-between fixed bottom-0 lg:bottom-5 left-0 lg:left-5 z-[999] bg-white dark:bg-black shadow-md-up lg:shadow-sm shadow-orange-400 
+    flex items-between justify-between fixed bottom-0 left-0 z-[999] bg-white dark:bg-black shadow-md-up lg:shadow-sm shadow-orange-400 
     dark:shadow-orange-400 border-t lg:border border-t-orange-400 lg:border-orange-400 w-full lg:max-w-[38rem] h-full sm:h-auto py-14 px-5 sm:p-5 transform transition-transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400 
-    ${isVisible ? 'translate-y-0' : 'translate-y-full'}
+    ${isVisible ? 'translate-y-0 lg:-translate-y-10 lg:translate-x-10' : 'translate-y-full'}
   `;
 
   const modalContent = (
