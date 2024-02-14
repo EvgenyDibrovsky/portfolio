@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://edweb.site/",
+  "homepage": "https://evgenydibrovsky.github.io/portfolio/",
   "dependencies": {
     "@svgr/webpack": "^8.1.0",
     "@tailwindcss/forms": "^0.5.7",
@@ -42,7 +42,6 @@
     "start": "react-scripts start",
     "start-server": "node server.js",
     "build": "react-scripts build",
-    "postbuild": "cp -r build/* /home/urwqovlpkp/domains/edweb.site/public_html/",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}"
