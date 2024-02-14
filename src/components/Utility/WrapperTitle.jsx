@@ -1,4 +1,4 @@
-import AnimateElements from 'components/Utility/AnimateElements';
+import AnimateElements from "../../components/Utility/AnimateElements";
 
 export default function WrapperTitle({ children }) {
   return (

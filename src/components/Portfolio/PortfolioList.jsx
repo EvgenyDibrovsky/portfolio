@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
-import dbPortfolio from '../../db/portfolio.json';
-import { useTranslation } from 'react-i18next';
-import PortfolioListItem from './PortfolioListItem';
-import Modal from '../Modal/Modal';
-import { BsCardText, BsCodeSlash, BsColumnsGap, BsGlobe } from 'react-icons/bs';
-import useCurrentLanguage from '../Hooks/useCurrentLanguage';
-import AnimateElements from 'components/Utility/AnimateElements';
-import { useSwipeable } from 'react-swipeable';
+import React, { useState } from "react";
+import dbPortfolio from "../../db/portfolio.json";
+import { useTranslation } from "react-i18next";
+import PortfolioListItem from "./PortfolioListItem";
+import Modal from "../Modal/Modal";
+import { BsCardText, BsCodeSlash, BsColumnsGap, BsGlobe } from "react-icons/bs";
+import useCurrentLanguage from "../Hooks/useCurrentLanguage";
+import AnimateElements from "../../components/Utility/AnimateElements";
+import { useSwipeable } from "react-swipeable";
 
 export default function PortfolioList({ currentFilter }) {
   const { t } = useTranslation();
   const currentLanguage = useCurrentLanguage();
 
-  const data = dbPortfolio.map(item => {
+  const data = dbPortfolio.map((item) => {
     const languageSpecificData = item.portfolio[currentLanguage];
     return {
       ...languageSpecificData,
@@ -62,12 +62,12 @@ export default function PortfolioList({ currentFilter }) {
   });
 
   if (data.length === 0) {
-    return <p className="text-[2rem] text-black dark:text-white text-center">{t('nothing-found')}</p>;
+    return <p className="text-[2rem] text-black dark:text-white text-center">{t("nothing-found")}</p>;
   }
 
   let filteredData = data;
-  if (currentFilter !== 'all') {
-    filteredData = data.filter(item => item.type === currentFilter);
+  if (currentFilter !== "all") {
+    filteredData = data.filter((item) => item.type === currentFilter);
   }
 
   return (
@@ -93,21 +93,21 @@ export default function PortfolioList({ currentFilter }) {
               <div className="border-b pb-4">
                 <div className="flex items-center gap-4 ">
                   <BsCardText className="text-orange-400 text-[1.25rem]" />
-                  <h2 className="w-full font-semibold">{t('portfolio.project-description')}</h2>
+                  <h2 className="w-full font-semibold">{t("portfolio.project-description")}</h2>
                 </div>
                 <p className="w-full">{modalData.description}</p>
               </div>
               <div className="border-b pb-4">
                 <div className="flex items-center gap-4">
                   <BsCodeSlash className="text-orange-400 text-[1.25rem]" />
-                  <h2 className="w-full font-semibold">{t('portfolio.project-participation')}</h2>
+                  <h2 className="w-full font-semibold">{t("portfolio.project-participation")}</h2>
                 </div>
                 <p className="w-full">{modalData.participation}</p>
               </div>
               <div className="border-b  pb-4">
                 <div className="flex items-center gap-4">
                   <BsColumnsGap className="text-orange-400 text-[1.25rem]" />
-                  <h2 className="w-full font-semibold">{t('portfolio.project-technologies')}</h2>
+                  <h2 className="w-full font-semibold">{t("portfolio.project-technologies")}</h2>
                 </div>
                 <p className="w-full">{modalData.technologies}</p>
               </div>
@@ -119,9 +119,9 @@ export default function PortfolioList({ currentFilter }) {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline decoration-solid transition-all duration-200 hover:text-blue-400"
-                  aria-label={t('portfolio.project-link')}
+                  aria-label={t("portfolio.project-link")}
                 >
-                  {t('portfolio.project-link')}
+                  {t("portfolio.project-link")}
                 </a>
               </div>
             </div>
