@@ -11,7 +11,7 @@ export default function HeroSection() {
       <div className="relative xl:w-6/12 w-full h-auto bg-hero-pattern bg-cover bg-center py-20 flex justify-center items-center ">
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
         <AnimateElements>
-          <ul className="text-white md:text-[1.25rem] xl:text-[1.5rem] flex flex-col gap-5 list-[disc] marker:text-orange-400">
+          <ul className="text-white md:text-[1.25rem] xl:text-[1.5rem] flex flex-col gap-5 list-[disc] marker:text-sky-600">
             <li className="z-10 opacity-0 init-animate-5" data-time="0.4s" data-delay="0.2s">
               {t('main-services.service-1')}
             </li>
@@ -36,7 +36,7 @@ export default function HeroSection() {
 
       <div className="w-full xl:w-6/12 py-12 px-4 xl:px-16 gap-8 flex flex-col justify-center items-center">
         <AnimateElements>
-          <div className="relative flex items-center mb-8 after:content-[''] after:absolute after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:w-full after:h-[2px] after:bg-orange-400 dark:after:bg-orange-400">
+          <div className="relative flex items-center mb-8 after:content-[''] after:absolute after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:w-full after:h-[2px] after:bg-sky-600 dark:after:bg-sky-600">
             <h1 className="text-[1.25rem] font-semibold text-black dark:text-white">{t('about-me.title')}</h1>
           </div>
           <div className="opacity-0 init-animate-1">

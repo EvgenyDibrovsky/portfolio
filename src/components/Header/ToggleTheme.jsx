@@ -6,7 +6,7 @@ export default function ToggleTheme({ theme, toggleTheme }) {
   const { t } = useTranslation();
 
   return (
-    <button onClick={toggleTheme} className="mr-auto text-switherTheme transition-all duration-500 text-[1.5rem] dark:text-orange-400" title={t('btn.theme-switcher')}>
+    <button onClick={toggleTheme} className="mr-auto text-switherTheme transition-all duration-500 text-[1.5rem] dark:text-sky-600" title={t('btn.theme-switcher')}>
       {theme === 'light' ? <BsSun className="duration-1000 hover:rotate-[10deg]" /> : <BsMoon className="duration-1000 hover:rotate-[10deg]" />}
     </button>
   );

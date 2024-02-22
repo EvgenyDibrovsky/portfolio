@@ -32,8 +32,8 @@ export default function ToggleLang({ closeHeader }) {
           <li
             key={lang}
             onClick={() => changeLanguage(lang)}
-            className={`cursor-pointer inline-flex justify-center items-center w-8 h-8 border-2 border-transparent bg-bgIcons dark:bg-bgIconsDark  focus:outline-none duration-200 leading-[0] text-sm hover:border-b-2 hover:bg-gradient-to-t hover:bg-orange-400 hover:dark:text-black hover:text-white dark:text-white dark:hover:bg-orange-400 ${
-              currentLanguage === lang ? 'border-b-orange-400' : ''
+            className={`cursor-pointer inline-flex justify-center items-center w-8 h-8 border-2 border-transparent bg-bgIcons dark:bg-bgIconsDark  focus:outline-none duration-200 leading-[0] text-sm hover:border-b-2 hover:bg-gradient-to-t hover:bg-sky-600 hover:dark:text-black hover:text-white dark:text-white dark:hover:bg-sky-600 ${
+              currentLanguage === lang ? 'border-b-sky-600' : ''
             }`}
           >
             {lang.toUpperCase()}

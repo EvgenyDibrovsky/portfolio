@@ -27,7 +27,7 @@ export default function TechSkills({ skill }) {
           value={progressValue}
           styles={buildStyles({
             textSize: '0px',
-            pathColor: '#539ad4',
+            pathColor: '#20a34d',
             trailColor: '#ededed',
             pathTransitionDuration: 1.5,
           })}

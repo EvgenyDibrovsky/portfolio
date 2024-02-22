@@ -12,7 +12,7 @@ export default function CertificatesListItem({ item }) {
   const handleCloseModal = () => setIsModalOpen(false);
 
   return (
-    <li className="flex flex-col xl:flex-row h-full shadow-sm shadow-black dark:shadow-white rounded-md bg-white duration-200 dark:bg-neutral-800 hover:dark:bg-neutral-900 hover:bg-neutral-50 overflow-hidden group opacity-0 init-animate-1">
+    <li className="flex flex-col xl:flex-row h-full shadow-lg rounded-md overflow-hidden group opacity-0 init-animate-1">
       <img
         src={process.env.PUBLIC_URL + item.thumbnail}
         alt={item['name-certificate']}
@@ -23,36 +23,43 @@ export default function CertificatesListItem({ item }) {
       />
       {isModalOpen && (
         <Modal closeModal={handleCloseModal} width="w-11/12 lg:w-10/12 xl:w-10/12">
-          <div className="h-full max-h-[calc(100vh-5rem)] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-orange-400 scrollbar-track-gray-400">
-            <img src={process.env.PUBLIC_URL + item.fullImage} alt={item['name-certificate']} className="w-full" width="1000" height="562" />
+          <div className="flex flex-col h-full max-h-[calc(100vh-5rem)]">
+            <div className="h-full  overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-sky-600 scrollbar-track-gray-400">
+              <img src={process.env.PUBLIC_URL + item.fullImage} alt={item['name-certificate']} className="w-full" width="1000" height="562" />
+            </div>
+            <div className="flex flex-col justify-between w-full px-4 lg:px-8 py-6 bg-white dark:bg-neutral-800">
+              <h3 className="w-full h-auto text-[1rem] lg:text-[1.25rem] font-semibold text-textColor dark:text-white mb-4">{item['name-certificate']}</h3>
+              <div>
+                <div className=" flex items-center gap-4 border-b py-2 xxl:py-4">
+                  <BsReverseListColumnsReverse className="w-6 h-6 text-sky-600 text-[1.25rem]" />
+                  <p className="w-full text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">{item.description}</p>
+                </div>
+                <div className=" flex items-center gap-4 border-b py-2 xxl:py-4">
+                  <BsBuildings className="w-6 h-6 text-sky-600 text-[1.25rem]" />
+                  <p className="w-full text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">{item['name-school']}</p>
+                </div>
+                <div className=" flex items-center gap-4 border-b py-2 xxl:py-4">
+                  <BsCalendar3 className="w-6 h-6 text-sky-600 text-[1.25rem]" />
+                  <span className="text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
+                    {item.startDate} - {item.finishtDate}
+                  </span>
+                </div>
+              </div>
+              <div className="flex items-center gap-4 py-2 xxl:py-4">
+                <BsFiletypePdf className="w-6 h-6 text-sky-600 text-[1.25rem]" />
+                <a
+                  className="text-textColor dark:text-white hover:underline hover:text-sky-600 text-[1rem] lg:text-[1.25rem] "
+                  href={process.env.PUBLIC_URL + item.linkPDF}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t('resume-page.link-pdf')}
+                </a>
+              </div>
+            </div>
           </div>
         </Modal>
       )}
-      <div className="flex flex-col justify-between w-full px-4 lg:px-8 py-6">
-        <h3 className="w-full h-auto text-[1rem] lg:text-[1.25rem] font-semibold text-textColor dark:text-white mb-4">{item['name-certificate']}</h3>
-        <div>
-          <div className=" flex items-center gap-4 mb-2">
-            <BsReverseListColumnsReverse className="text-orange-400" />
-            <p className="w-full text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">{item.description}</p>
-          </div>
-          <div className=" flex items-center gap-4 mb-2">
-            <BsBuildings className="text-orange-400" />
-            <p className="w-full text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">{item['name-school']}</p>
-          </div>
-          <div className=" flex items-center gap-4 mb-2">
-            <BsCalendar3 className="text-orange-400" />
-            <span className="text-textColor dark:text-white text-[1rem] lg:text-[1.25rem] ">
-              {item.startDate} - {item.finishtDate}
-            </span>
-          </div>
-        </div>
-        <div className=" flex items-center gap-4 mb-2">
-          <BsFiletypePdf className="text-orange-400" />
-          <a className="text-sky-600 dark:text-sky-400   group-hover:underline text-[1rem] lg:text-[1.25rem] " href={process.env.PUBLIC_URL + item.linkPDF} target="_blank" rel="noopener noreferrer">
-            {t('resume-page.link-pdf')}
-          </a>
-        </div>
-      </div>
     </li>
   );
 }

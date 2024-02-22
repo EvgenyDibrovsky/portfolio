@@ -36,28 +36,28 @@
     @apply bg-[#c6c6c6] rounded-full;
   }
   ::-webkit-scrollbar-thumb {
-    @apply bg-orange-400  rounded-full;
+    @apply bg-sky-600  rounded-full;
   }
 }
 
 @layer components {
   .btn-contact-form {
-    @apply flex items-center justify-center gap-5 h-12 w-full py-1 px-5  sm:max-w-[15rem] sm:mx-auto transition-all duration-200 border bg-transparent  border-orange-400 dark:border-orange-400 text-black dark:text-white text-lg rounded-md;
+    @apply flex items-center justify-center gap-5 h-12 w-full py-1 px-5  sm:max-w-[15rem] sm:mx-auto transition-all duration-200 border bg-transparent  border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg rounded-md;
   }
   .btn {
-    @apply inline-flex justify-center items-center w-full sm:max-w-[16rem] px-5 py-2 transition-all duration-200 border border-orange-400 dark:border-orange-400 text-black dark:text-white text-lg rounded-md bg-transparent  hover:bg-orange-400 hover:text-white hover:dark:text-black;
+    @apply inline-flex justify-center items-center w-full sm:max-w-[16rem] px-5 py-2 transition-all duration-200 border border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg rounded-md bg-transparent  hover:bg-sky-600 hover:text-white hover:dark:text-black;
   }
   .btn-hero {
-    @apply flex justify-center items-center w-full gap-4 px-5 py-2 transition-all duration-200 border border-orange-400 dark:border-orange-400 text-black dark:text-white text-lg rounded-md bg-transparent  hover:bg-orange-400 hover:text-white hover:dark:text-white;
+    @apply flex justify-center items-center w-full gap-4 px-5 py-2 transition-all duration-200 border border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg rounded-md bg-transparent  hover:bg-sky-600 hover:text-white hover:dark:text-white;
   }
   .btn-cookies {
-    @apply inline-flex justify-center items-center w-full sm:w-[14rem] lg:w-full px-2 py-1 transition-all duration-200 border border-orange-400 dark:border-orange-400 text-black dark:text-white text-lg bg-transparent hover:bg-orange-400 hover:text-white hover:dark:text-black;
+    @apply inline-flex justify-center items-center w-full sm:w-[14rem] lg:w-full px-2 py-1 transition-all duration-200 border border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg bg-transparent hover:bg-sky-600 hover:text-white hover:dark:text-black;
   }
   .btn-filter {
-    @apply w-full sm:w-6/12 md:w-7/12 lg:w-5/12 xl:w-6/12 cursor-pointer rounded-sm py-1 px-4 border border-orange-400 text-center text-black dark:text-white transition-all duration-200  hover:bg-orange-400 hover:text-white hover:dark:text-white;
+    @apply w-full sm:w-6/12 md:w-7/12 lg:w-5/12 xl:w-6/12 cursor-pointer rounded-sm py-1 px-4 border border-sky-600 text-center text-black dark:text-white transition-all duration-200  hover:bg-sky-600 hover:text-white hover:dark:text-white;
   }
   .main-menu li {
-    @apply border-b border-b-colorBorderNavMenu dark:border-b-colorBorderNavMenuDark last:border-b-0 duration-200 hover:bg-orange-400;
+    @apply border-b border-b-colorBorderNavMenu dark:border-b-colorBorderNavMenuDark last:border-b-0 duration-200 hover:bg-sky-600;
   }
 }
 @layer utilities {
@@ -78,17 +78,17 @@
   [type='tel']:focus,
   [multiple]:focus,
   textarea:focus {
-    @apply shadow-none border-colorBorder border-b-4 border-b-orange-400 dark:border-b-orange-400 ring-0 outline-none appearance-none;
+    @apply shadow-none border-colorBorder border-b-4 border-b-sky-600 dark:border-b-sky-600 ring-0 outline-none appearance-none;
   }
 
   .clip-education {
     clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
   }
   .form-checkbox {
-    @apply focus:ring-0 focus:ring-offset-0 border bg-white dark:bg-black border-orange-400 dark:border-orange-400 text-orange-400;
+    @apply focus:ring-0 focus:ring-offset-0 border bg-white dark:bg-black border-sky-600 dark:border-sky-600 text-sky-600;
   }
   .form-checkbox:checked {
-    @apply border-orange-400 dark:border-orange-400 bg-orange-400 dark:bg-black;
+    @apply border-sky-600 dark:border-sky-600 bg-sky-600 dark:bg-black;
   }
 }
 .grecaptcha-badge {
