@@ -2,7 +2,7 @@ import { BsSearch } from 'react-icons/bs';
 
 export default function PortfolioListItem({ image, image_webp, name, onCardClick }) {
   return (
-    <li onClick={onCardClick} className="shadow-lg   group max-h-72 relative flex flex-col justify-between transition-all duration-500 rounded-md overflow-hidden group opacity-0 init-animate-1 ">
+    <li onClick={onCardClick} className="shadow-lg group max-h-72 relative z-10 flex flex-col justify-between transition-all duration-500 rounded-md overflow-hidden group opacity-0 init-animate-1 ">
       <div className="relative flex items-center justify-center cursor-pointer aspect-video">
         <picture>
           <source srcSet={process.env.PUBLIC_URL + image_webp} type="image/webp" />

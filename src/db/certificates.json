@@ -1,187 +1,37 @@
-[  
+[
   {
     "certificate": {
       "id": 1,
-      "thumbnail": "/images/certificate/thumb/сourse_certificate_google_analytics.jpg",
-      "fullImage": "/images/certificate/full/сourse_certificate_google_analytics.jpg",
-      "linkPDF": "/images/certificate/pdf/сourse_certificate_google_analytics.pdf",
-      "startDate": "01.02.2024",
-      "finishtDate": "03.02.2024",
+      "thumbnail": "/images/certificate/thumb/html-css.jpg",
+      "fullImage": "/images/certificate/full/html-css.jpg",
+      "linkPDF": "/images/certificate/pdf/html-css.pdf",
+      "startDate": "01.07.2020",
+      "finishtDate": "01.07.2020",
       "EN": {
-        "name-certificate": "Google Analytics for Beginners",
-        "description": "Learning Google analytical tools and applying the acquired knowledge in practice",
-        "name-school": "Google Analytics Academy"
+        "name-certificate": "Html / Css",
+        "description": "Online course Html / Css",
+        "name-school": "Beonmax"
       },
       "PL": {
-        "name-certificate": "Google Analytics dla początkujących",
-        "description": "Nauka narzędzi analitycznych Google i zastosowanie zdobytej wiedzy w praktyce",
-        "name-school": "Google Analytics Academy"
+        "name-certificate": "Html / Css",
+        "description": "Online kurs Html / Css",
+        "name-school": "Beonmax"
       },
       "UK": {
-        "name-certificate": "Google Analytics для початківців",
-        "description": "Вивчення аналітичних інструментів Google та застосування отриманих знань на практиці",
-        "name-school": "Google Analytics Academy"
+        "name-certificate": "Html / Css",
+        "description": "Онлайн курс Html / Css",
+        "name-school": "Beonmax"
       },
       "RU": {
-        "name-certificate": "Google Аналитика для начинающих",
-        "description": "Изучение аналитических инструментов  Google и применение полученные знаний на практике",
-        "name-school": "Google Analytics Academy"
+        "name-certificate": "Html / Css",
+        "description": "Онлайн курс Html / Css",
+        "name-school": "Beonmax"
       }
     }
   },
   {
     "certificate": {
       "id": 2,
-      "thumbnail": "/images/certificate/thumb/go-It-full-stack.jpg",
-      "fullImage": "/images/certificate/full/go-It-full-stack.jpg",
-      "linkPDF": "/images/certificate/pdf/go-It-full-stack.pdf",
-      "startDate": "11.05.2022",
-      "finishtDate": "19.04.2023",
-      "EN": {
-        "name-certificate": "Fullstack developer",
-        "description": "Studying Html, Css, JavaScript, Reactjs, React Native, Nodejs",
-        "name-school": "GoIT | IT Courses | IT education online"
-      },
-      "PL": {
-        "name-certificate": "Fullstack developer",
-        "description": "Nauka Html, Css, JavaScript, Reactjs, React Native, Nodejs",
-        "name-school": "GoIT | IT Kursy | IT edukacja online"
-      },
-      "UK": {
-        "name-certificate": "Fullstack розробник",
-        "description": "Вивчення Html, Css, JavaScript, Reactjs, React Native, Nodejs",
-        "name-school": "GoIT | IT Курси | IT освіта онлайн"
-      },
-      "RU": {
-        "name-certificate": "Fullstack разработчик",
-        "description": "Изучение Html, Css, JavaScript, Reactjs, React Native, Nodejs",
-        "name-school": "GoIT | IT Курсы | IT образование онлайн"
-      }
-    }
-  },
-  {
-    "certificate": {
-      "id": 3,
-      "thumbnail": "/images/certificate/thumb/figma.jpg",
-      "fullImage": "/images/certificate/full/figma.jpg",
-      "linkPDF": "/images/certificate/pdf/figma.pdf",
-      "startDate": "16.04.2022",
-      "finishtDate": "16.05.2022",
-      "EN": {
-        "name-certificate": "Web Design in Figma. Basics of Ui Ux design in practice",
-        "description": "Studying the basics of Figma / Creating a mobile app project",
-        "name-school": "Beonmax"
-      },
-      "PL": {
-        "name-certificate": "Web Design w Figma. Podstawy Ui Ux designu w praktyce",
-        "description": "Nauka podstaw Figma / Tworzenie projektu aplikacji mobilnej",
-        "name-school": "Beonmax"
-      },
-      "UK": {
-        "name-certificate": "Веб Дизайн у Figma. Основи Ui Ux дизайну на практиці",
-        "description": "Вивчення основ Figma / Створення проекту мобільного додатку",
-        "name-school": "Beonmax"
-      },
-      "RU": {
-        "name-certificate": "Веб Дизайн в Figma. Основы Ui Ux дизайна на практике",
-        "description": "Изучение основ Figma / Создание проекта мобильного приложения",
-        "name-school": "Beonmax"
-      }
-    }
-  },
-  {
-    "certificate": {
-      "id": 4,
-      "thumbnail": "/images/certificate/thumb/wordpress-2.jpg",
-      "fullImage": "/images/certificate/full/wordpress-2.jpg",
-      "linkPDF": "/images/certificate/pdf/wordpress-2.pdf",
-      "startDate": "24.07.2021",
-      "finishtDate": "24.08.2021",
-      "EN": {
-        "name-certificate": "Layout implementation and theme creation for CMS WordPress",
-        "description": "Template layout / template implementation on CMS Wordpress",
-        "name-school": "Beonmax"
-      },
-      "PL": {
-        "name-certificate": "Montaż szablonu i tworzenie tematów na CMS WordPress",
-        "description": "Układanie szablonu / instalacja szablonu na CMS Wordpress",
-        "name-school": "Beonmax"
-      },
-      "UK": {
-        "name-certificate": "Верстка та створення тем на CMS WordPress",
-        "description": "Верстка шаблону / посадка шаблону на CMS Wordpress",
-        "name-school": "Beonmax"
-      },
-      "RU": {
-        "name-certificate": "Посадка верстки и создание тем на CMS WordPress",
-        "description": "Верстка шаблона / посадка шаблона на CMS WordPress",
-        "name-school": "Beonmax"
-      }
-    }
-  },
-  {
-    "certificate": {
-      "id": 5,
-      "thumbnail": "/images/certificate/thumb/assistive-and-compensating-technologies.jpg",
-      "fullImage": "/images/certificate/full/assistive-and-compensating-technologies.jpg",
-      "linkPDF": "/images/certificate/pdf/assistive-and-compensating-technologies.pdf",
-      "startDate": "05.03.2021",
-      "finishtDate": "22.03.2021",
-      "EN": {
-        "name-certificate": "Assistive and compensating technologies and universal product and service design",
-        "description": "Main principles of universal design, technologies supporting the development of products adapted for the needs of people with disabilities.",
-        "name-school": "EuroKreator s.c."
-      },
-      "PL": {
-        "name-certificate": "Technologie wspomagające i kompensacyjne, uniwersalne projektowanie produktów i usług",
-        "description": "Główne zasady uniwersalnego projektowania, technologie wspierające rozwój produktów dostosowanych do potrzeb osób z ograniczonymi możliwościami.",
-        "name-school": "EuroKreator s.c."
-      },
-      "UK": {
-        "name-certificate": "Допоміжні та компенсуючі технології, універсальний дизайн продуктів та послуг",
-        "description": "Основні принципи універсального проектування, технології підтримки розробки продуктів, адаптованих під потреби людей з обмеженими можливостями.",
-        "name-school": "EuroKreator s.c."
-      },
-      "RU": {
-        "name-certificate": "Вспомогательные и компенсирующие технологии, универсальный дизайн продуктов и услуг",
-        "description": "Основные принципы универсального проектирования, технологии поддержки разработки продуктов, адаптированных под потребности людей с ограниченными возможностями",
-        "name-school": "EuroKreator s.c."
-      }
-    }
-  },
-  {
-    "certificate": {
-      "id": 6,
-      "thumbnail": "/images/certificate/thumb/wordpress-1.jpg",
-      "fullImage": "/images/certificate/full/wordpress-1.jpg",
-      "linkPDF": "/images/certificate/pdf/wordpress-1.pdf",
-      "startDate": "20.12.2020",
-      "finishtDate": "26.12.2020",
-      "EN": {
-        "name-certificate": "WordPress – From Zero to Pro!",
-        "description": "Studying the basics of working with CMS WordPress in practice.",
-        "name-school": "Beonmax"
-      },
-      "PL": {
-        "name-certificate": "WordPress – od zera do Profi!",
-        "description": "Studiowanie podstaw pracy z CMS WordPress w praktyce.",
-        "name-school": "Beonmax"
-      },
-      "UK": {
-        "name-certificate": "WordPress – від нуля до Профі!",
-        "description": "Вивчення основ роботи з CMS WordPress на практиці.",
-        "name-school": "Beonmax"
-      },
-      "RU": {
-        "name-certificate": "WordPress – с нуля до Профи!",
-        "description": "Изучение основ работы с CMS WordPress на практике",
-        "name-school": "Beonmax"
-      }
-    }
-  },
-  {
-    "certificate": {
-      "id": 7,
       "thumbnail": "/images/certificate/thumb/wordpress-0.jpg",
       "fullImage": "/images/certificate/full/wordpress-0.jpg",
       "linkPDF": "/images/certificate/pdf/wordpress-0.pdf",
@@ -211,31 +61,181 @@
   },
   {
     "certificate": {
-      "id": 8,
-      "thumbnail": "/images/certificate/thumb/html-css.jpg",
-      "fullImage": "/images/certificate/full/html-css.jpg",
-      "linkPDF": "/images/certificate/pdf/html-css.pdf",
-      "startDate": "01.07.2020",
-      "finishtDate": "01.07.2020",
+      "id": 3,
+      "thumbnail": "/images/certificate/thumb/wordpress-1.jpg",
+      "fullImage": "/images/certificate/full/wordpress-1.jpg",
+      "linkPDF": "/images/certificate/pdf/wordpress-1.pdf",
+      "startDate": "20.12.2020",
+      "finishtDate": "26.12.2020",
       "EN": {
-        "name-certificate": "Html / Css",
-        "description": "Online course Html / Css",
+        "name-certificate": "WordPress – From Zero to Pro!",
+        "description": "Studying the basics of working with CMS WordPress in practice.",
         "name-school": "Beonmax"
       },
       "PL": {
-        "name-certificate": "Html / Css",
-        "description": "Online kurs Html / Css",
+        "name-certificate": "WordPress – od zera do Profi!",
+        "description": "Studiowanie podstaw pracy z CMS WordPress w praktyce.",
         "name-school": "Beonmax"
       },
       "UK": {
-        "name-certificate": "Html / Css",
-        "description": "Онлайн курс Html / Css",
+        "name-certificate": "WordPress – від нуля до Профі!",
+        "description": "Вивчення основ роботи з CMS WordPress на практиці.",
         "name-school": "Beonmax"
       },
       "RU": {
-        "name-certificate": "Html / Css",
-        "description": "Онлайн курс Html / Css",
+        "name-certificate": "WordPress – с нуля до Профи!",
+        "description": "Изучение основ работы с CMS WordPress на практике",
         "name-school": "Beonmax"
+      }
+    }
+  },
+  {
+    "certificate": {
+      "id": 4,
+      "thumbnail": "/images/certificate/thumb/assistive-and-compensating-technologies.jpg",
+      "fullImage": "/images/certificate/full/assistive-and-compensating-technologies.jpg",
+      "linkPDF": "/images/certificate/pdf/assistive-and-compensating-technologies.pdf",
+      "startDate": "05.03.2021",
+      "finishtDate": "22.03.2021",
+      "EN": {
+        "name-certificate": "Assistive and compensating technologies and universal product and service design",
+        "description": "Main principles of universal design, technologies supporting the development of products adapted for the needs of people with disabilities.",
+        "name-school": "EuroKreator s.c."
+      },
+      "PL": {
+        "name-certificate": "Technologie wspomagające i kompensacyjne, uniwersalne projektowanie produktów i usług",
+        "description": "Główne zasady uniwersalnego projektowania, technologie wspierające rozwój produktów dostosowanych do potrzeb osób z ograniczonymi możliwościami.",
+        "name-school": "EuroKreator s.c."
+      },
+      "UK": {
+        "name-certificate": "Допоміжні та компенсуючі технології, універсальний дизайн продуктів та послуг",
+        "description": "Основні принципи універсального проектування, технології підтримки розробки продуктів, адаптованих під потреби людей з обмеженими можливостями.",
+        "name-school": "EuroKreator s.c."
+      },
+      "RU": {
+        "name-certificate": "Вспомогательные и компенсирующие технологии, универсальный дизайн продуктов и услуг",
+        "description": "Основные принципы универсального проектирования, технологии поддержки разработки продуктов, адаптированных под потребности людей с ограниченными возможностями",
+        "name-school": "EuroKreator s.c."
+      }
+    }
+  },
+  {
+    "certificate": {
+      "id": 5,
+      "thumbnail": "/images/certificate/thumb/wordpress-2.jpg",
+      "fullImage": "/images/certificate/full/wordpress-2.jpg",
+      "linkPDF": "/images/certificate/pdf/wordpress-2.pdf",
+      "startDate": "24.07.2021",
+      "finishtDate": "24.08.2021",
+      "EN": {
+        "name-certificate": "Layout implementation and theme creation for CMS WordPress",
+        "description": "Template layout / template implementation on CMS Wordpress",
+        "name-school": "Beonmax"
+      },
+      "PL": {
+        "name-certificate": "Montaż szablonu i tworzenie tematów na CMS WordPress",
+        "description": "Układanie szablonu / instalacja szablonu na CMS Wordpress",
+        "name-school": "Beonmax"
+      },
+      "UK": {
+        "name-certificate": "Верстка та створення тем на CMS WordPress",
+        "description": "Верстка шаблону / посадка шаблону на CMS Wordpress",
+        "name-school": "Beonmax"
+      },
+      "RU": {
+        "name-certificate": "Посадка верстки и создание тем на CMS WordPress",
+        "description": "Верстка шаблона / посадка шаблона на CMS WordPress",
+        "name-school": "Beonmax"
+      }
+    }
+  },
+  {
+    "certificate": {
+      "id": 6,
+      "thumbnail": "/images/certificate/thumb/figma.jpg",
+      "fullImage": "/images/certificate/full/figma.jpg",
+      "linkPDF": "/images/certificate/pdf/figma.pdf",
+      "startDate": "16.04.2022",
+      "finishtDate": "16.05.2022",
+      "EN": {
+        "name-certificate": "Web Design in Figma. Basics of Ui Ux design in practice",
+        "description": "Studying the basics of Figma / Creating a mobile app project",
+        "name-school": "Beonmax"
+      },
+      "PL": {
+        "name-certificate": "Web Design w Figma. Podstawy Ui Ux designu w praktyce",
+        "description": "Nauka podstaw Figma / Tworzenie projektu aplikacji mobilnej",
+        "name-school": "Beonmax"
+      },
+      "UK": {
+        "name-certificate": "Веб Дизайн у Figma. Основи Ui Ux дизайну на практиці",
+        "description": "Вивчення основ Figma / Створення проекту мобільного додатку",
+        "name-school": "Beonmax"
+      },
+      "RU": {
+        "name-certificate": "Веб Дизайн в Figma. Основы Ui Ux дизайна на практике",
+        "description": "Изучение основ Figma / Создание проекта мобильного приложения",
+        "name-school": "Beonmax"
+      }
+    }
+  },
+  {
+    "certificate": {
+      "id": 7,
+      "thumbnail": "/images/certificate/thumb/go-It-full-stack.jpg",
+      "fullImage": "/images/certificate/full/go-It-full-stack.jpg",
+      "linkPDF": "/images/certificate/pdf/go-It-full-stack.pdf",
+      "startDate": "11.05.2022",
+      "finishtDate": "19.04.2023",
+      "EN": {
+        "name-certificate": "Fullstack developer",
+        "description": "Studying Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Courses | IT education online"
+      },
+      "PL": {
+        "name-certificate": "Fullstack developer",
+        "description": "Nauka Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Kursy | IT edukacja online"
+      },
+      "UK": {
+        "name-certificate": "Fullstack розробник",
+        "description": "Вивчення Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Курси | IT освіта онлайн"
+      },
+      "RU": {
+        "name-certificate": "Fullstack разработчик",
+        "description": "Изучение Html, Css, JavaScript, Reactjs, React Native, Nodejs",
+        "name-school": "GoIT | IT Курсы | IT образование онлайн"
+      }
+    }
+  },
+  {
+    "certificate": {
+      "id": 8,
+      "thumbnail": "/images/certificate/thumb/сourse_certificate_google_analytics.jpg",
+      "fullImage": "/images/certificate/full/сourse_certificate_google_analytics.jpg",
+      "linkPDF": "/images/certificate/pdf/сourse_certificate_google_analytics.pdf",
+      "startDate": "01.02.2024",
+      "finishtDate": "03.02.2024",
+      "EN": {
+        "name-certificate": "Google Analytics for Beginners",
+        "description": "Learning Google analytical tools and applying the acquired knowledge in practice",
+        "name-school": "Google Analytics Academy"
+      },
+      "PL": {
+        "name-certificate": "Google Analytics dla początkujących",
+        "description": "Nauka narzędzi analitycznych Google i zastosowanie zdobytej wiedzy w praktyce",
+        "name-school": "Google Analytics Academy"
+      },
+      "UK": {
+        "name-certificate": "Google Analytics для початківців",
+        "description": "Вивчення аналітичних інструментів Google та застосування отриманих знань на практиці",
+        "name-school": "Google Analytics Academy"
+      },
+      "RU": {
+        "name-certificate": "Google Аналитика для начинающих",
+        "description": "Изучение аналитических инструментов  Google и применение полученные знаний на практике",
+        "name-school": "Google Analytics Academy"
       }
     }
   }

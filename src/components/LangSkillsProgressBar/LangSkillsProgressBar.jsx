@@ -38,7 +38,7 @@ export default function ProgressLangSkills() {
   return (
     <AnimateElements>
       <ul className="grid grid-cols lg:grid-cols-2 gap-4" ref={ref}>
-        <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
+        <li className="relative z-10 h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
           <div className="absolute left-0 top-0 h-8 bg-sky-600 rounded-lg" style={{ width: `${currentValues[0]}%` }}>
             <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.english')}</div>
@@ -47,7 +47,7 @@ export default function ProgressLangSkills() {
             </div>
           </div>
         </li>
-        <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
+        <li className="relative z-10 h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
           <div className="absolute left-0 top-0 h-8 bg-sky-600 rounded-lg" style={{ width: `${currentValues[1]}%` }}>
             <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.polish')}</div>
@@ -56,7 +56,7 @@ export default function ProgressLangSkills() {
             </div>
           </div>
         </li>
-        <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
+        <li className="relative z-10 h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
           <div className=" absolute left-0 top-0 h-8 bg-sky-600 rounded-lg" style={{ width: `${currentValues[2]}%` }}>
             <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.ukrainian')}</div>
@@ -65,7 +65,7 @@ export default function ProgressLangSkills() {
             </div>
           </div>
         </li>
-        <li className="relative h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
+        <li className="relative z-10 h-8 bg-gray-200 w-full rounded-lg px-5 opacity-0 init-animate-1">
           <div className=" absolute left-0 top-0 h-8 bg-sky-600 rounded-lg" style={{ width: `${currentValues[3]}%` }}>
             <div className="absolute w-full top-0 bottom-0 flex justify-between items-center gap-4 px-5 text-white font-medium">
               <div className="hidden sm:block">{t('language-skills.russian')}</div>

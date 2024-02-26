@@ -69,7 +69,7 @@ export default function BriefForm() {
   return (
     <>
       <AnimateElements>
-        <div className="mb-8 opacity-0 init-animate-1">
+        <div className="relative z-10 mb-8 p-8 bg-white/80 dark:bg-neutral-800/80 opacity-0 init-animate-1">
           <div className="border-l-2 border-sky-600sky-600 pl-2">
             <p className="italic mb-5 text-black dark:text-white">{t('brief-page.text-information-1')}</p>
             <div>
@@ -78,7 +78,7 @@ export default function BriefForm() {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-10/12 mx-auto  opacity-0 init-animate-1">
+        <div className="relative z-10 w-full lg:w-10/12 mx-auto p-8 bg-white/80 dark:bg-neutral-800/80 opacity-0 init-animate-1">
           <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
             {({ errors, touched, isSubmitting }) => (
               <Form>

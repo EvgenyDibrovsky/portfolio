@@ -19,10 +19,10 @@ export default function TechSkills({ skill }) {
 
   return (
     <li
-      className="w-full sm:w-10/12 md:w-9/12 lg:w-full xxl:w-10/12 2xl:w-7/12 h-auto mx-auto flex flex-col items-center justify-center duration-300 hover:scale-110 opacity-0 init-animate-1"
+      className="relative z-10 bg-white dark:bg-neutral-800 rounded-full w-full sm:w-10/12 md:w-9/12 lg:w-full xxl:w-10/12 2xl:w-7/12 h-auto mx-auto flex flex-col items-center justify-center duration-300 hover:scale-110 opacity-0 init-animate-1"
       ref={ref}
     >
-      <div className="relative w-full h-full flex items-center justify-center">
+      <div className="relative z-10 w-full h-full flex items-center justify-center">
         <CircularProgressbar
           value={progressValue}
           styles={buildStyles({

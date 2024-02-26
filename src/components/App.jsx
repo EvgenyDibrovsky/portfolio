@@ -7,7 +7,7 @@ import { isCookieAccepted } from './Cookies/Cookies'; // Замените на �
 import ScrollToTop from './ScrollToTop/ScrollToTop';
 import AppRoutes from '../components/AppRoutes/AppRoutes';
 import Telegram from './Messenger/Telegram';
-
+import BgAnimation from './BgAnimation/BgAnimation';
 // eslint-disable-next-line react/prop-types
 export const App = () => {
   const [loading, setLoading] = useState(true);
@@ -49,7 +49,7 @@ export const App = () => {
   }
 
   return (
-    <div className={`${loading ? '' : 'lg:bg-body-white lg:dark:bg-body-dark'} min-h-screen font-Poppins bg-bgSection dark:bg-bgSectionDark bg-cover bg-center bg-no-repeat`}>
+    <div className={`${loading ? '' : 'lg:bg-white lg:dark:bg-neutral-800'} min-h-screen font-Poppins bg-bgSection dark:bg-bgSectionDark bg-cover bg-center bg-no-repeat`}>
       <HelmetProvider>
         <Router basename={process.env.PUBLIC_URL}>
           {/* <Router> */}
@@ -59,6 +59,7 @@ export const App = () => {
             <Header theme={theme} toggleTheme={toggleTheme} />
             <AppRoutes />
           </div>
+          <BgAnimation />
         </Router>
       </HelmetProvider>
     </div>

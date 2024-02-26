@@ -12,20 +12,21 @@ export default function PortfolioList({ currentFilter }) {
   const { t } = useTranslation();
   const currentLanguage = useCurrentLanguage();
 
-  const data = dbPortfolio.map(item => {
-    const languageSpecificData = item.portfolio[currentLanguage];
-    return {
-      ...languageSpecificData,
-      id: item.portfolio.id,
-      image: item.portfolio.image,
-      image_webp: item.portfolio.image_webp,
-      link: item.portfolio.link,
-      technologies: item.portfolio.technologies,
-      type: item.portfolio.type,
-    };
-  });
+  const data = dbPortfolio
+    .map(item => {
+      const languageSpecificData = item.portfolio[currentLanguage];
+      return {
+        ...languageSpecificData,
+        id: item.portfolio.id,
+        image: item.portfolio.image,
+        image_webp: item.portfolio.image_webp,
+        link: item.portfolio.link,
+        technologies: item.portfolio.technologies,
+        type: item.portfolio.type,
+      };
+    })
+    .reverse();
 
-  data.sort((a, b) => a.id - b.id);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalData, setModalData] = useState({});
 

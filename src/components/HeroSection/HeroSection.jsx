@@ -7,7 +7,7 @@ export default function HeroSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col xl:flex-row  mb-8 pt-20 md:pt-0 bg-bgHeroSection dark:bg-bgHeroSectionDark">
+    <div className="relative z-10  flex flex-col xl:flex-row  mb-8 pt-20 md:pt-0 bg-bgHeroSection dark:bg-bgHeroSectionDark">
       <div className="relative xl:w-6/12 w-full h-auto bg-hero-pattern bg-cover bg-center py-20 flex justify-center items-center ">
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
         <AnimateElements>

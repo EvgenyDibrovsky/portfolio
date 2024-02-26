@@ -12,7 +12,7 @@ export default function CertificatesListItem({ item }) {
   const handleCloseModal = () => setIsModalOpen(false);
 
   return (
-    <li className="flex flex-col xl:flex-row h-full shadow-lg rounded-md overflow-hidden group opacity-0 init-animate-1">
+    <li className="relative z-10 flex flex-col xl:flex-row h-full shadow-lg rounded-md overflow-hidden group opacity-0 init-animate-1">
       <img
         src={process.env.PUBLIC_URL + item.thumbnail}
         alt={item['name-certificate']}
