@@ -24,7 +24,6 @@ export default function PortfolioPage() {
         <SubTitle subTitle={t('portfolio-page.sub-title')} />
       </WrapperTitle>
       <PortfolioFilter onFilterChange={handleFilterChange} />
-
       <PortfolioList currentFilter={currentFilter} />
     </>
   );
