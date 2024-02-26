@@ -173,7 +173,7 @@ export default function ContactForm() {
 
                 <button type="submit" className="btn-contact-form group" title={t('contact-form.send')}>
                   {t('contact-form.send')}
-                  <IoIosArrowForward className="duration-200 group-hover:translate-x-2" />
+                  <IoIosArrowForward className="text-sky-600 dark:text-white duration-200 group-hover:translate-x-2" />
                 </button>
               </Form>
             )}

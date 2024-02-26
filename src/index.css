@@ -45,7 +45,7 @@
     @apply flex items-center justify-center gap-5 h-12 w-full py-1 px-5  sm:max-w-[15rem] sm:mx-auto transition-all duration-200 border bg-transparent  border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg rounded-md;
   }
   .btn {
-    @apply inline-flex justify-center items-center w-full sm:max-w-[16rem] px-5 py-2 transition-all duration-200 border border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg rounded-md bg-transparent  hover:bg-sky-600 hover:text-white hover:dark:text-black;
+    @apply relative z-10 inline-flex justify-center items-center w-full sm:max-w-[16rem] px-5 py-2 transition-all duration-200 border border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg rounded-md bg-white dark:bg-neutral-800   hover:bg-sky-600 dark:hover:bg-sky-600 hover:text-white;
   }
   .btn-hero {
     @apply flex justify-center items-center w-full gap-4 px-5 py-2 transition-all duration-200 border border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg rounded-md bg-transparent  hover:bg-sky-600 hover:text-white hover:dark:text-white;

@@ -89,9 +89,9 @@ export default function PortfolioList({ currentFilter }) {
               <source srcSet={process.env.PUBLIC_URL + modalData.image} type="image/jpg" />
               <img src={process.env.PUBLIC_URL + modalData.image} alt={modalData.name} className="mx-auto w-full h-auto" width="800" height="600" />
             </picture>
-            <div className="flex flex-col px-5 py-10">
+            <div className="flex flex-col px-5 py-10 bg-white dark:bg-neutral-800">
               <h1 className="text-xl font-semibold text-black dark:text-white mb-4">{modalData.name}</h1>
-              <div className="border-b py-3 xxl:py-4">
+              <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
                 <div className="flex items-center gap-4">
                   <div>
                     <BsCardText className="w-6 h-6 text-sky-600 text-[1.25rem]" />
@@ -102,7 +102,7 @@ export default function PortfolioList({ currentFilter }) {
                   </p>
                 </div>
               </div>
-              <div className="border-b py-3 xxl:py-4">
+              <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
                 <div className="flex items-center gap-4">
                   <div>
                     <BsCodeSlash className="w-6 h-6 text-sky-600 text-[1.25rem]" />
@@ -113,7 +113,7 @@ export default function PortfolioList({ currentFilter }) {
                   </p>
                 </div>
               </div>
-              <div className="border-b py-3 xxl:py-4">
+              <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
                 <div className="flex items-center gap-4">
                   <div>
                     <BsColumnsGap className="w-6 h-6 text-sky-600 text-[1.25rem]" />

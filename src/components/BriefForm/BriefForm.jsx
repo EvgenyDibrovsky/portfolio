@@ -348,7 +348,7 @@ export default function BriefForm() {
 
                 <button className="btn-contact-form group" type="submit" disabled={isSubmitting} title={t('brief-form.submit-brief')}>
                   {t('brief-form.submit-brief')}
-                  <IoIosArrowForward className="duration-200 group-hover:translate-x-2" />
+                  <IoIosArrowForward className="text-sky-600 dark:text-white duration-200 group-hover:translate-x-2" />
                 </button>
               </Form>
             )}
