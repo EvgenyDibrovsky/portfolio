@@ -84,54 +84,54 @@ const PortfolioList = ({ currentFilter }) => {
           current={currentItemIndex + 1}
           total={filteredData.length}
         >
-          <div {...swipeHandlers} className="h-full max-h-[calc(100vh-8rem)] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-sky-600 scrollbar-track-gray-400">
+          <div {...swipeHandlers} className="h-[85dvh] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-sky-600 scrollbar-track-gray-400">
             <picture>
               <source srcSet={process.env.PUBLIC_URL + modalData.image_webp} type="image/webp" />
               <source srcSet={process.env.PUBLIC_URL + modalData.image} type="image/jpg" />
               <img src={process.env.PUBLIC_URL + modalData.image} alt={modalData.name} className="mx-auto w-full h-auto" width="800" height="600" />
             </picture>
-            <div className="flex flex-col px-8 py-10 bg-white dark:bg-neutral-800">
-              <h1 className="text-xl font-semibold text-black dark:text-white mb-4">{modalData.name}</h1>
+            <div className="flex flex-col px-8 py-6 bg-white dark:bg-neutral-800">
+              <h1 className="text-sm sm:text-xl font-semibold text-black dark:text-white mb-4">{modalData.name}</h1>
               <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
-                <div className="flex items-center gap-4">
+                <div className="flex flex-col sm:flex-row items-center gap-4">
                   <div>
-                    <BsCardText className="w-6 h-6 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
+                    <BsCardText className="w-5 h-5 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
                   </div>
-                  <p>
+                  <p className="text-sm sm:text-[1rem]">
                     <strong>{t('portfolio.project-description')}: </strong>
                     {modalData.description}
                   </p>
                 </div>
               </div>
               <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
-                <div className="flex items-center gap-4">
+                <div className="flex flex-col sm:flex-row items-center gap-4">
                   <div>
-                    <BsCodeSlash className="w-6 h-6 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
+                    <BsCodeSlash className="w-5 h-5 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
                   </div>
-                  <p>
+                  <p className="text-sm sm:text-[1rem]">
                     <strong>{t('portfolio.project-participation')}: </strong>
                     {modalData.participation}
                   </p>
                 </div>
               </div>
               <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
-                <div className="flex items-center gap-4">
+                <div className="flex flex-col sm:flex-row items-center gap-4">
                   <div>
-                    <BsColumnsGap className="w-6 h-6 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
+                    <BsColumnsGap className="w-5 h-5 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
                   </div>
-                  <p>
+                  <p className="text-sm sm:text-[1rem]">
                     <strong>{t('portfolio.project-technologies')}: </strong>
                     {modalData.technologies}
                   </p>
                 </div>
               </div>
-              <div className="flex items-center py-3 xxl:py-4 gap-4">
-                <BsGlobe className="w-6 h-6 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
+              <div className="flex flex-col sm:flex-row items-center py-3 xxl:py-4 gap-4">
+                <BsGlobe className="w-5 h-5 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
                 <a
                   href={modalData.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-textColor dark:text-white hover:underline hover:text-sky-600 text-[1rem] lg:text-[1.25rem]"
+                  className="text-textColor dark:text-white hover:underline hover:text-sky-600 text-sm sm:text-[1rem]"
                   aria-label={t('portfolio.project-link')}
                 >
                   {t('portfolio.project-link')}
@@ -141,6 +141,7 @@ const PortfolioList = ({ currentFilter }) => {
           </div>
         </PortfolioModal>
       )}
+
       <AnimateElements key={currentFilter}>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-6">
           {filteredData.map((itemData, index) => (
