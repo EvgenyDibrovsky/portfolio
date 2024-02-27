@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-export default function EducationListItem({ id, bgClass }) {
+const EducationListItem = ({ id, bgClass }) => {
   const { t } = useTranslation();
 
   return (
@@ -18,4 +18,5 @@ export default function EducationListItem({ id, bgClass }) {
       </div>
     </li>
   );
-}
+};
+export default EducationListItem;

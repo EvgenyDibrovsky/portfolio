@@ -1,14 +1,18 @@
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import AnimateElements from '../../components/Utility/AnimateElements';
-export default function PortfolioFilter({ onFilterChange }) {
-  const { t } = useTranslation();
-  const [activeFilter, setActiveFilter] = useState('all');
 
-  const handleFilterChange = filter => {
-    onFilterChange(filter);
-    setActiveFilter(filter);
-  };
+const PortfolioFilter = ({ onFilterChange }) => {
+  const [activeFilter, setActiveFilter] = useState('all');
+  const { t } = useTranslation();
+
+  const handleFilterChange = useCallback(
+    filter => {
+      setActiveFilter(filter);
+      onFilterChange(filter);
+    },
+    [onFilterChange]
+  );
 
   return (
     <AnimateElements>
@@ -31,4 +35,5 @@ export default function PortfolioFilter({ onFilterChange }) {
       </ul>
     </AnimateElements>
   );
-}
+};
+export default PortfolioFilter;

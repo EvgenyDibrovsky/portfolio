@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import MetaTags from 'components/MetaTags/MetaTags';
 import WrapperTitle from 'components/Utility/WrapperTitle';
 import { Trans } from 'react-i18next';
+import BgAnimation from 'components/BgAnimation/BgAnimation';
 
 export default function TermsUsePage() {
   const { t } = useTranslation();
@@ -52,6 +53,7 @@ export default function TermsUsePage() {
           </div>
         </div>
       </div>
+      <BgAnimation />
     </>
   );
 }

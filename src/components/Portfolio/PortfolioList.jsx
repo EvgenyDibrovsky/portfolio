@@ -1,41 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import dbPortfolio from '../../db/portfolio.json';
 import { useTranslation } from 'react-i18next';
 import PortfolioListItem from './PortfolioListItem';
-import Modal from '../Modal/Modal';
+import PortfolioModal from './PortfolioModal';
 import { BsCardText, BsCodeSlash, BsColumnsGap, BsGlobe } from 'react-icons/bs';
 import useCurrentLanguage from '../Hooks/useCurrentLanguage';
 import AnimateElements from '../../components/Utility/AnimateElements';
 import { useSwipeable } from 'react-swipeable';
 
-export default function PortfolioList({ currentFilter }) {
+const PortfolioList = ({ currentFilter }) => {
   const { t } = useTranslation();
   const currentLanguage = useCurrentLanguage();
 
-  const data = dbPortfolio
-    .map(item => {
-      const languageSpecificData = item.portfolio[currentLanguage];
-      return {
-        ...languageSpecificData,
-        id: item.portfolio.id,
-        image: item.portfolio.image,
-        image_webp: item.portfolio.image_webp,
-        link: item.portfolio.link,
-        technologies: item.portfolio.technologies,
-        type: item.portfolio.type,
-      };
-    })
-    .reverse();
-
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalData, setModalData] = useState({});
+  const [currentItemIndex, setCurrentItemIndex] = useState(null);
 
   const handleOpenModal = (itemData, index) => {
     setModalData(itemData);
     setCurrentItemIndex(index);
     setIsModalOpen(true);
   };
-  const [currentItemIndex, setCurrentItemIndex] = useState(null);
 
   const handleNextItem = () => {
     const nextIndex = currentItemIndex + 1;
@@ -43,6 +28,7 @@ export default function PortfolioList({ currentFilter }) {
       handleOpenModal(filteredData[nextIndex], nextIndex);
     }
   };
+
   const handlePrevItem = () => {
     const prevIndex = currentItemIndex - 1;
     if (prevIndex >= 0) {
@@ -62,19 +48,34 @@ export default function PortfolioList({ currentFilter }) {
     trackMouse: false,
   });
 
-  if (data.length === 0) {
-    return <p className="text-[2rem] text-black dark:text-white text-center">{t('nothing-found')}</p>;
-  }
+  const filteredData = useMemo(() => {
+    const languageFilteredData = dbPortfolio.map(item => {
+      const languageSpecificData = item.portfolio[currentLanguage];
+      return {
+        ...languageSpecificData,
+        id: item.portfolio.id,
+        image: item.portfolio.image,
+        image_webp: item.portfolio.image_webp,
+        link: item.portfolio.link,
+        technologies: item.portfolio.technologies,
+        type: item.portfolio.type,
+      };
+    });
 
-  let filteredData = data;
-  if (currentFilter !== 'all') {
-    filteredData = data.filter(item => item.type === currentFilter);
+    if (currentFilter === 'all') {
+      return languageFilteredData.reverse();
+    }
+    return languageFilteredData.filter(item => item.type === currentFilter).reverse();
+  }, [currentLanguage, currentFilter]);
+
+  if (filteredData.length === 0) {
+    return <p className="text-[2rem] text-black dark:text-white text-center">{t('nothing-found')}</p>;
   }
 
   return (
     <>
       {isModalOpen && (
-        <Modal
+        <PortfolioModal
           closeModal={handleCloseModal}
           width="w-11/12 lg:w-8/12 xl:w-6/12"
           showChevrons={true}
@@ -83,18 +84,18 @@ export default function PortfolioList({ currentFilter }) {
           current={currentItemIndex + 1}
           total={filteredData.length}
         >
-          <div {...swipeHandlers} className="h-full max-h-[calc(100vh-8rem)]  overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-sky-600 scrollbar-track-gray-400">
+          <div {...swipeHandlers} className="h-full max-h-[calc(100vh-8rem)] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-sky-600 scrollbar-track-gray-400">
             <picture>
               <source srcSet={process.env.PUBLIC_URL + modalData.image_webp} type="image/webp" />
               <source srcSet={process.env.PUBLIC_URL + modalData.image} type="image/jpg" />
               <img src={process.env.PUBLIC_URL + modalData.image} alt={modalData.name} className="mx-auto w-full h-auto" width="800" height="600" />
             </picture>
-            <div className="flex flex-col px-5 py-10 bg-white dark:bg-neutral-800">
+            <div className="flex flex-col px-8 py-10 bg-white dark:bg-neutral-800">
               <h1 className="text-xl font-semibold text-black dark:text-white mb-4">{modalData.name}</h1>
               <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
                 <div className="flex items-center gap-4">
                   <div>
-                    <BsCardText className="w-6 h-6 text-sky-600 text-[1.25rem]" />
+                    <BsCardText className="w-6 h-6 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
                   </div>
                   <p>
                     <strong>{t('portfolio.project-description')}: </strong>
@@ -105,7 +106,7 @@ export default function PortfolioList({ currentFilter }) {
               <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
                 <div className="flex items-center gap-4">
                   <div>
-                    <BsCodeSlash className="w-6 h-6 text-sky-600 text-[1.25rem]" />
+                    <BsCodeSlash className="w-6 h-6 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
                   </div>
                   <p>
                     <strong>{t('portfolio.project-participation')}: </strong>
@@ -116,7 +117,7 @@ export default function PortfolioList({ currentFilter }) {
               <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
                 <div className="flex items-center gap-4">
                   <div>
-                    <BsColumnsGap className="w-6 h-6 text-sky-600 text-[1.25rem]" />
+                    <BsColumnsGap className="w-6 h-6 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
                   </div>
                   <p>
                     <strong>{t('portfolio.project-technologies')}: </strong>
@@ -124,14 +125,13 @@ export default function PortfolioList({ currentFilter }) {
                   </p>
                 </div>
               </div>
-
               <div className="flex items-center py-3 xxl:py-4 gap-4">
-                <BsGlobe className="w-6 h-6 text-sky-600 text-[1.25rem]" />
+                <BsGlobe className="w-6 h-6 text-sky-600 dark:text-sky-500 text-[1.25rem]" />
                 <a
                   href={modalData.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-textColor dark:text-white hover:underline hover:text-sky-600 text-[1rem] lg:text-[1.25rem] "
+                  className="text-textColor dark:text-white hover:underline hover:text-sky-600 text-[1rem] lg:text-[1.25rem]"
                   aria-label={t('portfolio.project-link')}
                 >
                   {t('portfolio.project-link')}
@@ -139,10 +139,10 @@ export default function PortfolioList({ currentFilter }) {
               </div>
             </div>
           </div>
-        </Modal>
+        </PortfolioModal>
       )}
       <AnimateElements key={currentFilter}>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-6 ">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-6">
           {filteredData.map((itemData, index) => (
             <PortfolioListItem key={itemData.id} {...itemData} onCardClick={() => handleOpenModal(itemData, index)} />
           ))}
@@ -150,4 +150,6 @@ export default function PortfolioList({ currentFilter }) {
       </AnimateElements>
     </>
   );
-}
+};
+
+export default PortfolioList;

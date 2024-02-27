@@ -11,7 +11,7 @@ import { useState, useEffect, useRef } from 'react';
 import { BsCode, BsCodeSlash } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
-export default function Header({ theme, toggleTheme }) {
+const Header = ({ theme, toggleTheme }) => {
   const { t } = useTranslation();
 
   const [isOpen, setIsOpen] = useState(false);
@@ -70,4 +70,5 @@ export default function Header({ theme, toggleTheme }) {
       </div>
     </header>
   );
-}
+};
+export default Header;

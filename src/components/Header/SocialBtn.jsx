@@ -1,7 +1,7 @@
 import { BsGithub, BsTelegram, BsFacebook, BsLinkedin } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
-export default function SocialBtn() {
+const SocialBtn = () => {
   const { t } = useTranslation();
 
   return (
@@ -30,4 +30,5 @@ export default function SocialBtn() {
       </ul>
     </>
   );
-}
+};
+export default SocialBtn;

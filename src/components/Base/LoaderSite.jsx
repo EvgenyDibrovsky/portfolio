@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Loading() {
+const Loading = () => {
   return (
     <div className="fixed top-0 left-0 w-full h-full z-50 bg-bgSection dark:bg-bgSectionDark">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  bg-inherit text-inherit opacity-100 transition-opacity duration-200 transform">
@@ -10,4 +10,5 @@ export default function Loading() {
       </div>
     </div>
   );
-}
+};
+export default Loading;

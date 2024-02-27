@@ -2,13 +2,13 @@ import { useTranslation } from 'react-i18next';
 import { BsPhone, BsEnvelope, BsPinMap } from 'react-icons/bs';
 import AnimateElements from '../../components/Utility/AnimateElements';
 
-export default function ContactDetails() {
+const ContactDetails = () => {
   const { t } = useTranslation();
   return (
     <AnimateElements>
       <ul className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
         <li className="relative z-10 flex justify-start xl:justify-center items-center gap-5 lg:flex-col xl:flex-row bg-white dark:bg-neutral-900 shadow-lg px-10 py-6 lg:py-10 opacity-0 init-animate-1">
-          <BsPhone className="w-8 h-8 text-sky-600" />
+          <BsPhone className="w-8 h-8 text-sky-600 dark:text-sky-500" />
           <a
             className="text-[1rem] lg:text-[1.25rem] font-semibold text-center text-textColor dark:text-white transition-all duration-200 hover:underline"
             href={`tel:${t('contact-dedails.phone-number')}`}
@@ -17,16 +17,17 @@ export default function ContactDetails() {
           </a>
         </li>
         <li className="relative z-10 flex justify-start xl:justify-center items-center gap-5 lg:flex-col xl:flex-row bg-white dark:bg-neutral-900  shadow-lg px-10 py-6 lg:py-10 opacity-0 init-animate-1">
-          <BsEnvelope className="w-8 h-8 text-sky-600" />
+          <BsEnvelope className="w-8 h-8 text-sky-600 dark:text-sky-500" />
           <a className="text-[1rem] lg:text-[1.25rem] font-semibold text-center text-textColor dark:text-white duration-200 hover:underline" href={`mailto:${t('contact-dedails.email-address')}`}>
             {t('contact-dedails.email-address')}
           </a>
         </li>
         <li className="relative z-10 flex justify-start xl:justify-center items-center gap-5 lg:flex-col xl:flex-row bg-white dark:bg-neutral-900  shadow-lg px-10 py-6 lg:py-10 opacity-0 init-animate-1">
-          <BsPinMap className="w-8 h-8 text-sky-600" />
+          <BsPinMap className="w-8 h-8 text-sky-600 dark:text-sky-500" />
           <p className="text-[1rem] lg:text-[1.25rem] font-semibold text-center text-textColor dark:text-white">{t('contact-dedails.localization')}</p>
         </li>
       </ul>
     </AnimateElements>
   );
-}
+};
+export default ContactDetails;

@@ -1,4 +1,4 @@
-export default function ExperienceListItem({ data }) {
+const ExperienceListItem = ({ data }) => {
   return (
     <li className="relative w-full flex justify-between h-full p-5 shadow-sm shadow-black dark:shadow-white rounded-md opacity-0 init-animate-1">
       <div></div>
@@ -13,4 +13,5 @@ export default function ExperienceListItem({ data }) {
       </div>
     </li>
   );
-}
+};
+export default ExperienceListItem;

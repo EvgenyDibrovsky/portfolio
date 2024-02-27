@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { BsCodeSlash, BsBrush, BsGlobeEuropeAfrica, BsRocketTakeoff, BsPeople, BsShieldCheck } from 'react-icons/bs';
 import AnimateElements from '../Utility/AnimateElements';
+import BgAnimation from '../BgAnimation/BgAnimation';
 
-export default function Possibilities() {
+const Possibilities = () => {
   const { t } = useTranslation();
 
   return (
@@ -11,7 +12,7 @@ export default function Possibilities() {
         <ul className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-6">
           <li className="relative z-10 flex flex-col lg:flex-row gap-4 opacity-0 init-animate-1">
             <div className="flex items-center gap-5 lg:gap-0 w-full lg:w-10 lg:h-10 mx-auto lg:mx-0">
-              <BsCodeSlash className="w-auto sm:w-10 h-10 text-sky-600" />
+              <BsCodeSlash className="w-auto sm:w-10 h-10 text-sky-600 dark:text-sky-500" />
               <h3 className="lg:hidden text-[1rem] lg:text-[1.25rem] font-semibold text-textColor dark:text-white">{t('possibilities.web-development')}</h3>
             </div>
             <div>
@@ -22,7 +23,7 @@ export default function Possibilities() {
 
           <li className="relative z-10 flex flex-col lg:flex-row gap-4 opacity-0 init-animate-1">
             <div className="flex items-center gap-5 lg:gap-0 w-full lg:w-10 lg:h-10 mx-auto lg:mx-0">
-              <BsBrush className="w-auto sm:w-10 h-10 text-sky-600" />
+              <BsBrush className="w-auto sm:w-10 h-10 text-sky-600 dark:text-sky-500" />
               <h3 className="lg:hidden text-[1rem] lg:text-[1.25rem] font-semibold text-textColor dark:text-white">{t('possibilities.web-design')}</h3>
             </div>
             <div>
@@ -33,7 +34,7 @@ export default function Possibilities() {
 
           <li className="relative z-10 flex flex-col lg:flex-row gap-4 opacity-0 init-animate-1">
             <div className="flex items-center gap-5 lg:gap-0 w-full lg:w-10 lg:h-10 mx-auto lg:mx-0">
-              <BsGlobeEuropeAfrica className="w-auto sm:w-10 h-10 text-sky-600" />
+              <BsGlobeEuropeAfrica className="w-auto sm:w-10 h-10 text-sky-600 dark:text-sky-500" />
               <h3 className="lg:hidden text-[1rem] lg:text-[1.25rem] font-semibold text-textColor dark:text-white">{t('possibilities.e-marketing')}</h3>
             </div>
             <div>
@@ -44,7 +45,7 @@ export default function Possibilities() {
 
           <li className="relative z-10 flex flex-col lg:flex-row gap-4 opacity-0 init-animate-1">
             <div className="flex items-center gap-5 lg:gap-0 w-full lg:w-10 lg:h-10 mx-auto lg:mx-0">
-              <BsRocketTakeoff className="w-auto sm:w-10 h-10 text-sky-600" />
+              <BsRocketTakeoff className="w-auto sm:w-10 h-10 text-sky-600 dark:text-sky-500" />
               <h3 className="lg:hidden text-[1rem] lg:text-[1.25rem] font-semibold text-textColor dark:text-white">{t('possibilities.seo')}</h3>
             </div>
             <div>
@@ -55,7 +56,7 @@ export default function Possibilities() {
 
           <li className="relative z-10 flex flex-col lg:flex-row gap-4 opacity-0 init-animate-1">
             <div className="flex items-center gap-5 lg:gap-0 w-full lg:w-10 lg:h-10 mx-auto lg:mx-0">
-              <BsPeople className="w-auto sm:w-10 h-10 text-sky-600" />
+              <BsPeople className="w-auto sm:w-10 h-10 text-sky-600 dark:text-sky-500" />
               <h3 className="lg:hidden text-[1rem] lg:text-[1.25rem] font-semibold text-textColor dark:text-white">{t('possibilities.site-availability')}</h3>
             </div>
             <div>
@@ -66,7 +67,7 @@ export default function Possibilities() {
 
           <li className="relative z-10 flex flex-col lg:flex-row gap-4 opacity-0 init-animate-1">
             <div className="flex items-center gap-5 lg:gap-0 w-full lg:w-10 lg:h-10 mx-auto lg:mx-0">
-              <BsShieldCheck className="w-auto sm:w-10 h-10 text-sky-600" />
+              <BsShieldCheck className="w-auto sm:w-10 h-10 text-sky-600 dark:text-sky-500" />
               <h3 className="lg:hidden text-[1rem] lg:text-[1.25rem] font-semibold text-textColor dark:text-white">{t('possibilities.technical-support')}</h3>
             </div>
             <div>
@@ -75,7 +76,9 @@ export default function Possibilities() {
             </div>
           </li>
         </ul>
+        <BgAnimation />
       </AnimateElements>
     </>
   );
-}
+};
+export default Possibilities;

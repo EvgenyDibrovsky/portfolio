@@ -18,7 +18,7 @@
 import NavHeaderItem from './NavHeaderItem'; // Путь к файлу NavHeaderItem.jsx
 import { useTranslation } from 'react-i18next';
 
-export default function NavHeader({ closeHeader }) {
+const NavHeader = ({ closeHeader }) => {
   const { t } = useTranslation();
 
   return (
@@ -45,4 +45,5 @@ export default function NavHeader({ closeHeader }) {
       </ul>
     </nav>
   );
-}
+};
+export default NavHeader;

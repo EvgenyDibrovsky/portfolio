@@ -1,7 +1,7 @@
 import Foto from '../../images/photo.png';
 import { Link } from 'react-router-dom';
 
-export default function foto({ closeHeader }) {
+const foto = ({ closeHeader }) => {
   return (
     <Link to="/">
       <div className="w-24 h-24 flex items-center justify-center rounded-full bg-white dark:bg-bgSectionDark p-2">
@@ -9,4 +9,5 @@ export default function foto({ closeHeader }) {
       </div>
     </Link>
   );
-}
+};
+export default foto;

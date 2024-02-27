@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function PageTitle({ icon, title }) {
+const PageTitle = ({ icon, title }) => {
   const IconComponent = icon
     ? React.cloneElement(icon, {
         className: 'text-iconColor dark:text-iconColorDark w-6 h-6',
@@ -13,4 +13,5 @@ export default function PageTitle({ icon, title }) {
       <h1 className="text-[1.5rem] font-semibold text-black dark:text-white">{title}</h1>
     </div>
   );
-}
+};
+export default PageTitle;

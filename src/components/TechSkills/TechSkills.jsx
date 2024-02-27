@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { useInView } from 'react-intersection-observer';
-export default function TechSkills({ skill }) {
+
+const TechSkills = ({ skill }) => {
   const [progressValue, setProgressValue] = useState(0);
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -39,4 +40,5 @@ export default function TechSkills({ skill }) {
       </div>
     </li>
   );
-}
+};
+export default TechSkills;

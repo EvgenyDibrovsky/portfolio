@@ -7,7 +7,7 @@ import axios from 'axios';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import { IoIosArrowForward } from 'react-icons/io';
 
-export default function ContactForm() {
+const ContactForm = () => {
   const { t } = useTranslation();
   const { executeRecaptcha } = useGoogleReCaptcha();
   const [statusMessage, setStatusMessage] = useState(null);
@@ -182,4 +182,5 @@ export default function ContactForm() {
       </AnimateElements>
     </>
   );
-}
+};
+export default ContactForm;

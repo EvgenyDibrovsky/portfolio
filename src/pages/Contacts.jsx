@@ -7,6 +7,8 @@ import MetaTags from 'components/MetaTags/MetaTags';
 import ContactDetails from 'components/ContactDetails/ContactDetails';
 import WrapperTitle from 'components/Utility/WrapperTitle';
 import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
+import BgAnimation from 'components/BgAnimation/BgAnimation';
+
 const RECAPTCHA_KEY = process.env.REACT_APP_RECAPTCHA_KEY;
 
 export default function ContactPage() {
@@ -23,6 +25,7 @@ export default function ContactPage() {
       <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_KEY}>
         <ContactForm />
       </GoogleReCaptchaProvider>
+      <BgAnimation />
     </>
   );
 }

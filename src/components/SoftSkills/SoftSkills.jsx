@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { BsCheck2Circle } from 'react-icons/bs';
 import AnimateElements from '../../components/Utility/AnimateElements';
 
-export default function SoftSkills() {
+const SoftSkills = () => {
   const { t } = useTranslation();
   return (
     <AnimateElements>
@@ -34,4 +34,5 @@ export default function SoftSkills() {
       </ul>
     </AnimateElements>
   );
-}
+};
+export default SoftSkills;

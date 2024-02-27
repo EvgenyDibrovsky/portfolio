@@ -2,7 +2,7 @@
 import { BsSun, BsMoon } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
-export default function ToggleTheme({ theme, toggleTheme }) {
+const ToggleTheme = ({ theme, toggleTheme }) => {
   const { t } = useTranslation();
 
   return (
@@ -10,4 +10,5 @@ export default function ToggleTheme({ theme, toggleTheme }) {
       {theme === 'light' ? <BsSun className="duration-1000 hover:rotate-[10deg]" /> : <BsMoon className="duration-1000 hover:rotate-[10deg]" />}
     </button>
   );
-}
+};
+export default ToggleTheme;

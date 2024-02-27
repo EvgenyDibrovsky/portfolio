@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-export default function NavHeaderItem({ to, labelKey, closeHeader }) {
+const NavHeaderItem = ({ to, labelKey, closeHeader }) => {
   const { t } = useTranslation();
 
   return (
@@ -13,4 +13,5 @@ export default function NavHeaderItem({ to, labelKey, closeHeader }) {
       {t(labelKey)}
     </NavLink>
   );
-}
+};
+export default NavHeaderItem;

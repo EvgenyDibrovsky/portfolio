@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-export default function Reserved({ closeHeader }) {
+const Reserved = ({ closeHeader }) => {
   const { t } = useTranslation();
   return (
     <div>
@@ -13,4 +13,5 @@ export default function Reserved({ closeHeader }) {
       <p className="text-xs text-center text-black dark:text-textColorDark">{t('footer.rights-reserved')}</p>
     </div>
   );
-}
+};
+export default Reserved;

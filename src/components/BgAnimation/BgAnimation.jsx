@@ -43,10 +43,10 @@ const BgAnimation = () => {
 
     particles: {
       color: {
-        value: '#005e8d',
+        value: '#a2a2a2',
       },
       links: {
-        color: '#0284c7',
+        color: '#a2a2a2',
         distance: 150,
         enable: true,
         opacity: 0.5,

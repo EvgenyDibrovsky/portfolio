@@ -7,7 +7,7 @@ import i18n from 'i18next';
 const MODAL_TIMEOUT = 1500;
 const MOBILE_MAX_WIDTH = 768;
 
-export default function Cookies({ children }) {
+const Cookies = ({ children }) => {
   const [cookies, setCookie, removeCookie] = useCookies(['settings']);
   const { settings } = cookies;
 
@@ -83,12 +83,13 @@ export default function Cookies({ children }) {
   );
   return (
     <>
-      {showModal && ReactDOM.createPortal(modalContent, document.getElementById('modal-root'))}
+      {showModal && ReactDOM.createPortal(modalContent, document.getElementById('modal-cookies'))}
       {children}
     </>
   );
-}
+};
 
 export const isCookieAccepted = () => {
   return document.cookie.includes('settings=cookie');
 };
+export default Cookies;

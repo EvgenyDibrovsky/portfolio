@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { BsEmojiFrown } from 'react-icons/bs';
 import MetaTags from 'components/MetaTags/MetaTags';
 import { Link } from 'react-router-dom';
+import BgAnimation from 'components/BgAnimation/BgAnimation';
 
 export default function ErrorPage() {
   const { t } = useTranslation();
@@ -20,6 +21,7 @@ export default function ErrorPage() {
         <Link to="/contact" className="btn">
           {t('btn.write-message')}
         </Link>
+        <BgAnimation />
       </div>
     </>
   );

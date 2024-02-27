@@ -7,7 +7,6 @@ import { isCookieAccepted } from './Cookies/Cookies'; // Замените на �
 import ScrollToTop from './ScrollToTop/ScrollToTop';
 import AppRoutes from '../components/AppRoutes/AppRoutes';
 import Telegram from './Messenger/Telegram';
-import BgAnimation from './BgAnimation/BgAnimation';
 // eslint-disable-next-line react/prop-types
 export const App = () => {
   const [loading, setLoading] = useState(true);
@@ -59,7 +58,6 @@ export const App = () => {
             <Header theme={theme} toggleTheme={toggleTheme} />
             <AppRoutes />
           </div>
-          <BgAnimation />
         </Router>
       </HelmetProvider>
     </div>

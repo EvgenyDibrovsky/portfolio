@@ -7,7 +7,7 @@ import axios from 'axios';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import { IoIosArrowForward } from 'react-icons/io';
 
-export default function BriefForm() {
+const BriefForm = () => {
   const { t } = useTranslation();
   const { executeRecaptcha } = useGoogleReCaptcha();
   const [statusMessage, setStatusMessage] = useState(null);
@@ -357,4 +357,5 @@ export default function BriefForm() {
       </AnimateElements>
     </>
   );
-}
+};
+export default BriefForm;

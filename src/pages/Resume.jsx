@@ -24,7 +24,7 @@ export default function ResumePage() {
       <div className="flex items-center gap-4 justify-end mt-5 group">
         <a
           href="/images/resume/yevhen-dibrovsky-resume.pdf"
-          className="text-sky-600 hover:underline  dark:text-sky-400 text-[1.2rem] flex items-center gap-4"
+          className="text-sky-600 hover:underline  dark:text-sky-500 text-[1.2rem] flex items-center gap-4"
           aria-label={t('btn.download-resume')}
           download
         >

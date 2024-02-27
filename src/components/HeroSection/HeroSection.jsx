@@ -3,7 +3,7 @@ import AnimateElements from '../Utility/AnimateElements';
 import { Link } from 'react-router-dom';
 import { BsPencilSquare } from 'react-icons/bs';
 
-export default function HeroSection() {
+const HeroSection = () => {
   const { t } = useTranslation();
 
   return (
@@ -11,7 +11,7 @@ export default function HeroSection() {
       <div className="relative xl:w-6/12 w-full h-auto bg-hero-pattern bg-cover bg-center py-20 flex justify-center items-center ">
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
         <AnimateElements>
-          <ul className="text-white md:text-[1.25rem] xl:text-[1.5rem] flex flex-col gap-5 list-[disc] marker:text-sky-600">
+          <ul className="text-white md:text-[1.25rem] xl:text-[1.5rem] flex flex-col gap-5 list-[disc] marker:text-sky-600 dark:marker:text-sky-500">
             <li className="z-10 opacity-0 init-animate-5" data-time="0.4s" data-delay="0.2s">
               {t('main-services.service-1')}
             </li>
@@ -54,7 +54,7 @@ export default function HeroSection() {
             </div>
 
             <div className="flex flex-col items-end mt-5 mb-10 lg:my-0 xl:my-10 xxl:my-0 sm:ml-auto opacity-0 init-animate-1">
-              <p className="text-[1.5rem] mr-8 text-sky-700 dark:text-sky-600 font-semibold  font-marck -rotate-[8deg] ">{t('about-me.name')}</p>
+              <p className="text-[1.5rem] mr-8 text-sky-700 dark:text-sky-500 font-semibold  font-marck -rotate-[8deg] ">{t('about-me.name')}</p>
               <p className="text-black dark:text-white italic">{t('about-me.web-development')}</p>
             </div>
           </div>
@@ -62,4 +62,5 @@ export default function HeroSection() {
       </div>
     </div>
   );
-}
+};
+export default HeroSection;

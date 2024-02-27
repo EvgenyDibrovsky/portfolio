@@ -78,17 +78,17 @@
   [type='tel']:focus,
   [multiple]:focus,
   textarea:focus {
-    @apply shadow-none border-colorBorder border-b-4 border-b-sky-600 dark:border-b-sky-600 ring-0 outline-none appearance-none;
+    @apply shadow-none border-colorBorder border-b-4 border-b-sky-600 dark:border-b-sky-500 ring-0 outline-none appearance-none;
   }
 
   .clip-education {
     clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
   }
   .form-checkbox {
-    @apply focus:ring-0 focus:ring-offset-0 border bg-white dark:bg-black border-sky-600 dark:border-sky-600 text-sky-600;
+    @apply focus:ring-0 focus:ring-offset-0 border bg-white dark:bg-black border-sky-600 dark:border-sky-500 text-sky-600;
   }
   .form-checkbox:checked {
-    @apply border-sky-600 dark:border-sky-600 bg-sky-600 dark:bg-black;
+    @apply border-sky-600 dark:border-sky-500 bg-sky-600 dark:bg-black;
   }
 }
 .grecaptcha-badge {

@@ -5,6 +5,8 @@ import { BsGraphUpArrow } from 'react-icons/bs';
 import WorkingСonditions from 'components/WorkingСonditions/WorkingСonditions';
 import MetaTags from 'components/MetaTags/MetaTags';
 import WrapperTitle from 'components/Utility/WrapperTitle';
+import BgAnimation from 'components/BgAnimation/BgAnimation';
+
 export default function CooperationPage() {
   const { t } = useTranslation();
   return (
@@ -37,6 +39,7 @@ export default function CooperationPage() {
         </ul>
         <p className="text-black dark:text-white">{t('cooperation-page.text-12')}</p>
       </div>
+      <BgAnimation />
     </>
   );
 }

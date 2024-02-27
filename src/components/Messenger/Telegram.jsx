@@ -1,6 +1,6 @@
 import { BsTelegram } from 'react-icons/bs';
 
-export default function Telegram() {
+const Telegram = () => {
   return (
     <>
       <a
@@ -13,4 +13,5 @@ export default function Telegram() {
       </a>
     </>
   );
-}
+};
+export default Telegram;

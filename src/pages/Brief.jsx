@@ -6,6 +6,8 @@ import BriefForm from 'components/BriefForm/BriefForm';
 import MetaTags from 'components/MetaTags/MetaTags';
 import WrapperTitle from 'components/Utility/WrapperTitle';
 import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
+import BgAnimation from 'components/BgAnimation/BgAnimation';
+
 const RECAPTCHA_KEY = process.env.REACT_APP_RECAPTCHA_KEY;
 
 export default function BriefPage() {
@@ -21,6 +23,7 @@ export default function BriefPage() {
       <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_KEY}>
         <BriefForm />
       </GoogleReCaptchaProvider>
+      <BgAnimation />
     </>
   );
 }

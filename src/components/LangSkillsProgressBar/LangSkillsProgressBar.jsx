@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useInView } from 'react-intersection-observer';
 import AnimateElements from '../../components/Utility/AnimateElements';
 
-export default function ProgressLangSkills() {
+const ProgressLangSkills = () => {
   const { t } = useTranslation();
 
   const skills = useMemo(
@@ -77,4 +77,5 @@ export default function ProgressLangSkills() {
       </ul>
     </AnimateElements>
   );
-}
+};
+export default ProgressLangSkills;
