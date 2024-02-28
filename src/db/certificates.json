@@ -118,6 +118,13 @@
       "fullImage": "/images/certificate/full/coursera/IBM/IBM-Getting-Started-with-Git-and-GitHub.jpg",
       "linkPDF": "/images/certificate/pdf/coursera/IBM/IBM-Getting-Started-with-Git-and-GitHub.pdf"
     }
+  },
+  {
+    "certificate": {
+      "id": 16,
+      "thumbnail": "/images/certificate/thumb/coursera/IBM/IBM-Developing-Front-End-Appswith-React.jpg",
+      "fullImage": "/images/certificate/full/coursera/IBM/IBM-Developing-Front-End-Appswith-React.jpg",
+      "linkPDF": "/images/certificate/pdf/coursera/IBM/IBM-Developing-Front-End-Appswith-React.pdf"
+    }
   }
-  
 ]

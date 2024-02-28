@@ -6,8 +6,10 @@ import React, { useState } from 'react';
 
 const CertificatesList = () => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0); // Новое состояние для индекса
 
-  const toggleLightbox = () => {
+  const toggleLightbox = index => {
+    setCurrentImageIndex(index);
     setIsLightboxOpen(!isLightboxOpen);
   };
 
@@ -23,13 +25,18 @@ const CertificatesList = () => {
     .reverse();
 
   const images = data.map(item => process.env.PUBLIC_URL + item.fullImage);
+
   return (
     <AnimateElements>
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-6 ">
-        {data.map(item => (
-          <CertificatesListItem key={item.id} item={item} toggleLightbox={toggleLightbox} />
+        {data.map((item, index) => (
+          <CertificatesListItem key={item.id} item={item} toggleLightbox={() => toggleLightbox(index)} />
         ))}
-        <FsLightbox toggler={isLightboxOpen} sources={images} />
+        <FsLightbox
+          toggler={isLightboxOpen}
+          sources={images}
+          slide={currentImageIndex + 1} // Устанавливаем активный слайд
+        />
       </ul>
     </AnimateElements>
   );
