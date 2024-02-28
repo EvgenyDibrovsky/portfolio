@@ -22,7 +22,7 @@ const PortfolioModal = ({ closeModal, children, handleNext, handlePrev, current,
   // Содержимое модального окна
   const modalContent = (
     <div className="fixed inset-0 flex items-center justify-center bg-bgModal z-50 backdrop-blur-sm bg-cover bg-center bg-fixed" onClick={closeModal}>
-      <div className="relative w-8/12 rounded-md duration-200" onClick={e => e.stopPropagation()}>
+      <div className="relative w-10/12 rounded-md duration-200" onClick={e => e.stopPropagation()}>
         <div className="flex items-center justify-between bg-transparent mb-2">
           <div className="flex gap-2">
             <BsChevronLeft className={`w-8 h-8 p-1 text-white cursor-pointer ${current === 1 ? 'opacity-30' : ''}`} onClick={handlePrev} />

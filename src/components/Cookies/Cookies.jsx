@@ -58,19 +58,19 @@ const Cookies = ({ children }) => {
   const { t } = useTranslation();
 
   const modalClasses = `
-    flex items-between justify-between fixed bottom-0 left-0 z-[999] bg-white dark:bg-black sm:border-t lg:border border-neutral-200 dark:border-neutral-600 lg:shadow-md dark:shadow-white
-     w-full lg:max-w-[38rem] h-full sm:h-auto py-14 px-5 sm:p-5 transform duration-500 overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-sky-600 scrollbar-track-gray-400 
+    flex justify-between fixed bottom-0 left-0 z-[999] bg-white dark:bg-black sm:border-t lg:border border-neutral-200 dark:border-neutral-600 lg:shadow-md dark:shadow-white
+     w-full lg:max-w-[38rem] h-[100dvh] sm:h-auto pt-5 px-5 sm:p-5 transform duration-500 overflow-y-auto 
     ${isVisible ? 'translate-y-0 lg:-translate-y-5 lg:translate-x-5' : 'translate-y-full'}
   `;
 
   const modalContent = (
     <div className={modalClasses}>
-      <div className="w-full flex flex-col justify-between gap-5 ">
+      <div className="w-full flex  flex-col justify-between gap-5 ">
         <div>
           <p className="text-[1rem] text-black dark:text-white font-semibold mb-2">{t('cookies.title')}</p>
           <p className="text-[0.8rem] sm:text-[0.9rem] text-black dark:text-white">{t('cookies.text')}</p>
         </div>
-        <div className="w-full flex flex-col sm:flex-row gap-4 justify-end lg:justify-center">
+        <div className="w-full pb-5 flex flex-col sm:flex-row gap-4 justify-end lg:justify-center">
           <button className="btn-cookies" onClick={handleAccept} title={t('cookies.btn-accept')}>
             {t('cookies.btn-accept')}
           </button>

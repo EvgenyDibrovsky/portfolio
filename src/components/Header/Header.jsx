@@ -39,7 +39,7 @@ const Header = ({ theme, toggleTheme }) => {
     };
   }, [isOpen]);
 
-  const headerClasses = `md:left-0 bg-bgHeader z-50 w-[16.5rem] md:w-[12.5rem] fixed bottom-0 top-0 h-full pt-28 pb-5 md:py-5 flex flex-col justify-between items-center dark:bg-bgHeaderDark transition-all duration-500 ease-in-out overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-sky-600 scrollbar-track-gray-400 ${
+  const headerClasses = `md:left-0 bg-bgHeader z-50 w-[16.5rem] md:w-[12.5rem] fixed bottom-0 top-0 h-full pt-28 pb-5 md:py-5 flex flex-col justify-between items-center dark:bg-bgHeaderDark transition-all duration-500 ease-in-out overflow-y-auto ${
     isOpen ? 'left-0' : '-left-[16.5rem]'
   }`;
 

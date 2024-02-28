@@ -75,22 +75,16 @@ const PortfolioList = ({ currentFilter }) => {
   return (
     <>
       {isModalOpen && (
-        <PortfolioModal
-          closeModal={handleCloseModal}
-          width="w-11/12 lg:w-8/12 xl:w-6/12"
-          showChevrons={true}
-          handleNext={handleNextItem}
-          handlePrev={handlePrevItem}
-          current={currentItemIndex + 1}
-          total={filteredData.length}
-        >
-          <div {...swipeHandlers} className="h-[85dvh] overflow-y-auto scrollbar-w-1 scrollbar scrollbar-rounded-full scrollbar-thumb-sky-600 scrollbar-track-gray-400">
-            <picture>
-              <source srcSet={process.env.PUBLIC_URL + modalData.image_webp} type="image/webp" />
-              <source srcSet={process.env.PUBLIC_URL + modalData.image} type="image/jpg" />
-              <img src={process.env.PUBLIC_URL + modalData.image} alt={modalData.name} className="mx-auto w-full h-auto" width="800" height="600" />
-            </picture>
-            <div className="flex flex-col px-8 py-6 bg-white dark:bg-neutral-800">
+        <PortfolioModal closeModal={handleCloseModal} showChevrons={true} handleNext={handleNextItem} handlePrev={handlePrevItem} current={currentItemIndex + 1} total={filteredData.length}>
+          <div {...swipeHandlers} className="max-h-[85dvh] overflow-y-auto">
+            <div className="aspect-auto	 h-auto w-full">
+              <picture>
+                <source srcSet={process.env.PUBLIC_URL + modalData.image_webp} type="image/webp" />
+                <source srcSet={process.env.PUBLIC_URL + modalData.image} type="image/jpg" />
+                <img src={process.env.PUBLIC_URL + modalData.image} alt={modalData.name} className="w-full h-full" width="800" height="600" />
+              </picture>
+            </div>
+            <div className="flex flex-col px-8 py-6 bg-white dark:bg-neutral-800 ">
               <h1 className="text-sm sm:text-xl font-semibold text-black dark:text-white mb-4">{modalData.name}</h1>
               <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
                 <div className="flex flex-col sm:flex-row items-center gap-4">
