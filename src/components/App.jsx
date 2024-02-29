@@ -2,12 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './Header/Header';
 import Loading from './Base/LoaderSite';
-import { HelmetProvider } from 'react-helmet-async';
-import { isCookieAccepted } from './Cookies/Cookies'; // Замените на правильный путь к вашему Cookies компоненту
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ScrollToTop from './ScrollToTop/ScrollToTop';
 import AppRoutes from '../components/AppRoutes/AppRoutes';
 import Telegram from './Messenger/Telegram';
-// eslint-disable-next-line react/prop-types
+
 export const App = () => {
   const [loading, setLoading] = useState(true);
   const [theme, setTheme] = useState(() => {
@@ -21,16 +20,11 @@ export const App = () => {
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
-
-    if (isCookieAccepted()) {
-      try {
-        localStorage.setItem('theme', newTheme);
-        setTheme(newTheme);
-      } catch (error) {
-        console.error('Не удалось обновить тему в localStorage:', error);
-      }
-    } else {
+    try {
+      localStorage.setItem('theme', newTheme);
       setTheme(newTheme);
+    } catch (error) {
+      console.error('Не удалось обновить тему в localStorage:', error);
     }
   };
 
@@ -50,8 +44,10 @@ export const App = () => {
   return (
     <div className={`${loading ? '' : 'lg:bg-white lg:dark:bg-neutral-800'} min-h-screen font-Poppins bg-bgSection dark:bg-bgSectionDark bg-cover bg-center bg-no-repeat`}>
       <HelmetProvider>
+        <Helmet>
+          <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5cc024e5-786b-46b9-b4a6-9dd0f0721698" data-blockingmode="auto" type="text/javascript"></script>
+        </Helmet>
         <Router basename={process.env.PUBLIC_URL}>
-          {/* <Router> */}
           <ScrollToTop />
           <Telegram />
           <div>

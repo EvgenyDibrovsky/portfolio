@@ -1,4 +1,3 @@
-// import { FaRegLightbulb, FaLightbulb } from 'react-icons/fa';
 import { BsSun, BsMoon } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
