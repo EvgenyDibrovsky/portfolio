@@ -85,7 +85,7 @@ const PortfolioList = ({ currentFilter }) => {
               </picture>
             </div>
             <div className="flex flex-col px-8 py-6 bg-white dark:bg-neutral-800 ">
-              <h1 className="text-sm sm:text-xl font-semibold text-black dark:text-white mb-4">{modalData.name}</h1>
+              <h1 className="text-sm sm:text-[1.3rem] font-semibold text-black dark:text-white mb-4">{modalData.name}</h1>
               <div className="border-b border-neutral-300 dark:border-neutral-600 py-3 xxl:py-4">
                 <div className="flex flex-col sm:flex-row items-center gap-4">
                   <div>
