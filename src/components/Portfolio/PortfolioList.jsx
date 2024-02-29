@@ -76,8 +76,8 @@ const PortfolioList = ({ currentFilter }) => {
     <>
       {isModalOpen && (
         <PortfolioModal closeModal={handleCloseModal} showChevrons={true} handleNext={handleNextItem} handlePrev={handlePrevItem} current={currentItemIndex + 1} total={filteredData.length}>
-          <div {...swipeHandlers} className="max-h-[85dvh] overflow-y-auto">
-            <div className="aspect-auto	 h-auto w-full">
+          <div {...swipeHandlers} className="max-h-[90dvh] overflow-y-auto">
+            <div className="aspect-auto h-full w-full">
               <picture>
                 <source srcSet={process.env.PUBLIC_URL + modalData.image_webp} type="image/webp" />
                 <source srcSet={process.env.PUBLIC_URL + modalData.image} type="image/jpg" />
