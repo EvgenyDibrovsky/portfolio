@@ -13,7 +13,6 @@ i18n
 
     detection: {
       order: ['localStorage', 'sessionStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
-      // caches: ['localStorage'],
       caches: ['localStorage'],
 
       lookupLocalStorage: 'i18nextLng',

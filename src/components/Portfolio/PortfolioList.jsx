@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import dbPortfolio from '../../db/portfolio.json';
 import { useTranslation } from 'react-i18next';
 import PortfolioListItem from './PortfolioListItem';
-import PortfolioModal from './PortfolioModal';
+import Modal from '../Modal/Modal';
 import { BsCardText, BsCodeSlash, BsColumnsGap, BsGlobe } from 'react-icons/bs';
 import useCurrentLanguage from '../Hooks/useCurrentLanguage';
 import AnimateElements from '../../components/Utility/AnimateElements';
@@ -75,7 +75,7 @@ const PortfolioList = ({ currentFilter }) => {
   return (
     <>
       {isModalOpen && (
-        <PortfolioModal closeModal={handleCloseModal} showChevrons={true} handleNext={handleNextItem} handlePrev={handlePrevItem} current={currentItemIndex + 1} total={filteredData.length}>
+        <Modal closeModal={handleCloseModal} showChevrons={true} handleNext={handleNextItem} handlePrev={handlePrevItem} current={currentItemIndex + 1} total={filteredData.length}>
           <div {...swipeHandlers} className="max-h-[90dvh] overflow-y-auto">
             <div className="aspect-auto h-full w-full">
               <picture>
@@ -133,7 +133,7 @@ const PortfolioList = ({ currentFilter }) => {
               </div>
             </div>
           </div>
-        </PortfolioModal>
+        </Modal>
       )}
 
       <AnimateElements key={currentFilter}>
