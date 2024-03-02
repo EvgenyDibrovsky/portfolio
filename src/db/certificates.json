@@ -126,5 +126,21 @@
       "fullImage": "/images/certificate/full/coursera/IBM/IBM-Developing-Front-End-Appswith-React.jpg",
       "linkPDF": "/images/certificate/pdf/coursera/IBM/IBM-Developing-Front-End-Appswith-React.pdf"
     }
+  },
+  {
+    "certificate": {
+      "id": 17,
+      "thumbnail": "/images/certificate/thumb/coursera/IBM/IBM-Developing-Back-End-Apps-with-Node-js-and-Express.jpg",
+      "fullImage": "/images/certificate/full/coursera/IBM/IBM-Developing-Back-End-Apps-with-Node-js-and-Express.jpg",
+      "linkPDF": "/images/certificate/pdf/coursera/IBM/IBM-Developing-Back-End-Apps-with-Node-js-and-Express.pdf"
+    }
+  },
+  {
+    "certificate": {
+      "id": 18,
+      "thumbnail": "/images/certificate/thumb/coursera/IBM/IBM-Python-for-Data-Science-AI-Development.jpg",
+      "fullImage": "/images/certificate/full/coursera/IBM/IBM-Python-for-Data-Science-AI-Development.jpg",
+      "linkPDF": "/images/certificate/pdf/coursera/IBM/IBM-Python-for-Data-Science-AI-Development.pdf"
+    }
   }
 ]

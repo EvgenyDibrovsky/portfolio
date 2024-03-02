@@ -122,14 +122,14 @@
     "techskill": {
       "id": 18,
       "label": "Windows",
-      "value": "90"
+      "value": "75"
     }
   },
   {
     "techskill": {
       "id": 19,
       "label": "macOS",
-      "value": "60"
+      "value": "50"
     }
   },
   {
@@ -152,5 +152,20 @@
       "label": "Strapi",
       "value": "35"
     }
+  },
+  {
+    "techskill": {
+      "id": 23,
+      "label": "Node.js",
+      "value": "30"
+    }
+  },
+  {
+    "techskill": {
+      "id": 24,
+      "label": "Python",
+      "value": "20"
+    }
   }
+  
 ]

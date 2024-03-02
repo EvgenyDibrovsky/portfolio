@@ -34,8 +34,8 @@ const TechSkills = ({ skill }) => {
           })}
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center p-5">
-          <p className="text-black dark:text-white font-medium text-center ">{skill.label}</p>
-          <p className="text-black dark:text-white text-center font-bold text-[1.25rem]">{skill.value}%</p>
+          <p className="text-black dark:text-white font-bold text-center text-[0.9rem]">{skill.label}</p>
+          <p className="text-green-600 dark:text-green-600 text-center  text-[1.25rem]">{skill.value}%</p>
         </div>
       </div>
     </li>
