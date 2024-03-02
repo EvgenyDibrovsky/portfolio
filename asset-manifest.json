@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b42726f2.css",
-    "main.js": "/portfolio/static/js/main.58e85bf6.js",
+    "main.js": "/portfolio/static/js/main.811e3186.js",
     "static/js/6738.808e2f88.chunk.js": "/portfolio/static/js/6738.808e2f88.chunk.js",
     "static/js/9092.f475df5b.chunk.js": "/portfolio/static/js/9092.f475df5b.chunk.js",
     "static/css/2081.79ff42f9.chunk.css": "/portfolio/static/css/2081.79ff42f9.chunk.css",
@@ -107,13 +107,12 @@
     "static/media/bg-goit-education.jpg": "/portfolio/static/media/bg-goit-education.9a829c3ba57106881b3d.jpg",
     "static/media/bg-zkr-zntu-education.jpg": "/portfolio/static/media/bg-zkr-zntu-education.19d147f002e43815c8cf.jpg",
     "static/media/bg-administration-technician-education.jpg": "/portfolio/static/media/bg-administration-technician-education.720acf1fbcc6d5bcaedb.jpg",
-    "static/media/photo.png": "/portfolio/static/media/photo.79a7dea42e849734baf0.png",
-    "static/media/logo.svg": "/portfolio/static/media/logo.a6183457b8f5d874d00d8bddc9aae29c.svg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.9be2e74ba43425add01f6d276f63211d.svg",
     "static/media/logo-mobile.svg": "/portfolio/static/media/logo-mobile.3e14b68eb245ef310016cda8bedb8e6b.svg",
     "index.html": "/portfolio/index.html",
     "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.b42726f2.css.map": "/portfolio/static/css/main.b42726f2.css.map",
-    "main.58e85bf6.js.map": "/portfolio/static/js/main.58e85bf6.js.map",
+    "main.811e3186.js.map": "/portfolio/static/js/main.811e3186.js.map",
     "6738.808e2f88.chunk.js.map": "/portfolio/static/js/6738.808e2f88.chunk.js.map",
     "9092.f475df5b.chunk.js.map": "/portfolio/static/js/9092.f475df5b.chunk.js.map",
     "2081.79ff42f9.chunk.css.map": "/portfolio/static/css/2081.79ff42f9.chunk.css.map",
@@ -217,6 +216,6 @@
   },
   "entrypoints": [
     "static/css/main.b42726f2.css",
-    "static/js/main.58e85bf6.js"
+    "static/js/main.811e3186.js"
   ]
 }
