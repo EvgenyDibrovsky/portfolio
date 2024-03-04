@@ -53,7 +53,7 @@ const ContactForm = () => {
   return (
     <>
       <AnimateElements>
-        <div className="relative z-10 p-8 bg-white/80 dark:bg-neutral-800/80 w-full lg:w-10/12 mx-auto opacity-0 init-animate-1">
+        <div className="relative z-10 md:p-8 bg-white/80 dark:bg-neutral-800/80 w-full lg:w-10/12 mx-auto opacity-0 init-animate-1">
           <Formik
             initialValues={{
               name: '',
