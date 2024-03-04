@@ -50,7 +50,7 @@ export const App = () => {
   return (
     <div className={`${loading ? '' : 'lg:bg-white lg:dark:bg-neutral-800'} min-h-screen font-Poppins bg-bgSection dark:bg-bgSectionDark bg-cover bg-center bg-no-repeat`}>
       <HelmetProvider>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <ScrollToTop />
           <Telegram />
           <div>
