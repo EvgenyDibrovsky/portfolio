@@ -142,5 +142,13 @@
       "fullImage": "/images/certificate/full/coursera/IBM/IBM-Python-for-Data-Science-AI-Development.jpg",
       "linkPDF": "/images/certificate/pdf/coursera/IBM/IBM-Python-for-Data-Science-AI-Development.pdf"
     }
+  },
+  {
+    "certificate": {
+      "id": 19,
+      "thumbnail": "/images/certificate/thumb/coursera/IBM/IBM-Developing-AI-Applications-with-Python-and-Flask.jpg",
+      "fullImage": "/images/certificate/full/coursera/IBM/IBM-Developing-AI-Applications-with-Python-and-Flask.jpg",
+      "linkPDF": "/images/certificate/pdf/coursera/IBM/IBM-Developing-AI-Applications-with-Python-and-Flask.pdf"
+    }
   }
 ]

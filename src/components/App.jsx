@@ -6,6 +6,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import ScrollToTop from './ScrollToTop/ScrollToTop';
 import AppRoutes from '../components/AppRoutes/AppRoutes';
 import Telegram from './Messenger/Telegram';
+import { isCookieAccepted } from './Cookies/Cookies'; // Замените на правильный путь к вашему Cookies компоненту
 
 export const App = () => {
   const [loading, setLoading] = useState(true);
@@ -20,11 +21,16 @@ export const App = () => {
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
-    try {
-      localStorage.setItem('theme', newTheme);
+
+    if (isCookieAccepted()) {
+      try {
+        localStorage.setItem('theme', newTheme);
+        setTheme(newTheme);
+      } catch (error) {
+        console.error('Не удалось обновить тему в localStorage:', error);
+      }
+    } else {
       setTheme(newTheme);
-    } catch (error) {
-      console.error('Не удалось обновить тему в localStorage:', error);
     }
   };
 
