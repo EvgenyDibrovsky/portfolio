@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import dbCertificate from '../../db/certificates.json';
 import CertificatesListItem from './CertificatesListItem';
 import AnimateElements from '../Utility/AnimateElements';
@@ -8,10 +8,13 @@ const CertificatesList = () => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const toggleLightbox = index => {
-    setCurrentImageIndex(index);
-    setIsLightboxOpen(!isLightboxOpen);
-  };
+  const toggleLightbox = useCallback(
+    index => {
+      setCurrentImageIndex(index);
+      setIsLightboxOpen(!isLightboxOpen);
+    },
+    [isLightboxOpen]
+  );
 
   // Предположим, что dbCertificate является объектом с ключами, соответствующими ID сертификатов.
   const data = Object.keys(dbCertificate)
