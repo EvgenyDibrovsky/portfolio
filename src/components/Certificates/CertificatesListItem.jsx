@@ -2,7 +2,7 @@ import React from 'react';
 import { BsFiletypePdf } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
-const CertificatesListItemComponent = ({ item, toggleLightbox }) => {
+const CertificatesListItem = ({ item, toggleLightbox }) => {
   const { t } = useTranslation();
 
   return (
@@ -28,6 +28,6 @@ const CertificatesListItemComponent = ({ item, toggleLightbox }) => {
   );
 };
 
-const CertificatesListItem = React.memo(CertificatesListItemComponent);
+// const CertificatesListItem = React.memo(CertificatesListItemComponent);
 
 export default CertificatesListItem;
