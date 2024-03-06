@@ -150,5 +150,13 @@
       "fullImage": "/images/certificate/full/coursera/IBM/IBM-Developing-AI-Applications-with-Python-and-Flask.jpg",
       "linkPDF": "/images/certificate/pdf/coursera/IBM/IBM-Developing-AI-Applications-with-Python-and-Flask.pdf"
     }
+  },
+  {
+    "certificate": {
+      "id": 20,
+      "thumbnail": "/images/certificate/thumb/coursera/IBM/IBM-Django-Application-Development-with-SQL-and-Databases.jpg",
+      "fullImage": "/images/certificate/full/coursera/IBM/IBM-Django-Application-Development-with-SQL-and-Databases.jpg",
+      "linkPDF": "/images/certificate/pdf/coursera/IBM/IBM-Django-Application-Development-with-SQL-and-Databases.pdf"
+    }
   }
 ]
