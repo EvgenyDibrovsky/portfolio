@@ -245,7 +245,8 @@
     "title": "The site uses cookies",
     "text": "We use cookies and Local Storage to enhance your user experience, as well as for services like language selection and color theme switching. The site also uses Google Analytics for visitor statistics gathering. This site is a portfolio and does not require registration. A contact form is available for you to get in touch with me, where you can leave your name, email, and message text. By continuing to use the site, you agree to our use of cookies and Local Storage. If you disagree, please leave the site. Thank you for your understanding!",
     "btn-accept": "I agree",
-    "btn-no-accept": "I don't agree"
+    "btn-no-accept": "I don't agree",
+    "google-analytics":"Google Analytics"
   },
   "soft-skills": {
     "skill-1": "Teamwork",

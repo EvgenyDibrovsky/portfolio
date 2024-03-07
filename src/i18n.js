@@ -2,7 +2,7 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
-import { isCookieAccepted } from 'components/Cookies/Cookies'; // Замените на правильный путь к вашему Cookies компоненту
+// import { isCookieAccepted } from 'components/Cookies/Cookies'; // Замените на правильный путь к вашему Cookies компоненту
 
 i18n
   .use(Backend)
@@ -15,7 +15,7 @@ i18n
     detection: {
       order: ['localStorage', 'sessionStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
       // caches: ['localStorage'],
-      caches: isCookieAccepted() ? ['localStorage'] : [], // Если куки разрешены, то используем localStorage, иначе не используем
+      // caches: isCookieAccepted() ? ['localStorage'] : [], // Если куки разрешены, то используем localStorage, иначе не используем
 
       lookupLocalStorage: 'i18nextLng',
     },
