@@ -90,7 +90,7 @@
     "meta-title": "Kontaktformular",
     "meta-description": "Schreiben Sie mir, wenn Sie Fragen zur Entwicklung von Internetprojekten haben"
   },
-  "regulations-edweb": {
+  "privacy-policy": {
     "title": "Regelung",
     "sub-title": "Liebe Besucher!",
     "meta-title": "Regelung",
@@ -131,7 +131,7 @@
     "sent-successfully": "Nachricht erfolgreich gesendet",
     "sent-no-successfully": "Nachricht nicht gesendet",
     "confirmation-of-conditions": "Bestätigung der Bedingungen",
-    "accept-form": "Ich stimme den im Regelwerk dargelegten Bedingungen zu."
+    "accept-form": "I agree to the terms set out in the <a href='/privacy-policy' target='_blank'>Privacy Policy</a>."
   },
   "portfolio": {
     "portfolio-filter": {
@@ -211,7 +211,7 @@
     "sent-successfully": "Nachricht erfolgreich gesendet",
     "sent-no-successfully": "Nachricht nicht gesendet",
     "confirmation-of-conditions": "Bestätigung der Bedingungen",
-    "accept-form": "Ich stimme den im Reglement festgelegten Bedingungen zu."
+    "accept-form": "I agree to the terms set out in the <a href='/privacy-policy' target='_blank'>Privacy Policy</a>."
   },
   "possibilities": {
     "my-capabilities": "Meine Fähigkeiten",
