@@ -1,12 +1,10 @@
 {
   "about-me": {
     "title": "Web Development",
-    "name": "Yevhen Dibrovskyi",
+    "name": "Evgeny Dibrovsky",
     "web-development": "Frontend Developer",
-    "description-1": "Hello!",
-    "description-2": "I'm a web developer, and my hobby has smoothly turned into my main job. I have been professionally engaged in web development for several years. My experience grows with each new project, and I am grateful to my clients for their not always standard ideas and requirements for project implementation 😉. ",
-    "description-3": "Today, my skills and technology stack allow me to carry out the full development cycle of the most in-demand web resources. And if I'm offered a mega-challenging project, I'll still happily take it on! After all, I'm not afraid of difficulties, and I have experienced colleagues who are always ready to help.",
-    "description-4": "Let's collaborate and create something new together!"
+    "description": "<p>Hello!</p><p>I'm a web developer, and this is my hobby that gradually turned into my main job. I've been professionally involved in web development for several years. My experience grows with every new project, and I'm grateful to my clients for their sometimes unconventional ideas and requirements for the project implementation 😉.</p><p>Currently, my skills and technology stack allow me to carry out the full cycle of development for the most in-demand web resources. And if I'm offered a mega-complex project, I'll still gladly take it on! I'm not afraid of challenges, and I have experienced colleagues who are always ready to help.</p>",
+    "description-accent": "Let's collaborate and create something new together!"
   },
   "contact-dedails": {
     "phone-number": "+48537450501",
@@ -39,22 +37,19 @@
     "meta-description": "Professional turnkey website creation. Only up-to-date and verified technologies."
   },
   "cooperation-page": {
-    "title": "Cooperation",
-    "sub-title": "Your project is our joint mission",
-    "meta-title": "Yevgeny Dibrovsky - Frontend Developer",
-    "meta-description": "Turnkey website creation.",
-    "text-1": "Are you looking for a web development specialist? Consider cooperating with me. Here I offer various forms of interaction to best meet your needs.",
-    "text-2": "Freelance:",
-    "text-3": "If you have a one-off project or need a long-term partner without the need for daily office presence, I will consider your freelance proposals. I approach each project responsibly, taking into account your requirements.",
-    "text-4": "Full-time:",
-    "text-5": "Open to full-time job offers. I value stability and the opportunity to deeply immerse in long-term projects.",
-    "text-6": "B2B:",
-    "text-7": "Looking for a web development partner? Ready to discuss collaboration terms, become part of your team and work purposefully towards results.",
-    "text-8": "What you get by cooperating with me:",
-    "text-9": "Responsibility and reliability: I strive for accuracy and deadline adherence, ensuring high quality of work. You can count on my full commitment to your project.",
-    "text-10": "Experience: Despite my relatively short experience, I possess a vast array of knowledge and skills, treating each project with utmost seriousness.",
-    "text-11": "Flexibility: Ready to accommodate your wishes and adapt to project requirements.",
-    "text-12": "Awaiting your proposals and open for discussion. Together we'll find the best solution for your project!"
+    "title": "Collaboration",
+    "sub-title": "Your project — our joint mission",
+    "meta-title": "Evgeniy Dibrovsky - Frontend Developer",
+    "meta-description": "Custom website development.",
+    "text-1": "Looking for a web development specialist? Consider collaborating with me. Here I offer various formats of interaction to best suit your needs.",
+    "title-2": "Freelance:",
+    "text-2": "If you have a one-time project or need a long-term partner without the need for daily office presence, I will consider your freelance proposals. I approach each project responsibly, taking into account your requirements.",
+    "title-3": "Full-time employment:",
+    "text-3": "Open to full-time employment offers. I value stability and the opportunity to deeply immerse in long-term projects.",
+    "title-4": "B2B:",
+    "text-4": "Looking for a web development partner? Ready to discuss cooperation terms, become part of your team, and work dedicatedly towards achieving results.",
+    "list-title-4": "What you get by collaborating with me:",
+    "text-list": "<li>Responsibility and reliability: I strive for precision and meeting deadlines, ensuring high quality of work. You can count on my full dedication to your project.</li><li>Experience: Despite my relatively small experience, I possess a great deal of knowledge and skills, treating each project with utmost seriousness.</li><li>Flexibility: Ready to consider your wishes and adapt to the project's requirements.</li>"
   },
   "resume-page": {
     "title": "Resume",

@@ -1,12 +1,10 @@
 {
   "about-me": {
-    "title": "Tworzenie stron internetowych",
-    "name": "Jewgienij Dibrowski",
+    "title": "Rozwój Webowy",
+    "name": "Eugeniusz Dibrowski",
     "web-development": "Frontend Developer",
-    "description-1": "Cześć!",
-    "description-2": "Jestem programistą stron internetowych, a moje hobby stopniowo zmieniło się w główną pracę. Zawodowo zajmuję się tworzeniem stron internetowych od kilku lat. Moje doświadczenie rośnie z każdym nowym projektem, za co jestem wdzięczny moim klientom za ich nie zawsze typowe pomysły i wymagania dotyczące realizacji projektu 😉.",
-    "description-3": "Moje umiejętności i zakres technologiczny pozwalają mi na przeprowadzenie pełnego cyklu rozwoju najbardziej pożądanych zasobów internetowych. Nawet jeśli zostanę poproszony o bardzo skomplikowany projekt, chętnie podejmę się go! Nie boję się wyzwań, mam doświadczonych kolegów, którzy zawsze są gotowi pomóc.",
-    "description-4": "Zapraszam do współpracy i tworzenia czegoś nowego razem!"
+    "description": "<p>Cześć!</p><p>Jestem programistą webowym, a to moje hobby, które stopniowo stało się moją główną pracą. Zawodowo zajmuję się rozwijaniem stron internetowych od kilku lat. Moje doświadczenie rośnie z każdym nowym projektem, i jestem wdzięczny moim klientom za ich nie zawsze standardowe pomysły i wymagania dotyczące realizacji projektu 😉.</p><p>Obecnie moje umiejętności i stos technologiczny pozwalają mi na realizację pełnego cyklu rozwoju najbardziej pożądanych zasobów internetowych. I nawet jeśli dostanę bardzo trudny projekt, z radością się za niego zabiorę! Nie boję się wyzwań, a doświadczeni koledzy zawsze są gotowi pomóc.</p>",
+    "description-accent": "Pracujmy razem i twórzmy coś nowego!"
   },
   "contact-dedails": {
     "phone-number": "+48537450501",
@@ -40,21 +38,18 @@
   },
   "cooperation-page": {
     "title": "Współpraca",
-    "sub-title": "Twój projekt to nasza wspólna misja",
-    "meta-title": "Jewgienij Dibrowski - Frontend Developer",
+    "sub-title": "Twój projekt - nasza wspólna misja",
+    "meta-title": "Eugeniusz Dibrowski - Frontend Developer",
     "meta-description": "Tworzenie stron internetowych pod klucz.",
-    "text-1": "Szukasz specjalisty od tworzenia stron internetowych? Rozważ współpracę ze mną. Tutaj oferuję różne formy współpracy, aby jak najlepiej spełnić Twoje potrzeby.",
-    "text-2": "Freelance:",
-    "text-3": "Jeśli masz jednorazowy projekt lub potrzebujesz długoterminowego partnera bez codziennej obecności w biurze, rozważę Twoje propozycje jako freelancer. Podchodzę do każdego projektu z odpowiedzialnością, uwzględniając Twoje wymagania.",
-    "text-4": "Pełny etat:",
-    "text-5": "Otwarty na oferty pracy na pełny etat. Cenię stabilność i możliwość głębokiego zaangażowania w długoterminowe projekty.",
-    "text-6": "B2B:",
-    "text-7": "Szukasz partnera do tworzenia stron internetowych? Gotowy omówić warunki współpracy, stać się częścią Twojego zespołu i skupić się na osiągnięciu wyników.",
-    "text-8": "Co zyskasz współpracując ze mną:",
-    "text-9": "Odpowiedzialność i niezawodność: Dążę do precyzji i przestrzegania terminów, zapewniając wysoką jakość wykonanej pracy. Możesz polegać na moim pełnym zaangażowaniu w Twój projekt.",
-    "text-10": "Doświadczenie: Mimo stosunkowo krótkiego doświadczenia posiadam szeroką wiedzę i umiejętności, podchodząc do każdego projektu z pełnym zaangażowaniem.",
-    "text-11": "Elastyczność: Gotowy uwzględnić Twoje życzenia i dostosować się do wymagań projektu.",
-    "text-12": "Czekam na Twoje propozycje i jestem gotowy do dyskusji. Razem znajdziemy optymalne rozwiązanie dla Twojego projektu!"
+    "text-1": "Szukasz specjalisty od web developmentu? Rozważ współpracę ze mną. Oferuję różne formaty interakcji, aby najlepiej odpowiadać na Twoje potrzeby.",
+    "title-2": "Freelance:",
+    "text-2": "Jeśli masz jednorazowy projekt lub potrzebujesz długoterminowego partnera bez konieczności codziennej obecności w biurze, rozważę Twoje propozycje freelance. Podchodzę do każdego projektu z odpowiedzialnością, biorąc pod uwagę Twoje wymagania.",
+    "title-3": "Pełny etat:",
+    "text-3": "Otwarty na propozycje pełnego zatrudnienia. Cenię stabilność i możliwość głębokiego zaangażowania w długoterminowe projekty.",
+    "title-4": "B2B:",
+    "text-4": "Szukasz partnera do web developmentu? Gotów omówić warunki współpracy, stać się częścią Twojego zespołu i skupić się na osiąganiu rezultatów.",
+    "list-title-4": "Co zyskasz, współpracując ze mną:",
+    "text-list": "<li>Odpowiedzialność i niezawodność: Dążę do precyzji i dotrzymywania terminów, zapewniając wysoką jakość wykonanej pracy. Możesz liczyć na moje pełne zaangażowanie w Twój projekt.</li><li>Doświadczenie: Mimo stosunkowo krótkiego doświadczenia, posiadam duży zasób wiedzy i umiejętności, podchodząc do każdego projektu z maksymalną powagą.</li><li>Elastyczność: Gotów uwzględnić Twoje życzenia i dostosować się do wymagań projektu.</li>"
   },
   "resume-page": {
     "title": "CV",
