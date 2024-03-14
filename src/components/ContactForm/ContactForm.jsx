@@ -124,16 +124,7 @@ const ContactForm = () => {
                       name="confirmation_of_conditions"
                       className={`form-checkbox mr-2 cursor-pointer ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`}
                     />
-                    {t('contact-form.accept-form')}
-                    <a
-                      href="/regulations-edweb"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block font-semibold underline duration-200 hover:text-sky-600 ml-1 lg:ml-0"
-                      aria-label={t('regulations-edweb.title')}
-                    >
-                      {t('regulations-edweb.title')}
-                    </a>
+                    <p className="accept-form-link" dangerouslySetInnerHTML={{ __html: t('contact-form.accept-form') }}></p>
                   </label>
                 </div>
                 <div className="mb-10">

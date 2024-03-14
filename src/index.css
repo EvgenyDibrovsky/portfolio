@@ -15,17 +15,22 @@
   .content-box p {
     @apply mb-2 text-black dark:text-white;
   }
+
+  .content-box a {
+    @apply mb-2 text-sky-600 dark:text-sky-400 hover:underline;
+  }
   .content-box ul {
-    @apply list-disc p-4 text-black dark:text-white;
+    @apply list-disc px-3 text-black dark:text-white;
   }
-  .content-box ul li {
-    @apply mb-2;
+  .content-box li {
+    @apply mb-2 ml-5;
   }
-  .content-box ul li p {
-    @apply mb-0;
-  }
+
   .content-box h3 {
     @apply font-bold text-[1.2rem] text-black dark:text-white my-5;
+  }
+  .content-box h4 {
+    @apply font-bold text-[1rem] text-black dark:text-white mb-2;
   }
   /* scrollbar */
 
@@ -89,6 +94,9 @@
   }
   .form-checkbox:checked {
     @apply border-sky-600 dark:border-sky-500 bg-sky-600 dark:bg-black;
+  }
+  .accept-form-link a {
+    @apply font-bold text-sky-600 dark:text-sky-400 hover:underline;
   }
 }
 .grecaptcha-badge {

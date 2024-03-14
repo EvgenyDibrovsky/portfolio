@@ -11,7 +11,7 @@ const Resume = React.lazy(() => import('../../pages/Resume'));
 const Portfolio = React.lazy(() => import('../../pages/Portfolio'));
 const Brief = React.lazy(() => import('../../pages/Brief'));
 const Contacts = React.lazy(() => import('../../pages/Contacts'));
-const TermsUse = React.lazy(() => import('../../pages/Regulations'));
+const PrivacyPolicy = React.lazy(() => import('../../pages/PrivacyPolicy'));
 const NotFound = React.lazy(() => import('../../pages/NotFound'));
 
 const AppRoutes = () => {
@@ -77,11 +77,11 @@ const AppRoutes = () => {
           }
         />
         <Route
-          path="/regulations-edweb"
+          path="/privacy-policy"
           element={
             <Section>
               <Container>
-                <TermsUse />
+                <PrivacyPolicy />
               </Container>
             </Section>
           }

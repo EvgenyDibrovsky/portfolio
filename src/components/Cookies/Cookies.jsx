@@ -103,7 +103,7 @@ export default function Cookies({ children }) {
       <div className="w-full flex flex-col justify-between gap-5 ">
         <div>
           <p className="text-[1rem] text-black dark:text-white font-semibold mb-2">{t('cookies.title')}</p>
-          <p className="text-[0.8rem] sm:text-[0.9rem] text-black dark:text-white">{t('cookies.text')}</p>
+          <p className="text-[0.8rem] sm:text-[0.9rem] text-black dark:text-white" dangerouslySetInnerHTML={{ __html: t('cookies.text') }}></p>
         </div>
 
         <div className="flex items-center">
