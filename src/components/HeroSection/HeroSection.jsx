@@ -39,11 +39,9 @@ const HeroSection = () => {
           <div className="relative flex items-center mb-8 after:content-[''] after:absolute after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:w-full after:h-[2px] after:bg-sky-600 dark:after:bg-sky-600">
             <h1 className="text-[1.25rem] font-semibold text-black dark:text-white">{t('about-me.title')}</h1>
           </div>
-          <div className="opacity-0 init-animate-1">
-            <p className=" text-black dark:text-white mb-4 ">{t('about-me.description-1')}</p>
-            <p className=" text-black dark:text-white mb-4 ">{t('about-me.description-2')}</p>
-            <p className=" text-black dark:text-white mb-4 ">{t('about-me.description-3')}</p>
-            <p className=" text-black dark:text-white mb-4 italic underline">{t('about-me.description-4')}</p>
+          <div className="opacity-0 init-animate-1 about-me-content">
+            <p dangerouslySetInnerHTML={{ __html: t('about-me.description') }}></p>
+            <p className="italic underline">{t('about-me.description-accent')}</p>
           </div>
           <div className="w-full flex flex-col-reverse sm:flex-row xl:flex-col-reverse xxl:flex-row items-center justify-between md:mt-10">
             <div>

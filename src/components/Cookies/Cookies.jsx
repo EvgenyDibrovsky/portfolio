@@ -101,9 +101,9 @@ export default function Cookies({ children }) {
   const modalContent = (
     <div className={modalClasses}>
       <div className="w-full flex flex-col justify-between gap-5 ">
-        <div>
-          <p className="text-[1rem] text-black dark:text-white font-semibold mb-2">{t('cookies.title')}</p>
-          <p className="text-[0.8rem] sm:text-[0.9rem] text-black dark:text-white" dangerouslySetInnerHTML={{ __html: t('cookies.text') }}></p>
+        <div className="cookies-modal-content">
+          <p className="text-[1.2rem] text-black dark:text-white font-semibold mb-2">{t('cookies.title')}</p>
+          <p className="text-[1rem] sm:text-[0.9rem] text-black dark:text-white" dangerouslySetInnerHTML={{ __html: t('cookies.text') }}></p>
         </div>
 
         <div className="flex items-center">
@@ -114,7 +114,7 @@ export default function Cookies({ children }) {
         </div>
 
         <div className="w-full flex flex-col sm:flex-row gap-4 justify-end lg:justify-center">
-          <button className="btn-cookies" onClick={handleAccept} title={t('cookies.btn-accept')}>
+          <button className="btn-cookies active" onClick={handleAccept} title={t('cookies.btn-accept')}>
             {t('cookies.btn-accept')}
           </button>
           <button className="btn-cookies" onClick={handleDecline} title={t('cookies.btn-no-accept')}>
