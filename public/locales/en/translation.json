@@ -1,12 +1,10 @@
 {
   "about-me": {
     "title": "Web Development",
-    "name": "Yevhen Dibrovskyi",
+    "name": "Evgeny Dibrovsky",
     "web-development": "Frontend Developer",
-    "description-1": "Hello!",
-    "description-2": "I'm a web developer, and my hobby has smoothly turned into my main job. I have been professionally engaged in web development for several years. My experience grows with each new project, and I am grateful to my clients for their not always standard ideas and requirements for project implementation 😉. ",
-    "description-3": "Today, my skills and technology stack allow me to carry out the full development cycle of the most in-demand web resources. And if I'm offered a mega-challenging project, I'll still happily take it on! After all, I'm not afraid of difficulties, and I have experienced colleagues who are always ready to help.",
-    "description-4": "Let's collaborate and create something new together!"
+    "description": "<p>Hello!</p><p>I'm a web developer, and this is my hobby that gradually turned into my main job. I've been professionally involved in web development for several years. My experience grows with every new project, and I'm grateful to my clients for their sometimes unconventional ideas and requirements for the project implementation 😉.</p><p>Currently, my skills and technology stack allow me to carry out the full cycle of development for the most in-demand web resources. And if I'm offered a mega-complex project, I'll still gladly take it on! I'm not afraid of challenges, and I have experienced colleagues who are always ready to help.</p>",
+    "description-accent": "I invite you to collaborate!"
   },
   "contact-dedails": {
     "phone-number": "+48537450501",
@@ -39,22 +37,19 @@
     "meta-description": "Professional turnkey website creation. Only up-to-date and verified technologies."
   },
   "cooperation-page": {
-    "title": "Cooperation",
-    "sub-title": "Your project is our joint mission",
-    "meta-title": "Yevgeny Dibrovsky - Frontend Developer",
-    "meta-description": "Turnkey website creation.",
-    "text-1": "Are you looking for a web development specialist? Consider cooperating with me. Here I offer various forms of interaction to best meet your needs.",
-    "text-2": "Freelance:",
-    "text-3": "If you have a one-off project or need a long-term partner without the need for daily office presence, I will consider your freelance proposals. I approach each project responsibly, taking into account your requirements.",
-    "text-4": "Full-time:",
-    "text-5": "Open to full-time job offers. I value stability and the opportunity to deeply immerse in long-term projects.",
-    "text-6": "B2B:",
-    "text-7": "Looking for a web development partner? Ready to discuss collaboration terms, become part of your team and work purposefully towards results.",
-    "text-8": "What you get by cooperating with me:",
-    "text-9": "Responsibility and reliability: I strive for accuracy and deadline adherence, ensuring high quality of work. You can count on my full commitment to your project.",
-    "text-10": "Experience: Despite my relatively short experience, I possess a vast array of knowledge and skills, treating each project with utmost seriousness.",
-    "text-11": "Flexibility: Ready to accommodate your wishes and adapt to project requirements.",
-    "text-12": "Awaiting your proposals and open for discussion. Together we'll find the best solution for your project!"
+    "title": "Collaboration",
+    "sub-title": "Your project — our joint mission",
+    "meta-title": "Evgeniy Dibrovsky - Frontend Developer",
+    "meta-description": "Custom website development.",
+    "text-1": "Looking for a web development specialist? Consider collaborating with me. Here I offer various formats of interaction to best suit your needs.",
+    "title-2": "Freelance:",
+    "text-2": "If you have a one-time project or need a long-term partner without the need for daily office presence, I will consider your freelance proposals. I approach each project responsibly, taking into account your requirements.",
+    "title-3": "Full-time employment:",
+    "text-3": "Open to full-time employment offers. I value stability and the opportunity to deeply immerse in long-term projects.",
+    "title-4": "B2B:",
+    "text-4": "Looking for a web development partner? Ready to discuss cooperation terms, become part of your team, and work dedicatedly towards achieving results.",
+    "list-title-4": "What you get by collaborating with me:",
+    "text-list": "<li>Responsibility and reliability: I strive for precision and meeting deadlines, ensuring high quality of work. You can count on my full dedication to your project.</li><li>Experience: Despite my relatively small experience, I possess a great deal of knowledge and skills, treating each project with utmost seriousness.</li><li>Flexibility: Ready to consider your wishes and adapt to the project's requirements.</li>"
   },
   "resume-page": {
     "title": "Resume",
@@ -78,9 +73,7 @@
   "brief-page": {
     "title": "Brief",
     "sub-title": "Quick project evaluation",
-    "text-information-1": "A brief is a short description of your ideas, goals, preferences, and expectations for the project. The brief will help me better understand your vision and develop the most suitable and personalized plan for your project, ensuring that we achieve the desired outcome.",
-    "text-information-2": "When filling out the brief, focus on the project and the desired outcome, and describe it in your own words - I will understand you!",
-    "text-information-3": "Once you complete this brief, I will be able to assess the scope and complexity of the work, suggest a suitable development plan, and prepare a commercial proposal with indicative timelines and costs for the project.",
+    "text-information": "<p>A brief is a short description of your ideas, goals, preferences, and expectations for the project. The brief will help me better understand your vision and develop the most suitable and personalized plan for your project, ensuring that we achieve the desired outcome.</p><p>When filling out the brief, focus on the project and the desired outcome, and describe it in your own words - I will understand you!</p><p>Once you complete this brief, I will be able to assess the scope and complexity of the work, suggest a suitable development plan, and prepare a commercial proposal with indicative timelines and costs for the project.</p>",
     "meta-title": "Brief - Web development service order form",
     "meta-description": "Fill out the Brief to create an effective solution"
   },
@@ -90,26 +83,29 @@
     "meta-title": "Feedback Form",
     "meta-description": "Contact me if you have questions about the development of an internet project"
   },
-  "regulations-edweb": {
-    "title": "Regulations",
+  "privacy-policy": {
+    "title": "Privacy Policy",
     "sub-title": "Dear Visitor!",
-    "meta-title": "Regulations",
+    "meta-title": "Privacy Policy",
     "meta-description": "Important information for site users",
-    "terms-of-use": {
-      "title_1": "Terms of Use",
-      "descriptionHtml_1": "<p>Dear Visitor!</p><p>All materials presented on this site, including projects, images, and texts, are intended exclusively for acquaintance in the context of possible cooperation with me or the process required for recruitment.</p><ul><li><p>It is prohibited to use information and materials from this site for commercial, advertising, or other purposes without my written consent.</p></li><li><p>Please respect my copyrights and confidentiality.</p></li></ul><p>If you have any questions or suggestions for cooperation, feel free to contact me directly through the provided contact details.</p>",
-      "title_2": "Consent to Data Processing",
-      "descriptionHtml_2": "<p>By providing my contact details or other personal information on this site, I express my consent to their processing exclusively for the purpose of cooperation on services specified on the site, or recruitment.</p>",
-      "title_3": "Use of Cookies and Local Storage",
-      "descriptionHtml_3": "<p>The site uses cookies and Local Storage to enhance your user experience, as well as for the operation of services such as language selection and switching color themes. Google Analytics is also active on the site for collecting visit statistics. The site serves as a portfolio and does not involve registration. You have access to a contact form to communicate with me, where you can leave your name, email, and message. By continuing to use the site, you agree to our use of cookies and Local Storage. If you disagree, please leave the site.</p>",
-      "title_4": "Confidentiality",
-      "descriptionHtml_4": "<p>We respect your privacy and take all necessary measures to protect your personal information. All personal information provided on the site through the contact form or any other means will be used exclusively to contact you regarding cooperation or recruitment and will not be disclosed to third parties without your clear consent.</p>",
-      "title_5": "Content Rights",
-      "descriptionHtml_5": "<p>The content presented on the site is my property and is protected by copyright laws. No part of the site and its content may be reproduced, transmitted, copied, modified, or used in any way without prior written permission.</p>",
-      "title_6": "Changes to the Regulation",
-      "descriptionHtml_6": "<p>I reserve the right to make changes to this regulation at any time without prior notice. Site visitors are obliged to regularly check the regulation for changes. Continuing to use the site after making changes will be considered your agreement to such changes.</p>",
-      "title_7": "Contacts",
-      "descriptionHtml_7": "<p>If you have any questions regarding this regulation, please contact me using the contact information provided on the site.</p><p>Thank you for understanding and respecting my work!</p>"
+    "content": {
+      "title_1": "1. Introduction",
+      "description_1": "<p>Welcome to EDWeb. This Privacy Policy describes how I collect and use personal data that you provide on my website: <a href='/'>edweb.site</a>.</p>",
+      "title_2": "2. Data Collected",
+      "description_2": "<li>Data provided by you: Personal data that you provide through our forms (such as a brief and contact form), including your name, email address, and message text. </li><li>Data collected automatically: We use cookies and Google Analytics to collect information about your interaction with our site, such as page visits and setting preferences.</li>",
+      "title_3": "3. Use of Data",
+      "sub_title_3": "Your data is used for the following purposes:",
+      "description_3": "<li>Processing and responding to requests sent through forms.</li><li>Analyzing site usage to improve it.</li><li>Enhancing user experience on the site.</li>",
+      "title_4": "4. Data Sharing with Third Parties",
+      "description_4": "<p>I do not share your personal data with third parties, except when required by law.</p>",
+      "title_5": "5. Security",
+      "description_5": "<p>I take all necessary measures to protect collected data from unauthorized access.</p>",
+      "title_6": "6. Your Rights",
+      "description_6": "<p>You have the right to request access to, correction of, or deletion of your personal data. Please contact me at <a href='mailto:contact@edweb.site'>contact@edweb.site</a> to do so.</p>",
+      "title_7": "7. Changes to the Privacy Policy",
+      "description_7": "<p>I reserve the right to make changes to this Privacy Policy. All changes will be published on this page.</p>",
+      "title_8": "Contact",
+      "description_8": "<p>If you have any questions regarding this Privacy Policy, please contact me at <a href='mailto:contact@edweb.site'>contact@edweb.site</a>.</p>"
     }
   },
   "not-found-page": {
@@ -131,7 +127,7 @@
     "sent-successfully": "Message sent successfully",
     "sent-no-successfully": "Message not sent",
     "confirmation-of-conditions": "Confirmation of conditions",
-    "accept-form": "I agree with the terms set forth in the regulations."
+    "accept-form": "I agree to the terms set out in the <a href='/privacy-policy' target='_blank'>Privacy Policy</a>."
   },
   "portfolio": {
     "portfolio-filter": {
@@ -211,23 +207,23 @@
     "sent-successfully": "Message sent successfully",
     "sent-no-successfully": "Message not sent",
     "confirmation-of-conditions": "Confirmation of conditions",
-    "accept-form": "I agree with the terms set forth in the regulations."
+    "accept-form": "I agree to the terms set out in the <a href='/privacy-policy' target='_blank'>Privacy Policy</a>."
   },
-"possibilities": {
-  "my-capabilities": "Professional Experience",
-  "web-development": "Web Development",
-  "web-development-description": "Development of turnkey websites and applications. Choosing the optimal stack of web technologies for successful development and convenient future support. Teamwork.",
-  "web-design": "Web Design",
-  "web-design-description": "Designing the user web interface and logic for websites, web applications. Creating logos, banners, animating website elements.",
-  "e-marketing": "Internet Marketing",
-  "e-marketing-description": "A set of activities aimed at increasing profit from the sale of goods or services. Market analysis, creation of advertising campaigns on the internet.",
-  "seo": "Search Engine Optimization (SEO)",
-  "seo-description": "Internal and external optimization to improve website rankings in search engine results for specific user queries.",
-  "site-availability": "Website Accessibility",
-  "site-availability-description": "Development/adaptation of websites accessible to people with disabilities, in accordance with WCAG 2.1. I have extensive experience and certifications in this area.",
-  "technical-support": "Technical Support",
-  "technical-support-description": "Website maintenance and support. Updates, SSL certificate installation, layout adjustment, functionality, design, hosting, and much more."
-},
+  "possibilities": {
+    "my-capabilities": "Professional Experience",
+    "web-development": "Web Development",
+    "web-development-description": "Development of turnkey websites and applications. Choosing the optimal stack of web technologies for successful development and convenient future support. Teamwork.",
+    "web-design": "Web Design",
+    "web-design-description": "Designing the user web interface and logic for websites, web applications. Creating logos, banners, animating website elements.",
+    "e-marketing": "Internet Marketing",
+    "e-marketing-description": "A set of activities aimed at increasing profit from the sale of goods or services. Market analysis, creation of advertising campaigns on the internet.",
+    "seo": "Search Engine Optimization (SEO)",
+    "seo-description": "Internal and external optimization to improve website rankings in search engine results for specific user queries.",
+    "site-availability": "Website Accessibility",
+    "site-availability-description": "Development/adaptation of websites accessible to people with disabilities, in accordance with WCAG 2.1. I have extensive experience and certifications in this area.",
+    "technical-support": "Technical Support",
+    "technical-support-description": "Website maintenance and support. Updates, SSL certificate installation, layout adjustment, functionality, design, hosting, and much more."
+  },
   "working-conditions": {
     "freelance": "Freelance",
     "full-employment": "Full employment",
@@ -243,10 +239,10 @@
   },
   "cookies": {
     "title": "The site uses cookies",
-    "text": "We use cookies and Local Storage to enhance your user experience, as well as for services like language selection and color theme switching. The site also uses Google Analytics for visitor statistics gathering. This site is a portfolio and does not require registration. A contact form is available for you to get in touch with me, where you can leave your name, email, and message text. By continuing to use the site, you agree to our use of cookies and Local Storage. If you disagree, please leave the site. Thank you for your understanding!",
+    "text": "This website uses cookies to enhance your experience. Google Analytics is used to analyze site traffic. Language and theme settings are stored in your browser's local storage and do not affect your privacy. To ensure security on the site's contact forms, reCAPTCHA is used. For more detailed information, please refer to our <a href='/privacy-policy'>Privacy Policy</a>.",
     "btn-accept": "I agree",
     "btn-no-accept": "I don't agree",
-    "google-analytics":"Google Analytics"
+    "google-analytics": "Google Analytics"
   },
   "soft-skills": {
     "skill-1": "Teamwork",

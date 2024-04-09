@@ -71,11 +71,7 @@ const BriefForm = () => {
       <AnimateElements>
         <div className="relative z-10 mb-8 md:p-8 bg-white/80 dark:bg-neutral-800/80 opacity-0 init-animate-1">
           <div className="border-l-2 border-sky-600sky-600 pl-2">
-            <p className="italic mb-5 text-black dark:text-white">{t('brief-page.text-information-1')}</p>
-            <div>
-              <p className=" underline mb-2 text-black dark:text-white">{t('brief-page.text-information-2')}</p>
-              <p className="text-black dark:text-white">{t('brief-page.text-information-3')}</p>
-            </div>
+            <p className="italic mb-5 text-black dark:text-white" dangerouslySetInnerHTML={{ __html: t('brief-page.text-information') }}></p>
           </div>
         </div>
         <div className="relative z-10 w-full lg:w-10/12 mx-auto md:p-8 bg-white/80 dark:bg-neutral-800/80 opacity-0 init-animate-1">
@@ -298,16 +294,7 @@ const BriefForm = () => {
                       name="confirmation_of_conditions"
                       className={`form-checkbox mr-2 cursor-pointer ${errors.confirmation_of_conditions && touched.confirmation_of_conditions ? 'error' : ''}`}
                     />
-                    {t('brief-form.accept-form')}
-                    <a
-                      href="/regulations-edweb"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block font-semibold underline duration-200 hover:text-sky-600 ml-1 lg:ml-0"
-                      aria-label={t('regulations-edweb.title')}
-                    >
-                      {t('regulations-edweb.title')}
-                    </a>
+                    <p className="accept-form-link" dangerouslySetInnerHTML={{ __html: t('contact-form.accept-form') }}></p>
                   </label>
                 </div>
                 <div className="mb-10">

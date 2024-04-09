@@ -15,17 +15,22 @@
   .content-box p {
     @apply mb-2 text-black dark:text-white;
   }
+
+  .content-box a {
+    @apply mb-2 text-sky-600 dark:text-sky-400 hover:underline;
+  }
   .content-box ul {
-    @apply list-disc p-4 text-black dark:text-white;
+    @apply list-disc px-3 text-black dark:text-white;
   }
-  .content-box ul li {
-    @apply mb-2;
+  .content-box li {
+    @apply mb-2 ml-5;
   }
-  .content-box ul li p {
-    @apply mb-0;
-  }
+
   .content-box h3 {
     @apply font-bold text-[1.2rem] text-black dark:text-white my-5;
+  }
+  .content-box h4 {
+    @apply font-bold text-[1rem] text-black dark:text-white mb-2;
   }
   /* scrollbar */
 
@@ -37,6 +42,13 @@
   }
   ::-webkit-scrollbar-thumb {
     @apply bg-sky-600  rounded-full;
+  }
+
+  .about-me-content p {
+    @apply text-black dark:text-white mb-4;
+  }
+  .cookies-modal-content a {
+    @apply text-sky-600 dark:text-sky-400 hover:underline;
   }
 }
 
@@ -51,7 +63,10 @@
     @apply flex justify-center items-center w-full gap-4 px-5 py-2 transition-all duration-200 border border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg rounded-md bg-transparent  hover:bg-sky-600 hover:text-white hover:dark:text-white;
   }
   .btn-cookies {
-    @apply inline-flex justify-center items-center w-full sm:w-[14rem] lg:w-full px-2 py-1 transition-all duration-200 border border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg bg-transparent hover:bg-sky-600 hover:text-white hover:dark:text-black;
+    @apply flex justify-center items-center w-full sm:w-[14rem] lg:w-full px-2 py-1 transition-all duration-200 border border-sky-600 dark:border-sky-600 text-black dark:text-white text-lg bg-transparent hover:bg-sky-600 hover:text-white;
+  }
+  .btn-cookies.active {
+    @apply flex justify-center items-center w-full sm:w-[14rem] lg:w-full px-2 py-1 transition-all duration-200 border border-sky-600 dark:border-sky-600 bg-sky-600 dark:bg-sky-600 text-white dark:text-white text-lg hover:bg-sky-600 hover:text-white;
   }
   .btn-filter {
     @apply w-full sm:w-6/12 md:w-7/12 lg:w-5/12 xl:w-6/12 cursor-pointer rounded-sm py-1 px-4 border border-sky-600 text-center text-black dark:text-white transition-all duration-200  hover:bg-sky-600 hover:text-white dark:hover:bg-sky-600 hover:dark:text-white;
@@ -60,6 +75,7 @@
     @apply border-b border-b-colorBorderNavMenu dark:border-b-colorBorderNavMenuDark last:border-b-0 duration-200 hover:bg-sky-600;
   }
 }
+
 @layer utilities {
   .error::placeholder {
     @apply text-red-500 dark:text-red-400;
@@ -89,6 +105,9 @@
   }
   .form-checkbox:checked {
     @apply border-sky-600 dark:border-sky-500 bg-sky-600 dark:bg-black;
+  }
+  .accept-form-link a {
+    @apply font-bold text-sky-600 dark:text-sky-400 hover:underline;
   }
 }
 .grecaptcha-badge {

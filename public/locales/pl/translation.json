@@ -1,12 +1,10 @@
 {
   "about-me": {
-    "title": "Tworzenie stron internetowych",
-    "name": "Jewgienij Dibrowski",
+    "title": "Rozwój Webowy",
+    "name": "Eugeniusz Dibrowski",
     "web-development": "Frontend Developer",
-    "description-1": "Cześć!",
-    "description-2": "Jestem programistą stron internetowych, a moje hobby stopniowo zmieniło się w główną pracę. Zawodowo zajmuję się tworzeniem stron internetowych od kilku lat. Moje doświadczenie rośnie z każdym nowym projektem, za co jestem wdzięczny moim klientom za ich nie zawsze typowe pomysły i wymagania dotyczące realizacji projektu 😉.",
-    "description-3": "Moje umiejętności i zakres technologiczny pozwalają mi na przeprowadzenie pełnego cyklu rozwoju najbardziej pożądanych zasobów internetowych. Nawet jeśli zostanę poproszony o bardzo skomplikowany projekt, chętnie podejmę się go! Nie boję się wyzwań, mam doświadczonych kolegów, którzy zawsze są gotowi pomóc.",
-    "description-4": "Zapraszam do współpracy i tworzenia czegoś nowego razem!"
+    "description": "<p>Cześć!</p><p>Jestem web developer, a to moje hobby, które stopniowo stało się moją główną pracą. Zawodowo zajmuję się tworzeniem stron internetowych od kilku lat. Moje doświadczenie rośnie z każdym nowym projektem, i jestem wdzięczny moim klientom za ich nie zawsze standardowe pomysły i wymagania dotyczące realizacji projektu 😉.</p><p>Obecnie moje umiejętności i stos technologiczny pozwalają mi na realizację pełnego cyklu rozwoju najbardziej pożądanych zasobów internetowych. I nawet jeśli dostanę bardzo trudny projekt, z radością się za niego zabiorę! Nie boję się wyzwań, a doświadczeni koledzy zawsze są gotowi pomóc.</p>",
+    "description-accent": "Zapraszam do współpracy!"
   },
   "contact-dedails": {
     "phone-number": "+48537450501",
@@ -40,21 +38,18 @@
   },
   "cooperation-page": {
     "title": "Współpraca",
-    "sub-title": "Twój projekt to nasza wspólna misja",
-    "meta-title": "Jewgienij Dibrowski - Frontend Developer",
+    "sub-title": "Twój projekt - nasza wspólna misja",
+    "meta-title": "Eugeniusz Dibrowski - Frontend Developer",
     "meta-description": "Tworzenie stron internetowych pod klucz.",
-    "text-1": "Szukasz specjalisty od tworzenia stron internetowych? Rozważ współpracę ze mną. Tutaj oferuję różne formy współpracy, aby jak najlepiej spełnić Twoje potrzeby.",
-    "text-2": "Freelance:",
-    "text-3": "Jeśli masz jednorazowy projekt lub potrzebujesz długoterminowego partnera bez codziennej obecności w biurze, rozważę Twoje propozycje jako freelancer. Podchodzę do każdego projektu z odpowiedzialnością, uwzględniając Twoje wymagania.",
-    "text-4": "Pełny etat:",
-    "text-5": "Otwarty na oferty pracy na pełny etat. Cenię stabilność i możliwość głębokiego zaangażowania w długoterminowe projekty.",
-    "text-6": "B2B:",
-    "text-7": "Szukasz partnera do tworzenia stron internetowych? Gotowy omówić warunki współpracy, stać się częścią Twojego zespołu i skupić się na osiągnięciu wyników.",
-    "text-8": "Co zyskasz współpracując ze mną:",
-    "text-9": "Odpowiedzialność i niezawodność: Dążę do precyzji i przestrzegania terminów, zapewniając wysoką jakość wykonanej pracy. Możesz polegać na moim pełnym zaangażowaniu w Twój projekt.",
-    "text-10": "Doświadczenie: Mimo stosunkowo krótkiego doświadczenia posiadam szeroką wiedzę i umiejętności, podchodząc do każdego projektu z pełnym zaangażowaniem.",
-    "text-11": "Elastyczność: Gotowy uwzględnić Twoje życzenia i dostosować się do wymagań projektu.",
-    "text-12": "Czekam na Twoje propozycje i jestem gotowy do dyskusji. Razem znajdziemy optymalne rozwiązanie dla Twojego projektu!"
+    "text-1": "Szukasz specjalisty od web developmentu? Rozważ współpracę ze mną. Oferuję różne formaty interakcji, aby najlepiej odpowiadać na Twoje potrzeby.",
+    "title-2": "Freelance:",
+    "text-2": "Jeśli masz jednorazowy projekt lub potrzebujesz długoterminowego partnera bez konieczności codziennej obecności w biurze, rozważę Twoje propozycje freelance. Podchodzę do każdego projektu z odpowiedzialnością, biorąc pod uwagę Twoje wymagania.",
+    "title-3": "Pełny etat:",
+    "text-3": "Otwarty na propozycje pełnego zatrudnienia. Cenię stabilność i możliwość głębokiego zaangażowania w długoterminowe projekty.",
+    "title-4": "B2B:",
+    "text-4": "Szukasz partnera do web developmentu? Gotów omówić warunki współpracy, stać się częścią Twojego zespołu i skupić się na osiąganiu rezultatów.",
+    "list-title-4": "Co zyskasz, współpracując ze mną:",
+    "text-list": "<li>Odpowiedzialność i niezawodność: Dążę do precyzji i dotrzymywania terminów, zapewniając wysoką jakość wykonanej pracy. Możesz liczyć na moje pełne zaangażowanie w Twój projekt.</li><li>Doświadczenie: Mimo stosunkowo krótkiego doświadczenia, posiadam duży zasób wiedzy i umiejętności, podchodząc do każdego projektu z maksymalną powagą.</li><li>Elastyczność: Gotów uwzględnić Twoje życzenia i dostosować się do wymagań projektu.</li>"
   },
   "resume-page": {
     "title": "CV",
@@ -78,9 +73,7 @@
   "brief-page": {
     "title": "Brief",
     "sub-title": "Szybka ocena projektu",
-    "text-information-1": "Brief to zwięzły opis Twoich pomysłów, celów, preferencji i oczekiwań dotyczących projektu. Brief pomoże mi dokładniej zrozumieć Twoją wizję i opracować najbardziej odpowiedni i spersonalizowany plan dla Twojego projektu, zapewniając zbliżenie do pożądanego wyniku.",
-    "text-information-2": "Wypełniając brief, skup się na projekcie i pożądanym efekcie i opisz go własnymi słowami – zrozumiem Cię!",
-    "text-information-3": "Po wypełnieniu tego briefu będę w stanie oszacować zakres i złożoność pracy, zaproponować odpowiedni plan rozwoju oraz sformułować ofertę handlową z przybliżonymi terminami i kosztami realizacji projektu.",
+    "text-information": "<p>Brief to zwięzły opis Twoich pomysłów, celów, preferencji i oczekiwań dotyczących projektu. Brief pomoże mi dokładniej zrozumieć Twoją wizję i opracować najbardziej odpowiedni i spersonalizowany plan dla Twojego projektu, zapewniając zbliżenie do pożądanego wyniku.</p><p>Wypełniając brief, skup się na projekcie i pożądanym efekcie i opisz go własnymi słowami – zrozumiem Cię!</p><p>Po wypełnieniu tego briefu będę w stanie oszacować zakres i złożoność pracy, zaproponować odpowiedni plan rozwoju oraz sformułować ofertę handlową z przybliżonymi terminami i kosztami realizacji projektu.</p>",
     "meta-title": "Brief - Formularz zamówienia usług związanych z tworzeniem stron internetowych",
     "meta-description": "Wypełnij Brief, aby stworzyć skuteczne rozwiązanie"
   },
@@ -90,26 +83,29 @@
     "meta-title": "Formularz kontaktowy",
     "meta-description": "Napisz do mnie, jeśli masz pytania dotyczące tworzenia projektu internetowego"
   },
-  "regulations-edweb": {
-    "title": "Regulamin",
+  "privacy-policy": {
+    "title": "Polityka prywatności",
     "sub-title": "Drogi odwiedzający!",
-    "meta-title": "Regulamin",
+    "meta-title": "Polityka prywatności",
     "meta-description": "Ważne informacje dla użytkowników witryny",
-    "terms-of-use": {
-      "title_1": "Warunki Korzystania",
-      "descriptionHtml_1": "<p>Szanowny Użytkowniku!</p><p>Wszystkie materiały dostępne na tej stronie, w tym projekty, obrazy i teksty, służą wyłącznie do zapoznawania się w kontekście możliwej współpracy ze mną lub procesu rekrutacji.</p><ul><li><p>Informacji i materiałów z tej strony nie wolno używać w celach komercyjnych, reklamowych czy innych bez mojej pisemnej zgody.</p></li><li><p>Proszę szanować moje prawa autorskie i prywatność.</p></li></ul><p>Jeśli masz pytania lub propozycje współpracy, proszę, skontaktuj się ze mną bezpośrednio, korzystając z podanych danych kontaktowych.</p>",
-      "title_2": "Zgoda na Przetwarzanie Danych",
-      "descriptionHtml_2": "<p>Podając swoje dane kontaktowe lub inne dane osobowe na tej stronie, wyrażam zgodę na ich przetwarzanie wyłącznie w celu współpracy w zakresie usług wskazanych na stronie lub rekrutacji.</p>",
-      "title_3": "Używanie Cookies i Local Storage",
-      "descriptionHtml_3": "<p>Strona używa plików cookie i Local Storage w celu poprawy komfortu korzystania, a także do obsługi serwisów, takich jak wybór języka i zmiana motywu kolorystycznego. Na stronie działa również Google Analytics do zbierania statystyk odwiedzin. Strona jest portfolio i nie przewiduje rejestracji. Dostępny jest dla Ciebie formularz kontaktowy, gdzie możesz podać swoje imię, email i treść wiadomości. Korzystając ze strony, zgadzasz się na użycie cookies i Local Storage. Jeśli się nie zgadzasz, proszę opuść stronę.</p>",
-      "title_4": "Prywatność",
-      "descriptionHtml_4": "<p>Szanujemy Twoją prywatność i podejmujemy wszelkie niezbędne kroki w celu ochrony Twoich danych osobowych. Wszystkie dane osobowe przekazane na stronie za pośrednictwem formularza kontaktowego lub w inny sposób będą wykorzystywane wyłącznie do kontaktu z Tobą w sprawie współpracy lub rekrutacji i nie będą przekazywane osobom trzecim bez wyraźnej zgody.</p>",
-      "title_5": "Prawa do Treści",
-      "descriptionHtml_5": "<p>Treści przedstawione na stronie są moją własnością i są chronione przez prawa autorskie. Żadna część strony i jej zawartości nie może być reprodukowana, przekazywana, kopiowana, modyfikowana lub używana w jakikolwiek sposób bez uprzedniej pisemnej zgody.</p>",
-      "title_6": "Zmiany w Regulaminie",
-      "descriptionHtml_6": "<p>Zastrzegam sobie prawo do wprowadzania zmian w niniejszym regulaminie w dowolnym momencie bez uprzedniego powiadomienia. Użytkownicy strony zobowiązani są do regularnego sprawdzania regulaminu pod kątem zmian. Kontynuowanie korzystania ze strony po wprowadzeniu zmian będzie uznawane za wyrażenie zgody na takie zmiany.</p>",
-      "title_7": "Kontakt",
-      "descriptionHtml_7": "<p>Jeśli masz pytania dotyczące tego regulaminu, proszę, skontaktuj się ze mną, korzystając z informacji kontaktowej podanej na stronie.</p><p>Dziękuję za zrozumienie i szacunek do mojej pracy!</p>"
+    "content": {
+      "title_1": "1. Wstęp",
+      "description_1": "<p>Witamy na stronie EDWeb. Ta Polityka Prywatności opisuje, jak zbieram i wykorzystuję dane osobowe, które dostarczacie na mojej stronie: <a href='/'>edweb.site</a>.</p>",
+      "title_2": "2. Zbierane dane",
+      "description_2": "<li>Dane dostarczane przez użytkownika: Dane osobowe, które dostarczacie poprzez nasze formularze (na przykład brief i formularz kontaktowy), w tym imię, adres e-mail i treść wiadomości. </li><li>Dane zbierane automatycznie: Używamy plików cookie i Google Analytics do zbierania informacji o Waszych interakcjach z naszą stroną, takich jak odwiedziny stron i preferencje ustawień.</li>",
+      "title_3": "3. Wykorzystanie danych",
+      "sub_title_3": "Państwa dane są wykorzystywane w następujących celach:",
+      "description_3": "<li>Przetwarzanie i odpowiedź na wnioski przesłane przez formularze.</li><li>Analiza użytkowania strony w celu jej ulepszenia.</li><li>Poprawa doświadczenia użytkownika na stronie.</li>",
+      "title_4": "4. Przekazywanie danych osobom trzecim",
+      "description_4": "<p>Nie przekazuję Państwa danych osobowych osobom trzecim, chyba że wymaga tego prawo.</p>",
+      "title_5": "5. Bezpieczeństwo",
+      "description_5": "<p>Podjęłem wszystkie niezbędne środki, aby chronić zebrane dane przed nieautoryzowanym dostępem.</p>",
+      "title_6": "6. Państwa prawa",
+      "description_6": "<p>Macie prawo zażądać dostępu, poprawienia lub usunięcia swoich danych osobowych. W tym celu proszę o kontakt ze mną pod adresem <a href='mailto:contact@edweb.site'>contact@edweb.site</a>.</p>",
+      "title_7": "7. Zmiany w Polityce Prywatności",
+      "description_7": "<p>Zastrzegam sobie prawo do wprowadzenia zmian w tej Polityce Prywatności. Wszystkie zmiany będą publikowane na tej stronie.</p>",
+      "title_8": "Kontakt",
+      "description_8": "<p>Jeśli mają Państwo pytania dotyczące tej Polityki Prywatności, proszę o kontakt ze mną pod adresem <a href='mailto:contact@edweb.site'>contact@edweb.site</a>.</p>"
     }
   },
   "not-found-page": {
@@ -131,7 +127,7 @@
     "sent-successfully": "Wiadomość została wysłana pomyślnie",
     "sent-no-successfully": "Wiadomość nie została wysłana",
     "confirmation-of-conditions": "Potwierdzenie warunków",
-    "accept-form": "Zgadzam się z warunkami określonymi w regulaminie."
+    "accept-form": "Zgadzam się z warunkami określonymi w <a href='/privacy-policy' target='_blank'>Polityce Prywatności</a>."
   },
   "portfolio": {
     "portfolio-filter": {
@@ -211,7 +207,7 @@
     "sent-successfully": "Wiadomość została wysłana pomyślnie",
     "sent-no-successfully": "Wiadomość nie została wysłana",
     "confirmation-of-conditions": "Potwierdzenie warunków",
-    "accept-form": "Zgadzam się z warunkami określonymi w regulaminie."
+    "accept-form": "Zgadzam się z warunkami określonymi w <a href='/privacy-policy' target='_blank'>Polityce Prywatności</a>."
   },
   "possibilities": {
     "my-capabilities": "Doświadczenie zawodowe",
@@ -243,10 +239,10 @@
   },
   "cookies": {
     "title": "Strona używa plików cookie",
-    "text": "Używamy plików cookie i Local Storage w celu poprawy komfortu korzystania z witryny oraz obsługi usług, takich jak wybór języka i przełączanie motywu kolorystycznego. Na stronie działa również Google Analytics do zbierania statystyk odwiedzin. Strona jest portfolio i nie przewiduje rejestracji. Dostępny jest dla Ciebie formularz kontaktowy, w którym możesz podać swoje imię, adres e-mail i treść wiadomości. Kontynuując korzystanie z witryny, wyrażasz zgodę na nasze stosowanie plików cookie i Local Storage. Jeśli się nie zgadzasz, opuść stronę. Dziękujemy za zrozumienie!",
+    "text": "Ta strona używa plików cookie, aby poprawić Twoje doświadczenia. Do analizy ruchu na stronie używany jest Google Analytics. Ustawienia języka i motywu są przechowywane w lokalnym magazynie Twojej przeglądarki i nie wpływają na Twoją prywatność. Dla zapewnienia bezpieczeństwa na formularzach kontaktowych strony używane jest reCAPTCHA. Aby uzyskać bardziej szczegółowe informacje, zapoznaj się z naszą <a href='/privacy-policy'>Polityką Prywatności</a>.",
     "btn-accept": "Zgadzam się",
     "btn-no-accept": "Nie zgadzam się",
-    "google-analytics":"Google Analytics"
+    "google-analytics": "Google Analytics"
   },
   "soft-skills": {
     "skill-1": "Praca w zespole",

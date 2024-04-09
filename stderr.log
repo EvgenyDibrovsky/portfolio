@@ -967,3 +967,356 @@ Require stack:
     '/usr/local/lsws/fcgi-bin/lsnode.js'
   ]
 }
+[Error: ENOENT: no such file or directory, stat '/home/urwqovlpkp/domains/edweb.site/public_html/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/urwqovlpkp/domains/edweb.site/public_html/index.html',
+  expose: false,
+  statusCode: 404,
+  status: 404
+}
+[Error: ENOENT: no such file or directory, stat '/home/urwqovlpkp/domains/edweb.site/public_html/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/urwqovlpkp/domains/edweb.site/public_html/index.html',
+  expose: false,
+  statusCode: 404,
+  status: 404
+}
+[Error: ENOENT: no such file or directory, stat '/home/urwqovlpkp/domains/edweb.site/public_html/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/urwqovlpkp/domains/edweb.site/public_html/index.html',
+  expose: false,
+  statusCode: 404,
+  status: 404
+}
+[Error: ENOENT: no such file or directory, stat '/home/urwqovlpkp/domains/edweb.site/public_html/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/urwqovlpkp/domains/edweb.site/public_html/index.html',
+  expose: false,
+  statusCode: 404,
+  status: 404
+}
+[Error: ENOENT: no such file or directory, stat '/home/urwqovlpkp/domains/edweb.site/public_html/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/urwqovlpkp/domains/edweb.site/public_html/index.html',
+  expose: false,
+  statusCode: 404,
+  status: 404
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/manifest.json'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/manifest.json'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/manifest.json'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/manifest.json'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/manifest.json'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/manifest.json'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/favicon.ico'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/manifest.json'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
+URIError: Failed to decode param '/%PUBLIC_URL%/manifest.json'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/express/lib/router/index.js:226:15)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:517:28)
+    at SendStream.error (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:270:17)
+    at SendStream.pipe (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/send/index.js:516:10)
+    at serveStatic (/home/urwqovlpkp/nodevenv/domains/edweb.site/react_app/18/lib/node_modules/serve-static/index.js:125:12) {
+  statusCode: 400,
+  status: 400
+}
